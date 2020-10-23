@@ -3,34 +3,404 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2020-10-23T07:01:51+01:00</updated>
+    <updated>2020-10-23T08:34:08+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
     <entry>
-        <title>Xubuntu core</title>
+        <title>Upgrade to a new Ubuntu version.</title>
         <author>
             <name>Jonny</name>
         </author>
-        <link href="https://furycd001.github.io/xubuntu-core.html"/>
-        <id>https://furycd001.github.io/xubuntu-core.html</id>
-            <category term="Xubuntu"/>
-            <category term="Xfce"/>
-            <category term="Window manager"/>
+        <link href="https://furycd001.github.io/upgrade-to-a-new-ubuntu-version.html"/>
+        <id>https://furycd001.github.io/upgrade-to-a-new-ubuntu-version.html</id>
+            <category term="Upgrade"/>
+            <category term="Update"/>
+            <category term="Ubuntu"/>
             <category term="Linux"/>
 
-        <updated>2020-10-23T07:01:51+01:00</updated>
+        <updated>2020-10-23T08:34:08+01:00</updated>
             <summary>
                 <![CDATA[
-                     Xubuntu core is essentially Xubuntu without all the additional features. It installs only the the basic look and feel of Xubuntu. There’s no office suite, media player, or any of the usual stuff that comes pre-installed with regular Xubuntu. The best thing about it&hellip;
+                    When Ubuntu releases a new version you don’t necessarily need to create a new usb &amp; do a fresh install. Although that can sometimes be great, you can just simply upgrade to a new version from your existing one. To do so, simply follow&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><figure class="post__image"><img loading="lazy" src="https://i.imgur.com/YmC34qX.png" data-is-external-image="true"  alt="alt text" /></figure></p>
-<p><a href="https://xubuntu.org/news/introducing-xubuntu-core/">Xubuntu core</a> is essentially Xubuntu without all the additional features. It installs only the the basic look and feel of Xubuntu. There’s no office suite, media player, or any of the usual stuff that comes pre-installed with regular Xubuntu. The best thing about it is that it is around 600MB in size, so will be faster to download and can easily fit on a cd. You can install Xubuntu core from the <a href="https://help.ubuntu.com/community/Installation/MinimalCD">Mini iso</a> either by running the “Xubuntu minimal installation task” or by finishing the minimal install and typing “sudo apt-get install xubuntu-core^” once you have logged in. Alternatively you can <a href="https://unit193.net/xubuntu/core/">download one of the community ISOs.</a> Xfce is a great desktop environment &amp; Xubuntu is a great distro to use (my fav for a while now). Xubuntu core is a nice thing to have if you don’t like bloat and want something that you can call your own.</p>
+                <p>When Ubuntu <a href="http://releases.ubuntu.com/">releases a new version</a> you don’t necessarily need to create a new usb &amp; do a fresh install. Although that can sometimes be great, you can just simply upgrade to a new version from your existing one. To do so, simply follow the steps listed below.</p>
+<ul>
+<li>Open the “Software &amp; Updates” app….</li>
+<li>Head to the “Updates” tab….</li>
+<li>Look for the section at the bottom titled “Notify me of a new Ubuntu version” &amp; make your selection….</li>
+<li>Click ‘Close’ &amp; wait to be notified….</li>
+<li>Once notified follow the on screen instructions &amp; proceed to upgrade your system….</li>
+</ul>
+<p>Alternatively you can upgrade from the terminal.</p>
+<ul>
+<li>First make sure that everything is up to date &amp; that you have update-manager-core installed. You can do so by running the following command….</li>
+</ul>
+<blockquote>
+<p>sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade &amp;&amp; sudo apt-get install update-manager-core</p>
+</blockquote>
+<ul>
+<li>Next you can issue the following command to search for a new Ubuntu version….</li>
+</ul>
+<blockquote>
+<p>sudo do-release-upgrade</p>
+</blockquote>
+<ul>
+<li><p>Any required files will be download &amp; you will be prompt to install them. If you wish to upgrade press y &amp; then hit enter on your keyboard. It may take some time to download everything….</p>
+</li>
+<li><p>Once everything has finished download &amp; installing, you can reboot your computer to start using your new release of ubuntu….</p>
+</li>
+</ul>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Upgrade to a new Ubuntu release early.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/upgrade-to-a-new-ubuntu-release-early.html"/>
+        <id>https://furycd001.github.io/upgrade-to-a-new-ubuntu-release-early.html</id>
+            <category term="Upgrade"/>
+            <category term="Update"/>
+            <category term="Ubuntu"/>
+            <category term="Linux"/>
+
+        <updated>2020-10-23T08:33:22+01:00</updated>
+            <summary>
+                <![CDATA[
+                    You can upgrade to a new Ubuntu release before it has officially been released. The release will obviously still be being tested and will most likely have a few bugs and or glitches, but there is a number of reasons you may want to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>You can upgrade to a new Ubuntu release before it has officially been released. The release will obviously still be being tested and will most likely have a few bugs and or glitches, but there is a number of reasons you may want to upgrade early. Here is a few of those reasons.</p>
+<ul>
+<li>Testing….</li>
+<li>Contributing to reporting bugs, glitches &amp; errors….</li>
+<li>Helping fix bugs, glitches &amp; errors….</li>
+<li>Accessing a newer version of an application….</li>
+<li>Meh just fell like upgrading….</li>
+<li>Wanting to get your software ready for the new version….</li>
+</ul>
+<p>If you wish to upgrade early you can do so either via GUI or command line. All you have to do is launch the update manager with the “-d” perimeter at the end. See below for the commands that you can enter into your terminal. The first one is for upgrading via GUI &amp; the second one is for upgrading via the terminal. Remember to enter your user password whenever prompt.</p>
+<ul>
+<li>sudo update-manager -d</li>
+<li>sudo do-release-upgrade -d</li>
+</ul>
+<p>Upgrading early should be pretty straight forward, but just like any upgrade, always remember to backup your needed data before you begin the upgrade process.</p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Using conky with xfce4-panel.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/using-conky-with-xfce4-panel.html"/>
+        <id>https://furycd001.github.io/using-conky-with-xfce4-panel.html</id>
+            <category term="Xfce4-panel"/>
+            <category term="Xfce4-genmon-plugin"/>
+            <category term="Xfce4"/>
+            <category term="Conky"/>
+
+        <updated>2020-10-23T08:32:32+01:00</updated>
+            <summary>
+                <![CDATA[
+                     For this to work you need to have two things installed on your system. Go ahead and install both if you don’t already have them installed. On debian based systems you can use “apt” from the command line or search for both using&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><figure class="post__image"><img loading="lazy" src="http://i.imgur.com/x6L3tfm.png" data-is-external-image="true"  alt="alt text" /></figure></p>
+<p>For this to work you need to have two things installed on your system.</p>
+<ol>
+<li><a href="https://github.com/brndnmtthws/conky">Conky</a></li>
+<li><a href="https://goodies.xfce.org/projects/panel-plugins/xfce4-genmon-plugin">xfce4-genmon….</a></li>
+</ol>
+<p>Go ahead and install both if you don’t already have them installed. On debian based systems you can use “apt” from the command line or search for both using either synaptic or software centre. Both can be installed on any Linux system using the default package manager of that system. I just happen to be running xubuntu.</p>
+<blockquote>
+<p>sudo apt install conky xfce4-genmon-plugin</p>
+</blockquote>
+<p>Once you have both of those apps installed on your system go ahead and create a single line conky config. Once you’ve got that created and saved, open up and modify your conky config file to make conky output to the terminal only. This can be done by adding the following two lines to your config file.</p>
+<blockquote>
+<p>out _ to _ x no</p>
+<p>out _ to _ console yes</p>
+<h4 id="please-remove-the-space-between-_">Please remove the space between “_”</h4>
+</blockquote>
+<p>Save and close your config file once you’ve added those two lines above. Next you’ll want to set conky to output to a txt file on startup. This can be done easily by launching conky with the following command.</p>
+<blockquote>
+<p>conky -q -c /your/path/to/conkyconfig &gt; /tmp/conky.txt</p>
+</blockquote>
+<p>You can add that above command to a bash script and set the script to run on startup command from within your “Application Autostart” in xfce. The final step is to add xfce4-genmon-plugin to your panel and then use awk to print the txt file to your panel.</p>
+<blockquote>
+<p>awk ‘END{print}’ /tmp/conky.txt</p>
+</blockquote>
+<p>That’s it. You should now have conky displaying within your panel.</p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Duckduckgo over google.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/duckduckgo-over-google.html"/>
+        <id>https://furycd001.github.io/duckduckgo-over-google.html</id>
+            <category term="Web"/>
+            <category term="Search"/>
+            <category term="Google"/>
+            <category term="Duckduckgo"/>
+
+        <updated>2020-10-23T08:31:51+01:00</updated>
+            <summary>
+                <![CDATA[
+                     People share their most intimate secrets with their search engine without even stopping to think. This can be little day to day things, massive life changing events, or just things that make you, pretty much you. All of this personal information should be&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><figure class="post__image"><img loading="lazy" src="https://i.imgur.com/rB9UCny.png" data-is-external-image="true"  alt="alt text" /></figure></p>
+<p>People share their most intimate secrets with their search engine without even stopping to think. This can be little day to day things, massive life changing events, or just things that make you, pretty much you. All of this personal information should be private, but with Google it’s not. Google tracks your searches and packs it up into a data profile for advertisers to follow you around the Internet. Some people say that you can simply use incognito mode, but whats the fun in that when you can’t guarantee yourself that it’s actually doing what it’s said to do. To keep your searches private and out of data profiles you should consider using <a href="https://start.duckduckgo.com/">DuckDuckGo.</a> Duck won’t track you one bit, regardless of what browsing mode you are currently running. Every time you do a search with Duck, you start fresh as if it’s your first time and you’ve never visited before. Duck doesn’t store anything that can link you to your searches. For more details you should consider reading their <a href="https://duckduckgo.com/privacy">privacy policy….</a></p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>This isn‘t I3.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/this-isnt-i3.html"/>
+        <id>https://furycd001.github.io/this-isnt-i3.html</id>
+            <category term="Xfwm"/>
+            <category term="Xfce4"/>
+            <category term="Window manager"/>
+            <category term="I3"/>
+
+        <updated>2020-10-23T08:30:55+01:00</updated>
+            <summary>
+                <![CDATA[
+                    This isn’t I3…. This is xfce with a no-border theme installed.image Here’s how to create your own no-border theme for xfce or possibly any other window manager. Just follow the steps below or download the theme from here GitHub…. You can replace “empty” with&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>This isn’t I3…. This is xfce with a no-border theme installed.
+image</p>
+<p><figure class="post__image"><img loading="lazy" src="http://i.imgur.com/xwUGwI8.png" data-is-external-image="true"  alt="alt text" /></figure></p>
+<p>Here’s how to create your own no-border theme for xfce or possibly any other window manager. Just follow the steps below or download the theme from here GitHub….</p>
+<ol>
+<li>sudo mkdir -p /usr/share/themes/empty/xfwm4</li>
+</ol>
+<blockquote>
+<p>You can replace “empty” with whatever you want. This will be the name of your theme.</p>
+</blockquote>
+<ol start="2">
+<li>sudo touch /usr/share/themes/empty/xfwm4/themerc</li>
+</ol>
+<blockquote>
+<p>Leave this file blank and your done.</p>
+</blockquote>
+<ol start="3">
+<li>Finished!!</li>
+</ol>
+<blockquote>
+<p>Open up your window manager settings and choose your newly created theme.</p>
+</blockquote>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Turn a browser tab into a minimal text editor.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/turn-a-browser-tab-into-a-minimal-text-editor.html"/>
+        <id>https://furycd001.github.io/turn-a-browser-tab-into-a-minimal-text-editor.html</id>
+            <category term="Web browser"/>
+            <category term="Web"/>
+            <category term="Text editor"/>
+
+        <updated>2020-10-23T08:29:53+01:00</updated>
+            <summary>
+                <![CDATA[
+                     You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply copy &amp; paste the code shown below into the url bar of any modern browser and press enter. data:text/html, Now you have an&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><figure class="post__image"><img loading="lazy" src="http://i.imgur.com/LiUSlus.png" data-is-external-image="true"  alt="alt text" /></figure></p>
+<p>You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply copy &amp; paste the code shown below into the url bar of any modern browser and press enter.</p>
+<blockquote>
+<p>data:text/html, <body contenteditable style="font: 2rem/2.0 Ubuntu Mono;max-width:80rem;margin:0 auto;padding:8rem;"></p>
+</blockquote>
+<p>Now you have an awesome, super minimal and lightweight text editor within a tab in your browser. You can customize the style to your liking or just remove it completely. </p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Tumblr bans all adult content.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/tumblr-bans-all-adult-content.html"/>
+        <id>https://furycd001.github.io/tumblr-bans-all-adult-content.html</id>
+            <category term="Web"/>
+            <category term="Tumblr"/>
+            <category term="Blog"/>
+            <category term="Banned"/>
+
+        <updated>2020-10-23T08:29:18+01:00</updated>
+            <summary>
+                <![CDATA[
+                     As of December 17th 2018 tumblr will ban all pornography from its website. This is a move that will not only alter how the site is used, but will also show how major online companies set out to restrict which content appears on&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><figure class="post__image"><img loading="lazy" src="https://i.imgur.com/JQUemrC.jpg" data-is-external-image="true"  alt="alt text" /></figure></p>
+<p>As of December 17th 2018 <a href="http://tumblr.com/">tumblr</a> will ban all pornography from its website. This is a move that will not only alter how the site is used, but will also show how major online companies set out to restrict which content appears on their websites. Unlike most major websites, <a href="http://tumblr.com/">tumblr</a> has until now always had a tolerant attitude whenever it comes to legal adult material. The site since it was originally founded back in 2007 has over time gained a reputation as a “somewhat” safe haven for adult themed material and the likes. As a result of this, adult material began to almost flood the site. Over the years <a href="http://tumblr.com/">tumblr</a> has attempted to provide a “safe mode” for younger users &amp; users that do not wish to see adult related content. Safe mode has always been easy to turn off and has never really prevented younger users from seeing adult content. This whole move from <a href="http://tumblr.com/">tumblr</a> comes after its app was removed from the app store….</p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Thunar not displaying thunbnails on xfce.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/thunar-not-displaying-thunbnails-on-xfce.html"/>
+        <id>https://furycd001.github.io/thunar-not-displaying-thunbnails-on-xfce.html</id>
+            <category term="Xfce4"/>
+            <category term="Ubuntu"/>
+            <category term="Thunar"/>
+            <category term="Linux"/>
+
+        <updated>2020-10-23T08:28:38+01:00</updated>
+            <summary>
+                <![CDATA[
+                     Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some reason the required packages for displaying thumbnails in thunar are never included and I end up having to install them manually every time.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><figure class="post__image"><img loading="lazy" src="http://i.imgur.com/J8rIDOd.png" data-is-external-image="true"  alt="alt text" /></figure></p>
+<p>Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some reason the required packages for displaying thumbnails in thunar are never included and I end up having to install them manually every time. If like me you ever run into this same problem, here’s how to easily fix it with two simple steps..</p>
+<p><strong>[1]</strong> Install the required packages….</p>
+<blockquote>
+<p>sudo apt-get install tumbler tumbler-plugins-extra ffmpegthumbnailer </p>
+</blockquote>
+<p><strong>[2]</strong> Delete all thumbnail cache….</p>
+<blockquote>
+<p>sudo rm -r ~/.cache/thumbnails/ &amp;&amp; rm -r ~/.thumbnails/</p>
+</blockquote>
+<p>Thumbnails in thunar should now be working again, if not then i’d recommending visiting <a href="https://freenode.linux.community/">#linux</a> over on <a href="http://freenode.net/">freenode irc</a>, or the community forums for whatever distro you happen to use.</p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Styling multiple html links with css.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/styling-multiple-html-links-with-css.html"/>
+        <id>https://furycd001.github.io/styling-multiple-html-links-with-css.html</id>
+            <category term="Web"/>
+            <category term="Html"/>
+            <category term="Css"/>
+            <category term="Code"/>
+
+        <updated>2020-10-23T08:23:41+01:00</updated>
+            <summary>
+                <![CDATA[
+                    You can style multiple html links differently on the same page simply by adding a class to the link &amp; then some css. For example the two linsk below would be styled with the css that follows…. &lt;a href=“something dot html” class=“newclass”&gt;Link text&lt;/a&gt;&lt;a href=“somethingv1&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>You can style multiple html links differently on the same page simply by adding a class to the link &amp; then some css. For example the two linsk below would be styled with the css that follows….</p>
+<h2 id="html">HTML</h2>
+<pre><code class="language-html">&lt;a href=“something dot html” class=“newclass”&gt;Link text&lt;/a&gt;
+&lt;a href=“somethingv1 dot html” class=“anothernewclass”&gt;More link text&lt;/a&gt;</code></pre>
+<h2 id="css">CSS</h2>
+<pre><code class="language-css">a.newclass:link {
+color: #444444;
+text-decoration: none;
+}
+
+a.newclass:visited {
+color: #444444;
+text-decoration: none;
+}
+
+a.newclass:hover {
+color: #f2f2f2;
+text-decoration: none;
+    }
+
+a.newclass:active {
+color: #444444;
+text-decoration: none;
+}
+
+a.anothernewclass:link {
+color: #f2f2f2;
+text-decoration: none;
+}
+
+a.anothernewclass:visited {
+color: #f2f2f2;
+text-decoration: none;
+}
+
+a.anothernewclass:hover {
+color: #222222;
+text-decoration: none;
+}
+
+a.anothernewclass:active {
+color: #f2f2f2;
+text-decoration: none;
+}</code></pre>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>There are no themes, just CSS.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/there-are-no-themes-just-css.html"/>
+        <id>https://furycd001.github.io/there-are-no-themes-just-css.html</id>
+            <category term="Themes"/>
+            <category term="Opensource"/>
+            <category term="Linux"/>
+            <category term="Gnome"/>
+            <category term="Css"/>
+
+        <updated>2020-10-23T08:22:51+01:00</updated>
+            <summary>
+                <![CDATA[
+                     Gnome developer “Tobias Bernard” has wrote a lengthily post on his blog about how people have thought that GTK 3 supports theming. This is not true, as there is only CSS stylesheets. These CSS stylesheets were only ever meant to be used by&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><figure class="post__image"><img loading="lazy" src="https://i.imgur.com/2gVqbEc.png" data-is-external-image="true"  alt="alt text" /></figure></p>
+<p>Gnome developer <a href="https://blogs.gnome.org/tbernard/">“Tobias Bernard”</a> has wrote a lengthily post on his blog about how people have thought that GTK 3 supports theming. This is not true, as there is only CSS stylesheets. These CSS stylesheets were only ever meant to be used by the platform and app developers. The platform stylesheet is called Adwaita. <a href="https://blogs.gnome.org/tbernard/2018/10/15/restyling-apps-at-scale/">You can check out the full post over on his blog.</a> It’s totally worth reading &amp; he has some other interesting post work checking out too….</p>
 
             ]]>
         </content>
