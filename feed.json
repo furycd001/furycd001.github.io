@@ -1,0 +1,31 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "d:tour",
+    "description": "",
+    "home_page_url": "https://furycd001.github.io",
+    "feed_url": "https://furycd001.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Jonny"
+    },
+    "items": [
+        {
+            "id": "https://furycd001.github.io/xubuntu-core.html",
+            "url": "https://furycd001.github.io/xubuntu-core.html",
+            "title": "Xubuntu core",
+            "summary": " Xubuntu core is essentially Xubuntu without all the additional features. It installs only the the basic look and feel of Xubuntu. There’s no office suite, media player, or any of the usual stuff that comes pre-installed with regular Xubuntu. The best thing about it&hellip;",
+            "content_html": "<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"https://i.imgur.com/YmC34qX.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<p><a href=\"https://xubuntu.org/news/introducing-xubuntu-core/\">Xubuntu core</a> is essentially Xubuntu without all the additional features. It installs only the the basic look and feel of Xubuntu. There’s no office suite, media player, or any of the usual stuff that comes pre-installed with regular Xubuntu. The best thing about it is that it is around 600MB in size, so will be faster to download and can easily fit on a cd. You can install Xubuntu core from the <a href=\"https://help.ubuntu.com/community/Installation/MinimalCD\">Mini iso</a> either by running the “Xubuntu minimal installation task” or by finishing the minimal install and typing “sudo apt-get install xubuntu-core^” once you have logged in. Alternatively you can <a href=\"https://unit193.net/xubuntu/core/\">download one of the community ISOs.</a> Xfce is a great desktop environment &amp; Xubuntu is a great distro to use (my fav for a while now). Xubuntu core is a nice thing to have if you don’t like bloat and want something that you can call your own.</p>\n",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Xubuntu",
+                   "Xfce",
+                   "Window manager",
+                   "Linux"
+            ],
+            "date_published": "2020-10-23T07:01:51+01:00",
+            "date_modified": "2020-10-23T07:01:51+01:00"
+        }
+    ]
+}
