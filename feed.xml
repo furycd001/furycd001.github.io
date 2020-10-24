@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2020-10-23T08:34:08+01:00</updated>
+    <updated>2020-10-24T08:57:16+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -21,14 +21,16 @@
             <category term="Ubuntu"/>
             <category term="Linux"/>
 
-        <updated>2020-10-23T08:34:08+01:00</updated>
+        <updated>2020-10-24T08:57:16+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/40/Ubuntur.jpg" alt="Ubuntu releases...." />
                     When Ubuntu releases a new version you don’t necessarily need to create a new usb &amp; do a fresh install.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/40/Ubuntur.jpg" alt="Ubuntu releases...." />
                 <p>When Ubuntu <a href="http://releases.ubuntu.com/">releases a new version</a> you don’t necessarily need to create a new usb &amp; do a fresh install. Although that can sometimes be great, you can just simply upgrade to a new version from your existing one. To do so, simply follow the steps listed below.</p>
 <ul>
 <li>Open the “Software &amp; Updates” app….</li>
@@ -72,14 +74,16 @@
             <category term="Ubuntu"/>
             <category term="Linux"/>
 
-        <updated>2020-10-23T08:33:22+01:00</updated>
+        <updated>2020-10-24T08:54:58+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/39/Ubuntu.jpg" alt="Ubuntu...." />
                     You can upgrade to a new Ubuntu release before it has officially been released. The release will obviously still be&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/39/Ubuntu.jpg" alt="Ubuntu...." />
                 <p>You can upgrade to a new Ubuntu release before it has officially been released. The release will obviously still be being tested and will most likely have a few bugs and or glitches, but there is a number of reasons you may want to upgrade early. Here is a few of those reasons.</p>
 <ul>
 <li>Testing….</li>
@@ -111,14 +115,16 @@
             <category term="Xfce4"/>
             <category term="Conky"/>
 
-        <updated>2020-10-23T08:32:32+01:00</updated>
+        <updated>2020-10-24T08:53:25+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/38/Conky-xfce4-panel1.png" alt="Conky inside xfce4-panel...." />
                      For this to work you need to have two things installed on your system. Go ahead and install both&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/38/Conky-xfce4-panel1.png" alt="Conky inside xfce4-panel...." />
                 <p><figure class="post__image"><img loading="lazy" src="http://i.imgur.com/x6L3tfm.png" data-is-external-image="true"  alt="alt text" /></figure></p>
 <p>For this to work you need to have two things installed on your system.</p>
 <ol>
@@ -160,14 +166,16 @@
             <category term="Google"/>
             <category term="Duckduckgo"/>
 
-        <updated>2020-10-23T08:31:51+01:00</updated>
+        <updated>2020-10-24T08:43:20+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/37/rB9UCny.png" alt="Duckduckgo...." />
                      People share their most intimate secrets with their search engine without even stopping to think. This can be little&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/37/rB9UCny.png" alt="Duckduckgo...." />
                 <p><figure class="post__image"><img loading="lazy" src="https://i.imgur.com/rB9UCny.png" data-is-external-image="true"  alt="alt text" /></figure></p>
 <p>People share their most intimate secrets with their search engine without even stopping to think. This can be little day to day things, massive life changing events, or just things that make you, pretty much you. All of this personal information should be private, but with Google it’s not. Google tracks your searches and packs it up into a data profile for advertisers to follow you around the Internet. Some people say that you can simply use incognito mode, but whats the fun in that when you can’t guarantee yourself that it’s actually doing what it’s said to do. To keep your searches private and out of data profiles you should consider using <a href="https://start.duckduckgo.com/">DuckDuckGo.</a> Duck won’t track you one bit, regardless of what browsing mode you are currently running. Every time you do a search with Duck, you start fresh as if it’s your first time and you’ve never visited before. Duck doesn’t store anything that can link you to your searches. For more details you should consider reading their <a href="https://duckduckgo.com/privacy">privacy policy….</a></p>
 
@@ -186,14 +194,16 @@
             <category term="Window manager"/>
             <category term="I3"/>
 
-        <updated>2020-10-23T08:30:55+01:00</updated>
+        <updated>2020-10-24T08:52:38+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/36/i3.jpeg" alt="Empty...." />
                     This isn’t I3…. This is xfce with a no-border theme installed.image Here’s how to create your own no-border theme for&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/36/i3.jpeg" alt="Empty...." />
                 <p>This isn’t I3…. This is xfce with a no-border theme installed.
 image</p>
 <p><figure class="post__image"><img loading="lazy" src="http://i.imgur.com/xwUGwI8.png" data-is-external-image="true"  alt="alt text" /></figure></p>
@@ -231,19 +241,19 @@ image</p>
             <category term="Web"/>
             <category term="Text editor"/>
 
-        <updated>2020-10-23T08:29:53+01:00</updated>
+        <updated>2020-10-24T08:52:10+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/35/Text-editor-tab.png" alt="Text editor tab...." />
                      You can easily turn any browser tab into a minimal text editor by using a simple piece of code.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/35/Text-editor-tab.png" alt="Text editor tab...." />
                 <p><figure class="post__image"><img loading="lazy" src="http://i.imgur.com/LiUSlus.png" data-is-external-image="true"  alt="alt text" /></figure></p>
 <p>You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply copy &amp; paste the code shown below into the url bar of any modern browser and press enter.</p>
-<blockquote>
-<p>data:text/html, <body contenteditable style="font: 2rem/2.0 Ubuntu Mono;max-width:80rem;margin:0 auto;padding:8rem;"></p>
-</blockquote>
+<pre><code class="language-html">data:text/html, &lt;body contenteditable style=&quot;font: 2rem/2.0 Ubuntu Mono;max-width:80rem;margin:0 auto;padding:8rem;&quot;&gt;</code></pre>
 <p>Now you have an awesome, super minimal and lightweight text editor within a tab in your browser. You can customize the style to your liking or just remove it completely. </p>
 
             ]]>
@@ -261,14 +271,16 @@ image</p>
             <category term="Blog"/>
             <category term="Banned"/>
 
-        <updated>2020-10-23T08:29:18+01:00</updated>
+        <updated>2020-10-24T08:50:41+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/34/Tumblr.jpg" alt="Tumblr...." />
                      As of December 17th 2018 tumblr will ban all pornography from its website. This is a move that will&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/34/Tumblr.jpg" alt="Tumblr...." />
                 <p><figure class="post__image"><img loading="lazy" src="https://i.imgur.com/JQUemrC.jpg" data-is-external-image="true"  alt="alt text" /></figure></p>
 <p>As of December 17th 2018 <a href="http://tumblr.com/">tumblr</a> will ban all pornography from its website. This is a move that will not only alter how the site is used, but will also show how major online companies set out to restrict which content appears on their websites. Unlike most major websites, <a href="http://tumblr.com/">tumblr</a> has until now always had a tolerant attitude whenever it comes to legal adult material. The site since it was originally founded back in 2007 has over time gained a reputation as a “somewhat” safe haven for adult themed material and the likes. As a result of this, adult material began to almost flood the site. Over the years <a href="http://tumblr.com/">tumblr</a> has attempted to provide a “safe mode” for younger users &amp; users that do not wish to see adult related content. Safe mode has always been easy to turn off and has never really prevented younger users from seeing adult content. This whole move from <a href="http://tumblr.com/">tumblr</a> comes after its app was removed from the app store….</p>
 
@@ -287,14 +299,16 @@ image</p>
             <category term="Thunar"/>
             <category term="Linux"/>
 
-        <updated>2020-10-23T08:28:38+01:00</updated>
+        <updated>2020-10-24T08:50:12+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/33/Thumbnails.png" alt="Thunar...." />
                      Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/33/Thumbnails.png" alt="Thunar...." />
                 <p><figure class="post__image"><img loading="lazy" src="http://i.imgur.com/J8rIDOd.png" data-is-external-image="true"  alt="alt text" /></figure></p>
 <p>Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some reason the required packages for displaying thumbnails in thunar are never included and I end up having to install them manually every time. If like me you ever run into this same problem, here’s how to easily fix it with two simple steps..</p>
 <p><strong>[1]</strong> Install the required packages….</p>
@@ -322,14 +336,16 @@ image</p>
             <category term="Css"/>
             <category term="Code"/>
 
-        <updated>2020-10-23T08:23:41+01:00</updated>
+        <updated>2020-10-24T08:49:37+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/32/Code.jpeg" alt="Code...." />
                     You can style multiple html links differently on the same page simply by adding a class to the link &amp;&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/32/Code.jpeg" alt="Code...." />
                 <p>You can style multiple html links differently on the same page simply by adding a class to the link &amp; then some css. For example the two linsk below would be styled with the css that follows….</p>
 <h2 id="html">HTML</h2>
 <pre><code class="language-html">&lt;a href=“something dot html” class=“newclass”&gt;Link text&lt;/a&gt;
@@ -391,14 +407,16 @@ text-decoration: none;
             <category term="Gnome"/>
             <category term="Css"/>
 
-        <updated>2020-10-23T08:22:51+01:00</updated>
+        <updated>2020-10-24T08:48:43+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/31/Adwaita.png" alt="Adwaita...." />
                      Gnome developer “Tobias Bernard” has wrote a lengthily post on his blog about how people have thought that GTK&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/31/Adwaita.png" alt="Adwaita...." />
                 <p><figure class="post__image"><img loading="lazy" src="https://i.imgur.com/2gVqbEc.png" data-is-external-image="true"  alt="alt text" /></figure></p>
 <p>Gnome developer <a href="https://blogs.gnome.org/tbernard/">“Tobias Bernard”</a> has wrote a lengthily post on his blog about how people have thought that GTK 3 supports theming. This is not true, as there is only CSS stylesheets. These CSS stylesheets were only ever meant to be used by the platform and app developers. The platform stylesheet is called Adwaita. <a href="https://blogs.gnome.org/tbernard/2018/10/15/restyling-apps-at-scale/">You can check out the full post over on his blog.</a> It’s totally worth reading &amp; he has some other interesting post work checking out too….</p>
 
