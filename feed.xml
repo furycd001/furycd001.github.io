@@ -14,8 +14,8 @@
         <author>
             <name>Jonny</name>
         </author>
-        <link href="https://furycd001.github.io/upgrade-to-a-new-ubuntu-version.html"/>
-        <id>https://furycd001.github.io/upgrade-to-a-new-ubuntu-version.html</id>
+        <link href="https://furycd001.github.io/upgrade-to-a-new-ubuntu-version/"/>
+        <id>https://furycd001.github.io/upgrade-to-a-new-ubuntu-version/</id>
             <category term="Upgrade"/>
             <category term="Update"/>
             <category term="Ubuntu"/>
@@ -25,7 +25,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/40/Ubuntur.jpg" alt="Ubuntu releases...." />
-                    When Ubuntu releases a new version you don’t necessarily need to create a new usb &amp; do a fresh install.
+                    When Ubuntu releases a new version you don’t necessarily need to create a new usb &amp; do a fresh install. Although that&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -67,8 +67,8 @@
         <author>
             <name>Jonny</name>
         </author>
-        <link href="https://furycd001.github.io/upgrade-to-a-new-ubuntu-release-early.html"/>
-        <id>https://furycd001.github.io/upgrade-to-a-new-ubuntu-release-early.html</id>
+        <link href="https://furycd001.github.io/upgrade-to-a-new-ubuntu-release-early/"/>
+        <id>https://furycd001.github.io/upgrade-to-a-new-ubuntu-release-early/</id>
             <category term="Upgrade"/>
             <category term="Update"/>
             <category term="Ubuntu"/>
@@ -78,7 +78,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/39/Ubuntu.jpg" alt="Ubuntu...." />
-                    You can upgrade to a new Ubuntu release before it has officially been released. The release will obviously still be&hellip;
+                    You can upgrade to a new Ubuntu release before it has officially been released. The release will obviously still be being tested&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -108,8 +108,8 @@
         <author>
             <name>Jonny</name>
         </author>
-        <link href="https://furycd001.github.io/using-conky-with-xfce4-panel.html"/>
-        <id>https://furycd001.github.io/using-conky-with-xfce4-panel.html</id>
+        <link href="https://furycd001.github.io/using-conky-with-xfce4-panel/"/>
+        <id>https://furycd001.github.io/using-conky-with-xfce4-panel/</id>
             <category term="Xfce4-panel"/>
             <category term="Xfce4-genmon-plugin"/>
             <category term="Xfce4"/>
@@ -119,7 +119,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/38/Conky-xfce4-panel1.png" alt="Conky inside xfce4-panel...." />
-                    For this to work you need to have two things installed on your system. Go ahead and install both if&hellip;
+                    For this to work you need to have two things installed on your system. Go ahead and install both if you don’t&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -158,8 +158,8 @@
         <author>
             <name>Jonny</name>
         </author>
-        <link href="https://furycd001.github.io/duckduckgo-over-google.html"/>
-        <id>https://furycd001.github.io/duckduckgo-over-google.html</id>
+        <link href="https://furycd001.github.io/duckduckgo-over-google/"/>
+        <id>https://furycd001.github.io/duckduckgo-over-google/</id>
             <category term="Web"/>
             <category term="Search"/>
             <category term="Google"/>
@@ -169,7 +169,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/37/rB9UCny.png" alt="Duckduckgo...." />
-                    People share their most intimate secrets with their search engine without even stopping to think. This can be little day&hellip;
+                    People share their most intimate secrets with their search engine without even stopping to think. This can be little day to day&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -185,8 +185,8 @@
         <author>
             <name>Jonny</name>
         </author>
-        <link href="https://furycd001.github.io/this-isnt-i3.html"/>
-        <id>https://furycd001.github.io/this-isnt-i3.html</id>
+        <link href="https://furycd001.github.io/this-isnt-i3/"/>
+        <id>https://furycd001.github.io/this-isnt-i3/</id>
             <category term="Xfwm"/>
             <category term="Xfce4"/>
             <category term="Window manager"/>
@@ -196,7 +196,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/36/i3.jpeg" alt="Empty...." />
-                    This isn’t I3…. This is xfce with a no-border theme installed. Here’s how to create your own no-border theme for&hellip;
+                    This isn’t I3…. This is xfce with a no-border theme installed. Here’s how to create your own no-border theme for xfce or&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -231,8 +231,8 @@
         <author>
             <name>Jonny</name>
         </author>
-        <link href="https://furycd001.github.io/turn-a-browser-tab-into-a-minimal-text-editor.html"/>
-        <id>https://furycd001.github.io/turn-a-browser-tab-into-a-minimal-text-editor.html</id>
+        <link href="https://furycd001.github.io/turn-a-browser-tab-into-a-minimal-text-editor/"/>
+        <id>https://furycd001.github.io/turn-a-browser-tab-into-a-minimal-text-editor/</id>
             <category term="Web browser"/>
             <category term="Web"/>
             <category term="Text editor"/>
@@ -241,7 +241,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/35/Text-editor-tab.png" alt="Text editor tab...." />
-                    You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply&hellip;
+                    You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply copy &amp;&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -259,8 +259,8 @@
         <author>
             <name>Jonny</name>
         </author>
-        <link href="https://furycd001.github.io/tumblr-bans-all-adult-content.html"/>
-        <id>https://furycd001.github.io/tumblr-bans-all-adult-content.html</id>
+        <link href="https://furycd001.github.io/tumblr-bans-all-adult-content/"/>
+        <id>https://furycd001.github.io/tumblr-bans-all-adult-content/</id>
             <category term="Web"/>
             <category term="Tumblr"/>
             <category term="Blog"/>
@@ -270,7 +270,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/34/Tumblr.jpg" alt="Tumblr...." />
-                    As of December 17th 2018 tumblr will ban all pornography from its website. This is a move that will not&hellip;
+                    As of December 17th 2018 tumblr will ban all pornography from its website. This is a move that will not only alter&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -286,8 +286,8 @@
         <author>
             <name>Jonny</name>
         </author>
-        <link href="https://furycd001.github.io/thunar-not-displaying-thunbnails-on-xfce.html"/>
-        <id>https://furycd001.github.io/thunar-not-displaying-thunbnails-on-xfce.html</id>
+        <link href="https://furycd001.github.io/thunar-not-displaying-thunbnails-on-xfce/"/>
+        <id>https://furycd001.github.io/thunar-not-displaying-thunbnails-on-xfce/</id>
             <category term="Xfce4"/>
             <category term="Ubuntu"/>
             <category term="Thunar"/>
@@ -297,7 +297,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/33/Thumbnails.png" alt="Thunar...." />
-                    Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some&hellip;
+                    Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some reason the&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -322,8 +322,8 @@
         <author>
             <name>Jonny</name>
         </author>
-        <link href="https://furycd001.github.io/styling-multiple-html-links-with-css.html"/>
-        <id>https://furycd001.github.io/styling-multiple-html-links-with-css.html</id>
+        <link href="https://furycd001.github.io/styling-multiple-html-links-with-css/"/>
+        <id>https://furycd001.github.io/styling-multiple-html-links-with-css/</id>
             <category term="Web"/>
             <category term="Html"/>
             <category term="Css"/>
@@ -333,7 +333,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/32/Code.jpeg" alt="Code...." />
-                    You can style multiple html links differently on the same page simply by adding a class to the link &amp;&hellip;
+                    You can style multiple html links differently on the same page simply by adding a class to the link &amp; then some&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -392,8 +392,8 @@ text-decoration: none;
         <author>
             <name>Jonny</name>
         </author>
-        <link href="https://furycd001.github.io/there-are-no-themes-just-css.html"/>
-        <id>https://furycd001.github.io/there-are-no-themes-just-css.html</id>
+        <link href="https://furycd001.github.io/there-are-no-themes-just-css/"/>
+        <id>https://furycd001.github.io/there-are-no-themes-just-css/</id>
             <category term="Themes"/>
             <category term="Opensource"/>
             <category term="Linux"/>
@@ -404,7 +404,7 @@ text-decoration: none;
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/31/Adwaita.png" alt="Adwaita...." />
-                     Gnome developer “Tobias Bernard” has wrote a lengthily post on his blog about how people have thought that GTK&hellip;
+                     Gnome developer “Tobias Bernard” has wrote a lengthily post on his blog about how people have thought that GTK 3 supports&hellip;
                 ]]>
             </summary>
         <content type="html">
