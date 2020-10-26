@@ -51,8 +51,8 @@
             "id": "https://furycd001.github.io/using-conky-with-xfce4-panel.html",
             "url": "https://furycd001.github.io/using-conky-with-xfce4-panel.html",
             "title": "Using conky with xfce4-panel.",
-            "summary": " For this to work you need to have two things installed on your system. Go ahead and install both&hellip;",
-            "content_html": "<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"http://i.imgur.com/x6L3tfm.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<p>For this to work you need to have two things installed on your system.</p>\n<ol>\n<li><a href=\"https://github.com/brndnmtthws/conky\">Conky</a></li>\n<li><a href=\"https://goodies.xfce.org/projects/panel-plugins/xfce4-genmon-plugin\">xfce4-genmon….</a></li>\n</ol>\n<p>Go ahead and install both if you don’t already have them installed. On debian based systems you can use “apt” from the command line or search for both using either synaptic or software centre. Both can be installed on any Linux system using the default package manager of that system. I just happen to be running xubuntu.</p>\n<blockquote>\n<p>sudo apt install conky xfce4-genmon-plugin</p>\n</blockquote>\n<p>Once you have both of those apps installed on your system go ahead and create a single line conky config. Once you’ve got that created and saved, open up and modify your conky config file to make conky output to the terminal only. This can be done by adding the following two lines to your config file.</p>\n<blockquote>\n<p>out _ to _ x no</p>\n<p>out _ to _ console yes</p>\n<h4 id=\"please-remove-the-space-between-_\">Please remove the space between “_”</h4>\n</blockquote>\n<p>Save and close your config file once you’ve added those two lines above. Next you’ll want to set conky to output to a txt file on startup. This can be done easily by launching conky with the following command.</p>\n<blockquote>\n<p>conky -q -c /your/path/to/conkyconfig &gt; /tmp/conky.txt</p>\n</blockquote>\n<p>You can add that above command to a bash script and set the script to run on startup command from within your “Application Autostart” in xfce. The final step is to add xfce4-genmon-plugin to your panel and then use awk to print the txt file to your panel.</p>\n<blockquote>\n<p>awk ‘END{print}’ /tmp/conky.txt</p>\n</blockquote>\n<p>That’s it. You should now have conky displaying within your panel.</p>\n",
+            "summary": "For this to work you need to have two things installed on your system. Go ahead and install both if&hellip;",
+            "content_html": "<p>For this to work you need to have two things installed on your system.</p>\n<ol>\n<li><a href=\"https://github.com/brndnmtthws/conky\">Conky</a></li>\n<li><a href=\"https://goodies.xfce.org/projects/panel-plugins/xfce4-genmon-plugin\">xfce4-genmon….</a></li>\n</ol>\n<p>Go ahead and install both if you don’t already have them installed. On debian based systems you can use “apt” from the command line or search for both using either synaptic or software centre. Both can be installed on any Linux system using the default package manager of that system. I just happen to be running xubuntu.</p>\n<blockquote>\n<p>sudo apt install conky xfce4-genmon-plugin</p>\n</blockquote>\n<p>Once you have both of those apps installed on your system go ahead and create a single line conky config. Once you’ve got that created and saved, open up and modify your conky config file to make conky output to the terminal only. This can be done by adding the following two lines to your config file.</p>\n<blockquote>\n<p>out _ to _ x no</p>\n<p>out _ to _ console yes</p>\n<h4 id=\"please-remove-the-space-between-_\">Please remove the space between “_”</h4>\n</blockquote>\n<p>Save and close your config file once you’ve added those two lines above. Next you’ll want to set conky to output to a txt file on startup. This can be done easily by launching conky with the following command.</p>\n<blockquote>\n<p>conky -q -c /your/path/to/conkyconfig &gt; /tmp/conky.txt</p>\n</blockquote>\n<p>You can add that above command to a bash script and set the script to run on startup command from within your “Application Autostart” in xfce. The final step is to add xfce4-genmon-plugin to your panel and then use awk to print the txt file to your panel.</p>\n<blockquote>\n<p>awk ‘END{print}’ /tmp/conky.txt</p>\n</blockquote>\n<p>That’s it. You should now have conky displaying within your panel.</p>\n",
             "image": "https://furycd001.github.io/media/posts/38/Conky-xfce4-panel1.png",
             "author": {
                 "name": "Jonny"
@@ -64,14 +64,14 @@
                    "Conky"
             ],
             "date_published": "2020-10-23T08:32:32+01:00",
-            "date_modified": "2020-10-24T08:53:25+01:00"
+            "date_modified": "2020-10-26T06:42:26+00:00"
         },
         {
             "id": "https://furycd001.github.io/duckduckgo-over-google.html",
             "url": "https://furycd001.github.io/duckduckgo-over-google.html",
             "title": "Duckduckgo over google.",
-            "summary": " People share their most intimate secrets with their search engine without even stopping to think. This can be little&hellip;",
-            "content_html": "<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"https://i.imgur.com/rB9UCny.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<p>People share their most intimate secrets with their search engine without even stopping to think. This can be little day to day things, massive life changing events, or just things that make you, pretty much you. All of this personal information should be private, but with Google it’s not. Google tracks your searches and packs it up into a data profile for advertisers to follow you around the Internet. Some people say that you can simply use incognito mode, but whats the fun in that when you can’t guarantee yourself that it’s actually doing what it’s said to do. To keep your searches private and out of data profiles you should consider using <a href=\"https://start.duckduckgo.com/\">DuckDuckGo.</a> Duck won’t track you one bit, regardless of what browsing mode you are currently running. Every time you do a search with Duck, you start fresh as if it’s your first time and you’ve never visited before. Duck doesn’t store anything that can link you to your searches. For more details you should consider reading their <a href=\"https://duckduckgo.com/privacy\">privacy policy….</a></p>\n",
+            "summary": "People share their most intimate secrets with their search engine without even stopping to think. This can be little day&hellip;",
+            "content_html": "<p>People share their most intimate secrets with their search engine without even stopping to think. This can be little day to day things, massive life changing events, or just things that make you, pretty much you. All of this personal information should be private, but with Google it’s not. Google tracks your searches and packs it up into a data profile for advertisers to follow you around the Internet. Some people say that you can simply use incognito mode, but whats the fun in that when you can’t guarantee yourself that it’s actually doing what it’s said to do. To keep your searches private and out of data profiles you should consider using <a href=\"https://start.duckduckgo.com/\">DuckDuckGo.</a> Duck won’t track you one bit, regardless of what browsing mode you are currently running. Every time you do a search with Duck, you start fresh as if it’s your first time and you’ve never visited before. Duck doesn’t store anything that can link you to your searches. For more details you should consider reading their <a href=\"https://duckduckgo.com/privacy\">privacy policy….</a></p>\n",
             "image": "https://furycd001.github.io/media/posts/37/rB9UCny.png",
             "author": {
                 "name": "Jonny"
@@ -83,14 +83,14 @@
                    "Duckduckgo"
             ],
             "date_published": "2020-10-23T08:31:51+01:00",
-            "date_modified": "2020-10-24T08:43:20+01:00"
+            "date_modified": "2020-10-26T06:42:38+00:00"
         },
         {
             "id": "https://furycd001.github.io/this-isnt-i3.html",
             "url": "https://furycd001.github.io/this-isnt-i3.html",
             "title": "This isn‘t I3.",
-            "summary": "This isn’t I3…. This is xfce with a no-border theme installed.image Here’s how to create your own no-border theme for&hellip;",
-            "content_html": "<p>This isn’t I3…. This is xfce with a no-border theme installed.\nimage</p>\n<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"http://i.imgur.com/xwUGwI8.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<p>Here’s how to create your own no-border theme for xfce or possibly any other window manager. Just follow the steps below or download the theme from here GitHub….</p>\n<ol>\n<li>sudo mkdir -p /usr/share/themes/empty/xfwm4</li>\n</ol>\n<blockquote>\n<p>You can replace “empty” with whatever you want. This will be the name of your theme.</p>\n</blockquote>\n<ol start=\"2\">\n<li>sudo touch /usr/share/themes/empty/xfwm4/themerc</li>\n</ol>\n<blockquote>\n<p>Leave this file blank and your done.</p>\n</blockquote>\n<ol start=\"3\">\n<li>Finished!!</li>\n</ol>\n<blockquote>\n<p>Open up your window manager settings and choose your newly created theme.</p>\n</blockquote>\n",
+            "summary": "This isn’t I3…. This is xfce with a no-border theme installed. Here’s how to create your own no-border theme for&hellip;",
+            "content_html": "<p>This isn’t I3…. This is xfce with a no-border theme installed.</p>\n<p>Here’s how to create your own no-border theme for xfce or possibly any other window manager. Just follow the steps below or download the theme from here GitHub….</p>\n<ol>\n<li>sudo mkdir -p /usr/share/themes/empty/xfwm4</li>\n</ol>\n<blockquote>\n<p>You can replace “empty” with whatever you want. This will be the name of your theme.</p>\n</blockquote>\n<ol start=\"2\">\n<li>sudo touch /usr/share/themes/empty/xfwm4/themerc</li>\n</ol>\n<blockquote>\n<p>Leave this file blank and your done.</p>\n</blockquote>\n<ol start=\"3\">\n<li>Finished!!</li>\n</ol>\n<blockquote>\n<p>Open up your window manager settings and choose your newly created theme.</p>\n</blockquote>\n",
             "image": "https://furycd001.github.io/media/posts/36/i3.jpeg",
             "author": {
                 "name": "Jonny"
@@ -102,14 +102,14 @@
                    "I3"
             ],
             "date_published": "2020-10-23T08:30:55+01:00",
-            "date_modified": "2020-10-24T08:52:38+01:00"
+            "date_modified": "2020-10-26T06:43:11+00:00"
         },
         {
             "id": "https://furycd001.github.io/turn-a-browser-tab-into-a-minimal-text-editor.html",
             "url": "https://furycd001.github.io/turn-a-browser-tab-into-a-minimal-text-editor.html",
             "title": "Turn a browser tab into a minimal text editor.",
-            "summary": " You can easily turn any browser tab into a minimal text editor by using a simple piece of code.",
-            "content_html": "<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"http://i.imgur.com/LiUSlus.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<p>You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply copy &amp; paste the code shown below into the url bar of any modern browser and press enter.</p>\n<pre><code class=\"language-html\">data:text/html, &lt;body contenteditable style=&quot;font: 2rem/2.0 Ubuntu Mono;max-width:80rem;margin:0 auto;padding:8rem;&quot;&gt;</code></pre>\n<p>Now you have an awesome, super minimal and lightweight text editor within a tab in your browser. You can customize the style to your liking or just remove it completely. </p>\n",
+            "summary": "You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply&hellip;",
+            "content_html": "<p>You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply copy &amp; paste the code shown below into the url bar of any modern browser and press enter.</p>\n<pre><code class=\"language-html\">data:text/html, &lt;body contenteditable style=&quot;font: 2rem/2.0 Ubuntu Mono;max-width:80rem;margin:0 auto;padding:8rem;&quot;&gt;</code></pre>\n<p>Now you have an awesome, super minimal and lightweight text editor within a tab in your browser. You can customize the style to your liking or just remove it completely. </p>\n",
             "image": "https://furycd001.github.io/media/posts/35/Text-editor-tab.png",
             "author": {
                 "name": "Jonny"
@@ -120,14 +120,14 @@
                    "Text editor"
             ],
             "date_published": "2020-10-23T08:29:53+01:00",
-            "date_modified": "2020-10-24T08:52:10+01:00"
+            "date_modified": "2020-10-26T06:43:19+00:00"
         },
         {
             "id": "https://furycd001.github.io/tumblr-bans-all-adult-content.html",
             "url": "https://furycd001.github.io/tumblr-bans-all-adult-content.html",
             "title": "Tumblr bans all adult content.",
-            "summary": " As of December 17th 2018 tumblr will ban all pornography from its website. This is a move that will&hellip;",
-            "content_html": "<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"https://i.imgur.com/JQUemrC.jpg\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<p>As of December 17th 2018 <a href=\"http://tumblr.com/\">tumblr</a> will ban all pornography from its website. This is a move that will not only alter how the site is used, but will also show how major online companies set out to restrict which content appears on their websites. Unlike most major websites, <a href=\"http://tumblr.com/\">tumblr</a> has until now always had a tolerant attitude whenever it comes to legal adult material. The site since it was originally founded back in 2007 has over time gained a reputation as a “somewhat” safe haven for adult themed material and the likes. As a result of this, adult material began to almost flood the site. Over the years <a href=\"http://tumblr.com/\">tumblr</a> has attempted to provide a “safe mode” for younger users &amp; users that do not wish to see adult related content. Safe mode has always been easy to turn off and has never really prevented younger users from seeing adult content. This whole move from <a href=\"http://tumblr.com/\">tumblr</a> comes after its app was removed from the app store….</p>\n",
+            "summary": "As of December 17th 2018 tumblr will ban all pornography from its website. This is a move that will not&hellip;",
+            "content_html": "<p>As of December 17th 2018 <a href=\"http://tumblr.com/\">tumblr</a> will ban all pornography from its website. This is a move that will not only alter how the site is used, but will also show how major online companies set out to restrict which content appears on their websites. Unlike most major websites, <a href=\"http://tumblr.com/\">tumblr</a> has until now always had a tolerant attitude whenever it comes to legal adult material. The site since it was originally founded back in 2007 has over time gained a reputation as a “somewhat” safe haven for adult themed material and the likes. As a result of this, adult material began to almost flood the site. Over the years <a href=\"http://tumblr.com/\">tumblr</a> has attempted to provide a “safe mode” for younger users &amp; users that do not wish to see adult related content. Safe mode has always been easy to turn off and has never really prevented younger users from seeing adult content. This whole move from <a href=\"http://tumblr.com/\">tumblr</a> comes after its app was removed from the app store….</p>\n",
             "image": "https://furycd001.github.io/media/posts/34/Tumblr.jpg",
             "author": {
                 "name": "Jonny"
@@ -139,14 +139,14 @@
                    "Banned"
             ],
             "date_published": "2020-10-23T08:29:18+01:00",
-            "date_modified": "2020-10-24T08:50:41+01:00"
+            "date_modified": "2020-10-26T06:43:28+00:00"
         },
         {
             "id": "https://furycd001.github.io/thunar-not-displaying-thunbnails-on-xfce.html",
             "url": "https://furycd001.github.io/thunar-not-displaying-thunbnails-on-xfce.html",
             "title": "Thunar not displaying thunbnails on xfce.",
-            "summary": " Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For&hellip;",
-            "content_html": "<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"http://i.imgur.com/J8rIDOd.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<p>Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some reason the required packages for displaying thumbnails in thunar are never included and I end up having to install them manually every time. If like me you ever run into this same problem, here’s how to easily fix it with two simple steps..</p>\n<p><strong>[1]</strong> Install the required packages….</p>\n<blockquote>\n<p>sudo apt-get install tumbler tumbler-plugins-extra ffmpegthumbnailer </p>\n</blockquote>\n<p><strong>[2]</strong> Delete all thumbnail cache….</p>\n<blockquote>\n<p>sudo rm -r ~/.cache/thumbnails/ &amp;&amp; rm -r ~/.thumbnails/</p>\n</blockquote>\n<p>Thumbnails in thunar should now be working again, if not then i’d recommending visiting <a href=\"https://freenode.linux.community/\">#linux</a> over on <a href=\"http://freenode.net/\">freenode irc</a>, or the community forums for whatever distro you happen to use.</p>\n",
+            "summary": "Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some&hellip;",
+            "content_html": "<p>Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some reason the required packages for displaying thumbnails in thunar are never included and I end up having to install them manually every time. If like me you ever run into this same problem, here’s how to easily fix it with two simple steps..</p>\n<p><strong>[1]</strong> Install the required packages….</p>\n<blockquote>\n<p>sudo apt-get install tumbler tumbler-plugins-extra ffmpegthumbnailer </p>\n</blockquote>\n<p><strong>[2]</strong> Delete all thumbnail cache….</p>\n<blockquote>\n<p>sudo rm -r ~/.cache/thumbnails/ &amp;&amp; rm -r ~/.thumbnails/</p>\n</blockquote>\n<p>Thumbnails in thunar should now be working again, if not then i’d recommending visiting <a href=\"https://freenode.linux.community/\">#linux</a> over on <a href=\"http://freenode.net/\">freenode irc</a>, or the community forums for whatever distro you happen to use.</p>\n",
             "image": "https://furycd001.github.io/media/posts/33/Thumbnails.png",
             "author": {
                 "name": "Jonny"
@@ -158,7 +158,7 @@
                    "Linux"
             ],
             "date_published": "2020-10-23T08:28:29+01:00",
-            "date_modified": "2020-10-24T08:50:12+01:00"
+            "date_modified": "2020-10-26T06:43:37+00:00"
         },
         {
             "id": "https://furycd001.github.io/styling-multiple-html-links-with-css.html",
