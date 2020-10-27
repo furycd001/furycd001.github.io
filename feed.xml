@@ -25,7 +25,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/40/Ubuntur.jpg" alt="Ubuntu releases...." />
-                    When Ubuntu releases a new version you don’t necessarily need to create a new usb &amp; do a fresh install. Although that&hellip;
+                    When Ubuntu releases a new version you don’t necessarily need to create a new usb &amp; do a fresh install. Although that can sometimes be great, you can just simply upgrade to a new version from your existing one. To do so, simply follow&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -78,7 +78,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/39/Ubuntu.jpg" alt="Ubuntu...." />
-                    You can upgrade to a new Ubuntu release before it has officially been released. The release will obviously still be being tested&hellip;
+                    You can upgrade to a new Ubuntu release before it has officially been released. The release will obviously still be being tested and will most likely have a few bugs and or glitches, but there is a number of reasons you may want to&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -119,7 +119,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/38/Conky-xfce4-panel1.png" alt="Conky inside xfce4-panel...." />
-                    For this to work you need to have two things installed on your system. Go ahead and install both if you don’t&hellip;
+                    For this to work you need to have two things installed on your system. Go ahead and install both if you don’t already have them installed. On debian based systems you can use “apt” from the command line or search for both using either&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -169,7 +169,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/37/rB9UCny.png" alt="Duckduckgo...." />
-                    People share their most intimate secrets with their search engine without even stopping to think. This can be little day to day&hellip;
+                    People share their most intimate secrets with their search engine without even stopping to think. This can be little day to day things, massive life changing events, or just things that make you, pretty much you. All of this personal information should be private,&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -196,7 +196,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/36/i3.jpeg" alt="Empty...." />
-                    This isn’t I3…. This is xfce with a no-border theme installed. Here’s how to create your own no-border theme for xfce or&hellip;
+                    This isn’t I3…. This is xfce with a no-border theme installed. Here’s how to create your own no-border theme for xfce or possibly any other window manager. Just follow the steps below or download the theme from here GitHub…. You can replace “empty” with&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -241,7 +241,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/35/Text-editor-tab.png" alt="Text editor tab...." />
-                    You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply copy &amp;&hellip;
+                    You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply copy &amp; paste the code shown below into the url bar of any modern browser and press enter. data:text/html, &lt;body contenteditable style=&quot;font: 2rem/2.0 Ubuntu&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -270,7 +270,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/34/Tumblr.jpg" alt="Tumblr...." />
-                    As of December 17th 2018 tumblr will ban all pornography from its website. This is a move that will not only alter&hellip;
+                    As of December 17th 2018 tumblr will ban all pornography from its website. This is a move that will not only alter how the site is used, but will also show how major online companies set out to restrict which content appears on their&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -297,7 +297,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/33/Thumbnails.png" alt="Thunar...." />
-                    Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some reason the&hellip;
+                    Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some reason the required packages for displaying thumbnails in thunar are never included and I end up having to install them manually every time. If&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -333,7 +333,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/32/Code.jpeg" alt="Code...." />
-                    You can style multiple html links differently on the same page simply by adding a class to the link &amp; then some&hellip;
+                    You can style multiple html links differently on the same page simply by adding a class to the link &amp; then some css. For example the two linsk below would be styled with the css that follows…. &lt;a href=“something dot html” class=“newclass”&gt;Link text&lt;/a&gt;&lt;a href=“somethingv1&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -404,7 +404,7 @@ text-decoration: none;
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/31/Adwaita.png" alt="Adwaita...." />
-                     Gnome developer “Tobias Bernard” has wrote a lengthily post on his blog about how people have thought that GTK 3 supports&hellip;
+                     Gnome developer “Tobias Bernard” has wrote a lengthily post on his blog about how people have thought that GTK 3 supports theming. This is not true, as there is only CSS stylesheets. These CSS stylesheets were only ever meant to be used by&hellip;
                 ]]>
             </summary>
         <content type="html">
