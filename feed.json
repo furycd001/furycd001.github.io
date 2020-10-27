@@ -5,7 +5,6 @@
     "home_page_url": "https://furycd001.github.io",
     "feed_url": "https://furycd001.github.io/feed.json",
     "user_comment": "",
-    "icon": "https://furycd001.github.io/media/website/msi12.jpg",
     "author": {
         "name": "Jonny"
     },
@@ -14,7 +13,7 @@
             "id": "https://furycd001.github.io/upgrade-to-a-new-ubuntu-version/",
             "url": "https://furycd001.github.io/upgrade-to-a-new-ubuntu-version/",
             "title": "Upgrade to a new Ubuntu version.",
-            "summary": "When Ubuntu releases a new version you don’t necessarily need to create a new usb &amp; do a fresh install. Although that can sometimes be great, you can just simply upgrade to a new version from your existing one. To do so, simply follow&hellip;",
+            "summary": "When Ubuntu releases a new version you don’t necessarily need to create a new usb &amp; do a fresh install.",
             "content_html": "<p>When Ubuntu <a href=\"http://releases.ubuntu.com/\">releases a new version</a> you don’t necessarily need to create a new usb &amp; do a fresh install. Although that can sometimes be great, you can just simply upgrade to a new version from your existing one. To do so, simply follow the steps listed below.</p>\n<ul>\n<li>Open the “Software &amp; Updates” app….</li>\n<li>Head to the “Updates” tab….</li>\n<li>Look for the section at the bottom titled “Notify me of a new Ubuntu version” &amp; make your selection….</li>\n<li>Click ‘Close’ &amp; wait to be notified….</li>\n<li>Once notified follow the on screen instructions &amp; proceed to upgrade your system….</li>\n</ul>\n<p>Alternatively you can upgrade from the terminal.</p>\n<ul>\n<li>First make sure that everything is up to date &amp; that you have update-manager-core installed. You can do so by running the following command….</li>\n</ul>\n<blockquote>\n<p>sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade &amp;&amp; sudo apt-get install update-manager-core</p>\n</blockquote>\n<ul>\n<li>Next you can issue the following command to search for a new Ubuntu version….</li>\n</ul>\n<blockquote>\n<p>sudo do-release-upgrade</p>\n</blockquote>\n<ul>\n<li><p>Any required files will be download &amp; you will be prompt to install them. If you wish to upgrade press y &amp; then hit enter on your keyboard. It may take some time to download everything….</p>\n</li>\n<li><p>Once everything has finished download &amp; installing, you can reboot your computer to start using your new release of ubuntu….</p>\n</li>\n</ul>\n",
             "image": "https://furycd001.github.io/media/posts/40/Ubuntur.jpg",
             "author": {
@@ -33,7 +32,7 @@
             "id": "https://furycd001.github.io/upgrade-to-a-new-ubuntu-release-early/",
             "url": "https://furycd001.github.io/upgrade-to-a-new-ubuntu-release-early/",
             "title": "Upgrade to a new Ubuntu release early.",
-            "summary": "You can upgrade to a new Ubuntu release before it has officially been released. The release will obviously still be being tested and will most likely have a few bugs and or glitches, but there is a number of reasons you may want to&hellip;",
+            "summary": "You can upgrade to a new Ubuntu release before it has officially been released. The release will obviously still be&hellip;",
             "content_html": "<p>You can upgrade to a new Ubuntu release before it has officially been released. The release will obviously still be being tested and will most likely have a few bugs and or glitches, but there is a number of reasons you may want to upgrade early. Here is a few of those reasons.</p>\n<ul>\n<li>Testing….</li>\n<li>Contributing to reporting bugs, glitches &amp; errors….</li>\n<li>Helping fix bugs, glitches &amp; errors….</li>\n<li>Accessing a newer version of an application….</li>\n<li>Meh just fell like upgrading….</li>\n<li>Wanting to get your software ready for the new version….</li>\n</ul>\n<p>If you wish to upgrade early you can do so either via GUI or command line. All you have to do is launch the update manager with the “-d” perimeter at the end. See below for the commands that you can enter into your terminal. The first one is for upgrading via GUI &amp; the second one is for upgrading via the terminal. Remember to enter your user password whenever prompt.</p>\n<ul>\n<li>sudo update-manager -d</li>\n<li>sudo do-release-upgrade -d</li>\n</ul>\n<p>Upgrading early should be pretty straight forward, but just like any upgrade, always remember to backup your needed data before you begin the upgrade process.</p>\n",
             "image": "https://furycd001.github.io/media/posts/39/Ubuntu.jpg",
             "author": {
@@ -52,7 +51,7 @@
             "id": "https://furycd001.github.io/using-conky-with-xfce4-panel/",
             "url": "https://furycd001.github.io/using-conky-with-xfce4-panel/",
             "title": "Using conky with xfce4-panel.",
-            "summary": "For this to work you need to have two things installed on your system. Go ahead and install both if you don’t already have them installed. On debian based systems you can use “apt” from the command line or search for both using either&hellip;",
+            "summary": "For this to work you need to have two things installed on your system. Go ahead and install both if&hellip;",
             "content_html": "<p>For this to work you need to have two things installed on your system.</p>\n<ol>\n<li><a href=\"https://github.com/brndnmtthws/conky\">Conky</a></li>\n<li><a href=\"https://goodies.xfce.org/projects/panel-plugins/xfce4-genmon-plugin\">xfce4-genmon….</a></li>\n</ol>\n<p>Go ahead and install both if you don’t already have them installed. On debian based systems you can use “apt” from the command line or search for both using either synaptic or software centre. Both can be installed on any Linux system using the default package manager of that system. I just happen to be running xubuntu.</p>\n<blockquote>\n<p>sudo apt install conky xfce4-genmon-plugin</p>\n</blockquote>\n<p>Once you have both of those apps installed on your system go ahead and create a single line conky config. Once you’ve got that created and saved, open up and modify your conky config file to make conky output to the terminal only. This can be done by adding the following two lines to your config file.</p>\n<blockquote>\n<p>out _ to _ x no</p>\n<p>out _ to _ console yes</p>\n<h4 id=\"please-remove-the-space-between-_\">Please remove the space between “_”</h4>\n</blockquote>\n<p>Save and close your config file once you’ve added those two lines above. Next you’ll want to set conky to output to a txt file on startup. This can be done easily by launching conky with the following command.</p>\n<blockquote>\n<p>conky -q -c /your/path/to/conkyconfig &gt; /tmp/conky.txt</p>\n</blockquote>\n<p>You can add that above command to a bash script and set the script to run on startup command from within your “Application Autostart” in xfce. The final step is to add xfce4-genmon-plugin to your panel and then use awk to print the txt file to your panel.</p>\n<blockquote>\n<p>awk ‘END{print}’ /tmp/conky.txt</p>\n</blockquote>\n<p>That’s it. You should now have conky displaying within your panel.</p>\n",
             "image": "https://furycd001.github.io/media/posts/38/Conky-xfce4-panel1.png",
             "author": {
@@ -71,7 +70,7 @@
             "id": "https://furycd001.github.io/duckduckgo-over-google/",
             "url": "https://furycd001.github.io/duckduckgo-over-google/",
             "title": "Duckduckgo over google.",
-            "summary": "People share their most intimate secrets with their search engine without even stopping to think. This can be little day to day things, massive life changing events, or just things that make you, pretty much you. All of this personal information should be private,&hellip;",
+            "summary": "People share their most intimate secrets with their search engine without even stopping to think. This can be little day&hellip;",
             "content_html": "<p>People share their most intimate secrets with their search engine without even stopping to think. This can be little day to day things, massive life changing events, or just things that make you, pretty much you. All of this personal information should be private, but with Google it’s not. Google tracks your searches and packs it up into a data profile for advertisers to follow you around the Internet. Some people say that you can simply use incognito mode, but whats the fun in that when you can’t guarantee yourself that it’s actually doing what it’s said to do. To keep your searches private and out of data profiles you should consider using <a href=\"https://start.duckduckgo.com/\">DuckDuckGo.</a> Duck won’t track you one bit, regardless of what browsing mode you are currently running. Every time you do a search with Duck, you start fresh as if it’s your first time and you’ve never visited before. Duck doesn’t store anything that can link you to your searches. For more details you should consider reading their <a href=\"https://duckduckgo.com/privacy\">privacy policy….</a></p>\n",
             "image": "https://furycd001.github.io/media/posts/37/rB9UCny.png",
             "author": {
@@ -90,7 +89,7 @@
             "id": "https://furycd001.github.io/this-isnt-i3/",
             "url": "https://furycd001.github.io/this-isnt-i3/",
             "title": "This isn‘t I3.",
-            "summary": "This isn’t I3…. This is xfce with a no-border theme installed. Here’s how to create your own no-border theme for xfce or possibly any other window manager. Just follow the steps below or download the theme from here GitHub…. You can replace “empty” with&hellip;",
+            "summary": "This isn’t I3…. This is xfce with a no-border theme installed. Here’s how to create your own no-border theme for&hellip;",
             "content_html": "<p>This isn’t I3…. This is xfce with a no-border theme installed.</p>\n<p>Here’s how to create your own no-border theme for xfce or possibly any other window manager. Just follow the steps below or download the theme from here GitHub….</p>\n<ol>\n<li>sudo mkdir -p /usr/share/themes/empty/xfwm4</li>\n</ol>\n<blockquote>\n<p>You can replace “empty” with whatever you want. This will be the name of your theme.</p>\n</blockquote>\n<ol start=\"2\">\n<li>sudo touch /usr/share/themes/empty/xfwm4/themerc</li>\n</ol>\n<blockquote>\n<p>Leave this file blank and your done.</p>\n</blockquote>\n<ol start=\"3\">\n<li>Finished!!</li>\n</ol>\n<blockquote>\n<p>Open up your window manager settings and choose your newly created theme.</p>\n</blockquote>\n",
             "image": "https://furycd001.github.io/media/posts/36/i3.jpeg",
             "author": {
@@ -109,7 +108,7 @@
             "id": "https://furycd001.github.io/turn-a-browser-tab-into-a-minimal-text-editor/",
             "url": "https://furycd001.github.io/turn-a-browser-tab-into-a-minimal-text-editor/",
             "title": "Turn a browser tab into a minimal text editor.",
-            "summary": "You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply copy &amp; paste the code shown below into the url bar of any modern browser and press enter. data:text/html, &lt;body contenteditable style=&quot;font: 2rem/2.0 Ubuntu&hellip;",
+            "summary": "You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply&hellip;",
             "content_html": "<p>You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply copy &amp; paste the code shown below into the url bar of any modern browser and press enter.</p>\n<pre><code class=\"language-html\">data:text/html, &lt;body contenteditable style=&quot;font: 2rem/2.0 Ubuntu Mono;max-width:80rem;margin:0 auto;padding:8rem;&quot;&gt;</code></pre>\n<p>Now you have an awesome, super minimal and lightweight text editor within a tab in your browser. You can customize the style to your liking or just remove it completely. </p>\n",
             "image": "https://furycd001.github.io/media/posts/35/Text-editor-tab.png",
             "author": {
@@ -127,7 +126,7 @@
             "id": "https://furycd001.github.io/tumblr-bans-all-adult-content/",
             "url": "https://furycd001.github.io/tumblr-bans-all-adult-content/",
             "title": "Tumblr bans all adult content.",
-            "summary": "As of December 17th 2018 tumblr will ban all pornography from its website. This is a move that will not only alter how the site is used, but will also show how major online companies set out to restrict which content appears on their&hellip;",
+            "summary": "As of December 17th 2018 tumblr will ban all pornography from its website. This is a move that will not&hellip;",
             "content_html": "<p>As of December 17th 2018 <a href=\"http://tumblr.com/\">tumblr</a> will ban all pornography from its website. This is a move that will not only alter how the site is used, but will also show how major online companies set out to restrict which content appears on their websites. Unlike most major websites, <a href=\"http://tumblr.com/\">tumblr</a> has until now always had a tolerant attitude whenever it comes to legal adult material. The site since it was originally founded back in 2007 has over time gained a reputation as a “somewhat” safe haven for adult themed material and the likes. As a result of this, adult material began to almost flood the site. Over the years <a href=\"http://tumblr.com/\">tumblr</a> has attempted to provide a “safe mode” for younger users &amp; users that do not wish to see adult related content. Safe mode has always been easy to turn off and has never really prevented younger users from seeing adult content. This whole move from <a href=\"http://tumblr.com/\">tumblr</a> comes after its app was removed from the app store….</p>\n",
             "image": "https://furycd001.github.io/media/posts/34/Tumblr.jpg",
             "author": {
@@ -146,7 +145,7 @@
             "id": "https://furycd001.github.io/thunar-not-displaying-thunbnails-on-xfce/",
             "url": "https://furycd001.github.io/thunar-not-displaying-thunbnails-on-xfce/",
             "title": "Thunar not displaying thunbnails on xfce.",
-            "summary": "Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some reason the required packages for displaying thumbnails in thunar are never included and I end up having to install them manually every time. If&hellip;",
+            "summary": "Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some&hellip;",
             "content_html": "<p>Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some reason the required packages for displaying thumbnails in thunar are never included and I end up having to install them manually every time. If like me you ever run into this same problem, here’s how to easily fix it with two simple steps..</p>\n<p><strong>[1]</strong> Install the required packages….</p>\n<blockquote>\n<p>sudo apt-get install tumbler tumbler-plugins-extra ffmpegthumbnailer </p>\n</blockquote>\n<p><strong>[2]</strong> Delete all thumbnail cache….</p>\n<blockquote>\n<p>sudo rm -r ~/.cache/thumbnails/ &amp;&amp; rm -r ~/.thumbnails/</p>\n</blockquote>\n<p>Thumbnails in thunar should now be working again, if not then i’d recommending visiting <a href=\"https://freenode.linux.community/\">#linux</a> over on <a href=\"http://freenode.net/\">freenode irc</a>, or the community forums for whatever distro you happen to use.</p>\n",
             "image": "https://furycd001.github.io/media/posts/33/Thumbnails.png",
             "author": {
@@ -165,7 +164,7 @@
             "id": "https://furycd001.github.io/styling-multiple-html-links-with-css/",
             "url": "https://furycd001.github.io/styling-multiple-html-links-with-css/",
             "title": "Styling multiple html links with css.",
-            "summary": "You can style multiple html links differently on the same page simply by adding a class to the link &amp; then some css. For example the two linsk below would be styled with the css that follows…. &lt;a href=“something dot html” class=“newclass”&gt;Link text&lt;/a&gt;&lt;a href=“somethingv1&hellip;",
+            "summary": "You can style multiple html links differently on the same page simply by adding a class to the link &amp;&hellip;",
             "content_html": "<p>You can style multiple html links differently on the same page simply by adding a class to the link &amp; then some css. For example the two linsk below would be styled with the css that follows….</p>\n<h2 id=\"html\">HTML</h2>\n<pre><code class=\"language-html\">&lt;a href=“something dot html” class=“newclass”&gt;Link text&lt;/a&gt;\n&lt;a href=“somethingv1 dot html” class=“anothernewclass”&gt;More link text&lt;/a&gt;</code></pre>\n<h2 id=\"css\">CSS</h2>\n<pre><code class=\"language-css\">a.newclass:link {\ncolor: #444444;\ntext-decoration: none;\n}\n\na.newclass:visited {\ncolor: #444444;\ntext-decoration: none;\n}\n\na.newclass:hover {\ncolor: #f2f2f2;\ntext-decoration: none;\n    }\n\na.newclass:active {\ncolor: #444444;\ntext-decoration: none;\n}\n\na.anothernewclass:link {\ncolor: #f2f2f2;\ntext-decoration: none;\n}\n\na.anothernewclass:visited {\ncolor: #f2f2f2;\ntext-decoration: none;\n}\n\na.anothernewclass:hover {\ncolor: #222222;\ntext-decoration: none;\n}\n\na.anothernewclass:active {\ncolor: #f2f2f2;\ntext-decoration: none;\n}</code></pre>\n",
             "image": "https://furycd001.github.io/media/posts/32/Code.jpeg",
             "author": {
@@ -184,7 +183,7 @@
             "id": "https://furycd001.github.io/there-are-no-themes-just-css/",
             "url": "https://furycd001.github.io/there-are-no-themes-just-css/",
             "title": "There are no themes, just CSS.",
-            "summary": " Gnome developer “Tobias Bernard” has wrote a lengthily post on his blog about how people have thought that GTK 3 supports theming. This is not true, as there is only CSS stylesheets. These CSS stylesheets were only ever meant to be used by&hellip;",
+            "summary": " Gnome developer “Tobias Bernard” has wrote a lengthily post on his blog about how people have thought that GTK&hellip;",
             "content_html": "<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"https://i.imgur.com/2gVqbEc.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<p>Gnome developer <a href=\"https://blogs.gnome.org/tbernard/\">“Tobias Bernard”</a> has wrote a lengthily post on his blog about how people have thought that GTK 3 supports theming. This is not true, as there is only CSS stylesheets. These CSS stylesheets were only ever meant to be used by the platform and app developers. The platform stylesheet is called Adwaita. <a href=\"https://blogs.gnome.org/tbernard/2018/10/15/restyling-apps-at-scale/\">You can check out the full post over on his blog.</a> It’s totally worth reading &amp; he has some other interesting post work checking out too….</p>\n",
             "image": "https://furycd001.github.io/media/posts/31/Adwaita.png",
             "author": {
