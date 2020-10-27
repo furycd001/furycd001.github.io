@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2020-10-26T06:43:37+00:00</updated>
+    <updated>2020-10-27T07:36:53+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -115,7 +115,7 @@
             <category term="Xfce4"/>
             <category term="Conky"/>
 
-        <updated>2020-10-26T06:42:26+00:00</updated>
+        <updated>2020-10-27T07:36:53+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/38/Conky-xfce4-panel1.png" alt="Conky inside xfce4-panel...." />
@@ -135,11 +135,8 @@
 <p>sudo apt install conky xfce4-genmon-plugin</p>
 </blockquote>
 <p>Once you have both of those apps installed on your system go ahead and create a single line conky config. Once you’ve got that created and saved, open up and modify your conky config file to make conky output to the terminal only. This can be done by adding the following two lines to your config file.</p>
-<blockquote>
-<p>out _ to _ x no</p>
-<p>out _ to _ console yes</p>
-<h4 id="please-remove-the-space-between-_">Please remove the space between “_”</h4>
-</blockquote>
+<pre><code class="language-bash">out_to_x no
+out_to_console yes</code></pre>
 <p>Save and close your config file once you’ve added those two lines above. Next you’ll want to set conky to output to a txt file on startup. This can be done easily by launching conky with the following command.</p>
 <blockquote>
 <p>conky -q -c /your/path/to/conkyconfig &gt; /tmp/conky.txt</p>
