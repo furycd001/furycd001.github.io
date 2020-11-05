@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2020-10-27T07:38:30+00:00</updated>
+    <updated>2020-11-05T10:08:15+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -21,7 +21,7 @@
             <category term="Ubuntu"/>
             <category term="Linux"/>
 
-        <updated>2020-10-24T08:57:16+01:00</updated>
+        <updated>2020-11-05T10:01:51+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/40/Ubuntur.jpg" alt="Ubuntu releases...." />
@@ -43,15 +43,11 @@
 <ul>
 <li>First make sure that everything is up to date &amp; that you have update-manager-core installed. You can do so by running the following command….</li>
 </ul>
-<blockquote>
-<p>sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade &amp;&amp; sudo apt-get install update-manager-core</p>
-</blockquote>
+<pre><code class="language-bash">sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade &amp;&amp; sudo apt-get install update-manager-core</code></pre>
 <ul>
 <li>Next you can issue the following command to search for a new Ubuntu version….</li>
 </ul>
-<blockquote>
-<p>sudo do-release-upgrade</p>
-</blockquote>
+<pre><code class="language-bash">sudo do-release-upgrade</code></pre>
 <ul>
 <li><p>Any required files will be download &amp; you will be prompt to install them. If you wish to upgrade press y &amp; then hit enter on your keyboard. It may take some time to download everything….</p>
 </li>
@@ -74,7 +70,7 @@
             <category term="Ubuntu"/>
             <category term="Linux"/>
 
-        <updated>2020-10-24T08:54:58+01:00</updated>
+        <updated>2020-11-05T10:04:24+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/39/Ubuntu.jpg" alt="Ubuntu...." />
@@ -94,10 +90,8 @@
 <li>Wanting to get your software ready for the new version….</li>
 </ul>
 <p>If you wish to upgrade early you can do so either via GUI or command line. All you have to do is launch the update manager with the “-d” perimeter at the end. See below for the commands that you can enter into your terminal. The first one is for upgrading via GUI &amp; the second one is for upgrading via the terminal. Remember to enter your user password whenever prompt.</p>
-<ul>
-<li>sudo update-manager -d</li>
-<li>sudo do-release-upgrade -d</li>
-</ul>
+<pre><code class="language-bash">sudo update-manager -d &amp;&amp; \
+sudo do-release-upgrade -d</code></pre>
 <p>Upgrading early should be pretty straight forward, but just like any upgrade, always remember to backup your needed data before you begin the upgrade process.</p>
 
             ]]>
@@ -115,7 +109,7 @@
             <category term="Xfce4"/>
             <category term="Conky"/>
 
-        <updated>2020-10-27T07:38:30+00:00</updated>
+        <updated>2020-11-05T10:04:51+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/38/Conky-xfce4-panel1.png" alt="Conky inside xfce4-panel...." />
@@ -131,9 +125,7 @@
 <li><a href="https://goodies.xfce.org/projects/panel-plugins/xfce4-genmon-plugin">xfce4-genmon….</a></li>
 </ol>
 <p>Go ahead and install both if you don’t already have them installed. On debian based systems you can use “apt” from the command line or search for both using either synaptic or software centre. Both can be installed on any Linux system using the default package manager of that system. I just happen to be running xubuntu.</p>
-<blockquote>
-<p>sudo apt install conky xfce4-genmon-plugin</p>
-</blockquote>
+<pre><code class="language-bash">sudo apt install conky xfce4-genmon-plugin</code></pre>
 <p>Once you have both of those apps installed on your system go ahead and create a single line conky config. Once you’ve got that created and saved, open up and modify your conky config file to make conky output to the terminal only. This can be done by adding the following two lines to your config file.</p>
 <pre><code class="language-bash">out_to_x no
 out_to_console yes</code></pre>
@@ -286,7 +278,7 @@ out_to_console yes</code></pre>
             <category term="Thunar"/>
             <category term="Linux"/>
 
-        <updated>2020-10-26T06:43:37+00:00</updated>
+        <updated>2020-11-05T10:08:15+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/33/Thumbnails.png" alt="Thunar...." />
@@ -298,13 +290,9 @@ out_to_console yes</code></pre>
                     <img src="https://furycd001.github.io/media/posts/33/Thumbnails.png" alt="Thunar...." />
                 <p>Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some reason the required packages for displaying thumbnails in thunar are never included and I end up having to install them manually every time. If like me you ever run into this same problem, here’s how to easily fix it with two simple steps..</p>
 <p><strong>[1]</strong> Install the required packages….</p>
-<blockquote>
-<p>sudo apt-get install tumbler tumbler-plugins-extra ffmpegthumbnailer </p>
-</blockquote>
+<pre><code class="language-bash">sudo apt-get install tumbler tumbler-plugins-extra ffmpegthumbnailer </code></pre>
 <p><strong>[2]</strong> Delete all thumbnail cache….</p>
-<blockquote>
-<p>sudo rm -r ~/.cache/thumbnails/ &amp;&amp; rm -r ~/.thumbnails/</p>
-</blockquote>
+<pre><code class="language-bash">sudo rm -r ~/.cache/thumbnails/ &amp;&amp; rm -r ~/.thumbnails/</code></pre>
 <p>Thumbnails in thunar should now be working again, if not then i’d recommending visiting <a href="https://freenode.linux.community/">#linux</a> over on <a href="http://freenode.net/">freenode irc</a>, or the community forums for whatever distro you happen to use.</p>
 
             ]]>
