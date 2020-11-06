@@ -3,12 +3,61 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2020-11-05T10:08:15+00:00</updated>
+    <updated>2020-11-06T10:20:36+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Turning ubuntu into a rolling release distro with rolling rhino.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/turning-ubuntu-into-a-rolling-release-distro-with-rolling-rhino/"/>
+        <id>https://furycd001.github.io/turning-ubuntu-into-a-rolling-release-distro-with-rolling-rhino/</id>
+            <category term="Xubuntu"/>
+            <category term="Ubuntu"/>
+            <category term="Rolling release"/>
+            <category term="Rolling Rhino"/>
+            <category term="Lubuntu"/>
+            <category term="Linux"/>
+
+        <updated>2020-11-06T10:20:36+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/41/logo.png" alt="Rolling Rhino Logo" />
+                    Using any of the daily images provided by ubuntu along with Rolling Rhino, you can convert any ubuntu daily installation&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/41/logo.png" alt="Rolling Rhino Logo" />
+                <p>Using any of the <a href="http://cdimage.ubuntu.com/xubuntu/daily-live/current/"><strong>daily images</strong></a> provided by ubuntu along with <a href="https://github.com/wimpysworld/rolling-rhino">Rolling Rhino</a>, you can convert any ubuntu daily installation into a somewhat rolling release distro. This is mainly intended for developers &amp; users who would consider themselves experienced, so if you’d like to give this a try I’d recommend installing this on an external drive, testing computer or inside a vm.  </p>
+<h4 id="getting-started">Getting started..</h4>
+<p>Getting started is as easy as downloading &amp; installing one of the daily images.</p>
+<ul>
+<li><a href="http://cdimage.ubuntu.com/daily-live/current/"><strong>Ubuntu</strong></a></li>
+<li><a href="http://cdimage.ubuntu.com/kubuntu/daily-live/current/"><strong>Kubuntu</strong></a></li>
+<li><a href="http://cdimage.ubuntu.com/lubuntu/daily-live/current/"><strong>Lubuntu</strong></a></li>
+<li><a href="http://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/"><strong>Ubuntu Budgie</strong></a></li>
+<li><a href="http://cdimage.ubuntu.com/ubuntukylin/daily-live/current/"><strong>Ubuntu Kylin</strong></a></li>
+<li><a href="http://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/"><strong>Ubuntu Mate</strong></a></li>
+<li><a href="http://cdimage.ubuntu.com/ubuntustudio/dvd/current/"><strong>Ubuntu Studio</strong></a></li>
+<li><a href="http://cdimage.ubuntu.com/xubuntu/daily-live/current/"><strong>Xubuntu</strong></a></li>
+</ul>
+<h4 id="converting-the-newly-installed-os-to-rolling-release">Converting the newly installed os to rolling release.</h4>
+<p>Firstly you’ll want to install git.</p>
+<pre><code class="language-bash">sudo apt install git</code></pre>
+<p>Once you have git installed use it to download rolling rhino.</p>
+<pre><code class="language-bash">git clone https://github.com/wimpysworld/rolling-rhino.git</code></pre>
+<p>Finally <em>cd</em> into the rolling rhino directory &amp; execute the installation script.</p>
+<pre><code class="language-bash">cd rolling-rhino &amp;&amp; sudo ./rolling-rhino</code></pre>
+<p>Let the script do it’s thing &amp; then reboot the system once it finishes. With the system rebooted you should now be running ubuntu as a rolling release distro.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Upgrade to a new Ubuntu version.</title>
         <author>
@@ -364,35 +413,6 @@ a.anothernewclass:active {
 color: #f2f2f2;
 text-decoration: none;
 }</code></pre>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>There are no themes, just CSS.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/there-are-no-themes-just-css/"/>
-        <id>https://furycd001.github.io/there-are-no-themes-just-css/</id>
-            <category term="Themes"/>
-            <category term="Opensource"/>
-            <category term="Linux"/>
-            <category term="Gnome"/>
-            <category term="Css"/>
-
-        <updated>2020-10-24T08:48:43+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/31/Adwaita.png" alt="Adwaita...." />
-                     Gnome developer “Tobias Bernard” has wrote a lengthily post on his blog about how people have thought that GTK&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/31/Adwaita.png" alt="Adwaita...." />
-                <p><figure class="post__image"><img loading="lazy" src="https://i.imgur.com/2gVqbEc.png" data-is-external-image="true"  alt="alt text" /></figure></p>
-<p>Gnome developer <a href="https://blogs.gnome.org/tbernard/">“Tobias Bernard”</a> has wrote a lengthily post on his blog about how people have thought that GTK 3 supports theming. This is not true, as there is only CSS stylesheets. These CSS stylesheets were only ever meant to be used by the platform and app developers. The platform stylesheet is called Adwaita. <a href="https://blogs.gnome.org/tbernard/2018/10/15/restyling-apps-at-scale/">You can check out the full post over on his blog.</a> It’s totally worth reading &amp; he has some other interesting post work checking out too….</p>
 
             ]]>
         </content>
