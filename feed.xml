@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2020-11-08T09:39:12+00:00</updated>
+    <updated>2020-11-10T10:22:58+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="Lubuntu"/>
             <category term="Linux"/>
 
-        <updated>2020-11-08T09:39:12+00:00</updated>
+        <updated>2020-11-10T10:22:58+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/41/logo.png" alt="Rolling Rhino Logo" />
@@ -33,7 +33,7 @@
         <content type="html">
             <![CDATA[
                     <img src="https://furycd001.github.io/media/posts/41/logo.png" alt="Rolling Rhino Logo" />
-                <p>Using any of the <a href="http://cdimage.ubuntu.com/xubuntu/daily-live/current/"><strong>daily images</strong></a> provided by ubuntu along with <a href="https://github.com/wimpysworld/rolling-rhino"><strong>Rolling Rhino</strong></a>, you can convert any ubuntu daily installation into a somewhat rolling release distro. This is mainly intended for developers &amp; users who would consider themselves experienced, so if you’d like to give this a try I’d recommend installing this on an external drive, testing computer or inside a vm.  </p>
+                <p>Using any of the <a href="http://cdimage.ubuntu.com/xubuntu/daily-live/current/"><strong>daily images</strong></a> provided by ubuntu along with <a href="https://github.com/wimpysworld/rolling-rhino"><strong>Rolling Rhino</strong></a>, you can convert any ubuntu daily installation into a somewhat rolling release distro. This is mainly intended for developers &amp; users who would consider themselves experienced, so unless that’s you I’d recommend installing this on an external drive, testing computer or even inside a vm.  </p>
 <h4 id="getting-started">Getting started..</h4>
 <p>Getting started is as easy as downloading &amp; installing one of the daily images.</p>
 <ul>
