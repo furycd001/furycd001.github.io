@@ -10,6 +10,46 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/generating-websites-easily-within-a-browser/",
+            "url": "https://furycd001.github.io/generating-websites-easily-within-a-browser/",
+            "title": "Generating websites easily within a browser.",
+            "summary": "In 2020 there’s definitely no shortage of ways for creating websites without any coding knowledge. Two ways that keep appearing&hellip;",
+            "content_html": "<p>In 2020 there’s definitely no shortage of ways for creating websites without any coding knowledge. Two ways that keep appearing for me are <a href=\"https://stitches.hyperyolo.com/\"><strong>stitches</strong></a> &amp; <a href=\"https://t3mpl.n4no.com/\"><strong>T3mpl</strong></a>. Both are super simple, easy to use &amp; work straight from within a browser tab. By using either you can have an amazing website created in a matter of minutes. Stitches is completely drag &amp; drop were as t3mpl give’s you a few preset template’s that you can edit / customization. Give them both a try whenever you next need to design a website.</p>\n",
+            "image": "https://furycd001.github.io/media/posts/43/web.jpg",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Webpage",
+                   "Web browser",
+                   "Web",
+                   "Html",
+                   "Code"
+            ],
+            "date_published": "2020-11-10T12:03:06+00:00",
+            "date_modified": "2020-11-10T12:15:25+00:00"
+        },
+        {
+            "id": "https://furycd001.github.io/tweek-a-calendar-app-with-only-one-view/",
+            "url": "https://furycd001.github.io/tweek-a-calendar-app-with-only-one-view/",
+            "title": "Tweek.. A Calendar app with only one view.",
+            "summary": "Tweek is a calendar app that only has one view &amp; that’s weekly. It’s minimalist from design perspective, but packs&hellip;",
+            "content_html": "<p><a href=\"https://tweek.so/\"><strong>Tweek</strong></a> is a calendar app that only has one view &amp; that’s weekly. It’s minimalist from design perspective, but packs a whole bunch of features that you’ll find useful. You can access &amp; use tweek from any desktop web browser, or you download the app from <a href=\"https://play.google.com/store/apps/details?id=so.tweek.android\"><strong>google play</strong></a> or the <a href=\"https://apps.apple.com/lv/app/tweek-to-do-weekly-calendar/id1535438855\"><strong>apple app store</strong></a>. Creating an account is free &amp; once you’ve signed in saving calendars is a breeze. Give it a try today if you’d like to try a calendar that’s a little different in a good way.</p>\n",
+            "image": "https://furycd001.github.io/media/posts/42/tweek.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Tweek",
+                   "Mobile",
+                   "Minimal",
+                   "Calendar",
+                   "Apps"
+            ],
+            "date_published": "2020-11-10T11:56:33+00:00",
+            "date_modified": "2020-11-10T12:03:28+00:00"
+        },
+        {
             "id": "https://furycd001.github.io/turning-ubuntu-into-a-rolling-release-distro-with-rolling-rhino/",
             "url": "https://furycd001.github.io/turning-ubuntu-into-a-rolling-release-distro-with-rolling-rhino/",
             "title": "Turning ubuntu into a rolling release distro with rolling rhino.",
@@ -161,44 +201,6 @@
             ],
             "date_published": "2020-10-23T08:29:18+01:00",
             "date_modified": "2020-10-26T06:43:28+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/thunar-not-displaying-thunbnails-on-xfce/",
-            "url": "https://furycd001.github.io/thunar-not-displaying-thunbnails-on-xfce/",
-            "title": "Thunar not displaying thunbnails on xfce.",
-            "summary": "Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some&hellip;",
-            "content_html": "<p>Thunar not displaying thumbnails is a problem I regularly run into whenever I do a minimal xfce install. For some reason the required packages for displaying thumbnails in thunar are never included and I end up having to install them manually every time. If like me you ever run into this same problem, here’s how to easily fix it with two simple steps..</p>\n<p><strong>[1]</strong> Install the required packages….</p>\n<pre><code class=\"language-bash\">sudo apt-get install tumbler tumbler-plugins-extra ffmpegthumbnailer </code></pre>\n<p><strong>[2]</strong> Delete all thumbnail cache….</p>\n<pre><code class=\"language-bash\">sudo rm -r ~/.cache/thumbnails/ &amp;&amp; rm -r ~/.thumbnails/</code></pre>\n<p>Thumbnails in thunar should now be working again, if not then i’d recommending visiting <a href=\"https://freenode.linux.community/\">#linux</a> over on <a href=\"http://freenode.net/\">freenode irc</a>, or the community forums for whatever distro you happen to use.</p>\n",
-            "image": "https://furycd001.github.io/media/posts/33/Thumbnails.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Xfce4",
-                   "Ubuntu",
-                   "Thunar",
-                   "Linux"
-            ],
-            "date_published": "2020-10-23T08:28:29+01:00",
-            "date_modified": "2020-11-05T10:08:15+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/styling-multiple-html-links-with-css/",
-            "url": "https://furycd001.github.io/styling-multiple-html-links-with-css/",
-            "title": "Styling multiple html links with css.",
-            "summary": "You can style multiple html links differently on the same page simply by adding a class to the link &amp;&hellip;",
-            "content_html": "<p>You can style multiple html links differently on the same page simply by adding a class to the link &amp; then some css. For example the two linsk below would be styled with the css that follows….</p>\n<h2 id=\"html\">HTML</h2>\n<pre><code class=\"language-html\">&lt;a href=“something dot html” class=“newclass”&gt;Link text&lt;/a&gt;\n&lt;a href=“somethingv1 dot html” class=“anothernewclass”&gt;More link text&lt;/a&gt;</code></pre>\n<h2 id=\"css\">CSS</h2>\n<pre><code class=\"language-css\">a.newclass:link {\ncolor: #444444;\ntext-decoration: none;\n}\n\na.newclass:visited {\ncolor: #444444;\ntext-decoration: none;\n}\n\na.newclass:hover {\ncolor: #f2f2f2;\ntext-decoration: none;\n    }\n\na.newclass:active {\ncolor: #444444;\ntext-decoration: none;\n}\n\na.anothernewclass:link {\ncolor: #f2f2f2;\ntext-decoration: none;\n}\n\na.anothernewclass:visited {\ncolor: #f2f2f2;\ntext-decoration: none;\n}\n\na.anothernewclass:hover {\ncolor: #222222;\ntext-decoration: none;\n}\n\na.anothernewclass:active {\ncolor: #f2f2f2;\ntext-decoration: none;\n}</code></pre>\n",
-            "image": "https://furycd001.github.io/media/posts/32/Code.jpeg",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Web",
-                   "Html",
-                   "Css",
-                   "Code"
-            ],
-            "date_published": "2020-10-23T08:23:41+01:00",
-            "date_modified": "2020-10-24T08:49:37+01:00"
         }
     ]
 }
