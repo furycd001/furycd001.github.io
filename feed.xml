@@ -3,12 +3,54 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2020-11-11T13:54:08+00:00</updated>
+    <updated>2020-11-12T08:50:49+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Gabriele Musco.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/gabriele-musco/"/>
+        <id>https://furycd001.github.io/gabriele-musco/</id>
+            <category term="Python"/>
+            <category term="Gtk"/>
+            <category term="Gnome"/>
+            <category term="Apps"/>
+
+        <updated>2020-11-12T08:50:49+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/44/gnome.jpg" alt="" />
+                    Say hey to Gabriele Musco. He’s been developing some awesome apps for the gnome desktop. His apps are created with&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/44/gnome.jpg" alt="" />
+                <p>Say hey to <a href="https://gitlab.gnome.org/GabMus"><strong>Gabriele Musco</strong></a>. He’s been developing some awesome apps for the gnome desktop. His apps are created with Python 3 &amp; GTK+ 3. They are free, modern, awesome &amp; completely open source….</p>
+<h4 id="giara"><a href="https://giara.gabmus.org/"><strong>Giara</strong></a></h4>
+<p>A modern app for Reddit.
+<figure class="post__image"><img loading="lazy" src="https://i.imgur.com/BjVC87J.png" data-is-external-image="true"  alt="alt text" /></figure></p>
+<h4 id="feeds"><a href="https://gfeeds.gabmus.org/"><strong>Feeds</strong></a></h4>
+<p>A news reader for the gnome desktop.
+<figure class="post__image"><img loading="lazy" src="https://i.imgur.com/1f8uQaN.png" data-is-external-image="true"  alt="alt text" /></figure></p>
+<h4 id="hydrapaper"><a href="https://hydrapaper.gabmus.org/"><strong>HydraPaper</strong></a></h4>
+<p>A app for the gnome desktop that adds multi monitor support to setting desktop wallpapers. 
+<figure class="post__image"><img loading="lazy" src="https://i.imgur.com/a1K4J6I.png" data-is-external-image="true"  alt="alt text" /></figure></p>
+<h4 id="notorious"><a href="https://notorious.gabmus.org/"><strong>Notorious</strong></a></h4>
+<p>A todo app that is keyboard centric.
+<figure class="post__image"><img loading="lazy" src="https://i.imgur.com/IFaqX66.png" data-is-external-image="true"  alt="alt text" /></figure></p>
+<h4 id="what-ip"><a href="https://gabmus.gitlab.io/whatip/"><strong>What IP</strong></a></h4>
+<p>An app that provides network information.
+<figure class="post__image"><img loading="lazy" src="https://i.imgur.com/v9gDwG4.png" data-is-external-image="true"  alt="alt text" /></figure></p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Generating websites easily within a browser.</title>
         <author>
@@ -340,33 +382,6 @@ out_to_console yes</code></pre>
                 <p>You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply copy &amp; paste the code shown below into the url bar of any modern browser and press enter.</p>
 <pre><code class="language-html">data:text/html, &lt;body contenteditable style=&quot;font: 2rem/2.0 Ubuntu Mono;max-width:80rem;margin:0 auto;padding:8rem;&quot;&gt;</code></pre>
 <p>Now you have an awesome, super minimal and lightweight text editor within a tab in your browser. You can customize the style to your liking or just remove it completely. </p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Tumblr bans all adult content.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/tumblr-bans-all-adult-content/"/>
-        <id>https://furycd001.github.io/tumblr-bans-all-adult-content/</id>
-            <category term="Web"/>
-            <category term="Tumblr"/>
-            <category term="Blog"/>
-            <category term="Banned"/>
-
-        <updated>2020-10-26T06:43:28+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/34/Tumblr.jpg" alt="Tumblr...." />
-                    As of December 17th 2018 tumblr will ban all pornography from its website. This is a move that will not&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/34/Tumblr.jpg" alt="Tumblr...." />
-                <p>As of December 17th 2018 <a href="http://tumblr.com/">tumblr</a> will ban all pornography from its website. This is a move that will not only alter how the site is used, but will also show how major online companies set out to restrict which content appears on their websites. Unlike most major websites, <a href="http://tumblr.com/">tumblr</a> has until now always had a tolerant attitude whenever it comes to legal adult material. The site since it was originally founded back in 2007 has over time gained a reputation as a “somewhat” safe haven for adult themed material and the likes. As a result of this, adult material began to almost flood the site. Over the years <a href="http://tumblr.com/">tumblr</a> has attempted to provide a “safe mode” for younger users &amp; users that do not wish to see adult related content. Safe mode has always been easy to turn off and has never really prevented younger users from seeing adult content. This whole move from <a href="http://tumblr.com/">tumblr</a> comes after its app was removed from the app store….</p>
 
             ]]>
         </content>

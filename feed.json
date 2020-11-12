@@ -10,6 +10,25 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/gabriele-musco/",
+            "url": "https://furycd001.github.io/gabriele-musco/",
+            "title": "Gabriele Musco.",
+            "summary": "Say hey to Gabriele Musco. He’s been developing some awesome apps for the gnome desktop. His apps are created with&hellip;",
+            "content_html": "<p>Say hey to <a href=\"https://gitlab.gnome.org/GabMus\"><strong>Gabriele Musco</strong></a>. He’s been developing some awesome apps for the gnome desktop. His apps are created with Python 3 &amp; GTK+ 3. They are free, modern, awesome &amp; completely open source….</p>\n<h4 id=\"giara\"><a href=\"https://giara.gabmus.org/\"><strong>Giara</strong></a></h4>\n<p>A modern app for Reddit.\n<figure class=\"post__image\"><img loading=\"lazy\" src=\"https://i.imgur.com/BjVC87J.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<h4 id=\"feeds\"><a href=\"https://gfeeds.gabmus.org/\"><strong>Feeds</strong></a></h4>\n<p>A news reader for the gnome desktop.\n<figure class=\"post__image\"><img loading=\"lazy\" src=\"https://i.imgur.com/1f8uQaN.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<h4 id=\"hydrapaper\"><a href=\"https://hydrapaper.gabmus.org/\"><strong>HydraPaper</strong></a></h4>\n<p>A app for the gnome desktop that adds multi monitor support to setting desktop wallpapers. \n<figure class=\"post__image\"><img loading=\"lazy\" src=\"https://i.imgur.com/a1K4J6I.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<h4 id=\"notorious\"><a href=\"https://notorious.gabmus.org/\"><strong>Notorious</strong></a></h4>\n<p>A todo app that is keyboard centric.\n<figure class=\"post__image\"><img loading=\"lazy\" src=\"https://i.imgur.com/IFaqX66.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<h4 id=\"what-ip\"><a href=\"https://gabmus.gitlab.io/whatip/\"><strong>What IP</strong></a></h4>\n<p>An app that provides network information.\n<figure class=\"post__image\"><img loading=\"lazy\" src=\"https://i.imgur.com/v9gDwG4.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n",
+            "image": "https://furycd001.github.io/media/posts/44/gnome.jpg",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Python",
+                   "Gtk",
+                   "Gnome",
+                   "Apps"
+            ],
+            "date_published": "2020-11-12T08:50:49+00:00",
+            "date_modified": "2020-11-12T08:50:49+00:00"
+        },
+        {
             "id": "https://furycd001.github.io/generating-websites-easily-within-a-browser/",
             "url": "https://furycd001.github.io/generating-websites-easily-within-a-browser/",
             "title": "Generating websites easily within a browser.",
@@ -182,25 +201,6 @@
             ],
             "date_published": "2020-10-23T08:29:53+01:00",
             "date_modified": "2020-10-26T06:43:19+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/tumblr-bans-all-adult-content/",
-            "url": "https://furycd001.github.io/tumblr-bans-all-adult-content/",
-            "title": "Tumblr bans all adult content.",
-            "summary": "As of December 17th 2018 tumblr will ban all pornography from its website. This is a move that will not&hellip;",
-            "content_html": "<p>As of December 17th 2018 <a href=\"http://tumblr.com/\">tumblr</a> will ban all pornography from its website. This is a move that will not only alter how the site is used, but will also show how major online companies set out to restrict which content appears on their websites. Unlike most major websites, <a href=\"http://tumblr.com/\">tumblr</a> has until now always had a tolerant attitude whenever it comes to legal adult material. The site since it was originally founded back in 2007 has over time gained a reputation as a “somewhat” safe haven for adult themed material and the likes. As a result of this, adult material began to almost flood the site. Over the years <a href=\"http://tumblr.com/\">tumblr</a> has attempted to provide a “safe mode” for younger users &amp; users that do not wish to see adult related content. Safe mode has always been easy to turn off and has never really prevented younger users from seeing adult content. This whole move from <a href=\"http://tumblr.com/\">tumblr</a> comes after its app was removed from the app store….</p>\n",
-            "image": "https://furycd001.github.io/media/posts/34/Tumblr.jpg",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Web",
-                   "Tumblr",
-                   "Blog",
-                   "Banned"
-            ],
-            "date_published": "2020-10-23T08:29:18+01:00",
-            "date_modified": "2020-10-26T06:43:28+00:00"
         }
     ]
 }
