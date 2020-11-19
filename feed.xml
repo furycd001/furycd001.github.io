@@ -3,12 +3,94 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2020-11-12T08:50:49+00:00</updated>
+    <updated>2020-11-19T09:21:45+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Linux zen kernel....</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/linux-zen-kernel/"/>
+        <id>https://furycd001.github.io/linux-zen-kernel/</id>
+            <category term="Ubuntu"/>
+            <category term="Linux Kernel"/>
+            <category term="Linux"/>
+
+        <updated>2020-11-19T09:21:45+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/46/linux-tux-minimalism-4k-42.jpg" alt="" />
+                    The Linux zen kernel is a kernel replacement built using the best configuration and kernel sources for use on everyday&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/46/linux-tux-minimalism-4k-42.jpg" alt="" />
+                <p>The <a href="https://liquorix.net/">Linux zen kernel</a> is a kernel replacement built using the best configuration and kernel sources for use on everyday systems. I Know that installing a custom kernel might not be for everyone, but at some point you may want to try getting better performance when gaming or performing multimedia tasks &amp; this might be a great option to look into.</p>
+<p>To install this kernel on Ubuntu based systems you only need to do three things.</p>
+<ol>
+<li><p>Add the ppa &amp; update your sources….</p>
+<pre><code class="language-bash">sudo add-apt-repository ppa:damentz/liquorix &amp;&amp; sudo apt-get update</code></pre>
+</li>
+<li><p>Install the meta-packages….</p>
+<pre><code class="language-bash">sudo apt-get install linux-image-liquorix-amd64 linux-headers-liquorix-amd64</code></pre>
+</li>
+<li><p>Reboot and start using the zen kernel….</p>
+</li>
+</ol>
+<blockquote>
+<p>On arch based oses the zen kernel is available within the repos. There’s also packages available for almost any other Linux distro like slackware, gentoo, opensuse or fedora <em>(just to name a few)</em>.</p>
+</blockquote>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Temporarily removing Kernel modules.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/temporarily-removing-kernel-modules/"/>
+        <id>https://furycd001.github.io/temporarily-removing-kernel-modules/</id>
+            <category term="Terminal"/>
+            <category term="Linux Kernel"/>
+            <category term="Linux"/>
+
+        <updated>2020-11-19T09:02:29+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/45/linux-tux-minimalism-4k-42.jpg" alt="" />
+                    For whatever reason you may want to temporarily remove a kernel module. This can be done super easily with the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/45/linux-tux-minimalism-4k-42.jpg" alt="" />
+                <p>For whatever reason you may want to temporarily remove a kernel module. This can be done super easily with the following set of commands &amp; doesn’t take very long..</p>
+<ol>
+<li><p>Start by opening up a new terminal window &amp; running <code>lsmod</code> to list all the modules that are currently loaded….</p>
+</li>
+<li><p>Next run <code>modinfo modulenamehere</code> to view the details of a module….</p>
+<blockquote>
+<p>Replace “modulenamehere” with the actual name of the module..</p>
+</blockquote>
+</li>
+<li><p>Finally run <code>rmmod modulenamehere</code> to remove the module….</p>
+<blockquote>
+<p>Note that you’ll only see output in the terminal if something goes wrong..</p>
+</blockquote>
+</li>
+</ol>
+<p>If you don’t see any output from that last command, then everything has worked correctly &amp; you have just successfully removed a kernel module temporarily.</p>
+<p>To insert the module back into the kernel you can either run <code>insmod modulenamehere</code> or reboot your system.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Gabriele Musco.</title>
         <author>
@@ -308,80 +390,6 @@ out_to_console yes</code></pre>
             <![CDATA[
                     <img src="https://furycd001.github.io/media/posts/37/rB9UCny.png" alt="Duckduckgo...." />
                 <p>People share their most intimate secrets with their search engine without even stopping to think. This can be little day to day things, massive life changing events, or just things that make you, pretty much you. All of this personal information should be private, but with Google it’s not. Google tracks your searches and packs it up into a data profile for advertisers to follow you around the Internet. Some people say that you can simply use incognito mode, but whats the fun in that when you can’t guarantee yourself that it’s actually doing what it’s said to do. To keep your searches private and out of data profiles you should consider using <a href="https://start.duckduckgo.com/">DuckDuckGo.</a> Duck won’t track you one bit, regardless of what browsing mode you are currently running. Every time you do a search with Duck, you start fresh as if it’s your first time and you’ve never visited before. Duck doesn’t store anything that can link you to your searches. For more details you should consider reading their <a href="https://duckduckgo.com/privacy">privacy policy….</a></p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>This isn‘t I3.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/this-isnt-i3/"/>
-        <id>https://furycd001.github.io/this-isnt-i3/</id>
-            <category term="Xfwm"/>
-            <category term="Xfce4"/>
-            <category term="Window manager"/>
-            <category term="I3"/>
-
-        <updated>2020-10-26T06:43:11+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/36/i3.jpeg" alt="Empty...." />
-                    This isn’t I3…. This is xfce with a no-border theme installed. Here’s how to create your own no-border theme for&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/36/i3.jpeg" alt="Empty...." />
-                <p>This isn’t I3…. This is xfce with a no-border theme installed.</p>
-<p>Here’s how to create your own no-border theme for xfce or possibly any other window manager. Just follow the steps below or download the theme from here GitHub….</p>
-<ol>
-<li>sudo mkdir -p /usr/share/themes/empty/xfwm4</li>
-</ol>
-<blockquote>
-<p>You can replace “empty” with whatever you want. This will be the name of your theme.</p>
-</blockquote>
-<ol start="2">
-<li>sudo touch /usr/share/themes/empty/xfwm4/themerc</li>
-</ol>
-<blockquote>
-<p>Leave this file blank and your done.</p>
-</blockquote>
-<ol start="3">
-<li>Finished!!</li>
-</ol>
-<blockquote>
-<p>Open up your window manager settings and choose your newly created theme.</p>
-</blockquote>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Turn a browser tab into a minimal text editor.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/turn-a-browser-tab-into-a-minimal-text-editor/"/>
-        <id>https://furycd001.github.io/turn-a-browser-tab-into-a-minimal-text-editor/</id>
-            <category term="Web browser"/>
-            <category term="Web"/>
-            <category term="Text editor"/>
-
-        <updated>2020-10-26T06:43:19+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/35/Text-editor-tab.png" alt="Text editor tab...." />
-                    You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/35/Text-editor-tab.png" alt="Text editor tab...." />
-                <p>You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply copy &amp; paste the code shown below into the url bar of any modern browser and press enter.</p>
-<pre><code class="language-html">data:text/html, &lt;body contenteditable style=&quot;font: 2rem/2.0 Ubuntu Mono;max-width:80rem;margin:0 auto;padding:8rem;&quot;&gt;</code></pre>
-<p>Now you have an awesome, super minimal and lightweight text editor within a tab in your browser. You can customize the style to your liking or just remove it completely. </p>
 
             ]]>
         </content>

@@ -10,6 +10,42 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/linux-zen-kernel/",
+            "url": "https://furycd001.github.io/linux-zen-kernel/",
+            "title": "Linux zen kernel....",
+            "summary": "The Linux zen kernel is a kernel replacement built using the best configuration and kernel sources for use on everyday&hellip;",
+            "content_html": "<p>The <a href=\"https://liquorix.net/\">Linux zen kernel</a> is a kernel replacement built using the best configuration and kernel sources for use on everyday systems. I Know that installing a custom kernel might not be for everyone, but at some point you may want to try getting better performance when gaming or performing multimedia tasks &amp; this might be a great option to look into.</p>\n<p>To install this kernel on Ubuntu based systems you only need to do three things.</p>\n<ol>\n<li><p>Add the ppa &amp; update your sources….</p>\n<pre><code class=\"language-bash\">sudo add-apt-repository ppa:damentz/liquorix &amp;&amp; sudo apt-get update</code></pre>\n</li>\n<li><p>Install the meta-packages….</p>\n<pre><code class=\"language-bash\">sudo apt-get install linux-image-liquorix-amd64 linux-headers-liquorix-amd64</code></pre>\n</li>\n<li><p>Reboot and start using the zen kernel….</p>\n</li>\n</ol>\n<blockquote>\n<p>On arch based oses the zen kernel is available within the repos. There’s also packages available for almost any other Linux distro like slackware, gentoo, opensuse or fedora <em>(just to name a few)</em>.</p>\n</blockquote>\n",
+            "image": "https://furycd001.github.io/media/posts/46/linux-tux-minimalism-4k-42.jpg",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Ubuntu",
+                   "Linux Kernel",
+                   "Linux"
+            ],
+            "date_published": "2020-11-19T09:21:45+00:00",
+            "date_modified": "2020-11-19T09:21:45+00:00"
+        },
+        {
+            "id": "https://furycd001.github.io/temporarily-removing-kernel-modules/",
+            "url": "https://furycd001.github.io/temporarily-removing-kernel-modules/",
+            "title": "Temporarily removing Kernel modules.",
+            "summary": "For whatever reason you may want to temporarily remove a kernel module. This can be done super easily with the&hellip;",
+            "content_html": "<p>For whatever reason you may want to temporarily remove a kernel module. This can be done super easily with the following set of commands &amp; doesn’t take very long..</p>\n<ol>\n<li><p>Start by opening up a new terminal window &amp; running <code>lsmod</code> to list all the modules that are currently loaded….</p>\n</li>\n<li><p>Next run <code>modinfo modulenamehere</code> to view the details of a module….</p>\n<blockquote>\n<p>Replace “modulenamehere” with the actual name of the module..</p>\n</blockquote>\n</li>\n<li><p>Finally run <code>rmmod modulenamehere</code> to remove the module….</p>\n<blockquote>\n<p>Note that you’ll only see output in the terminal if something goes wrong..</p>\n</blockquote>\n</li>\n</ol>\n<p>If you don’t see any output from that last command, then everything has worked correctly &amp; you have just successfully removed a kernel module temporarily.</p>\n<p>To insert the module back into the kernel you can either run <code>insmod modulenamehere</code> or reboot your system.</p>\n",
+            "image": "https://furycd001.github.io/media/posts/45/linux-tux-minimalism-4k-42.jpg",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Terminal",
+                   "Linux Kernel",
+                   "Linux"
+            ],
+            "date_published": "2020-11-19T09:02:29+00:00",
+            "date_modified": "2020-11-19T09:02:29+00:00"
+        },
+        {
             "id": "https://furycd001.github.io/gabriele-musco/",
             "url": "https://furycd001.github.io/gabriele-musco/",
             "title": "Gabriele Musco.",
@@ -164,43 +200,6 @@
             ],
             "date_published": "2020-10-23T08:31:51+01:00",
             "date_modified": "2020-10-26T06:42:38+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/this-isnt-i3/",
-            "url": "https://furycd001.github.io/this-isnt-i3/",
-            "title": "This isn‘t I3.",
-            "summary": "This isn’t I3…. This is xfce with a no-border theme installed. Here’s how to create your own no-border theme for&hellip;",
-            "content_html": "<p>This isn’t I3…. This is xfce with a no-border theme installed.</p>\n<p>Here’s how to create your own no-border theme for xfce or possibly any other window manager. Just follow the steps below or download the theme from here GitHub….</p>\n<ol>\n<li>sudo mkdir -p /usr/share/themes/empty/xfwm4</li>\n</ol>\n<blockquote>\n<p>You can replace “empty” with whatever you want. This will be the name of your theme.</p>\n</blockquote>\n<ol start=\"2\">\n<li>sudo touch /usr/share/themes/empty/xfwm4/themerc</li>\n</ol>\n<blockquote>\n<p>Leave this file blank and your done.</p>\n</blockquote>\n<ol start=\"3\">\n<li>Finished!!</li>\n</ol>\n<blockquote>\n<p>Open up your window manager settings and choose your newly created theme.</p>\n</blockquote>\n",
-            "image": "https://furycd001.github.io/media/posts/36/i3.jpeg",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Xfwm",
-                   "Xfce4",
-                   "Window manager",
-                   "I3"
-            ],
-            "date_published": "2020-10-23T08:30:55+01:00",
-            "date_modified": "2020-10-26T06:43:11+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/turn-a-browser-tab-into-a-minimal-text-editor/",
-            "url": "https://furycd001.github.io/turn-a-browser-tab-into-a-minimal-text-editor/",
-            "title": "Turn a browser tab into a minimal text editor.",
-            "summary": "You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply&hellip;",
-            "content_html": "<p>You can easily turn any browser tab into a minimal text editor by using a simple piece of code. Simply copy &amp; paste the code shown below into the url bar of any modern browser and press enter.</p>\n<pre><code class=\"language-html\">data:text/html, &lt;body contenteditable style=&quot;font: 2rem/2.0 Ubuntu Mono;max-width:80rem;margin:0 auto;padding:8rem;&quot;&gt;</code></pre>\n<p>Now you have an awesome, super minimal and lightweight text editor within a tab in your browser. You can customize the style to your liking or just remove it completely. </p>\n",
-            "image": "https://furycd001.github.io/media/posts/35/Text-editor-tab.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Web browser",
-                   "Web",
-                   "Text editor"
-            ],
-            "date_published": "2020-10-23T08:29:53+01:00",
-            "date_modified": "2020-10-26T06:43:19+00:00"
         }
     ]
 }
