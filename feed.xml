@@ -3,12 +3,84 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2020-11-19T09:21:45+00:00</updated>
+    <updated>2021-01-20T09:58:59+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Video as desktop wallpaper.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/video-as-desktop-wallpaper/"/>
+        <id>https://furycd001.github.io/video-as-desktop-wallpaper/</id>
+            <category term="xwinwrap"/>
+            <category term="wallpaper"/>
+            <category term="video wallpaper"/>
+            <category term="script"/>
+            <category term="mpv"/>
+            <category term="Xfce4-terminal"/>
+            <category term="Video"/>
+            <category term="Bash"/>
+
+        <updated>2021-01-20T09:58:59+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/47/Screenshot_2021-01-20_09-58-33.png" alt="" />
+                    Setting a video as your desktops wallpaper is super simple &amp; totally awesome. All you need is 2 applications, along&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/47/Screenshot_2021-01-20_09-58-33.png" alt="" />
+                <p>Setting a video as your desktops wallpaper is super simple &amp; totally awesome. All you need is 2 applications, along with a config file &amp; script.</p>
+<blockquote>
+<p>I’m doing this on Xubuntu 18.04.5, but it should work on any Linux distro….</p>
+</blockquote>
+<h4 id="1-to-being-install-mpv">1. To being install mpv.</h4>
+<pre><code class="language-bash">sudo apt install mpv</code></pre>
+<h4 id="2-install-xwinwrap">2. Install xwinwrap.</h4>
+<pre><code class="language-bash">wget https://launchpad.net/~varlesh-l/+archive/ubuntu/ubuntu-tools/+files/xwinwrap_0.3.2git20171223_amd64.deb &amp;&amp; sudo dpkg -i xwinwrap_0.3.2git20171223_amd64.deb</code></pre>
+<blockquote>
+<p>If you are on a 32 bit system change url above to the following….
+<a href="https://launchpad.net/~varlesh-l/+archive/ubuntu/ubuntu-tools/+files/xwinwrap_0.3.2git20171223_i386.deb">https://launchpad.net/~varlesh-l/+archive/ubuntu/ubuntu-tools/+files/xwinwrap_0.3.2git20171223_i386.deb</a></p>
+</blockquote>
+<h4 id="3-create-and-edit-your-mpvconf-file">3. Create and edit your mpv.conf file.</h4>
+<pre><code class="language-bash">mkdir ~/.config/mpv/ &amp;&amp; nano ~/.config/mpv/mpv.conf</code></pre>
+<h4 id="31-copy--paste-the-following-into-you-mpvconf-file-and-then-save">3.1 Copy &amp; paste the following into you mpv.conf file and then save.</h4>
+<pre><code class="language-bash">[wallpaper]
+fullscreen=yes
+title=mpv-wallpaper
+geometry=100%x100%
+border=no
+no-window-dragging
+x11-name=mpv-wallpaper
+hwdec=vaapi
+aid=no
+loop-file=yes
+idle=no
+aid=no</code></pre>
+<h4 id="4-create-a-new-bash-script-using-the-code-below">4. Create a new bash script using the code below.</h4>
+<pre><code class="language-bash">#!/usr/bin/env bash
+#set video as wallpaper using xwinwrap and mpv - change path to your video!!
+
+xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --profile wallpaper --wid WID /home/user/linktovideo/video.mp4</code></pre>
+<h4 id="41-make-the-script-executable">4.1 Make the script executable.</h4>
+<pre><code class="language-bash">chmod u+x script.sh</code></pre>
+<h4 id="5-run-the-script--check-out-your-new-video-wallpaper">5. Run the script &amp; check out your new video wallpaper.</h4>
+<pre><code class="language-bash">bash ./pathtovideowallpaper.sh &amp;</code></pre>
+<blockquote>
+<p>You can set the script to launch in your autostart to save you from having to manually launch it on every startup.</p>
+</blockquote>
+<h4 id="stopping-the-script-and-reverting-back-to-your-standard-wallpaper">Stopping the script and reverting back to your standard wallpaper.</h4>
+<p>Simple run the following command in a terminal to revert back to your standard wallpaper.</p>
+<pre><code class="language-bash">killall -9 xwinwrap</code></pre>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Linux zen kernel....</title>
         <author>
@@ -363,33 +435,6 @@ out_to_console yes</code></pre>
 <p>You can add that above command to a bash script and set the script to run on startup command from within your “Application Autostart” in xfce. The final step is to add xfce4-genmon-plugin to your panel and then use awk to print the txt file to your panel.</p>
 <pre><code class="language-bash">awk &#39;END{print}&#39; /tmp/conky.txt</code></pre>
 <p>That’s it. You should now have conky displaying within your panel.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Duckduckgo over google.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/duckduckgo-over-google/"/>
-        <id>https://furycd001.github.io/duckduckgo-over-google/</id>
-            <category term="Web"/>
-            <category term="Search"/>
-            <category term="Google"/>
-            <category term="Duckduckgo"/>
-
-        <updated>2020-10-26T06:42:38+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/37/rB9UCny.png" alt="Duckduckgo...." />
-                    People share their most intimate secrets with their search engine without even stopping to think. This can be little day&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/37/rB9UCny.png" alt="Duckduckgo...." />
-                <p>People share their most intimate secrets with their search engine without even stopping to think. This can be little day to day things, massive life changing events, or just things that make you, pretty much you. All of this personal information should be private, but with Google it’s not. Google tracks your searches and packs it up into a data profile for advertisers to follow you around the Internet. Some people say that you can simply use incognito mode, but whats the fun in that when you can’t guarantee yourself that it’s actually doing what it’s said to do. To keep your searches private and out of data profiles you should consider using <a href="https://start.duckduckgo.com/">DuckDuckGo.</a> Duck won’t track you one bit, regardless of what browsing mode you are currently running. Every time you do a search with Duck, you start fresh as if it’s your first time and you’ve never visited before. Duck doesn’t store anything that can link you to your searches. For more details you should consider reading their <a href="https://duckduckgo.com/privacy">privacy policy….</a></p>
 
             ]]>
         </content>
