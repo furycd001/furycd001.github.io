@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-01-20T09:58:59+00:00</updated>
+    <updated>2021-01-20T11:25:08+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -25,7 +25,7 @@
             <category term="Video"/>
             <category term="Bash"/>
 
-        <updated>2021-01-20T09:58:59+00:00</updated>
+        <updated>2021-01-20T11:25:08+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/47/Screenshot_2021-01-20_09-58-33.png" alt="" />
@@ -61,7 +61,11 @@ hwdec=vaapi
 aid=no
 loop-file=yes
 idle=no
-aid=no</code></pre>
+aid=no
+background=&quot;#e5b680&quot;</code></pre>
+<blockquote>
+<p>Change the background color at the bottom to whatever you like, or simply remove it if you are happy with black….</p>
+</blockquote>
 <h4 id="4-create-a-new-bash-script-using-the-code-below">4. Create a new bash script using the code below.</h4>
 <pre><code class="language-bash">#!/usr/bin/env bash
 #set video as wallpaper using xwinwrap and mpv - change path to your video!!
