@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-01-20T11:25:08+00:00</updated>
+    <updated>2021-01-20T12:06:40+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -25,7 +25,7 @@
             <category term="Video"/>
             <category term="Bash"/>
 
-        <updated>2021-01-20T11:25:08+00:00</updated>
+        <updated>2021-01-20T12:06:40+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/47/Screenshot_2021-01-20_09-58-33.png" alt="" />
@@ -81,6 +81,8 @@ xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --profile wallpaper --wid WID /home/us
 <h4 id="stopping-the-script-and-reverting-back-to-your-standard-wallpaper">Stopping the script and reverting back to your standard wallpaper.</h4>
 <p>Simple run the following command in a terminal to revert back to your standard wallpaper.</p>
 <pre><code class="language-bash">killall -9 xwinwrap</code></pre>
+<h4 id="randomize-wallpaper">Randomize wallpaper.</h4>
+<p>In mpv.conf change <strong>loop-file=yes</strong> to <strong>no</strong> and then change <strong>/home/user/linktovideo/video.mp4</strong> to <strong>–shuffle /home/user/linktofolder/</strong> in the script.</p>
 
             ]]>
         </content>
