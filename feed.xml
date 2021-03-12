@@ -3,12 +3,43 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-01-20T12:06:40+00:00</updated>
+    <updated>2021-03-12T07:57:31+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Fixing paprefs on ubuntu....</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/fixing-paprefs-on-ubuntu/"/>
+        <id>https://furycd001.github.io/fixing-paprefs-on-ubuntu/</id>
+            <category term="paprefs"/>
+            <category term="Ubuntu"/>
+            <category term="Symlink"/>
+            <category term="Linux"/>
+
+        <updated>2021-03-12T07:57:31+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/48/ttv03zU.png" alt="" />
+                    Whenever you install &amp; open paprefs for the first time on ubuntu, you’ll notice that all but one option is&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/48/ttv03zU.png" alt="" />
+                <p>Whenever you install &amp; open paprefs for the first time on ubuntu, you’ll notice that all but one option is grayed out. This is because some modules in <code>/usr/lib/pulse-13.99/modules</code> are not found. If you run the following in a terminal you’ll be able to confirm that.</p>
+<pre><code class="language-bash">strace paprefs 2&gt;&amp;1 |grep /lib/pulse</code></pre>
+<p>Actually for me there is no directory for <code>/usr/lib/pulse-13.99</code> but there is <code>/usr/lib/pulse-13.99.1</code>. Sooo.. I tried making a symlink to see what would happen.</p>
+<pre><code class="language-bash">sudo ln -s /usr/lib/pulse-13.99.1 /usr/lib/pulse-13.99</code></pre>
+<p>With the symlink created I opened paprefs to find all the options are no longer grayed out &amp; everything works totally as expected. I was really surprised when I realised that a symlink was all it took to fix this problem.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Video as desktop wallpaper.</title>
         <author>
@@ -400,47 +431,6 @@ xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --profile wallpaper --wid WID /home/us
 <pre><code class="language-bash">sudo update-manager -d &amp;&amp; \
 sudo do-release-upgrade -d</code></pre>
 <p>Upgrading early should be pretty straight forward, but just like any upgrade, always remember to backup your needed data before you begin the upgrade process.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Using conky with xfce4-panel.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/using-conky-with-xfce4-panel/"/>
-        <id>https://furycd001.github.io/using-conky-with-xfce4-panel/</id>
-            <category term="Xfce4-panel"/>
-            <category term="Xfce4-genmon-plugin"/>
-            <category term="Xfce4"/>
-            <category term="Conky"/>
-
-        <updated>2020-11-05T10:04:51+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/38/Conky-xfce4-panel1.png" alt="Conky inside xfce4-panel...." />
-                    For this to work you need to have two things installed on your system. Go ahead and install both if&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/38/Conky-xfce4-panel1.png" alt="Conky inside xfce4-panel...." />
-                <p>For this to work you need to have two things installed on your system.</p>
-<ol>
-<li><a href="https://github.com/brndnmtthws/conky">Conky</a></li>
-<li><a href="https://goodies.xfce.org/projects/panel-plugins/xfce4-genmon-plugin">xfce4-genmon….</a></li>
-</ol>
-<p>Go ahead and install both if you don’t already have them installed. On debian based systems you can use “apt” from the command line or search for both using either synaptic or software centre. Both can be installed on any Linux system using the default package manager of that system. I just happen to be running xubuntu.</p>
-<pre><code class="language-bash">sudo apt install conky xfce4-genmon-plugin</code></pre>
-<p>Once you have both of those apps installed on your system go ahead and create a single line conky config. Once you’ve got that created and saved, open up and modify your conky config file to make conky output to the terminal only. This can be done by adding the following two lines to your config file.</p>
-<pre><code class="language-bash">out_to_x no
-out_to_console yes</code></pre>
-<p>Save and close your config file once you’ve added those two lines above. Next you’ll want to set conky to output to a txt file on startup. This can be done easily by launching conky with the following command.</p>
-<pre><code class="language-bash">conky -q -c /your/path/to/conkyconfig &gt; /tmp/conky.txt</code></pre>
-<p>You can add that above command to a bash script and set the script to run on startup command from within your “Application Autostart” in xfce. The final step is to add xfce4-genmon-plugin to your panel and then use awk to print the txt file to your panel.</p>
-<pre><code class="language-bash">awk &#39;END{print}&#39; /tmp/conky.txt</code></pre>
-<p>That’s it. You should now have conky displaying within your panel.</p>
 
             ]]>
         </content>
