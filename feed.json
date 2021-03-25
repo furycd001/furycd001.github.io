@@ -10,6 +10,27 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/a-search-engine-for-the-minimalist-web/",
+            "url": "https://furycd001.github.io/a-search-engine-for-the-minimalist-web/",
+            "title": "A search engine for the minimalist web.",
+            "summary": "Say hi to wiby.. Wiby is a search engine that only provides links to sites that fit within the minimalist&hellip;",
+            "content_html": "<p>Say hi to <a href=\"https://wiby.me/\"><strong>wiby</strong></a>.. Wiby is a search engine that only provides links to sites that fit within the minimalist category. For me it’s just a neat thing to stumble across, because it helps me in finding minimal, unbloated webpages that I’d maybe never find using search engines like <a href=\"https://google.com/\"><strong>google</strong></a>, <a href=\"https://bing.com\"><strong>bing</strong></a> or <a href=\"https://yahoo.com/\"><strong>yahoo</strong></a>. With wiby anyone can easily submit a webpage. The only requirements are that webpages must be simple in design, using minimal html, css or scripts.</p>\n<blockquote>\n<p>You sould note that only the webpage you submit will be crawled. If you happen to submit say a blog, you’ll need to submit a few links that are to articles &amp; rather than the main blog feed.</p>\n</blockquote>\n",
+            "image": "https://furycd001.github.io/media/posts/49/wiby.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "wiby",
+                   "search engine",
+                   "Webpage",
+                   "Web browser",
+                   "Web",
+                   "Minimal"
+            ],
+            "date_published": "2021-03-25T10:03:34+00:00",
+            "date_modified": "2021-03-25T10:03:34+00:00"
+        },
+        {
             "id": "https://furycd001.github.io/fixing-paprefs-on-ubuntu/",
             "url": "https://furycd001.github.io/fixing-paprefs-on-ubuntu/",
             "title": "Fixing paprefs on ubuntu....",
@@ -26,7 +47,7 @@
                    "Linux"
             ],
             "date_published": "2021-03-12T07:57:31+00:00",
-            "date_modified": "2021-03-12T07:57:31+00:00"
+            "date_modified": "2021-03-25T10:03:46+00:00"
         },
         {
             "id": "https://furycd001.github.io/video-as-desktop-wallpaper/",
@@ -185,25 +206,6 @@
             ],
             "date_published": "2020-10-23T08:34:08+01:00",
             "date_modified": "2020-11-05T10:01:51+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/upgrade-to-a-new-ubuntu-release-early/",
-            "url": "https://furycd001.github.io/upgrade-to-a-new-ubuntu-release-early/",
-            "title": "Upgrade to a new Ubuntu release early.",
-            "summary": "You can upgrade to a new Ubuntu release before it has officially been released. The release will obviously still be&hellip;",
-            "content_html": "<p>You can upgrade to a new Ubuntu release before it has officially been released. The release will obviously still be being tested and will most likely have a few bugs and or glitches, but there is a number of reasons you may want to upgrade early. Here is a few of those reasons.</p>\n<ul>\n<li>Testing….</li>\n<li>Contributing to reporting bugs, glitches &amp; errors….</li>\n<li>Helping fix bugs, glitches &amp; errors….</li>\n<li>Accessing a newer version of an application….</li>\n<li>Meh just fell like upgrading….</li>\n<li>Wanting to get your software ready for the new version….</li>\n</ul>\n<p>If you wish to upgrade early you can do so either via GUI or command line. All you have to do is launch the update manager with the “-d” perimeter at the end. See below for the commands that you can enter into your terminal. The first one is for upgrading via GUI &amp; the second one is for upgrading via the terminal. Remember to enter your user password whenever prompt.</p>\n<pre><code class=\"language-bash\">sudo update-manager -d &amp;&amp; \\\nsudo do-release-upgrade -d</code></pre>\n<p>Upgrading early should be pretty straight forward, but just like any upgrade, always remember to backup your needed data before you begin the upgrade process.</p>\n",
-            "image": "https://furycd001.github.io/media/posts/39/Ubuntu.jpg",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Upgrade",
-                   "Update",
-                   "Ubuntu",
-                   "Linux"
-            ],
-            "date_published": "2020-10-23T08:33:22+01:00",
-            "date_modified": "2020-11-05T10:04:24+00:00"
         }
     ]
 }

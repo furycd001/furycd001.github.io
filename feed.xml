@@ -3,12 +3,44 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-03-12T07:57:31+00:00</updated>
+    <updated>2021-03-25T10:03:46+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>A search engine for the minimalist web.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/a-search-engine-for-the-minimalist-web/"/>
+        <id>https://furycd001.github.io/a-search-engine-for-the-minimalist-web/</id>
+            <category term="wiby"/>
+            <category term="search engine"/>
+            <category term="Webpage"/>
+            <category term="Web browser"/>
+            <category term="Web"/>
+            <category term="Minimal"/>
+
+        <updated>2021-03-25T10:03:34+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/49/wiby.png" alt="Wiby" />
+                    Say hi to wiby.. Wiby is a search engine that only provides links to sites that fit within the minimalist&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/49/wiby.png" alt="Wiby" />
+                <p>Say hi to <a href="https://wiby.me/"><strong>wiby</strong></a>.. Wiby is a search engine that only provides links to sites that fit within the minimalist category. For me it’s just a neat thing to stumble across, because it helps me in finding minimal, unbloated webpages that I’d maybe never find using search engines like <a href="https://google.com/"><strong>google</strong></a>, <a href="https://bing.com"><strong>bing</strong></a> or <a href="https://yahoo.com/"><strong>yahoo</strong></a>. With wiby anyone can easily submit a webpage. The only requirements are that webpages must be simple in design, using minimal html, css or scripts.</p>
+<blockquote>
+<p>You sould note that only the webpage you submit will be crawled. If you happen to submit say a blog, you’ll need to submit a few links that are to articles &amp; rather than the main blog feed.</p>
+</blockquote>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Fixing paprefs on ubuntu....</title>
         <author>
@@ -21,7 +53,7 @@
             <category term="Symlink"/>
             <category term="Linux"/>
 
-        <updated>2021-03-12T07:57:31+00:00</updated>
+        <updated>2021-03-25T10:03:46+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/48/ttv03zU.png" alt="" />
@@ -392,45 +424,6 @@ xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --profile wallpaper --wid WID /home/us
 <li><p>Once everything has finished download &amp; installing, you can reboot your computer to start using your new release of ubuntu….</p>
 </li>
 </ul>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Upgrade to a new Ubuntu release early.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/upgrade-to-a-new-ubuntu-release-early/"/>
-        <id>https://furycd001.github.io/upgrade-to-a-new-ubuntu-release-early/</id>
-            <category term="Upgrade"/>
-            <category term="Update"/>
-            <category term="Ubuntu"/>
-            <category term="Linux"/>
-
-        <updated>2020-11-05T10:04:24+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/39/Ubuntu.jpg" alt="Ubuntu...." />
-                    You can upgrade to a new Ubuntu release before it has officially been released. The release will obviously still be&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/39/Ubuntu.jpg" alt="Ubuntu...." />
-                <p>You can upgrade to a new Ubuntu release before it has officially been released. The release will obviously still be being tested and will most likely have a few bugs and or glitches, but there is a number of reasons you may want to upgrade early. Here is a few of those reasons.</p>
-<ul>
-<li>Testing….</li>
-<li>Contributing to reporting bugs, glitches &amp; errors….</li>
-<li>Helping fix bugs, glitches &amp; errors….</li>
-<li>Accessing a newer version of an application….</li>
-<li>Meh just fell like upgrading….</li>
-<li>Wanting to get your software ready for the new version….</li>
-</ul>
-<p>If you wish to upgrade early you can do so either via GUI or command line. All you have to do is launch the update manager with the “-d” perimeter at the end. See below for the commands that you can enter into your terminal. The first one is for upgrading via GUI &amp; the second one is for upgrading via the terminal. Remember to enter your user password whenever prompt.</p>
-<pre><code class="language-bash">sudo update-manager -d &amp;&amp; \
-sudo do-release-upgrade -d</code></pre>
-<p>Upgrading early should be pretty straight forward, but just like any upgrade, always remember to backup your needed data before you begin the upgrade process.</p>
 
             ]]>
         </content>
