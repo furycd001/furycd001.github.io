@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-03-25T10:03:46+00:00</updated>
+    <updated>2021-03-26T07:15:20+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="Web"/>
             <category term="Minimal"/>
 
-        <updated>2021-03-25T10:03:34+00:00</updated>
+        <updated>2021-03-26T07:15:20+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/49/wiby.png" alt="Wiby" />
@@ -35,7 +35,7 @@
                     <img src="https://furycd001.github.io/media/posts/49/wiby.png" alt="Wiby" />
                 <p>Say hi to <a href="https://wiby.me/"><strong>wiby</strong></a>.. Wiby is a search engine that only provides links to sites that fit within the minimalist category. For me it’s just a neat thing to stumble across, because it helps me in finding minimal, unbloated webpages that I’d maybe never find using search engines like <a href="https://google.com/"><strong>google</strong></a>, <a href="https://bing.com"><strong>bing</strong></a> or <a href="https://yahoo.com/"><strong>yahoo</strong></a>. With wiby anyone can easily submit a webpage. The only requirements are that webpages must be simple in design, using minimal html, css or scripts.</p>
 <blockquote>
-<p>You sould note that only the webpage you submit will be crawled. If you happen to submit say a blog, you’ll need to submit a few links that are to articles &amp; rather than the main blog feed.</p>
+<p>You sould note that only the webpage you submit will be crawled. If you happen to submit say a blog, you’ll need to submit a few links that are to articles rather than the main blog feed itself.</p>
 </blockquote>
 
             ]]>

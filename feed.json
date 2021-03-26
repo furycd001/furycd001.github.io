@@ -14,7 +14,7 @@
             "url": "https://furycd001.github.io/a-search-engine-for-the-minimalist-web/",
             "title": "A search engine for the minimalist web.",
             "summary": "Say hi to wiby.. Wiby is a search engine that only provides links to sites that fit within the minimalist&hellip;",
-            "content_html": "<p>Say hi to <a href=\"https://wiby.me/\"><strong>wiby</strong></a>.. Wiby is a search engine that only provides links to sites that fit within the minimalist category. For me it’s just a neat thing to stumble across, because it helps me in finding minimal, unbloated webpages that I’d maybe never find using search engines like <a href=\"https://google.com/\"><strong>google</strong></a>, <a href=\"https://bing.com\"><strong>bing</strong></a> or <a href=\"https://yahoo.com/\"><strong>yahoo</strong></a>. With wiby anyone can easily submit a webpage. The only requirements are that webpages must be simple in design, using minimal html, css or scripts.</p>\n<blockquote>\n<p>You sould note that only the webpage you submit will be crawled. If you happen to submit say a blog, you’ll need to submit a few links that are to articles &amp; rather than the main blog feed.</p>\n</blockquote>\n",
+            "content_html": "<p>Say hi to <a href=\"https://wiby.me/\"><strong>wiby</strong></a>.. Wiby is a search engine that only provides links to sites that fit within the minimalist category. For me it’s just a neat thing to stumble across, because it helps me in finding minimal, unbloated webpages that I’d maybe never find using search engines like <a href=\"https://google.com/\"><strong>google</strong></a>, <a href=\"https://bing.com\"><strong>bing</strong></a> or <a href=\"https://yahoo.com/\"><strong>yahoo</strong></a>. With wiby anyone can easily submit a webpage. The only requirements are that webpages must be simple in design, using minimal html, css or scripts.</p>\n<blockquote>\n<p>You sould note that only the webpage you submit will be crawled. If you happen to submit say a blog, you’ll need to submit a few links that are to articles rather than the main blog feed itself.</p>\n</blockquote>\n",
             "image": "https://furycd001.github.io/media/posts/49/wiby.png",
             "author": {
                 "name": "Jonny"
@@ -28,7 +28,7 @@
                    "Minimal"
             ],
             "date_published": "2021-03-25T10:03:34+00:00",
-            "date_modified": "2021-03-25T10:03:34+00:00"
+            "date_modified": "2021-03-26T07:15:20+00:00"
         },
         {
             "id": "https://furycd001.github.io/fixing-paprefs-on-ubuntu/",
