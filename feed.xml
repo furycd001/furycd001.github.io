@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-08-10T13:35:52+01:00</updated>
+    <updated>2021-08-10T13:37:55+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="Bash"/>
             <category term="Archlinux"/>
 
-        <updated>2021-08-10T13:35:52+01:00</updated>
+        <updated>2021-08-10T13:37:55+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/50/1200px-Archlinux-icon-crystal-64.svg-2.png" alt="" />
@@ -65,7 +65,7 @@
 </li>
 </ol>
 <hr>
-<p>Archfi is great &amp; I like it a lot. It is my new go-to for installing arch &amp; if you’ve yet to try it, I totally recommend doing so. Here’s a list of a few popular arch based distros that come with an installer..</p>
+<p>Archfi is great &amp; I like it a lot. It’s now my go-to for installing arch &amp; if you’ve yet to try it, I totally recommend doing so. Here’s a list of a few popular arch based distros that come with an installer..</p>
 <ul>
 <li><strong><a href="https://manjaro.org/">manjaro</a></strong></li>
 <li><strong><a href="https://archbang.org/">archbang</a></strong></li>
