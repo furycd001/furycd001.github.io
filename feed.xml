@@ -3,12 +3,81 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-03-26T07:15:20+00:00</updated>
+    <updated>2021-08-10T13:31:22+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Installing arch Linux with archfi.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/installing-arch-linux-with-archfi/"/>
+        <id>https://furycd001.github.io/installing-arch-linux-with-archfi/</id>
+            <category term="script"/>
+            <category term="Sourceforge"/>
+            <category term="Linux"/>
+            <category term="Github"/>
+            <category term="Bash"/>
+            <category term="Archlinux"/>
+
+        <updated>2021-08-10T13:31:22+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/50/1200px-Archlinux-icon-crystal-64.svg.png" alt="" />
+                    You want to install arch without having to do a manual install or use an alternative arch based distro. This&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/50/1200px-Archlinux-icon-crystal-64.svg.png" alt="" />
+                <p>You want to install <strong><a href="https://archlinux.org/">arch</a></strong> without having to do a manual install or use an alternative arch based distro. This is were <strong><a href="https://github.com/MatMoul/archfi">archfi</a></strong> comes in. Archfi is a simple “bash script wizard” or “tui” that can help with installing arch. To use archfi simply boot to the arch installer, then download &amp; launch archfi. It’s that simple.</p>
+<hr>
+<ol>
+<li>Boot to the arch installer &amp; check that you have an active connection to the internet..<pre><code class="language-bash">ping duckduckgo.com
+</code></pre>
+<blockquote>
+<p>Ethernet is recommended, but there is many tutorials on setting up wifi if you can’t access ethernet.</p>
+</blockquote>
+</li>
+</ol>
+<ol start="2">
+<li><p>Download archfi using either github or sourceforge..</p>
+<h4 id="archfi-github">Archfi github.</h4>
+<pre><code class="language-bash">curl -LO matmoul.github.io/archfi
+</code></pre>
+<h4 id="archfi-sourceforge">Archfi sourceforge.</h4>
+<pre><code class="language-bash">curl -LO archfi.sf.net/archfi
+</code></pre>
+<blockquote>
+<p>Personally I’ve had more luck using github over sourceforge.</p>
+</blockquote>
+</li>
+<li><p>Launch archfi..</p>
+<pre><code class="language-bash">sh archfi
+</code></pre>
+</li>
+<li><p>Follow through the installation until completion..</p>
+</li>
+<li><p>Reboot into your new arch install..</p>
+</li>
+</ol>
+<hr>
+<p>Archfi is great &amp; I like it a lot. It is my new go-to for installing arch &amp; if you’ve yet to try it, I totally recommend doing so. Here’s a list of a few popular arch based distros that come with an installer..</p>
+<ul>
+<li><strong><a href="https://manjaro.org/">manjaro</a></strong></li>
+<li><strong><a href="https://archbang.org/">archbang</a></strong></li>
+<li><strong><a href="https://archman.org/">archman</a></strong></li>
+<li><strong><a href="https://archlabslinux.com/">archlabs</a></strong>  </li>
+<li><strong><a href="https://endeavouros.com/">endeavour</a></strong></li>
+<li><strong><a href="https://garudalinux.org/">garuda</a></strong></li>
+</ul>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>A search engine for the minimalist web.</title>
         <author>
@@ -390,57 +459,6 @@ xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --profile wallpaper --wid WID /home/us
 <pre><code class="language-bash">cd rolling-rhino &amp;&amp; sudo ./rolling-rhino
 </code></pre>
 <p>Let the script do it’s thing &amp; then reboot the system once it finishes. With the system rebooted you should now be running ubuntu as a rolling release distro.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Upgrade to a new Ubuntu version.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/upgrade-to-a-new-ubuntu-version/"/>
-        <id>https://furycd001.github.io/upgrade-to-a-new-ubuntu-version/</id>
-            <category term="Upgrade"/>
-            <category term="Update"/>
-            <category term="Ubuntu"/>
-            <category term="Linux"/>
-
-        <updated>2020-11-05T10:01:51+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/40/Ubuntur.jpg" alt="Ubuntu releases...." />
-                    When Ubuntu releases a new version you don’t necessarily need to create a new usb &amp; do a fresh install.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/40/Ubuntur.jpg" alt="Ubuntu releases...." />
-                <p>When Ubuntu <a href="http://releases.ubuntu.com/">releases a new version</a> you don’t necessarily need to create a new usb &amp; do a fresh install. Although that can sometimes be great, you can just simply upgrade to a new version from your existing one. To do so, simply follow the steps listed below.</p>
-<ul>
-<li>Open the “Software &amp; Updates” app….</li>
-<li>Head to the “Updates” tab….</li>
-<li>Look for the section at the bottom titled “Notify me of a new Ubuntu version” &amp; make your selection….</li>
-<li>Click ‘Close’ &amp; wait to be notified….</li>
-<li>Once notified follow the on screen instructions &amp; proceed to upgrade your system….</li>
-</ul>
-<p>Alternatively you can upgrade from the terminal.</p>
-<ul>
-<li>First make sure that everything is up to date &amp; that you have update-manager-core installed. You can do so by running the following command….</li>
-</ul>
-<pre><code class="language-bash">sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade &amp;&amp; sudo apt-get install update-manager-core
-</code></pre>
-<ul>
-<li>Next you can issue the following command to search for a new Ubuntu version….</li>
-</ul>
-<pre><code class="language-bash">sudo do-release-upgrade
-</code></pre>
-<ul>
-<li><p>Any required files will be download &amp; you will be prompt to install them. If you wish to upgrade press y &amp; then hit enter on your keyboard. It may take some time to download everything….</p>
-</li>
-<li><p>Once everything has finished download &amp; installing, you can reboot your computer to start using your new release of ubuntu….</p>
-</li>
-</ul>
 
             ]]>
         </content>
