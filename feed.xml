@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-08-10T13:34:06+01:00</updated>
+    <updated>2021-08-10T13:35:52+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="Bash"/>
             <category term="Archlinux"/>
 
-        <updated>2021-08-10T13:34:06+01:00</updated>
+        <updated>2021-08-10T13:35:52+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/50/1200px-Archlinux-icon-crystal-64.svg-2.png" alt="" />
@@ -39,7 +39,7 @@
 <li>Boot to the arch installer &amp; check that you have an active connection to the internet..<pre><code class="language-bash">ping duckduckgo.com
 </code></pre>
 <blockquote>
-<p>Ethernet is recommended, but there is many tutorials on setting up wifi if you can’t access ethernet.</p>
+<p>Ethernet is recommended, but there’s many tutorials online for setting up wifi if you can’t access ethernet.</p>
 </blockquote>
 </li>
 </ol>
