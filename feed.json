@@ -15,7 +15,7 @@
             "title": "Installing arch Linux with archfi.",
             "summary": "You want to install arch without having to do a manual install or use an alternative arch based distro. This&hellip;",
             "content_html": "<p>You want to install <strong><a href=\"https://archlinux.org/\">arch</a></strong> without having to do a manual install or use an alternative arch based distro. This is were <strong><a href=\"https://github.com/MatMoul/archfi\">archfi</a></strong> comes in. Archfi is a simple “bash script wizard” or “tui” that can help with installing arch. To use archfi simply boot to the arch installer, then download &amp; launch archfi. It’s that simple.</p>\n<hr>\n<ol>\n<li>Boot to the arch installer &amp; check that you have an active connection to the internet..<pre><code class=\"language-bash\">ping duckduckgo.com\n</code></pre>\n<blockquote>\n<p>Ethernet is recommended, but there is many tutorials on setting up wifi if you can’t access ethernet.</p>\n</blockquote>\n</li>\n</ol>\n<ol start=\"2\">\n<li><p>Download archfi using either github or sourceforge..</p>\n<h4 id=\"archfi-github\">Archfi github.</h4>\n<pre><code class=\"language-bash\">curl -LO matmoul.github.io/archfi\n</code></pre>\n<h4 id=\"archfi-sourceforge\">Archfi sourceforge.</h4>\n<pre><code class=\"language-bash\">curl -LO archfi.sf.net/archfi\n</code></pre>\n<blockquote>\n<p>Personally I’ve had more luck using github over sourceforge.</p>\n</blockquote>\n</li>\n<li><p>Launch archfi..</p>\n<pre><code class=\"language-bash\">sh archfi\n</code></pre>\n</li>\n<li><p>Follow through the installation until completion..</p>\n</li>\n<li><p>Reboot into your new arch install..</p>\n</li>\n</ol>\n<hr>\n<p>Archfi is great &amp; I like it a lot. It is my new go-to for installing arch &amp; if you’ve yet to try it, I totally recommend doing so. Here’s a list of a few popular arch based distros that come with an installer..</p>\n<ul>\n<li><strong><a href=\"https://manjaro.org/\">manjaro</a></strong></li>\n<li><strong><a href=\"https://archbang.org/\">archbang</a></strong></li>\n<li><strong><a href=\"https://archman.org/\">archman</a></strong></li>\n<li><strong><a href=\"https://archlabslinux.com/\">archlabs</a></strong>  </li>\n<li><strong><a href=\"https://endeavouros.com/\">endeavour</a></strong></li>\n<li><strong><a href=\"https://garudalinux.org/\">garuda</a></strong></li>\n</ul>\n",
-            "image": "https://furycd001.github.io/media/posts/50/1200px-Archlinux-icon-crystal-64.svg.png",
+            "image": "https://furycd001.github.io/media/posts/50/1200px-Archlinux-icon-crystal-64.svg-2.png",
             "author": {
                 "name": "Jonny"
             },
@@ -28,7 +28,7 @@
                    "Archlinux"
             ],
             "date_published": "2021-08-10T13:31:22+01:00",
-            "date_modified": "2021-08-10T13:31:22+01:00"
+            "date_modified": "2021-08-10T13:34:06+01:00"
         },
         {
             "id": "https://furycd001.github.io/a-search-engine-for-the-minimalist-web/",

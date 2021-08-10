@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-08-10T13:31:22+01:00</updated>
+    <updated>2021-08-10T13:34:06+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -23,16 +23,16 @@
             <category term="Bash"/>
             <category term="Archlinux"/>
 
-        <updated>2021-08-10T13:31:22+01:00</updated>
+        <updated>2021-08-10T13:34:06+01:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/50/1200px-Archlinux-icon-crystal-64.svg.png" alt="" />
+                        <img src="https://furycd001.github.io/media/posts/50/1200px-Archlinux-icon-crystal-64.svg-2.png" alt="" />
                     You want to install arch without having to do a manual install or use an alternative arch based distro. This&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/50/1200px-Archlinux-icon-crystal-64.svg.png" alt="" />
+                    <img src="https://furycd001.github.io/media/posts/50/1200px-Archlinux-icon-crystal-64.svg-2.png" alt="" />
                 <p>You want to install <strong><a href="https://archlinux.org/">arch</a></strong> without having to do a manual install or use an alternative arch based distro. This is were <strong><a href="https://github.com/MatMoul/archfi">archfi</a></strong> comes in. Archfi is a simple “bash script wizard” or “tui” that can help with installing arch. To use archfi simply boot to the arch installer, then download &amp; launch archfi. It’s that simple.</p>
 <hr>
 <ol>
