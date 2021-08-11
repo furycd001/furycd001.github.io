@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-08-11T10:01:31+01:00</updated>
+    <updated>2021-08-11T10:03:04+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="Linux"/>
             <category term="Archlinux"/>
 
-        <updated>2021-08-11T10:01:31+01:00</updated>
+        <updated>2021-08-11T10:03:04+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/51/pacman.jpg" alt="Pacman" />
@@ -74,7 +74,7 @@
 <pre><code class="language-bash">pacman -Rsn $packagename
 </code></pre>
 <blockquote>
-<p>This command will remove the package &amp; all other files relating to said package. Please note that anything in your <code>home</code> directory will need to be removed manually….</p>
+<p>This command will remove a package &amp; all other files relating to said package. Please note that anything in your <code>home</code> directory will need to be removed manually….</p>
 </blockquote>
 <h4 id="remove-package--any-dependencies-that-arent-needed-by-another-app">Remove package &amp; any dependencies that aren’t needed by another app….</h4>
 <pre><code class="language-bash">pacman -Rs $packagename
