@@ -3,12 +3,101 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-08-10T13:37:55+01:00</updated>
+    <updated>2021-08-11T09:54:37+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>A few useful pacman commands.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/a-few-useful-pacman-commands/"/>
+        <id>https://furycd001.github.io/a-few-useful-pacman-commands/</id>
+            <category term="pacman"/>
+            <category term="packagemanager"/>
+            <category term="Terminal"/>
+            <category term="Linux"/>
+            <category term="Archlinux"/>
+
+        <updated>2021-08-11T09:54:37+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/51/pacman.jpg" alt="Pacman" />
+                    Here’s a few useful commands that you can use with pacman on arch Linux.. pacman -Ss $packagename You can use&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/51/pacman.jpg" alt="Pacman" />
+                <p>Here’s a few useful commands that you can use with <strong><a href="https://wiki.archlinux.org/title/pacman">pacman</a></strong> on arch Linux..</p>
+<hr>
+<h4 id="search-for-package">Search for package….</h4>
+<pre><code class="language-bash">pacman -Ss $packagename
+</code></pre>
+<blockquote>
+<p>You can use this command to search for a package….</p>
+</blockquote>
+<h4 id="update-system">Update system….</h4>
+<pre><code class="language-bash">pacman -Syu
+</code></pre>
+<blockquote>
+<p>Use this command to update the system….</p>
+</blockquote>
+<h4 id="update-database">Update database….</h4>
+<pre><code class="language-bash">pacman -Syy
+</code></pre>
+<blockquote>
+<p>This command can be used to update the database….</p>
+</blockquote>
+<h4 id="install-a-local-package">Install a local package….</h4>
+<pre><code class="language-bash">pacman -U $packagename
+</code></pre>
+<blockquote>
+<p>This command will allow you to install a package saved locally on your machine…. </p>
+</blockquote>
+<h4 id="install-a-package">Install a package….</h4>
+<pre><code class="language-bash">pacman -S $packagename
+</code></pre>
+<blockquote>
+<p>This command will allow you to install a package…. </p>
+</blockquote>
+<h4 id="remove-a-package">Remove a package….</h4>
+<pre><code class="language-bash">pacman -R $packagename
+</code></pre>
+<blockquote>
+<p>This will only remove the package &amp; nothing else….</p>
+</blockquote>
+<h4 id="completely-remove-package">Completely remove package….</h4>
+<pre><code class="language-bash">pacman -Rsn $packagename
+</code></pre>
+<blockquote>
+<p>This will remove the package &amp; all other files relating to said package. Please note that anything in your <code>home</code> directory will need to be removed manually….</p>
+</blockquote>
+<h4 id="remove-package--any-dependencies-that-arent-needed-by-another-app">Remove package &amp; any dependencies that aren’t needed by another app….</h4>
+<pre><code class="language-bash">pacman -Rs $packagename
+</code></pre>
+<blockquote>
+<p>This command not only removes a package, but also removes any dependencies that are not needed by any other package….</p>
+</blockquote>
+<h4 id="list-unneeded-dependencies">List unneeded dependencies….</h4>
+<pre><code class="language-bash">pacman -Qdt $packagename
+</code></pre>
+<blockquote>
+<p>This command will list all dependencies that are installed, but not required by any package….</p>
+</blockquote>
+<h4 id="remove-all-unneeded--unused-dependencies">Remove all unneeded / unused dependencies….</h4>
+<pre><code class="language-bash">pacman -Rsn $(pacman -Qdtq)
+</code></pre>
+<blockquote>
+<p>Like the above command this will list all all dependencies that are installed, but will also remove them at the same time….</p>
+</blockquote>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Installing arch Linux with archfi.</title>
         <author>
@@ -407,58 +496,6 @@ xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --profile wallpaper --wid WID /home/us
             <![CDATA[
                     <img src="https://furycd001.github.io/media/posts/42/tweek.png" alt="" />
                 <p><a href="https://tweek.so/"><strong>Tweek</strong></a> is a calendar app that only has one view &amp; that’s weekly. It’s minimalist from design perspective, but packs a whole bunch of features that you’ll find useful. You can access &amp; use tweek from any desktop web browser, or you can download the app from <a href="https://play.google.com/store/apps/details?id=so.tweek.android"><strong>google play</strong></a> or the <a href="https://apps.apple.com/lv/app/tweek-to-do-weekly-calendar/id1535438855"><strong>apple app store</strong></a>. Creating an account is free &amp; once you’ve signed in saving calendars is a breeze. Give it a try today if you’d like to try a calendar that’s a little different in a good way.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Turning ubuntu into a rolling release distro with rolling rhino.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/turning-ubuntu-into-a-rolling-release-distro-with-rolling-rhino/"/>
-        <id>https://furycd001.github.io/turning-ubuntu-into-a-rolling-release-distro-with-rolling-rhino/</id>
-            <category term="Xubuntu"/>
-            <category term="Ubuntu"/>
-            <category term="Rolling release"/>
-            <category term="Rolling Rhino"/>
-            <category term="Lubuntu"/>
-            <category term="Linux"/>
-
-        <updated>2020-11-10T10:22:58+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/41/logo.png" alt="Rolling Rhino Logo" />
-                    Using any of the daily images provided by ubuntu along with Rolling Rhino, you can convert any ubuntu daily installation&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/41/logo.png" alt="Rolling Rhino Logo" />
-                <p>Using any of the <a href="http://cdimage.ubuntu.com/xubuntu/daily-live/current/"><strong>daily images</strong></a> provided by ubuntu along with <a href="https://github.com/wimpysworld/rolling-rhino"><strong>Rolling Rhino</strong></a>, you can convert any ubuntu daily installation into a somewhat rolling release distro. This is mainly intended for developers &amp; users who would consider themselves experienced, so unless that’s you I’d recommend installing this on an external drive, testing computer or even inside a vm.  </p>
-<h4 id="getting-started">Getting started..</h4>
-<p>Getting started is as easy as downloading &amp; installing one of the daily images.</p>
-<ul>
-<li><a href="http://cdimage.ubuntu.com/daily-live/current/"><strong>Ubuntu</strong></a></li>
-<li><a href="http://cdimage.ubuntu.com/kubuntu/daily-live/current/"><strong>Kubuntu</strong></a></li>
-<li><a href="http://cdimage.ubuntu.com/lubuntu/daily-live/current/"><strong>Lubuntu</strong></a></li>
-<li><a href="http://cdimage.ubuntu.com/ubuntu-budgie/daily-live/current/"><strong>Ubuntu Budgie</strong></a></li>
-<li><a href="http://cdimage.ubuntu.com/ubuntukylin/daily-live/current/"><strong>Ubuntu Kylin</strong></a></li>
-<li><a href="http://cdimage.ubuntu.com/ubuntu-mate/daily-live/current/"><strong>Ubuntu Mate</strong></a></li>
-<li><a href="http://cdimage.ubuntu.com/ubuntustudio/dvd/current/"><strong>Ubuntu Studio</strong></a></li>
-<li><a href="http://cdimage.ubuntu.com/xubuntu/daily-live/current/"><strong>Xubuntu</strong></a></li>
-</ul>
-<h4 id="converting-the-newly-installed-os-to-rolling-release">Converting the newly installed os to rolling release.</h4>
-<p>Firstly you’ll want to install git.</p>
-<pre><code class="language-bash">sudo apt install git
-</code></pre>
-<p>Once you have git installed use it to download rolling rhino.</p>
-<pre><code class="language-bash">git clone https://github.com/wimpysworld/rolling-rhino.git
-</code></pre>
-<p>Finally <em>cd</em> into the rolling rhino directory &amp; execute the installation script.</p>
-<pre><code class="language-bash">cd rolling-rhino &amp;&amp; sudo ./rolling-rhino
-</code></pre>
-<p>Let the script do it’s thing &amp; then reboot the system once it finishes. With the system rebooted you should now be running ubuntu as a rolling release distro.</p>
 
             ]]>
         </content>
