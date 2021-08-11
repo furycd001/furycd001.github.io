@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-08-11T21:17:12+01:00</updated>
+    <updated>2021-08-11T21:21:36+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -24,17 +24,17 @@
             <category term="Lofi"/>
             <category term="Bash"/>
 
-        <updated>2021-08-11T21:17:12+01:00</updated>
+        <updated>2021-08-11T21:21:36+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/52/Screenshot_2021-08-11_20-49-58.png" alt="Lofi" />
-                    A simple video wallpaper script written in bash using mpv &amp; xwinwrap. Also includes audio. Inspired by this post made&hellip;
+                    A simple video wallpaper script written in bash using mpv &amp; xwinwrap. Includes audio. Inspired by this post made by&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://furycd001.github.io/media/posts/52/Screenshot_2021-08-11_20-49-58.png" alt="Lofi" />
-                <p>A simple video wallpaper script written in bash using <strong><a href="https://mpv.io/">mpv</a></strong> &amp; <strong><a href="https://aur.archlinux.org/packages/xwinwrap-git/">xwinwrap</a></strong>. Also includes audio. Inspired by <strong><a href="https://www.reddit.com/r/unixporn/comments/p292xv/oc_i_made_a_script_that_plays_the_lofi_stream_in/?utm_source=share&amp;utm_medium=web2x&amp;context=3">this post</a></strong> made by <strong><a href="https://www.reddit.com/user/rapphyyy/">u/rapphyyy</a></strong>.</p>
+                <p>A simple video wallpaper script written in bash using <strong><a href="https://mpv.io/">mpv</a></strong> &amp; <strong><a href="https://aur.archlinux.org/packages/xwinwrap-git/">xwinwrap</a></strong>. Includes audio. Inspired by <strong><a href="https://www.reddit.com/r/unixporn/comments/p292xv/oc_i_made_a_script_that_plays_the_lofi_stream_in/?utm_source=share&amp;utm_medium=web2x&amp;context=3">this post</a></strong> made by <strong><a href="https://www.reddit.com/user/rapphyyy/">u/rapphyyy</a></strong>.</p>
 <h4 id="how-to-install">How-to install.</h4>
 <ol>
 <li><p>Download the script….</p>
@@ -71,6 +71,11 @@ panscan=1.0
 <li><p>Enjoy-!!</p>
 </li>
 </ol>
+<blockquote>
+<p><strong>Optional step to remove audio.</strong>
+Simple remove the bottom line from <code>lofi.sh</code> to remove the audio.
+    <code>bash     mpv --no-video https://www.youtube.com/watch?v=5qap5aO4i9A     </code></p>
+</blockquote>
 
             ]]>
         </content>
