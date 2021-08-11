@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-08-11T10:03:04+01:00</updated>
+    <updated>2021-08-11T10:03:50+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="Linux"/>
             <category term="Archlinux"/>
 
-        <updated>2021-08-11T10:03:04+01:00</updated>
+        <updated>2021-08-11T10:03:50+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/51/pacman.jpg" alt="Pacman" />
@@ -92,7 +92,7 @@
 <pre><code class="language-bash">pacman -Rsn $(pacman -Qdtq)
 </code></pre>
 <blockquote>
-<p>Like the above command this will list all all dependencies that are installed, but will also remove them at the same time….</p>
+<p>Like the above command this will list all dependencies that are installed, but will also remove them at the same time….</p>
 </blockquote>
 
             ]]>
