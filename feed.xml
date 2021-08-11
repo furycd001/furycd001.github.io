@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-08-11T09:54:37+01:00</updated>
+    <updated>2021-08-11T10:01:31+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="Linux"/>
             <category term="Archlinux"/>
 
-        <updated>2021-08-11T09:54:37+01:00</updated>
+        <updated>2021-08-11T10:01:31+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/51/pacman.jpg" alt="Pacman" />
@@ -38,7 +38,7 @@
 <pre><code class="language-bash">pacman -Ss $packagename
 </code></pre>
 <blockquote>
-<p>You can use this command to search for a package….</p>
+<p>You can use this command to search for a package. Just replace <code>$packagename</code> with your package name….</p>
 </blockquote>
 <h4 id="update-system">Update system….</h4>
 <pre><code class="language-bash">pacman -Syu
@@ -56,37 +56,37 @@
 <pre><code class="language-bash">pacman -U $packagename
 </code></pre>
 <blockquote>
-<p>This command will allow you to install a package saved locally on your machine…. </p>
+<p>Installing a package saved locally is as simple as running this command…. </p>
 </blockquote>
 <h4 id="install-a-package">Install a package….</h4>
 <pre><code class="language-bash">pacman -S $packagename
 </code></pre>
 <blockquote>
-<p>This command will allow you to install a package…. </p>
+<p>To install a package from within the arch repos, just run this command…. </p>
 </blockquote>
 <h4 id="remove-a-package">Remove a package….</h4>
 <pre><code class="language-bash">pacman -R $packagename
 </code></pre>
 <blockquote>
-<p>This will only remove the package &amp; nothing else….</p>
+<p>To remove only a package &amp; nothing else, run this command….</p>
 </blockquote>
 <h4 id="completely-remove-package">Completely remove package….</h4>
 <pre><code class="language-bash">pacman -Rsn $packagename
 </code></pre>
 <blockquote>
-<p>This will remove the package &amp; all other files relating to said package. Please note that anything in your <code>home</code> directory will need to be removed manually….</p>
+<p>This command will remove the package &amp; all other files relating to said package. Please note that anything in your <code>home</code> directory will need to be removed manually….</p>
 </blockquote>
 <h4 id="remove-package--any-dependencies-that-arent-needed-by-another-app">Remove package &amp; any dependencies that aren’t needed by another app….</h4>
 <pre><code class="language-bash">pacman -Rs $packagename
 </code></pre>
 <blockquote>
-<p>This command not only removes a package, but also removes any dependencies that are not needed by any other package….</p>
+<p>Run this command to remove a package &amp; also any dependencies that are not needed by any other package….</p>
 </blockquote>
 <h4 id="list-unneeded-dependencies">List unneeded dependencies….</h4>
 <pre><code class="language-bash">pacman -Qdt $packagename
 </code></pre>
 <blockquote>
-<p>This command will list all dependencies that are installed, but not required by any package….</p>
+<p>List all dependencies that are installed, but not required by any package….</p>
 </blockquote>
 <h4 id="remove-all-unneeded--unused-dependencies">Remove all unneeded / unused dependencies….</h4>
 <pre><code class="language-bash">pacman -Rsn $(pacman -Qdtq)
