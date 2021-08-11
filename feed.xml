@@ -3,12 +3,78 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-08-11T10:03:50+01:00</updated>
+    <updated>2021-08-11T20:50:21+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Lofi video wallpaper.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/lofi-video-wallpaper/"/>
+        <id>https://furycd001.github.io/lofi-video-wallpaper/</id>
+            <category term="xwinwrap"/>
+            <category term="video wallpaper"/>
+            <category term="script"/>
+            <category term="mpv"/>
+            <category term="Video"/>
+            <category term="Lofi"/>
+            <category term="Bash"/>
+
+        <updated>2021-08-11T20:50:21+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/52/Screenshot_2021-08-11_20-49-58.png" alt="Lofi" />
+                    A simple video wallpaper script written in bash using mpv &amp; xwinwrap. Inspired by this post made by u/rapphyyy. Download&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/52/Screenshot_2021-08-11_20-49-58.png" alt="Lofi" />
+                <p>A simple video wallpaper script written in bash using <strong><a href="https://mpv.io/">mpv</a></strong> &amp; <strong><a href="https://aur.archlinux.org/packages/xwinwrap-git/">xwinwrap</a></strong>. Inspired by <strong><a href="https://www.reddit.com/r/unixporn/comments/p292xv/oc_i_made_a_script_that_plays_the_lofi_stream_in/?utm_source=share&amp;utm_medium=web2x&amp;context=3">this post</a></strong> made by <strong><a href="https://www.reddit.com/user/rapphyyy/">u/rapphyyy</a></strong>.</p>
+<h4 id="how-to-install">How-to install.</h4>
+<ol>
+<li><p>Download the script….</p>
+<pre><code class="language-bash">wget https://raw.githubusercontent.com/furycd001/dots/master/Gucci/lofi.sh
+</code></pre>
+</li>
+<li><p>Open <code>~/.config/mpv/mpv.conf</code> &amp; add the following….</p>
+<pre><code class="language-bash">[lofi]
+fullscreen=yes
+title=vwall
+geometry=100%x100%
+border=no
+no-window-dragging
+x11-name=mpv-wallpaper
+hwdec=vaapi
+aid=no
+vo=gpu
+loop-file=no
+shuffle=yes
+loop-playlist=yes
+idle=no
+aid=no
+background=&quot;#e5b680&quot;
+panscan=1.0
+</code></pre>
+<blockquote>
+<p>You can remove the bottom line <code>panscan=1.0</code> if you do not want the video to fill the screen &amp; be partially cut off.</p>
+</blockquote>
+</li>
+<li><p>Run the script….</p>
+<pre><code class="language-bash">./lofi.sh
+</code></pre>
+</li>
+<li><p>Enjoy-!!</p>
+</li>
+</ol>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>A few useful pacman commands.</title>
         <author>
@@ -468,34 +534,6 @@ xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --profile wallpaper --wid WID /home/us
             <![CDATA[
                     <img src="https://furycd001.github.io/media/posts/43/web.jpg" alt="" />
                 <p>In 2020 there’s definitely no shortage of ways for creating websites without any coding knowledge. Two ways that keep appearing for me are <a href="https://stitches.hyperyolo.com/"><strong>stitches</strong></a> &amp; <a href="https://t3mpl.n4no.com/"><strong>T3mpl</strong></a>. Both are super simple, easy to use &amp; work straight from within a browser tab. By using either you can have an amazing website created in a matter of minutes. Stitches is completely drag &amp; drop were as t3mpl give’s you a few preset template’s that you can edit / customise. Give them both a try whenever you next need to design a website.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Tweek.. A Calendar app with only one view.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/tweek-a-calendar-app-with-only-one-view/"/>
-        <id>https://furycd001.github.io/tweek-a-calendar-app-with-only-one-view/</id>
-            <category term="Tweek"/>
-            <category term="Mobile"/>
-            <category term="Minimal"/>
-            <category term="Calendar"/>
-            <category term="Apps"/>
-
-        <updated>2020-11-11T13:54:08+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/42/tweek.png" alt="" />
-                    Tweek is a calendar app that only has one view &amp; that’s weekly. It’s minimalist from design perspective, but packs&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/42/tweek.png" alt="" />
-                <p><a href="https://tweek.so/"><strong>Tweek</strong></a> is a calendar app that only has one view &amp; that’s weekly. It’s minimalist from design perspective, but packs a whole bunch of features that you’ll find useful. You can access &amp; use tweek from any desktop web browser, or you can download the app from <a href="https://play.google.com/store/apps/details?id=so.tweek.android"><strong>google play</strong></a> or the <a href="https://apps.apple.com/lv/app/tweek-to-do-weekly-calendar/id1535438855"><strong>apple app store</strong></a>. Creating an account is free &amp; once you’ve signed in saving calendars is a breeze. Give it a try today if you’d like to try a calendar that’s a little different in a good way.</p>
 
             ]]>
         </content>
