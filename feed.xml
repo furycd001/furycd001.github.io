@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-08-11T21:21:36+01:00</updated>
+    <updated>2021-08-11T21:22:55+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -24,7 +24,7 @@
             <category term="Lofi"/>
             <category term="Bash"/>
 
-        <updated>2021-08-11T21:21:36+01:00</updated>
+        <updated>2021-08-11T21:22:55+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/52/Screenshot_2021-08-11_20-49-58.png" alt="Lofi" />
@@ -71,9 +71,9 @@ panscan=1.0
 <li><p>Enjoy-!!</p>
 </li>
 </ol>
+<p><strong>Optional step to remove audio.</strong></p>
 <blockquote>
-<p><strong>Optional step to remove audio.</strong>
-Simple remove the bottom line from <code>lofi.sh</code> to remove the audio.
+<p>Simple remove the bottom line from <code>lofi.sh</code> to remove the audio.
     <code>bash     mpv --no-video https://www.youtube.com/watch?v=5qap5aO4i9A     </code></p>
 </blockquote>
 
