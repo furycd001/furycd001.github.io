@@ -3,12 +3,62 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-08-20T20:42:02+01:00</updated>
+    <updated>2021-08-25T10:50:10+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Four useful ffmpeg commands.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/four-useful-ffmpeg-commands/"/>
+        <id>https://furycd001.github.io/four-useful-ffmpeg-commands/</id>
+            <category term="stills"/>
+            <category term="screenrecording"/>
+            <category term="ffmpeg"/>
+            <category term="audio"/>
+            <category term="Video"/>
+            <category term="Terminal"/>
+            <category term="Audio editor"/>
+
+        <updated>2021-08-25T10:50:10+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/53/ffmpeg.png" alt="" />
+                    In this blog post I’m listing four ffmpeg commands that I use more than any other. ffmpeg -i /home/furycd001/Downloads/video.mp4 /home/furycd001/Downloads/image_%04d.png&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/53/ffmpeg.png" alt="" />
+                <p>In this blog post I’m listing four <strong><a href="https://www.ffmpeg.org/">ffmpeg</a></strong> commands that I use more than any other.</p>
+<hr>
+<h4 id="extracting-frames-from-video">Extracting frames from video..</h4>
+<pre><code>ffmpeg -i /home/furycd001/Downloads/video.mp4 /home/furycd001/Downloads/image_%04d.png
+</code></pre>
+<p>Using this command you can extract pretty much every frame from a video. The amount of numbers at the end of filename can be set by changing <code>04d</code> to <code>01d</code> or whatever you want. You can also change the filename from <code>image_%04d.png</code> to <code>soy_%02d.png</code> or again whatever you want. Just remember to keep the <code>%04d</code> part at the end or you’ll run into problems.</p>
+<h4 id="cutting-parts-from-a-video">Cutting parts from a video..</h4>
+<pre><code>ffmpeg -i input.mp4 -ss 00:00:00 -to 00:00:00 -c:v copy -c:a copy -strict -2 output.mp4
+</code></pre>
+<p>Cutting parts from a video is as easy as running the command above. Just place the time you wish to start at after <code>-ss</code> &amp; then finish after <code>-to</code>. Sometimes if the cut length isn’t long enough i’ll get a blank output, but making it longer always sloves this.</p>
+<pre><code>ffmpeg -i input.mp4 -to 00:00:00 -c:v copy -c:a copy -strict -2 output.mp4
+</code></pre>
+<p>If you want cut the video to play from the start up until a certain point, you can remove the <code>-ss</code> start section leaving only the <code>-to </code> section. This will cut everything after the designated time. You can also reverse this by removing <code>-to</code> &amp; leaving <code>-ss</code>. This will cut everything from before the designated time &amp; leave everything else.</p>
+<h4 id="record-the-entire-screen">Record the entire screen..</h4>
+<pre><code>ffmpeg -f x11grab -video_size 1920x1080 -framerate 30 -i :0.0 -f pulse -i default -preset ultrafast -crf 18 -pix_fmt yuv420p out.mp4
+</code></pre>
+<p>You can record your entire screen along with audio using the above command. You can check pavucontrol for recording options &amp; mute your microphone for no room audio.</p>
+<h4 id="increase-audio-volume-using-ffmpeg">Increase audio volume using ffmpeg..</h4>
+<pre><code>ffmpeg -i input.mkv -filter:a &quot;volume=4.0&quot; output.mkv;
+</code></pre>
+<p>With this command you can increase the audio volume in a video or audio file. Just change <code>volume=4.0</code> to <code>volume=8.0</code> or whatever you require.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Lofi video wallpaper.</title>
         <author>
@@ -493,34 +543,6 @@ xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --profile wallpaper --wid WID /home/us
 <h4 id="what-ip"><a href="https://gabmus.gitlab.io/whatip/"><strong>What IP</strong></a></h4>
 <p>An app that provides network information.
 <figure class="post__image"><img loading="lazy" src="https://i.imgur.com/v9gDwG4.png" data-is-external-image="true"  alt="alt text" /></figure></p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Generating websites easily within a browser.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/generating-websites-easily-within-a-browser/"/>
-        <id>https://furycd001.github.io/generating-websites-easily-within-a-browser/</id>
-            <category term="Webpage"/>
-            <category term="Web browser"/>
-            <category term="Web"/>
-            <category term="Html"/>
-            <category term="Code"/>
-
-        <updated>2020-11-11T13:53:52+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/43/web.jpg" alt="" />
-                    In 2020 there’s definitely no shortage of ways for creating websites without any coding knowledge. Two ways that keep appearing&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/43/web.jpg" alt="" />
-                <p>In 2020 there’s definitely no shortage of ways for creating websites without any coding knowledge. Two ways that keep appearing for me are <a href="https://stitches.hyperyolo.com/"><strong>stitches</strong></a> &amp; <a href="https://t3mpl.n4no.com/"><strong>T3mpl</strong></a>. Both are super simple, easy to use &amp; work straight from within a browser tab. By using either you can have an amazing website created in a matter of minutes. Stitches is completely drag &amp; drop were as t3mpl give’s you a few preset template’s that you can edit / customise. Give them both a try whenever you next need to design a website.</p>
 
             ]]>
         </content>
