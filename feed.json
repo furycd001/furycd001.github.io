@@ -10,6 +10,27 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/download-all-media-from-a-users-instagram-or-twitter-account/",
+            "url": "https://furycd001.github.io/download-all-media-from-a-users-instagram-or-twitter-account/",
+            "title": "Download all media from a users instagram or twitter account.",
+            "summary": "You might not know this.. but you can easily download all media from a users instagram or twitter account. All&hellip;",
+            "content_html": "<p>You might not know this.. but you can easily download all media from a users instagram or twitter account. All you need is <strong><a href=\"https://github.com/mikf/gallery-dl\">gallery-dl</a></strong> &amp; some free space on your hard drive….</p>\n<h4 id=\"1-begin-by-installing-gallery-dl\">1. Begin by installing gallery-dl..</h4>\n<p>I’m currently running <strong><a href=\"archlinux.org/\">archlinux</a></strong> so I used the following command.</p>\n<pre><code class=\"language-bash\">yay -S gallery-dl-bin\n</code></pre>\n<p>You can check the repos of your distro to see if it’s available &amp; if not then you can install it using <code>pip</code>.</p>\n<pre><code class=\"language-bash\">python3 -m pip install -U gallery-dl\n</code></pre>\n<h4 id=\"2-start-downloading\">2. Start downloading..</h4>\n<p>Now that <strong><a href=\"https://github.com/mikf/gallery-dl\">gallery-dl</a></strong> is installed all that is left to do is to start downloading. Simply open up a terminal &amp; type <code>gallery-dl url</code> followed by your url to either a twitter or instagram user.</p>\n<pre><code class=\"language-bash\">gallery-dl https://twitter.com/yourawesomeusername/\n</code></pre>\n<h4 id=\"4-finished-downloading\">4. Finished downloading..</h4>\n<p>While gallery-dl is busy downloading you’ll see the files being downloaded listed in the terminal window. Whenever downloading has finished you can close the terminal window &amp; open up your file manager to view the downloaded media.</p>\n<blockquote>\n<p>Gallery-dl creates it’s own folder structure for each website. So inside the gallery-dl folder you’ll find separate folders for instagram, twitter &amp; any other supported websites. Inside each of those folders you’ll find folders relating to each user that you’ve downloaded from.</p>\n</blockquote>\n",
+            "image": "https://furycd001.github.io/media/posts/54/gallery-dl.jpg",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "gallery-dl",
+                   "Twitter",
+                   "Terminal",
+                   "Social Media",
+                   "Instagram",
+                   "Download"
+            ],
+            "date_published": "2021-09-01T13:24:18+01:00",
+            "date_modified": "2021-09-01T13:24:18+01:00"
+        },
+        {
             "id": "https://furycd001.github.io/four-useful-ffmpeg-commands/",
             "url": "https://furycd001.github.io/four-useful-ffmpeg-commands/",
             "title": "Four useful ffmpeg commands.",
@@ -192,25 +213,6 @@
             ],
             "date_published": "2020-11-19T09:02:29+00:00",
             "date_modified": "2020-11-19T09:02:29+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/gabriele-musco/",
-            "url": "https://furycd001.github.io/gabriele-musco/",
-            "title": "Gabriele Musco.",
-            "summary": "Say hey to Gabriele Musco. He’s been developing some awesome apps for the gnome desktop. His apps are created with&hellip;",
-            "content_html": "<p>Say hey to <a href=\"https://gitlab.gnome.org/GabMus\"><strong>Gabriele Musco</strong></a>. He’s been developing some awesome apps for the gnome desktop. His apps are created with Python 3 &amp; GTK+ 3. They are free, modern, awesome &amp; completely open source….</p>\n<h4 id=\"giara\"><a href=\"https://giara.gabmus.org/\"><strong>Giara</strong></a></h4>\n<p>A modern app for Reddit.\n<figure class=\"post__image\"><img loading=\"lazy\" src=\"https://i.imgur.com/BjVC87J.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<h4 id=\"feeds\"><a href=\"https://gfeeds.gabmus.org/\"><strong>Feeds</strong></a></h4>\n<p>A news reader for the gnome desktop.\n<figure class=\"post__image\"><img loading=\"lazy\" src=\"https://i.imgur.com/1f8uQaN.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<h4 id=\"hydrapaper\"><a href=\"https://hydrapaper.gabmus.org/\"><strong>HydraPaper</strong></a></h4>\n<p>A app for the gnome desktop that adds multi monitor support to setting desktop wallpapers. \n<figure class=\"post__image\"><img loading=\"lazy\" src=\"https://i.imgur.com/a1K4J6I.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<h4 id=\"notorious\"><a href=\"https://notorious.gabmus.org/\"><strong>Notorious</strong></a></h4>\n<p>A todo app that is keyboard centric.\n<figure class=\"post__image\"><img loading=\"lazy\" src=\"https://i.imgur.com/IFaqX66.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<h4 id=\"what-ip\"><a href=\"https://gabmus.gitlab.io/whatip/\"><strong>What IP</strong></a></h4>\n<p>An app that provides network information.\n<figure class=\"post__image\"><img loading=\"lazy\" src=\"https://i.imgur.com/v9gDwG4.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n",
-            "image": "https://furycd001.github.io/media/posts/44/gnome.jpg",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Python",
-                   "Gtk",
-                   "Gnome",
-                   "Apps"
-            ],
-            "date_published": "2020-11-12T08:50:49+00:00",
-            "date_modified": "2020-11-12T08:50:49+00:00"
         }
     ]
 }

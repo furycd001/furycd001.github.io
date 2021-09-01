@@ -3,12 +3,57 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-08-25T10:50:10+01:00</updated>
+    <updated>2021-09-01T13:24:18+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Download all media from a users instagram or twitter account.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/download-all-media-from-a-users-instagram-or-twitter-account/"/>
+        <id>https://furycd001.github.io/download-all-media-from-a-users-instagram-or-twitter-account/</id>
+            <category term="gallery-dl"/>
+            <category term="Twitter"/>
+            <category term="Terminal"/>
+            <category term="Social Media"/>
+            <category term="Instagram"/>
+            <category term="Download"/>
+
+        <updated>2021-09-01T13:24:18+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/54/gallery-dl.jpg" alt="" />
+                    You might not know this.. but you can easily download all media from a users instagram or twitter account. All&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/54/gallery-dl.jpg" alt="" />
+                <p>You might not know this.. but you can easily download all media from a users instagram or twitter account. All you need is <strong><a href="https://github.com/mikf/gallery-dl">gallery-dl</a></strong> &amp; some free space on your hard drive….</p>
+<h4 id="1-begin-by-installing-gallery-dl">1. Begin by installing gallery-dl..</h4>
+<p>I’m currently running <strong><a href="archlinux.org/">archlinux</a></strong> so I used the following command.</p>
+<pre><code class="language-bash">yay -S gallery-dl-bin
+</code></pre>
+<p>You can check the repos of your distro to see if it’s available &amp; if not then you can install it using <code>pip</code>.</p>
+<pre><code class="language-bash">python3 -m pip install -U gallery-dl
+</code></pre>
+<h4 id="2-start-downloading">2. Start downloading..</h4>
+<p>Now that <strong><a href="https://github.com/mikf/gallery-dl">gallery-dl</a></strong> is installed all that is left to do is to start downloading. Simply open up a terminal &amp; type <code>gallery-dl url</code> followed by your url to either a twitter or instagram user.</p>
+<pre><code class="language-bash">gallery-dl https://twitter.com/yourawesomeusername/
+</code></pre>
+<h4 id="4-finished-downloading">4. Finished downloading..</h4>
+<p>While gallery-dl is busy downloading you’ll see the files being downloaded listed in the terminal window. Whenever downloading has finished you can close the terminal window &amp; open up your file manager to view the downloaded media.</p>
+<blockquote>
+<p>Gallery-dl creates it’s own folder structure for each website. So inside the gallery-dl folder you’ll find separate folders for instagram, twitter &amp; any other supported websites. Inside each of those folders you’ll find folders relating to each user that you’ve downloaded from.</p>
+</blockquote>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Four useful ffmpeg commands.</title>
         <author>
@@ -501,48 +546,6 @@ xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --profile wallpaper --wid WID /home/us
 </ol>
 <p>If you don’t see any output from that last command, then everything has worked correctly &amp; you have just successfully removed a kernel module temporarily.</p>
 <p>To insert the module back into the kernel you can either run <code>insmod modulenamehere</code> or reboot your system.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Gabriele Musco.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/gabriele-musco/"/>
-        <id>https://furycd001.github.io/gabriele-musco/</id>
-            <category term="Python"/>
-            <category term="Gtk"/>
-            <category term="Gnome"/>
-            <category term="Apps"/>
-
-        <updated>2020-11-12T08:50:49+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/44/gnome.jpg" alt="" />
-                    Say hey to Gabriele Musco. He’s been developing some awesome apps for the gnome desktop. His apps are created with&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/44/gnome.jpg" alt="" />
-                <p>Say hey to <a href="https://gitlab.gnome.org/GabMus"><strong>Gabriele Musco</strong></a>. He’s been developing some awesome apps for the gnome desktop. His apps are created with Python 3 &amp; GTK+ 3. They are free, modern, awesome &amp; completely open source….</p>
-<h4 id="giara"><a href="https://giara.gabmus.org/"><strong>Giara</strong></a></h4>
-<p>A modern app for Reddit.
-<figure class="post__image"><img loading="lazy" src="https://i.imgur.com/BjVC87J.png" data-is-external-image="true"  alt="alt text" /></figure></p>
-<h4 id="feeds"><a href="https://gfeeds.gabmus.org/"><strong>Feeds</strong></a></h4>
-<p>A news reader for the gnome desktop.
-<figure class="post__image"><img loading="lazy" src="https://i.imgur.com/1f8uQaN.png" data-is-external-image="true"  alt="alt text" /></figure></p>
-<h4 id="hydrapaper"><a href="https://hydrapaper.gabmus.org/"><strong>HydraPaper</strong></a></h4>
-<p>A app for the gnome desktop that adds multi monitor support to setting desktop wallpapers. 
-<figure class="post__image"><img loading="lazy" src="https://i.imgur.com/a1K4J6I.png" data-is-external-image="true"  alt="alt text" /></figure></p>
-<h4 id="notorious"><a href="https://notorious.gabmus.org/"><strong>Notorious</strong></a></h4>
-<p>A todo app that is keyboard centric.
-<figure class="post__image"><img loading="lazy" src="https://i.imgur.com/IFaqX66.png" data-is-external-image="true"  alt="alt text" /></figure></p>
-<h4 id="what-ip"><a href="https://gabmus.gitlab.io/whatip/"><strong>What IP</strong></a></h4>
-<p>An app that provides network information.
-<figure class="post__image"><img loading="lazy" src="https://i.imgur.com/v9gDwG4.png" data-is-external-image="true"  alt="alt text" /></figure></p>
 
             ]]>
         </content>
