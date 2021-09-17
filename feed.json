@@ -10,6 +10,46 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/using-imagemagick-as-an-image-viewer/",
+            "url": "https://furycd001.github.io/using-imagemagick-as-an-image-viewer/",
+            "title": "Using imagemagick as an image viewer.",
+            "summary": "Did you know that you could use imagemagick as an image viewer :? Well I didn’t until recently &amp; it’s&hellip;",
+            "content_html": "<p>Did you know that you could use <strong><a href=\"https://imagemagick.org/index.php\">imagemagick</a></strong> as an image viewer :? Well I didn’t until recently &amp; it’s super easy to do so. Simply create &amp; save the super small bash script below &amp; call it from the terminal or from a custom action within your file manager. You’ll just need to change <code>1920x1200</code> to whatever your screen resolution is.</p>\n<pre><code class=\"language-bash\">#!/usr/bin/env bash\n# Open images with imagemagick....\n\ndisplay -resize 1920x1200 &quot;$1&quot;\n</code></pre>\n<blockquote>\n<p>I saved the script to <code>/usr/bin/image</code> so all I have to do now is run <code>image $/path/to/image.jpeg</code> when in a terminal.</p>\n</blockquote>\n",
+            "image": "https://furycd001.github.io/media/posts/56/ImageMagick_logo.svg.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Terminal",
+                   "ImageMagick",
+                   "Image",
+                   "Bash"
+            ],
+            "date_published": "2021-09-17T07:56:07+01:00",
+            "date_modified": "2021-09-17T07:56:07+01:00"
+        },
+        {
+            "id": "https://furycd001.github.io/installing-imagemagick-on-debian/",
+            "url": "https://furycd001.github.io/installing-imagemagick-on-debian/",
+            "title": "Installing imagemagick on debian.",
+            "summary": "Imagemagick is one heck of an awesome program &amp; you never know when it may just come in handy. The&hellip;",
+            "content_html": "<p><strong><a href=\"https://imagemagick.org/index.php\">Imagemagick</a></strong> is one heck of an awesome program &amp; you never know when it may just come in handy. The only problem is that if you happen to run debian you’ll find that it’s not included within the repos, therefore you’ll need to compile it from source. Never worry.. Compiling imagemagick from source isn’t all that compilicated &amp; I’m going to show you how to do just that right now.</p>\n<h4 id=\"step1\">Step.1</h4>\n<p>Prepare your system by opening up a terminal &amp; installing the <code>build-essential</code> package that includes things like <code>make</code> &amp; <code>gcc</code>.</p>\n<pre><code class=\"language-bash\">sudo apt update &amp;&amp; sudo apt-get install build-essential\n</code></pre>\n<h4 id=\"step2\">Step.2</h4>\n<p>In the same terminal window use wget to download the latest source code archive directly from the imagemagick website.</p>\n<pre><code class=\"language-bash\">wget https://www.imagemagick.org/download/ImageMagick.tar.gz\n</code></pre>\n<h4 id=\"step3\">Step.3</h4>\n<p>Once the download has finished we can then extract it’s contents.</p>\n<pre><code class=\"language-bash\">tar xvzf ImageMagick.tar.gz\n</code></pre>\n<h4 id=\"step4\">Step.4</h4>\n<p>With everything extracted we can now start compiling the source code. You’ll first want to configure the ImageMagick make script by running the <code>./configure</code> command to configure compiler environment.</p>\n<pre><code class=\"language-bash\">./configure\n</code></pre>\n<p>Once configure has finished, we can then use the <code>make</code> command to start the compiling.</p>\n<pre><code class=\"language-bash\">make\n</code></pre>\n<blockquote>\n<p>Look out for any errors that may appear within the terminal window &amp; <strong><a href=\"https://html.duckduckgo.com/html\">ddg</a></strong> them to search for the fix..</p>\n</blockquote>\n<h4 id=\"step5\">Step.5</h4>\n<p>When compiling finishes we can go &amp; install the imagemagick binary file using <code>make install</code> command.</p>\n<pre><code class=\"language-bash\">sudo make install \n</code></pre>\n<h4 id=\"step6\">Step.6</h4>\n<p>Imagemagick should now be installed on your debian system. You can launch it from the terminal by running the <code>display</code> command &amp; display version info by running <code>magick -version</code>.</p>\n",
+            "image": "https://furycd001.github.io/media/posts/55/ImageMagick_logo.svg-2.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Terminal",
+                   "Source Code",
+                   "ImageMagick",
+                   "Image",
+                   "Debian",
+                   "Compiling"
+            ],
+            "date_published": "2021-09-17T07:40:14+01:00",
+            "date_modified": "2021-09-17T07:40:14+01:00"
+        },
+        {
             "id": "https://furycd001.github.io/download-all-media-from-a-users-instagram-or-twitter-account/",
             "url": "https://furycd001.github.io/download-all-media-from-a-users-instagram-or-twitter-account/",
             "title": "Download all media from a users instagram or twitter account.",
@@ -177,42 +217,6 @@
             ],
             "date_published": "2021-01-20T09:28:48+00:00",
             "date_modified": "2021-01-20T12:06:40+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/linux-zen-kernel/",
-            "url": "https://furycd001.github.io/linux-zen-kernel/",
-            "title": "Linux zen kernel....",
-            "summary": "The Linux zen kernel is a kernel replacement built using the best configuration and kernel sources for use on everyday&hellip;",
-            "content_html": "<p>The <a href=\"https://liquorix.net/\">Linux zen kernel</a> is a kernel replacement built using the best configuration and kernel sources for use on everyday systems. I Know that installing a custom kernel might not be for everyone, but at some point you may want to try getting better performance when gaming or performing multimedia tasks &amp; this might be a great option to look into.</p>\n<p>To install this kernel on Ubuntu based systems you only need to do three things.</p>\n<ol>\n<li><p>Add the ppa &amp; update your sources….</p>\n<pre><code class=\"language-bash\">sudo add-apt-repository ppa:damentz/liquorix &amp;&amp; sudo apt-get update\n</code></pre>\n</li>\n<li><p>Install the meta-packages….</p>\n<pre><code class=\"language-bash\">sudo apt-get install linux-image-liquorix-amd64 linux-headers-liquorix-amd64\n</code></pre>\n</li>\n<li><p>Reboot and start using the zen kernel….</p>\n</li>\n</ol>\n<blockquote>\n<p>On arch based oses the zen kernel is available within the repos. There’s also packages available for almost any other Linux distro like slackware, gentoo, opensuse or fedora <em>(just to name a few)</em>.</p>\n</blockquote>\n",
-            "image": "https://furycd001.github.io/media/posts/46/linux-tux-minimalism-4k-42.jpg",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Ubuntu",
-                   "Linux Kernel",
-                   "Linux"
-            ],
-            "date_published": "2020-11-19T09:21:45+00:00",
-            "date_modified": "2020-11-19T09:21:45+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/temporarily-removing-kernel-modules/",
-            "url": "https://furycd001.github.io/temporarily-removing-kernel-modules/",
-            "title": "Temporarily removing Kernel modules.",
-            "summary": "For whatever reason you may want to temporarily remove a kernel module. This can be done super easily with the&hellip;",
-            "content_html": "<p>For whatever reason you may want to temporarily remove a kernel module. This can be done super easily with the following set of commands &amp; doesn’t take very long..</p>\n<ol>\n<li><p>Start by opening up a new terminal window &amp; running <code>lsmod</code> to list all the modules that are currently loaded….</p>\n</li>\n<li><p>Next run <code>modinfo modulenamehere</code> to view the details of a module….</p>\n<blockquote>\n<p>Replace “modulenamehere” with the actual name of the module..</p>\n</blockquote>\n</li>\n<li><p>Finally run <code>rmmod modulenamehere</code> to remove the module….</p>\n<blockquote>\n<p>Note that you’ll only see output in the terminal if something goes wrong..</p>\n</blockquote>\n</li>\n</ol>\n<p>If you don’t see any output from that last command, then everything has worked correctly &amp; you have just successfully removed a kernel module temporarily.</p>\n<p>To insert the module back into the kernel you can either run <code>insmod modulenamehere</code> or reboot your system.</p>\n",
-            "image": "https://furycd001.github.io/media/posts/45/linux-tux-minimalism-4k-42.jpg",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Terminal",
-                   "Linux Kernel",
-                   "Linux"
-            ],
-            "date_published": "2020-11-19T09:02:29+00:00",
-            "date_modified": "2020-11-19T09:02:29+00:00"
         }
     ]
 }
