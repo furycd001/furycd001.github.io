@@ -3,12 +3,488 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-09-17T07:56:07+01:00</updated>
+    <updated>2021-09-21T13:00:36+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Identifying an operating system using only the ping command.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/identifying-an-operating-system-using-only-the-ping-command/"/>
+        <id>https://furycd001.github.io/identifying-an-operating-system-using-only-the-ping-command/</id>
+            <category term="Terminal"/>
+            <category term="Ping"/>
+            <category term="Operating System"/>
+
+        <updated>2021-09-21T13:00:36+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/57/Screenshot_2021-09-21_13-00-07.png" alt="" />
+                    You can identify which operating system is running simply by pinging it. All you need to do is ping localhost&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/57/Screenshot_2021-09-21_13-00-07.png" alt="" />
+                <p>You can identify which operating system is running simply by pinging it. All you need to do is ping localhost &amp; read the <code>TTL</code> value. This should work on almost any operating system that has access to ping from a terminal. Obviously theres way better ways to find the currently running operating system, but hey this is still cool nonetheless. Simply run the ping command below in a terminal &amp; then compare the <code>TTL</code> value with the table below to determine the opertaing system.</p>
+<pre><code class="language-bash">ping -c5 localhost
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>OS</th>
+<th>VERSION</th>
+<th>PROTOCOL</th>
+<th>TTL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>AIX</td>
+<td></td>
+<td>TCP</td>
+<td>60</td>
+</tr>
+<tr>
+<td>AIX</td>
+<td></td>
+<td>UDP</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Android</td>
+<td>3.2.1</td>
+<td>TCP and ICMP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Android</td>
+<td>5.1.1</td>
+<td>TCP and ICMP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>AIX</td>
+<td>3.2, 4.1</td>
+<td>ICMP</td>
+<td>255</td>
+</tr>
+<tr>
+<td>BSDI</td>
+<td>BSD/OS 3.1 and 4.0</td>
+<td>ICMP</td>
+<td>255</td>
+</tr>
+<tr>
+<td>Compa</td>
+<td>Tru64 v5.0</td>
+<td>ICMP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Cisco</td>
+<td></td>
+<td>ICMP</td>
+<td>254</td>
+</tr>
+<tr>
+<td>DEC Pathworks</td>
+<td>V5</td>
+<td>TCP and UDP</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Foundry</td>
+<td></td>
+<td>ICMP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>FreeBSD</td>
+<td>2.1R</td>
+<td>TCP and UDP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>FreeBSD</td>
+<td>3.4, 4.0</td>
+<td>ICMP</td>
+<td>255</td>
+</tr>
+<tr>
+<td>FreeBSD</td>
+<td>5</td>
+<td>ICMP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>HP-UX</td>
+<td>9.0x</td>
+<td>TCP and UDP</td>
+<td>30</td>
+</tr>
+<tr>
+<td>HP-UX</td>
+<td>10.01</td>
+<td>TCP and UDP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>HP-UX</td>
+<td>10.2</td>
+<td>ICMP</td>
+<td>255</td>
+</tr>
+<tr>
+<td>HP-UX</td>
+<td>11</td>
+<td>ICMP</td>
+<td>255</td>
+</tr>
+<tr>
+<td>HP-UX</td>
+<td>11</td>
+<td>TCP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Irix</td>
+<td>5.3</td>
+<td>TCP and UDP</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Irix</td>
+<td>6.x</td>
+<td>TCP and UDP</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Irix</td>
+<td>6.5.3, 6.5.8</td>
+<td>ICMP</td>
+<td>255</td>
+</tr>
+<tr>
+<td>juniper</td>
+<td></td>
+<td>ICMP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>MPE/IX (HP)</td>
+<td></td>
+<td>ICMP</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>2.0.x kernel</td>
+<td>ICMP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>2.2.14 kernel</td>
+<td>ICMP</td>
+<td>255</td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>2.4 kernel</td>
+<td>ICMP</td>
+<td>255</td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>Red Hat 9</td>
+<td>ICMP and TCP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>MacOS/MacTCP</td>
+<td>2.0.x</td>
+<td>TCP and UDP</td>
+<td>60</td>
+</tr>
+<tr>
+<td>MacOS/MacTCP</td>
+<td>X (10.5.6)</td>
+<td>ICMP/TCP/UDP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>NetBSD</td>
+<td></td>
+<td>ICMP</td>
+<td>255</td>
+</tr>
+<tr>
+<td>Netgear</td>
+<td>FVG318</td>
+<td>ICMP and UDP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>OpenBSD</td>
+<td>2.6 &amp; 2.7</td>
+<td>ICMP</td>
+<td>255</td>
+</tr>
+<tr>
+<td>OpenVMS</td>
+<td>07.01.2002</td>
+<td>ICMP</td>
+<td>255</td>
+</tr>
+<tr>
+<td>OS/2</td>
+<td>TCP/IP</td>
+<td>3.0</td>
+<td>64</td>
+</tr>
+<tr>
+<td>OSF/1</td>
+<td>V3.2A</td>
+<td>TCP</td>
+<td>60</td>
+</tr>
+<tr>
+<td>OSF/1</td>
+<td>V3.2A</td>
+<td>UDP</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Solaris</td>
+<td>2.5.1, 2.6, 2.7, 2.8</td>
+<td>ICMP</td>
+<td>255</td>
+</tr>
+<tr>
+<td>Solaris</td>
+<td>2.8</td>
+<td>TCP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Stratus</td>
+<td>TCP_OS</td>
+<td>ICMP</td>
+<td>255</td>
+</tr>
+<tr>
+<td>Stratus</td>
+<td>TCP_OS (14.2-)</td>
+<td>TCP and UDP</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Stratus</td>
+<td>TCP_OS (14.3+)</td>
+<td>TCP and UDP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Stratus</td>
+<td>STCP</td>
+<td>ICMP/TCP/UDP</td>
+<td>60</td>
+</tr>
+<tr>
+<td>SunOS</td>
+<td>4.1.3/4.1.4</td>
+<td>TCP and UDP</td>
+<td>60</td>
+</tr>
+<tr>
+<td>SunOS    5.7</td>
+<td>ICMP and TCP</td>
+<td>255</td>
+<td></td>
+</tr>
+<tr>
+<td>Ultrix</td>
+<td>V4.1/V4.2A</td>
+<td>TCP</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Ultrix</td>
+<td>V4.1/V4.2A</td>
+<td>UDP</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Ultrix</td>
+<td>V4.2 – 4.5</td>
+<td>ICMP</td>
+<td>255</td>
+</tr>
+<tr>
+<td>VMS/Multinet</td>
+<td></td>
+<td>TCP and UDP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>VMS/TCPware</td>
+<td></td>
+<td>TCP</td>
+<td>60</td>
+</tr>
+<tr>
+<td>VMS/TCPware</td>
+<td></td>
+<td>UDP</td>
+<td>64</td>
+</tr>
+<tr>
+<td>VMS/Wollongong</td>
+<td>1.1.1.1</td>
+<td>TCP</td>
+<td>128</td>
+</tr>
+<tr>
+<td>VMS/Wollongong</td>
+<td>1.1.1.1</td>
+<td>UDP</td>
+<td>30</td>
+</tr>
+<tr>
+<td>VMS/UCX</td>
+<td></td>
+<td>TCP and UDP</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>for Workgroups</td>
+<td>TCP and UDP</td>
+<td>32</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>95</td>
+<td>TCP and UDP</td>
+<td>32</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>98</td>
+<td>ICMP</td>
+<td>32</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>98, 98 SE</td>
+<td>ICMP</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>98</td>
+<td>TCP</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>NT 3.51</td>
+<td>TCP and UDP</td>
+<td>32</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>NT 4.0</td>
+<td>TCP and UDP</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>NT 4.0 SP5-</td>
+<td></td>
+<td>32</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>NT 4.0 SP6+</td>
+<td></td>
+<td>128</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>NT 4 WRKS SP 3, SP 6a</td>
+<td>ICMP</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>NT 4 Server SP4</td>
+<td>ICMP</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>ME</td>
+<td>ICMP</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>2000 pro</td>
+<td>ICMP/TCP/UDP</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>2000 family</td>
+<td>ICMP</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>Server 2003</td>
+<td></td>
+<td>128</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>XP</td>
+<td>ICMP/TCP/UDP</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>Vista</td>
+<td>ICMP/TCP/UDP</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>7</td>
+<td>ICMP/TCP/UDP</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>Server 2008</td>
+<td>ICMP/TCP/UDP</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>10</td>
+<td>ICMP/TCP/UDP</td>
+<td>128</td>
+</tr>
+</tbody></table>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Using imagemagick as an image viewer.</title>
         <author>
@@ -468,92 +944,6 @@ panscan=1.0
 <pre><code class="language-bash">sudo ln -s /usr/lib/pulse-13.99.1 /usr/lib/pulse-13.99
 </code></pre>
 <p>With the symlink created I opened paprefs to find all the options are no longer grayed out &amp; everything works totally as expected. I was really surprised when I realised that a symlink was all it took to fix this problem.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Video as desktop wallpaper.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/video-as-desktop-wallpaper/"/>
-        <id>https://furycd001.github.io/video-as-desktop-wallpaper/</id>
-            <category term="xwinwrap"/>
-            <category term="wallpaper"/>
-            <category term="video wallpaper"/>
-            <category term="script"/>
-            <category term="mpv"/>
-            <category term="Xfce4-terminal"/>
-            <category term="Video"/>
-            <category term="Bash"/>
-
-        <updated>2021-01-20T12:06:40+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/47/Screenshot_2021-01-20_09-58-33.png" alt="" />
-                    Setting a video as your desktops wallpaper is super simple &amp; totally awesome. All you need is 2 applications, along&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/47/Screenshot_2021-01-20_09-58-33.png" alt="" />
-                <p>Setting a video as your desktops wallpaper is super simple &amp; totally awesome. All you need is 2 applications, along with a config file &amp; script.</p>
-<blockquote>
-<p>I’m doing this on Xubuntu 18.04.5, but it should work on any Linux distro….</p>
-</blockquote>
-<h4 id="1-to-being-install-mpv">1. To being install mpv.</h4>
-<pre><code class="language-bash">sudo apt install mpv
-</code></pre>
-<h4 id="2-install-xwinwrap">2. Install xwinwrap.</h4>
-<pre><code class="language-bash">wget https://launchpad.net/~varlesh-l/+archive/ubuntu/ubuntu-tools/+files/xwinwrap_0.3.2git20171223_amd64.deb &amp;&amp; sudo dpkg -i xwinwrap_0.3.2git20171223_amd64.deb
-</code></pre>
-<blockquote>
-<p>If you are on a 32 bit system change url above to the following….
-<a href="https://launchpad.net/~varlesh-l/+archive/ubuntu/ubuntu-tools/+files/xwinwrap_0.3.2git20171223_i386.deb">https://launchpad.net/~varlesh-l/+archive/ubuntu/ubuntu-tools/+files/xwinwrap_0.3.2git20171223_i386.deb</a></p>
-</blockquote>
-<h4 id="3-create-and-edit-your-mpvconf-file">3. Create and edit your mpv.conf file.</h4>
-<pre><code class="language-bash">mkdir ~/.config/mpv/ &amp;&amp; nano ~/.config/mpv/mpv.conf
-</code></pre>
-<h4 id="31-copy--paste-the-following-into-you-mpvconf-file-and-then-save">3.1 Copy &amp; paste the following into you mpv.conf file and then save.</h4>
-<pre><code class="language-bash">[wallpaper]
-fullscreen=yes
-title=mpv-wallpaper
-geometry=100%x100%
-border=no
-no-window-dragging
-x11-name=mpv-wallpaper
-hwdec=vaapi
-aid=no
-loop-file=yes
-idle=no
-aid=no
-background=&quot;#e5b680&quot;
-</code></pre>
-<blockquote>
-<p>Change the background color at the bottom to whatever you like, or simply remove it if you are happy with black….</p>
-</blockquote>
-<h4 id="4-create-a-new-bash-script-using-the-code-below">4. Create a new bash script using the code below.</h4>
-<pre><code class="language-bash">#!/usr/bin/env bash
-#set video as wallpaper using xwinwrap and mpv - change path to your video!!
-
-xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --profile wallpaper --wid WID /home/user/linktovideo/video.mp4
-</code></pre>
-<h4 id="41-make-the-script-executable">4.1 Make the script executable.</h4>
-<pre><code class="language-bash">chmod u+x script.sh
-</code></pre>
-<h4 id="5-run-the-script--check-out-your-new-video-wallpaper">5. Run the script &amp; check out your new video wallpaper.</h4>
-<pre><code class="language-bash">bash ./pathtovideowallpaper.sh &amp;
-</code></pre>
-<blockquote>
-<p>You can set the script to launch in your autostart to save you from having to manually launch it on every startup.</p>
-</blockquote>
-<h4 id="stopping-the-script-and-reverting-back-to-your-standard-wallpaper">Stopping the script and reverting back to your standard wallpaper.</h4>
-<p>Simple run the following command in a terminal to revert back to your standard wallpaper.</p>
-<pre><code class="language-bash">killall -9 xwinwrap
-</code></pre>
-<h4 id="randomize-wallpaper">Randomize wallpaper.</h4>
-<p>In mpv.conf change <strong>loop-file=yes</strong> to <strong>no</strong> and then change <strong>/home/user/linktovideo/video.mp4</strong> to <strong>–shuffle /home/user/linktofolder/</strong> in the script.</p>
 
             ]]>
         </content>
