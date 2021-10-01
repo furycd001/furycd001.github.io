@@ -10,6 +10,26 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/downloading-age-restricted-videos-with-youtube-dl/",
+            "url": "https://furycd001.github.io/downloading-age-restricted-videos-with-youtube-dl/",
+            "title": "Downloading Age Restricted Videos With youtube-dl.",
+            "summary": "A while back youtube.com started adding age restrictions to Videos &amp; trying to download some of these videos with youtube-dl,&hellip;",
+            "content_html": "<p>A while back <strong><a href=\"https://youtube.com\">youtube.com</a></strong> started adding age restrictions to Videos &amp; trying to download some of these videos with <strong><a href=\"https://youtube-dl.org/\">youtube-dl</a></strong>, simply resulted in people receiving the following error message.</p>\n<blockquote>\n<p>WARNING: Unable to download video info webpage: HTTP Error 410: Gone<br>ERROR: Sign in to confirm your age<br>This video may be inappropriate for some users.</p>\n</blockquote>\n<p>You still want to download the video right :? The simple solution is to use a browser extension to download your youtube cookies &amp; then pass said cookies to youtube-dl with the <code>--cookies</code> flag. This was all pretty straight forward &amp; I was able to download the age restricted video in no time. Simply follow the steps below if you’d like to be able to do the same.</p>\n<ul>\n<li><h4 id=\"step1\">Step.1</h4>\n<p>Install a browser extension to download your cookies from youtube. I’m running <strong><a href=\"https://www.mozilla.org/\">firefox</a></strong> so I installed <strong><a href=\"https://addons.mozilla.org/en-GB/firefox/addon/cookies-txt/\">“this extension”</a></strong> &amp; saved my cookies to my downloads folder.</p>\n</li>\n<li><h4 id=\"step2\">Step.2</h4>\n<p>Add the <code>--cookies</code> flag to your youtube-dl command in the terminal &amp; follow it with the location of your cookies.txt file.</p>\n</li>\n</ul>\n<pre><code class=\"language-bash\">youtube-dl -f bestvideo+bestaudio --cookies /path/to/youtube-cookies.txt $youtubeurl\n</code></pre>\n<p>Thats all there is to it. Run the command &amp; your video should download as normal without giving you any age restriction errors.</p>\n",
+            "image": "https://furycd001.github.io/media/posts/58/Youtube.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Youtube-dl",
+                   "Youtube",
+                   "Web",
+                   "Video",
+                   "Terminal"
+            ],
+            "date_published": "2021-10-01T11:02:09+01:00",
+            "date_modified": "2021-10-01T11:02:18+01:00"
+        },
+        {
             "id": "https://furycd001.github.io/identifying-an-operating-system-using-only-the-ping-command/",
             "url": "https://furycd001.github.io/identifying-an-operating-system-using-only-the-ping-command/",
             "title": "Identifying an operating system using only the ping command.",
@@ -193,25 +213,6 @@
             ],
             "date_published": "2021-03-25T10:03:34+00:00",
             "date_modified": "2021-03-26T07:15:20+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/fixing-paprefs-on-ubuntu/",
-            "url": "https://furycd001.github.io/fixing-paprefs-on-ubuntu/",
-            "title": "Fixing paprefs on ubuntu....",
-            "summary": "Whenever you install &amp; open paprefs for the first time on ubuntu, you’ll notice that all but one option is&hellip;",
-            "content_html": "<p>Whenever you install &amp; open paprefs for the first time on ubuntu, you’ll notice that all but one option is grayed out. This is because some modules in <code>/usr/lib/pulse-13.99/modules</code> are not found. If you run the following in a terminal you’ll be able to confirm that.</p>\n<pre><code class=\"language-bash\">strace paprefs 2&gt;&amp;1 |grep /lib/pulse\n</code></pre>\n<p>Actually for me there is no directory for <code>/usr/lib/pulse-13.99</code> but there is <code>/usr/lib/pulse-13.99.1</code>. Sooo.. I tried making a symlink to see what would happen.</p>\n<pre><code class=\"language-bash\">sudo ln -s /usr/lib/pulse-13.99.1 /usr/lib/pulse-13.99\n</code></pre>\n<p>With the symlink created I opened paprefs to find all the options are no longer grayed out &amp; everything works totally as expected. I was really surprised when I realised that a symlink was all it took to fix this problem.</p>\n",
-            "image": "https://furycd001.github.io/media/posts/48/ttv03zU.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "paprefs",
-                   "Ubuntu",
-                   "Symlink",
-                   "Linux"
-            ],
-            "date_published": "2021-03-12T07:57:31+00:00",
-            "date_modified": "2021-03-25T10:03:46+00:00"
         }
     ]
 }
