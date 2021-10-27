@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-10-27T12:11:10+01:00</updated>
+    <updated>2021-10-27T12:15:53+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="Firefox"/>
             <category term="Css"/>
 
-        <updated>2021-10-27T12:11:10+01:00</updated>
+        <updated>2021-10-27T12:15:53+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/59/Firefox_logo_2017-2.png" alt="" />
@@ -33,7 +33,7 @@
             <![CDATA[
                     <img src="https://furycd001.github.io/media/posts/59/Firefox_logo_2017-2.png" alt="" />
                 <p>This is how an open image in firefox usually looks.
-<figure class="post__image"><img loading="lazy" src="https://imgur.com/NjdjZde.png" data-is-external-image="true"  alt="alt text" /></figure></p>
+<figure class="post__image"><img loading="lazy" src="https://imgur.com/ZkrP6Zx.png" data-is-external-image="true"  alt="alt text" /></figure></p>
 <p>By simply adding the following code to your <code>userContent.css</code>, you can change the color to whatever you want. It’s super simple….</p>
 <pre><code class="language-css">/* Imagetab */
 @-moz-document regexp(&quot;((.*\\.(png|jpg|jpeg|gif|tiff|bmp|ico|PNG|JPG|JPEG|GIF|TIFF|BMP|ICO))|(^data:image/.*)|(.*/attachment\.php[?]attachmentid=[0-9]+.*)|(about:logo))&quot;) {
@@ -59,7 +59,7 @@
   }
 }
 </code></pre>
-<p><figure class="post__image"><img loading="lazy" src="https://imgur.com/jRMowtY.png" data-is-external-image="true"  alt="alt text" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="https://imgur.com/qHYBxkY.png" data-is-external-image="true"  alt="alt text" /></figure></p>
 
             ]]>
         </content>
