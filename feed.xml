@@ -3,12 +3,106 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-10-27T12:28:12+01:00</updated>
+    <updated>2021-12-23T14:17:18+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Creating a simple blog with markdown &amp; bash.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/creating-a-simple-blog-with-markdown-and-bash/"/>
+        <id>https://furycd001.github.io/creating-a-simple-blog-with-markdown-and-bash/</id>
+            <category term="Minimal"/>
+            <category term="Markdown"/>
+            <category term="Html"/>
+            <category term="Css"/>
+            <category term="Convert"/>
+            <category term="Blog"/>
+            <category term="Bash"/>
+
+        <updated>2021-12-23T14:17:18+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/60/bash.png" alt="" />
+                    Using only markdown, bash &amp; a converter we can create a super simple blog. To begin you’ll want to go&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/60/bash.png" alt="" />
+                <p>Using only markdown, bash &amp; a converter we can create a super simple blog. To begin you’ll want to go ahead &amp; install some sort of markdown converter that works inside your terminal. For this I use <a href="https://www.pell.portland.or.us/~orc/Code/discount/"><strong>discount</strong></a> &amp; on my arch system I can easily install it with <code>pacman -S discount</code>.</p>
+<blockquote>
+<p>I’ll be using discount for this post, so make sure to change any commands as needed for whatever converter you choose to use..</p>
+</blockquote>
+<p>So before we begin you’ll want to create a blog directory inside your home folder.</p>
+<pre><code class="language-bash">mkdir ~/blog
+</code></pre>
+<blockquote>
+<p>You can create this directory anywhere, but for me my home folder makes sense..</p>
+</blockquote>
+<p>To get started lets create a template.html &amp; add the lines <code>&lt;!-- insert here --&gt;</code> in the middle.</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Startpage..&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;Style.css&quot;&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;base target=&quot;_blank&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;hello&quot;&gt;
+
+&lt;!-- insert here --&gt;
+
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<blockquote>
+<p>The insert here park is where our post will be inserted later..</p>
+</blockquote>
+<p>With the <code>.html</code> created we can move onto the <code>.css</code>. This is were we will theme our blog &amp; you can really add anything you wish. For this post I’ve just gone &amp; centered everything in the middle of the page.</p>
+<pre><code class="language-css">.hello {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  font-family: Ubuntu;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+}
+</code></pre>
+<blockquote>
+<p>You can save this file with whatever name you choose, as long as you remember to change the link in the <code>.html</code> to match..</p>
+</blockquote>
+<p>Once you have the directory &amp; html/css created, we can then move on to creating our script. This first piece of code is our shebang &amp; it’s used at the start of any script to tell the operating system which interpreter to use to parse the rest of the file.</p>
+<pre><code class="language-bash">#!/usr/bin/env bash
+</code></pre>
+<p>This next part will be our convert. This will convert all our <em>.md</em> files to <em>.html</em> and then place them in a our html/ folder which we just not long created.</p>
+<pre><code class="language-bash">for i in `ls *.md`; do
+  markdown $i &gt; ~/blog/`basename $i .md`.html;
+done
+</code></pre>
+<p>Now that we have all of our files converted we can start editing our html. What we need to do is surround all our new html files with <code>&lt;div class=&#39;entry&#39;&gt;</code> and output everything into a file called entries.html.</p>
+<pre><code class="language-bash">ls ~/blog/* | xargs -n 1 awk &#39;BEGIN {print &quot;&lt;div class=\&quot;entry\&quot;&gt;&quot; } {print $0} END {print &quot;&lt;/div&gt;&quot;}&#39; &gt; entries.html
+</code></pre>
+<p>We’re almost done now as this is the final command for our script. This command will insert everything in entries.html into your template.html file and output the result into a new file, called index.html.</p>
+<pre><code class="language-bash">sed -e &#39;/&lt;!-- insert here/r entries.html&#39; template.html &gt; index.html
+</code></pre>
+<p>With that last command added to our script we can go ahead &amp; save it, then make it executable.</p>
+<pre><code class="language-bash">chmod +x bashblog.sh
+</code></pre>
+<p>That’s our script created, so now we can test it out by creating a few simple blog posts in markdown &amp; then run the script. If your script fails at any point, make sure to check all the paths entered in the script are correct &amp; that you have the correct command if using a different converter.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Chaning the background color of image tabs in firefox.</title>
         <author>
@@ -907,75 +1001,6 @@ panscan=1.0
 <p>Like the above command this will list all dependencies that are installed, but will also remove them at the same time.</p>
 <pre><code class="language-bash">pacman -Rsn $(pacman -Qdtq)
 </code></pre>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Installing arch Linux with archfi.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/installing-arch-linux-with-archfi/"/>
-        <id>https://furycd001.github.io/installing-arch-linux-with-archfi/</id>
-            <category term="script"/>
-            <category term="Sourceforge"/>
-            <category term="Linux"/>
-            <category term="Github"/>
-            <category term="Bash"/>
-            <category term="Archlinux"/>
-
-        <updated>2021-08-10T13:37:55+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/50/1200px-Archlinux-icon-crystal-64.svg-2.png" alt="" />
-                    You want to install arch without having to do a manual install or use an alternative arch based distro. This&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/50/1200px-Archlinux-icon-crystal-64.svg-2.png" alt="" />
-                <p>You want to install <strong><a href="https://archlinux.org/">arch</a></strong> without having to do a manual install or use an alternative arch based distro. This is were <strong><a href="https://github.com/MatMoul/archfi">archfi</a></strong> comes in. Archfi is a simple “bash script wizard” or “tui” that can help with installing arch. To use archfi simply boot to the arch installer, then download &amp; launch archfi. It’s that simple.</p>
-<hr>
-<ol>
-<li>Boot to the arch installer &amp; check that you have an active connection to the internet..<pre><code class="language-bash">ping duckduckgo.com
-</code></pre>
-<blockquote>
-<p>Ethernet is recommended, but there’s many tutorials online for setting up wifi if you can’t access ethernet.</p>
-</blockquote>
-</li>
-</ol>
-<ol start="2">
-<li><p>Download archfi using either github or sourceforge..</p>
-<h4 id="archfi-github">Archfi github.</h4>
-<pre><code class="language-bash">curl -LO matmoul.github.io/archfi
-</code></pre>
-<h4 id="archfi-sourceforge">Archfi sourceforge.</h4>
-<pre><code class="language-bash">curl -LO archfi.sf.net/archfi
-</code></pre>
-<blockquote>
-<p>Personally I’ve had more luck using github over sourceforge.</p>
-</blockquote>
-</li>
-<li><p>Launch archfi..</p>
-<pre><code class="language-bash">sh archfi
-</code></pre>
-</li>
-<li><p>Follow through the installation until completion..</p>
-</li>
-<li><p>Reboot into your new arch install..</p>
-</li>
-</ol>
-<hr>
-<p>Archfi is great &amp; I like it a lot. It’s now my go-to for installing arch &amp; if you’ve yet to try it, I totally recommend doing so. Here’s a list of a few popular arch based distros that come with an installer..</p>
-<ul>
-<li><strong><a href="https://manjaro.org/">manjaro</a></strong></li>
-<li><strong><a href="https://archbang.org/">archbang</a></strong></li>
-<li><strong><a href="https://archman.org/">archman</a></strong></li>
-<li><strong><a href="https://archlabslinux.com/">archlabs</a></strong>  </li>
-<li><strong><a href="https://endeavouros.com/">endeavour</a></strong></li>
-<li><strong><a href="https://garudalinux.org/">garuda</a></strong></li>
-</ul>
 
             ]]>
         </content>
