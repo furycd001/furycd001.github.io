@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-12-27T12:59:13+00:00</updated>
+    <updated>2021-12-27T13:07:35+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="Terminal"/>
             <category term="Config"/>
 
-        <updated>2021-12-27T12:59:13+00:00</updated>
+        <updated>2021-12-27T13:07:35+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/61/Screenshot_2021-12-27_12-57-42.png" alt="" />
@@ -39,7 +39,7 @@
 <h4 id="tmux-with-statusbar-showing">Tmux with statusbar showing..</h4>
 <p><figure class="post__image"><img loading="lazy" src="https://imgur.com/v3MRaOq.png" data-is-external-image="true"  alt="alt text" /></figure></p>
 <h4 id="tmux-with-statusbar-hidden">Tmux with statusbar hidden..</h4>
-<p>![alt text](<a href="https://imgur.com/MFZXMwA.png&quot;tmux">https://imgur.com/MFZXMwA.png&quot;tmux</a> with statusbar hidden”)</p>
+<p><figure class="post__image"><img loading="lazy" src="https://imgur.com/MFZXMwA.png" data-is-external-image="true"  alt="alt text" /></figure></p>
 
             ]]>
         </content>

@@ -14,7 +14,7 @@
             "url": "https://furycd001.github.io/hiding-statusbar-in-tmux/",
             "title": "Hiding statusbar in tmux.",
             "summary": "If you are someone like me who occasionally uses tmux, but has no need for the statusbar then this post&hellip;",
-            "content_html": "<p>If you are someone like me who occasionally uses <a href=\"https://github.com/tmux/tmux\"><strong>tmux</strong></a>, but has no need for the statusbar then this post is for you. All you need to do is add the line below into your <code>~/.tmux.conf</code>.</p>\n<pre><code class=\"language-bash\">set -g status off\n</code></pre>\n<blockquote>\n<p>There was no <code>tmux.conf</code> by default on my system so I had to create it. You’ll probably need to do the same..</p>\n</blockquote>\n<h4 id=\"tmux-with-statusbar-showing\">Tmux with statusbar showing..</h4>\n<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"https://imgur.com/v3MRaOq.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<h4 id=\"tmux-with-statusbar-hidden\">Tmux with statusbar hidden..</h4>\n<p>![alt text](<a href=\"https://imgur.com/MFZXMwA.png&quot;tmux\">https://imgur.com/MFZXMwA.png&quot;tmux</a> with statusbar hidden”)</p>\n",
+            "content_html": "<p>If you are someone like me who occasionally uses <a href=\"https://github.com/tmux/tmux\"><strong>tmux</strong></a>, but has no need for the statusbar then this post is for you. All you need to do is add the line below into your <code>~/.tmux.conf</code>.</p>\n<pre><code class=\"language-bash\">set -g status off\n</code></pre>\n<blockquote>\n<p>There was no <code>tmux.conf</code> by default on my system so I had to create it. You’ll probably need to do the same..</p>\n</blockquote>\n<h4 id=\"tmux-with-statusbar-showing\">Tmux with statusbar showing..</h4>\n<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"https://imgur.com/v3MRaOq.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<h4 id=\"tmux-with-statusbar-hidden\">Tmux with statusbar hidden..</h4>\n<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"https://imgur.com/MFZXMwA.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n",
             "image": "https://furycd001.github.io/media/posts/61/Screenshot_2021-12-27_12-57-42.png",
             "author": {
                 "name": "Jonny"
@@ -25,7 +25,7 @@
                    "Config"
             ],
             "date_published": "2021-12-27T12:59:13+00:00",
-            "date_modified": "2021-12-27T12:59:13+00:00"
+            "date_modified": "2021-12-27T13:07:35+00:00"
         },
         {
             "id": "https://furycd001.github.io/creating-a-simple-blog-with-markdown-and-bash/",
