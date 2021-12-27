@@ -10,6 +10,24 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/hiding-statusbar-in-tmux/",
+            "url": "https://furycd001.github.io/hiding-statusbar-in-tmux/",
+            "title": "Hiding statusbar in tmux.",
+            "summary": "If you are someone like me who occasionally uses tmux, but has no need for the statusbar then this post&hellip;",
+            "content_html": "<p>If you are someone like me who occasionally uses <a href=\"https://github.com/tmux/tmux\"><strong>tmux</strong></a>, but has no need for the statusbar then this post is for you. All you need to do is add the line below into your <code>~/.tmux.conf</code>.</p>\n<pre><code class=\"language-bash\">set -g status off\n</code></pre>\n<blockquote>\n<p>There was no <code>tmux.conf</code> by default on my system so I had to create it. You’ll probably need to do the same..</p>\n</blockquote>\n<h4 id=\"tmux-with-statusbar-showing\">Tmux with statusbar showing..</h4>\n<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"https://imgur.com/v3MRaOq.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<h4 id=\"tmux-with-statusbar-hidden\">Tmux with statusbar hidden..</h4>\n<p>![alt text](<a href=\"https://imgur.com/MFZXMwA.png&quot;tmux\">https://imgur.com/MFZXMwA.png&quot;tmux</a> with statusbar hidden”)</p>\n",
+            "image": "https://furycd001.github.io/media/posts/61/Screenshot_2021-12-27_12-57-42.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Tmux",
+                   "Terminal",
+                   "Config"
+            ],
+            "date_published": "2021-12-27T12:59:13+00:00",
+            "date_modified": "2021-12-27T12:59:13+00:00"
+        },
+        {
             "id": "https://furycd001.github.io/creating-a-simple-blog-with-markdown-and-bash/",
             "url": "https://furycd001.github.io/creating-a-simple-blog-with-markdown-and-bash/",
             "title": "Creating a simple blog with markdown &amp; bash.",
@@ -193,26 +211,6 @@
             ],
             "date_published": "2021-08-11T20:50:21+01:00",
             "date_modified": "2021-08-12T07:30:43+01:00"
-        },
-        {
-            "id": "https://furycd001.github.io/a-few-useful-pacman-commands/",
-            "url": "https://furycd001.github.io/a-few-useful-pacman-commands/",
-            "title": "A few useful pacman commands.",
-            "summary": "Here’s a few useful commands that you can use with pacman on arch Linux.. You can use this command to&hellip;",
-            "content_html": "<p>Here’s a few useful commands that you can use with <strong><a href=\"https://wiki.archlinux.org/title/pacman\">pacman</a></strong> on arch Linux..</p>\n<hr>\n<h4 id=\"search-for-package\">Search for package….</h4>\n<p>You can use this command to search for a package. Just replace <code>$packagename</code> with your package name.</p>\n<pre><code class=\"language-bash\">pacman -Ss $packagename\n</code></pre>\n<h4 id=\"update-system\">Update system….</h4>\n<p>Use this command to update the system.</p>\n<pre><code class=\"language-bash\">pacman -Syu\n</code></pre>\n<h4 id=\"update-database\">Update database….</h4>\n<p>This command can be used to update the database.</p>\n<pre><code class=\"language-bash\">pacman -Syy\n</code></pre>\n<h4 id=\"install-a-local-package\">Install a local package….</h4>\n<p>Installing a package saved locally is as simple as running this command.</p>\n<pre><code class=\"language-bash\">pacman -U $packagename\n</code></pre>\n<h4 id=\"install-a-package\">Install a package….</h4>\n<p>To install a package from within the arch repos, just run this command.</p>\n<pre><code class=\"language-bash\">pacman -S $packagename\n</code></pre>\n<h4 id=\"remove-a-package\">Remove a package….</h4>\n<p>To remove only a package &amp; nothing else, run this command.</p>\n<pre><code class=\"language-bash\">pacman -R $packagename\n</code></pre>\n<h4 id=\"completely-remove-package\">Completely remove package….</h4>\n<p>This command will remove a package &amp; all other files relating to said package. Please note that anything in your <code>home</code> directory will need to be removed manually.</p>\n<pre><code class=\"language-bash\">pacman -Rsn $packagename\n</code></pre>\n<h4 id=\"remove-package--any-dependencies-that-arent-needed-by-another-app\">Remove package &amp; any dependencies that aren’t needed by another app….</h4>\n<p>Run this command to remove a package &amp; also any dependencies that are not needed by any other package.</p>\n<pre><code class=\"language-bash\">pacman -Rs $packagename\n</code></pre>\n<h4 id=\"list-unneeded-dependencies\">List unneeded dependencies….</h4>\n<p>List all dependencies that are installed, but not required by any package.</p>\n<pre><code class=\"language-bash\">pacman -Qdt $packagename\n</code></pre>\n<h4 id=\"remove-all-unneeded--unused-dependencies\">Remove all unneeded / unused dependencies….</h4>\n<p>Like the above command this will list all dependencies that are installed, but will also remove them at the same time.</p>\n<pre><code class=\"language-bash\">pacman -Rsn $(pacman -Qdtq)\n</code></pre>\n",
-            "image": "https://furycd001.github.io/media/posts/51/pacman.jpg",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "pacman",
-                   "packagemanager",
-                   "Terminal",
-                   "Linux",
-                   "Archlinux"
-            ],
-            "date_published": "2021-08-11T09:41:31+01:00",
-            "date_modified": "2021-08-20T20:42:02+01:00"
         }
     ]
 }
