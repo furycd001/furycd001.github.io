@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-12-27T13:07:35+00:00</updated>
+    <updated>2021-12-29T13:17:54+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -59,7 +59,7 @@
             <category term="Blog"/>
             <category term="Bash"/>
 
-        <updated>2021-12-23T14:17:18+00:00</updated>
+        <updated>2021-12-29T13:17:54+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/60/bash.png" alt="" />
@@ -119,7 +119,7 @@
 <p>Once you have the directory &amp; html/css created, we can then move on to creating our script. This first piece of code is our shebang &amp; it’s used at the start of any script to tell the operating system which interpreter to use to parse the rest of the file.</p>
 <pre><code class="language-bash">#!/usr/bin/env bash
 </code></pre>
-<p>This next part will be our convert. This will convert all our <em>.md</em> files to <em>.html</em> and then place them in a our html/ folder which we just not long created.</p>
+<p>This next part will be our converter. This will convert all our <em>.md</em> files to <em>.html</em>.</p>
 <pre><code class="language-bash">for i in `ls *.md`; do
   markdown $i &gt; ~/blog/`basename $i .md`.html;
 done
