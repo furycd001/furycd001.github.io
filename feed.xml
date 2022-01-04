@@ -3,12 +3,86 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2021-12-29T13:17:54+00:00</updated>
+    <updated>2022-01-04T13:12:47+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Installing Arch on termux.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/installing-arch-on-termux/"/>
+        <id>https://furycd001.github.io/installing-arch-on-termux/</id>
+            <category term="Termux"/>
+            <category term="Mobile"/>
+            <category term="Linux"/>
+            <category term="Archlinux"/>
+            <category term="Android"/>
+
+        <updated>2022-01-04T13:12:47+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/62/unnamed.png" alt="" />
+                    Ever wanted to have a portable Arch install that you can take with you whever you go :? Well with&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/62/unnamed.png" alt="" />
+                <p>Ever wanted to have a portable <a href="https://archlinux.org/"><strong>Arch</strong></a> install that you can take with you whever you go :? Well with the help of an android phone, <a href="https://f-droid.org/en/packages/com.termux/"><strong>termux</strong></a> &amp; <a href="https://github.com/SDRausty/termux-arch/"><strong>this bash script</strong></a> you can have just that. It’s not super hard to get set up &amp; it doesn’t take all that long either.</p>
+<ul>
+<li><p>To begin you’ll want to go ahead &amp; install <a href="https://f-droid.org/en/packages/com.termux/"><strong>termux</strong></a> if you haven’t already done so.</p>
+</li>
+<li><p>You’ll then want to get the base OS installed.</p>
+</li>
+</ul>
+<pre><code class="language-sh">pkg update &amp;&amp; pkg install bsdtar wget proot tergent tmux openssh
+</code></pre>
+<ul>
+<li>Next you’ll want to set up storage for termux.</li>
+</ul>
+<pre><code class="language-sh">termux-setup-storage
+</code></pre>
+<ul>
+<li>When done with storage we can now download the script.</li>
+</ul>
+<pre><code class="language-sh">wget https://raw.githubusercontent.com/SDRausty/termux-arch/master/setupTermuxArch.bash
+</code></pre>
+<ul>
+<li>With the script downloaded we can then run it.</li>
+</ul>
+<pre><code class="language-sh">./setupTermuxArch.bash
+</code></pre>
+<blockquote>
+<p>This will download and install the base Arch system. The time this will take to finished will vary depending on your device &amp; connection.</p>
+</blockquote>
+<ul>
+<li>When everything has finished you’ll be dropped into a root shell for your new Arch install. We can now go ahead &amp; change the username &amp; password for our new install</li>
+</ul>
+<pre><code class="language-sh">useradd -mG root -s /bin/bash &lt;newuser&gt;
+passwd &lt;newuser&gt;
+</code></pre>
+<blockquote>
+<p>Remember to change <newuser> to whatever you want your username to be..</p>
+</blockquote>
+<ul>
+<li>Once you’ve changed the username &amp; password, we can move on to making arch a little bit more useable. We’ll start by installing wget &amp; then downloading one final script.</li>
+</ul>
+<pre><code class="language-sh">sudo pacman -Syyu wget &amp;&amp; wget --no-check-certificate  &#39;https://docs.google.com/uc?export=download&amp;id=107Fh0l_p0ItVkUufOhP9to-OU_6KYhPW&#39; -O fresharch.sh
+</code></pre>
+<ul>
+<li>When that has finished we can make the script executable &amp; then run it.</li>
+</ul>
+<pre><code class="language-sh">chmod +x fresharch.sh ** sudo ./fresharch.sh
+</code></pre>
+<p>If everything goes smoothly &amp; you see no errors on the screen then you should have a fully functional Arch install with yay &amp; AUR support.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Hiding statusbar in tmux.</title>
         <author>
@@ -894,79 +968,6 @@ display -resize 1920x1200 &quot;$1&quot;
 <pre><code>ffmpeg -i input.mkv -filter:a &quot;volume=4.0&quot; output.mkv;
 </code></pre>
 <p>With this command you can increase the audio volume in a video or audio file. Just change <code>volume=4.0</code> to <code>volume=8.0</code> or whatever you require.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Lofi video wallpaper.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/lofi-video-wallpaper/"/>
-        <id>https://furycd001.github.io/lofi-video-wallpaper/</id>
-            <category term="xwinwrap"/>
-            <category term="video wallpaper"/>
-            <category term="script"/>
-            <category term="mpv"/>
-            <category term="Video"/>
-            <category term="Lofi"/>
-            <category term="Bash"/>
-
-        <updated>2021-08-12T07:30:43+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/52/Screenshot_2021-08-11_20-49-58.png" alt="Lofi" />
-                    A simple video wallpaper script written in bash using mpv &amp; xwinwrap. Includes audio…. Download the script…. wget https://raw.githubusercontent.com/furycd001/dots/master/Gucci/lofi.sh Open&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/52/Screenshot_2021-08-11_20-49-58.png" alt="Lofi" />
-                <p>A simple video wallpaper script written in bash using <strong><a href="https://mpv.io/">mpv</a></strong> &amp; <strong><a href="https://aur.archlinux.org/packages/xwinwrap-git/">xwinwrap</a></strong>. Includes audio….</p>
-<h4 id="how-to-install">How-to install.</h4>
-<ol>
-<li><p>Download the script….</p>
-<pre><code class="language-bash">wget https://raw.githubusercontent.com/furycd001/dots/master/Gucci/lofi.sh
-</code></pre>
-</li>
-<li><p>Open <code>~/.config/mpv/mpv.conf</code> &amp; add the following….</p>
-<pre><code class="language-bash">[lofi]
-fullscreen=yes
-title=vwall
-geometry=100%x100%
-border=no
-no-window-dragging
-x11-name=mpv-wallpaper
-hwdec=vaapi
-aid=no
-vo=gpu
-loop-file=no
-shuffle=yes
-loop-playlist=yes
-idle=no
-aid=no
-background=&quot;#e5b680&quot;
-panscan=1.0
-</code></pre>
-<blockquote>
-<p>You can remove the bottom line <code>panscan=1.0</code> if you do not want the video to fill the screen &amp; be partially cut off.</p>
-</blockquote>
-</li>
-<li><p>Run the script….</p>
-<pre><code class="language-bash">./lofi.sh
-</code></pre>
-</li>
-<li><p>Enjoy-!!</p>
-</li>
-<li><p>Optional step to remove audio….</p>
-<pre><code class="language-bash"> mpv --no-video https://www.youtube.com/watch?v=5qap5aO4i9A
-</code></pre>
-<blockquote>
-<p>Simply delete this line from the bottom of <code>lofi.sh</code> to remove the audio.</p>
-</blockquote>
-</li>
-</ol>
 
             ]]>
         </content>
