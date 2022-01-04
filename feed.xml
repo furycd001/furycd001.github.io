@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2022-01-04T13:17:28+00:00</updated>
+    <updated>2022-01-04T13:19:16+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="Archlinux"/>
             <category term="Android"/>
 
-        <updated>2022-01-04T13:17:28+00:00</updated>
+        <updated>2022-01-04T13:19:16+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/62/unnamed.png" alt="" />
@@ -62,11 +62,11 @@
 <ul>
 <li>When everything has finished you’ll be dropped into a root shell for your new Arch install. We can now go ahead &amp; change the username &amp; password for our new install</li>
 </ul>
-<pre><code class="language-sh">useradd -mG root -s /bin/bash &lt;newuser&gt;
-passwd &lt;newuser&gt;
+<pre><code class="language-sh">useradd -mG root -s /bin/bash newuser
+passwd newuser
 </code></pre>
 <blockquote>
-<p>Remember to change <em><newuser></em> to whatever you want your username to be..</p>
+<p>Remember to change <em>newuser</em> to whatever you want your username to be..</p>
 </blockquote>
 <ul>
 <li>Once you’ve changed the username &amp; password, we can move on to making arch a little bit more useable. We’ll start by installing wget &amp; then downloading one final script.</li>
