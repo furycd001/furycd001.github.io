@@ -10,6 +10,25 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/brian-benchoff-designed-a-dollar15-portable-computer/",
+            "url": "https://furycd001.github.io/brian-benchoff-designed-a-dollar15-portable-computer/",
+            "title": "Brian Benchoff designed a $15 portable computer.",
+            "summary": "Instead of rooting an Android phone, Brian Benchoff has gone &amp; created his own portable computer that runs Linux &amp;&hellip;",
+            "content_html": "<p>Instead of rooting an Android phone, Brian Benchoff has gone &amp; created his own portable computer that runs Linux &amp; fits in your pocket. The computer currently run <a href=\"http://buildroot.org/\"><strong>buildroot</strong></a>, has no gui &amp; the battery is AAA-sized NiMH batteries.</p>\n<blockquote>\n<p>Buildroot is a Linux version that targets small embedded systems..</p>\n</blockquote>\n<p><a href=\"https://bbenchoff.github.io/pages/LinuxDevice.html\"><strong>For more info.. Please click here to read Brians original post…</strong></a></p>\n",
+            "image": "https://furycd001.github.io/media/posts/64/Front.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Tech",
+                   "Portable",
+                   "Linux",
+                   "Buildroot"
+            ],
+            "date_published": "2022-03-03T08:36:06+00:00",
+            "date_modified": "2022-03-03T08:36:06+00:00"
+        },
+        {
             "id": "https://furycd001.github.io/awesome-arch/",
             "url": "https://furycd001.github.io/awesome-arch/",
             "title": "Awesome Arch",
@@ -184,27 +203,6 @@
             ],
             "date_published": "2021-09-17T07:40:14+01:00",
             "date_modified": "2021-09-17T07:40:14+01:00"
-        },
-        {
-            "id": "https://furycd001.github.io/download-all-media-from-a-users-instagram-or-twitter-account/",
-            "url": "https://furycd001.github.io/download-all-media-from-a-users-instagram-or-twitter-account/",
-            "title": "Download all media from a users instagram or twitter account.",
-            "summary": "You might not know this.. but you can easily download all media from a users instagram or twitter account. All&hellip;",
-            "content_html": "<p>You might not know this.. but you can easily download all media from a users instagram or twitter account. All you need is <strong><a href=\"https://github.com/mikf/gallery-dl\">gallery-dl</a></strong> &amp; some free space on your hard drive….</p>\n<h4 id=\"1-begin-by-installing-gallery-dl\">1. Begin by installing gallery-dl..</h4>\n<p>I’m currently running <strong><a href=\"archlinux.org/\">archlinux</a></strong> so I used the following command.</p>\n<pre><code class=\"language-bash\">yay -S gallery-dl-bin\n</code></pre>\n<p>You can check the repos of your distro to see if it’s available &amp; if not then you can install it using <code>pip</code>.</p>\n<pre><code class=\"language-bash\">python3 -m pip install -U gallery-dl\n</code></pre>\n<h4 id=\"2-start-downloading\">2. Start downloading..</h4>\n<p>Now that <strong><a href=\"https://github.com/mikf/gallery-dl\">gallery-dl</a></strong> is installed all that is left to do is to start downloading. Simply open up a terminal &amp; type <code>gallery-dl url</code> followed by your url to either a twitter or instagram user.</p>\n<pre><code class=\"language-bash\">gallery-dl https://twitter.com/yourawesomeusername/\n</code></pre>\n<h4 id=\"4-finished-downloading\">4. Finished downloading..</h4>\n<p>While gallery-dl is busy downloading you’ll see the files being downloaded listed in the terminal window. Whenever downloading has finished you can close the terminal window &amp; open up your file manager to view the downloaded media.</p>\n<blockquote>\n<p>Gallery-dl creates it’s own folder structure for each website. So inside the gallery-dl folder you’ll find separate folders for instagram, twitter &amp; any other supported websites. Inside each of those folders you’ll find folders relating to each user that you’ve downloaded from.</p>\n</blockquote>\n",
-            "image": "https://furycd001.github.io/media/posts/54/gallery-dl.jpg",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "gallery-dl",
-                   "Twitter",
-                   "Terminal",
-                   "Social Media",
-                   "Instagram",
-                   "Download"
-            ],
-            "date_published": "2021-09-01T13:24:18+01:00",
-            "date_modified": "2021-09-01T13:24:18+01:00"
         }
     ]
 }
