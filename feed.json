@@ -10,6 +10,25 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/how-to-launch-applications-with-sudo-using-rofi/",
+            "url": "https://furycd001.github.io/how-to-launch-applications-with-sudo-using-rofi/",
+            "title": "How to launch applications with sudo using rofi.",
+            "summary": "First off you’ll want to start by checking to see if pkexec is installed on your system. It wasn’t on&hellip;",
+            "content_html": "<p>First off you’ll want to start by checking to see if <code>pkexec</code> is installed on your system. It wasn’t on my <a href=\"archlinux.org/\"><strong>arch</strong></a> system, but it’s included with <code>systemctl-policy</code> so I just installed that to get it. Once installed I created the below bash script &amp; saved in <code>/usr/bin/</code> as <code>ssudo</code>. With the script created I can now launch applications with sudo using rofi….</p>\n<pre><code class=\"language-bash\">#!/usr/bin/env bash\npkexec $1\n</code></pre>\n<p>All I have to do is open rofi &amp; type <code>ssudo $nameofapplication</code></p>\n<blockquote>\n<p>Note that you can save the script with any name of your choice, but really ssudo kind of makes sense.</p>\n</blockquote>\n",
+            "image": "https://furycd001.github.io/media/posts/65/Screenshot_2022-03-15_14-47-59.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "systemctl",
+                   "rofi",
+                   "Sudo",
+                   "Bash"
+            ],
+            "date_published": "2022-03-15T14:52:46+00:00",
+            "date_modified": "2022-03-15T14:52:46+00:00"
+        },
+        {
             "id": "https://furycd001.github.io/brian-benchoff-designed-a-dollar15-portable-computer/",
             "url": "https://furycd001.github.io/brian-benchoff-designed-a-dollar15-portable-computer/",
             "title": "Brian Benchoff designed a $15 portable computer.",
@@ -182,27 +201,6 @@
             ],
             "date_published": "2021-09-17T07:56:07+01:00",
             "date_modified": "2021-09-17T07:56:07+01:00"
-        },
-        {
-            "id": "https://furycd001.github.io/installing-imagemagick-on-debian/",
-            "url": "https://furycd001.github.io/installing-imagemagick-on-debian/",
-            "title": "Installing imagemagick on debian.",
-            "summary": "Imagemagick is one heck of an awesome program &amp; you never know when it may just come in handy. The&hellip;",
-            "content_html": "<p><strong><a href=\"https://imagemagick.org/index.php\">Imagemagick</a></strong> is one heck of an awesome program &amp; you never know when it may just come in handy. The only problem is that if you happen to run debian you’ll find that it’s not included within the repos, therefore you’ll need to compile it from source. Never worry.. Compiling imagemagick from source isn’t all that compilicated &amp; I’m going to show you how to do just that right now.</p>\n<h4 id=\"step1\">Step.1</h4>\n<p>Prepare your system by opening up a terminal &amp; installing the <code>build-essential</code> package that includes things like <code>make</code> &amp; <code>gcc</code>.</p>\n<pre><code class=\"language-bash\">sudo apt update &amp;&amp; sudo apt-get install build-essential\n</code></pre>\n<h4 id=\"step2\">Step.2</h4>\n<p>In the same terminal window use wget to download the latest source code archive directly from the imagemagick website.</p>\n<pre><code class=\"language-bash\">wget https://www.imagemagick.org/download/ImageMagick.tar.gz\n</code></pre>\n<h4 id=\"step3\">Step.3</h4>\n<p>Once the download has finished we can then extract it’s contents.</p>\n<pre><code class=\"language-bash\">tar xvzf ImageMagick.tar.gz\n</code></pre>\n<h4 id=\"step4\">Step.4</h4>\n<p>With everything extracted we can now start compiling the source code. You’ll first want to configure the ImageMagick make script by running the <code>./configure</code> command to configure compiler environment.</p>\n<pre><code class=\"language-bash\">./configure\n</code></pre>\n<p>Once configure has finished, we can then use the <code>make</code> command to start the compiling.</p>\n<pre><code class=\"language-bash\">make\n</code></pre>\n<blockquote>\n<p>Look out for any errors that may appear within the terminal window &amp; <strong><a href=\"https://html.duckduckgo.com/html\">ddg</a></strong> them to search for the fix..</p>\n</blockquote>\n<h4 id=\"step5\">Step.5</h4>\n<p>When compiling finishes we can go &amp; install the imagemagick binary file using <code>make install</code> command.</p>\n<pre><code class=\"language-bash\">sudo make install \n</code></pre>\n<h4 id=\"step6\">Step.6</h4>\n<p>Imagemagick should now be installed on your debian system. You can launch it from the terminal by running the <code>display</code> command &amp; display version info by running <code>magick -version</code>.</p>\n",
-            "image": "https://furycd001.github.io/media/posts/55/ImageMagick_logo.svg-2.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Terminal",
-                   "Source Code",
-                   "ImageMagick",
-                   "Image",
-                   "Debian",
-                   "Compiling"
-            ],
-            "date_published": "2021-09-17T07:40:14+01:00",
-            "date_modified": "2021-09-17T07:40:14+01:00"
         }
     ]
 }
