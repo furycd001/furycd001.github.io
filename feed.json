@@ -10,6 +10,25 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/fixing-error-with-updating-arch-linux-keyring/",
+            "url": "https://furycd001.github.io/fixing-error-with-updating-arch-linux-keyring/",
+            "title": "Fixing error with updating Arch Linux keyring",
+            "summary": "If like me you happen to run Arch Linux, you may (or may not) have run into the following error&hellip;",
+            "content_html": "<p>If like me you happen to run Arch Linux, you may (or may not) have run into the following error while trying to update with the system.</p>\n<blockquote>\n<p>Invalid or corrupted package PGP signature.</p>\n</blockquote>\n<p>This problem is super easy to fix. All you need to do is run the command below to update the keyring, before then running the update once again.</p>\n<pre><code class=\"language-bash\">sudo pacman -Sy archlinux-keyring\n</code></pre>\n",
+            "image": "https://furycd001.github.io/media/posts/66/Screenshot_2022-05-10_08-22-49.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "pacman",
+                   "Terminal",
+                   "Keyring",
+                   "Archlinux"
+            ],
+            "date_published": "2022-05-10T08:20:55+01:00",
+            "date_modified": "2022-05-10T08:23:15+01:00"
+        },
+        {
             "id": "https://furycd001.github.io/how-to-launch-applications-with-sudo-using-rofi/",
             "url": "https://furycd001.github.io/how-to-launch-applications-with-sudo-using-rofi/",
             "title": "How to launch applications with sudo using rofi.",
@@ -182,25 +201,6 @@
             ],
             "date_published": "2021-09-21T13:00:36+01:00",
             "date_modified": "2021-09-21T13:00:36+01:00"
-        },
-        {
-            "id": "https://furycd001.github.io/using-imagemagick-as-an-image-viewer/",
-            "url": "https://furycd001.github.io/using-imagemagick-as-an-image-viewer/",
-            "title": "Using imagemagick as an image viewer.",
-            "summary": "Did you know that you could use imagemagick as an image viewer :? Well I didn’t until recently &amp; it’s&hellip;",
-            "content_html": "<p>Did you know that you could use <strong><a href=\"https://imagemagick.org/index.php\">imagemagick</a></strong> as an image viewer :? Well I didn’t until recently &amp; it’s super easy to do so. Simply create &amp; save the super small bash script below &amp; call it from the terminal or from a custom action within your file manager. You’ll just need to change <code>1920x1200</code> to whatever your screen resolution is.</p>\n<pre><code class=\"language-bash\">#!/usr/bin/env bash\n# Open images with imagemagick....\n\ndisplay -resize 1920x1200 &quot;$1&quot;\n</code></pre>\n<blockquote>\n<p>I saved the script to <code>/usr/bin/image</code> so all I have to do now is run <code>image $/path/to/image.jpeg</code> when in a terminal.</p>\n</blockquote>\n",
-            "image": "https://furycd001.github.io/media/posts/56/ImageMagick_logo.svg.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Terminal",
-                   "ImageMagick",
-                   "Image",
-                   "Bash"
-            ],
-            "date_published": "2021-09-17T07:56:07+01:00",
-            "date_modified": "2021-09-17T07:56:07+01:00"
         }
     ]
 }

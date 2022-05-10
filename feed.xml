@@ -3,12 +3,45 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2022-03-15T14:52:46+00:00</updated>
+    <updated>2022-05-10T08:23:15+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Fixing error with updating Arch Linux keyring</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/fixing-error-with-updating-arch-linux-keyring/"/>
+        <id>https://furycd001.github.io/fixing-error-with-updating-arch-linux-keyring/</id>
+            <category term="pacman"/>
+            <category term="Terminal"/>
+            <category term="Keyring"/>
+            <category term="Archlinux"/>
+
+        <updated>2022-05-10T08:23:15+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/66/Screenshot_2022-05-10_08-22-49.png" alt="" />
+                    If like me you happen to run Arch Linux, you may (or may not) have run into the following error&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/66/Screenshot_2022-05-10_08-22-49.png" alt="" />
+                <p>If like me you happen to run Arch Linux, you may (or may not) have run into the following error while trying to update with the system.</p>
+<blockquote>
+<p>Invalid or corrupted package PGP signature.</p>
+</blockquote>
+<p>This problem is super easy to fix. All you need to do is run the command below to update the keyring, before then running the update once again.</p>
+<pre><code class="language-bash">sudo pacman -Sy archlinux-keyring
+</code></pre>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to launch applications with sudo using rofi.</title>
         <author>
@@ -869,41 +902,6 @@ done
 <td>128</td>
 </tr>
 </tbody></table>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Using imagemagick as an image viewer.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/using-imagemagick-as-an-image-viewer/"/>
-        <id>https://furycd001.github.io/using-imagemagick-as-an-image-viewer/</id>
-            <category term="Terminal"/>
-            <category term="ImageMagick"/>
-            <category term="Image"/>
-            <category term="Bash"/>
-
-        <updated>2021-09-17T07:56:07+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/56/ImageMagick_logo.svg.png" alt="" />
-                    Did you know that you could use imagemagick as an image viewer :? Well I didn’t until recently &amp; it’s&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/56/ImageMagick_logo.svg.png" alt="" />
-                <p>Did you know that you could use <strong><a href="https://imagemagick.org/index.php">imagemagick</a></strong> as an image viewer :? Well I didn’t until recently &amp; it’s super easy to do so. Simply create &amp; save the super small bash script below &amp; call it from the terminal or from a custom action within your file manager. You’ll just need to change <code>1920x1200</code> to whatever your screen resolution is.</p>
-<pre><code class="language-bash">#!/usr/bin/env bash
-# Open images with imagemagick....
-
-display -resize 1920x1200 &quot;$1&quot;
-</code></pre>
-<blockquote>
-<p>I saved the script to <code>/usr/bin/image</code> so all I have to do now is run <code>image $/path/to/image.jpeg</code> when in a terminal.</p>
-</blockquote>
 
             ]]>
         </content>
