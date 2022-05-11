@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2022-05-10T08:23:15+01:00</updated>
+    <updated>2022-05-11T07:09:52+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -146,7 +146,7 @@ pkexec $1
             <category term="Archlinux"/>
             <category term="Android"/>
 
-        <updated>2022-01-05T09:11:06+00:00</updated>
+        <updated>2022-05-11T07:09:52+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/62/unnamed.png" alt="" />
@@ -173,7 +173,7 @@ pkexec $1
 <pre><code class="language-sh">wget https://raw.githubusercontent.com/SDRausty/termux-arch/master/setupTermuxArch.bash
 </code></pre>
 <ul>
-<li>With the script has downloaded we can then run it.</li>
+<li>When the script has finished downloading, we can then proceed to run it.</li>
 </ul>
 <pre><code class="language-sh">./setupTermuxArch.bash
 </code></pre>
