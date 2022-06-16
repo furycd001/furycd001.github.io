@@ -1,6 +1,6 @@
 :root {
     --font: "Roboto Mono";
-    --background: #1d1f21;
+    --background: #272B35;
     --foreground: #c5c8c6;
     --green: #b5bd68;
     --red: #cc6666;
@@ -36,12 +36,20 @@ span {
     color: var(--green);
 }
 
-h1 {
+span.clock {
+    color: var(--red);
+}
+
+span.search {
     display: inline;
     font-family: var(--font);
     font-size: 1rem;
     font-weight: normal;
     color: var(--red);
+}
+
+form {
+    display: inline-block;
 }
 
 .tree > ul {
