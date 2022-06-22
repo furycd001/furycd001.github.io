@@ -88,6 +88,10 @@ li:last-child::after {
     height: 0.5rem;
 }
 
+li:first-child::after {
+ top: 15px;
+}
+
 a {
     font-family: var(--font);
     font-size: 1rem;
