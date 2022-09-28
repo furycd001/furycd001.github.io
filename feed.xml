@@ -3,12 +3,49 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2022-07-07T07:47:12+01:00</updated>
+    <updated>2022-09-28T13:26:37+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Extracting audio from .webm files using ffmpeg</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/extracting-audio-from-webm-files-using-ffmpeg/"/>
+        <id>https://furycd001.github.io/extracting-audio-from-webm-files-using-ffmpeg/</id>
+            <category term="mp3"/>
+            <category term="audio"/>
+            <category term="Video"/>
+            <category term="Terminal"/>
+            <category term="Convert"/>
+            <category term="Bash"/>
+
+        <updated>2022-09-28T13:26:37+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/68/Screenshot_2022-09-28_13-26-11.png" alt="" />
+                    Using ffmpeg along with a single lined command we can easily search for all files in a folder that end&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://furycd001.github.io/media/posts/68/Screenshot_2022-09-28_13-26-11.png" alt="" />
+                <p>Using <code>ffmpeg</code> along with a single lined command we can easily search for all files in a folder that end with the <code>.webm</code> extension and have the audio extracted in the form of <code>.mp3</code>. Simply open up a terminal and <code>cd</code> into the directory containing the <code>.webm</code> files. Once in the correct directory, you can then run the command below.. </p>
+<pre><code class="language-bash">find . -type f -iname &quot;*.webm&quot; -exec bash -c &#39;FILE=&quot;$1&quot;; ffmpeg -i &quot;${FILE}&quot; -vn -ab 128k -ar 44100 -y &quot;${FILE%.webm}.mp3&quot;;&#39; _ &#39;{}&#39; \;
+</code></pre>
+<p>Once the above command has finished running you can then run <code>ls</code> to find that the audio file will be the same as the <code>.webm</code>, just with the <code>.mp3</code> extension instead. Alternatively you could make a bash script, save it to somewhere like <code>/usr/bin</code> as <code>audioextract</code> &amp; then just execute that from any given folder..</p>
+<pre><code class="language-bash">#!/usr/bin/env bash
+for FILE in *.webm; do
+    ffmpeg -i &quot;${FILE}&quot; -vn -ab 128k -ar 44100 -y &quot;${FILE%.webm}.mp3&quot;;
+done;
+</code></pre>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Possibly moving to bspwm !!</title>
         <author>
@@ -407,49 +444,6 @@ done
 }
 </code></pre>
 <p><figure class="post__image"><img loading="lazy" src="https://imgur.com/l8J8ddp.png" data-is-external-image="true"  alt="alt text" /></figure></p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Downloading Age Restricted Videos With youtube-dl.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/downloading-age-restricted-videos-with-youtube-dl/"/>
-        <id>https://furycd001.github.io/downloading-age-restricted-videos-with-youtube-dl/</id>
-            <category term="Youtube-dl"/>
-            <category term="Youtube"/>
-            <category term="Web"/>
-            <category term="Video"/>
-            <category term="Terminal"/>
-
-        <updated>2021-10-01T11:02:18+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/58/Youtube.png" alt="" />
-                    A while back youtube.com started adding age restrictions to Videos &amp; trying to download some of these videos with youtube-dl,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://furycd001.github.io/media/posts/58/Youtube.png" alt="" />
-                <p>A while back <strong><a href="https://youtube.com">youtube.com</a></strong> started adding age restrictions to Videos &amp; trying to download some of these videos with <strong><a href="https://youtube-dl.org/">youtube-dl</a></strong>, simply resulted in people receiving the following error message.</p>
-<blockquote>
-<p>WARNING: Unable to download video info webpage: HTTP Error 410: Gone<br>ERROR: Sign in to confirm your age<br>This video may be inappropriate for some users.</p>
-</blockquote>
-<p>You still want to download the video right :? The simple solution is to use a browser extension to download your youtube cookies &amp; then pass said cookies to youtube-dl with the <code>--cookies</code> flag. This was all pretty straight forward &amp; I was able to download the age restricted video in no time. Simply follow the steps below if you’d like to be able to do the same.</p>
-<ul>
-<li><h4 id="step1">Step.1</h4>
-<p>Install a browser extension to download your cookies from youtube. I’m running <strong><a href="https://www.mozilla.org/">firefox</a></strong> so I installed <strong><a href="https://addons.mozilla.org/en-GB/firefox/addon/cookies-txt/">“this extension”</a></strong> &amp; saved my cookies to my downloads folder.</p>
-</li>
-<li><h4 id="step2">Step.2</h4>
-<p>Add the <code>--cookies</code> flag to your youtube-dl command in the terminal &amp; follow it with the location of your cookies.txt file.</p>
-</li>
-</ul>
-<pre><code class="language-bash">youtube-dl -f bestvideo+bestaudio --cookies /path/to/youtube-cookies.txt $youtubeurl
-</code></pre>
-<p>Thats all there is to it. Run the command &amp; your video should download as normal without giving you any age restriction errors.</p>
 
             ]]>
         </content>
