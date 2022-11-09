@@ -10,184 +10,30 @@
     },
     "items": [
         {
-            "id": "https://furycd001.github.io/extracting-audio-from-webm-files-using-ffmpeg/",
-            "url": "https://furycd001.github.io/extracting-audio-from-webm-files-using-ffmpeg/",
-            "title": "Extracting audio from .webm files using ffmpeg",
-            "summary": "Using ffmpeg along with a single lined command we can easily search for all files in a folder that end&hellip;",
-            "content_html": "<p>Using <code>ffmpeg</code> along with a single lined command we can easily search for all files in a folder that end with the <code>.webm</code> extension and have the audio extracted in the form of <code>.mp3</code>. Simply open up a terminal and <code>cd</code> into the directory containing the <code>.webm</code> files. Once in the correct directory, you can then run the command below.. </p>\n<pre><code class=\"language-bash\">find . -type f -iname &quot;*.webm&quot; -exec bash -c &#39;FILE=&quot;$1&quot;; ffmpeg -i &quot;${FILE}&quot; -vn -ab 128k -ar 44100 -y &quot;${FILE%.webm}.mp3&quot;;&#39; _ &#39;{}&#39; \\;\n</code></pre>\n<p>Once the above command has finished running you can then run <code>ls</code> to find that the audio file will be the same as the <code>.webm</code>, just with the <code>.mp3</code> extension instead. Alternatively you could make a bash script, save it to somewhere like <code>/usr/bin</code> as <code>audioextract</code> &amp; then just execute that from any given folder..</p>\n<pre><code class=\"language-bash\">#!/usr/bin/env bash\nfor FILE in *.webm; do\n    ffmpeg -i &quot;${FILE}&quot; -vn -ab 128k -ar 44100 -y &quot;${FILE%.webm}.mp3&quot;;\ndone;\n</code></pre>\n",
-            "image": "https://furycd001.github.io/media/posts/68/Screenshot_2022-09-28_13-26-11.png",
+            "id": "https://furycd001.github.io/downloading-multiple-urls-using-xargs-and-curl/",
+            "url": "https://furycd001.github.io/downloading-multiple-urls-using-xargs-and-curl/",
+            "title": "Downloading multiple urls using xargs &amp; curl.",
+            "summary": "Using both xargs &amp; curl together you can download multiple urls all at once without have to call curl over&hellip;",
+            "content_html": "<p>Using both <code>xargs</code> &amp; <code>curl</code> together you can download multiple urls all at once without have to call curl over &amp; over. Simply put all your links into a <code>.txt</code> file &amp; then call it using the command below….</p>\n<pre><code class=\"language-bash\">xargs -n 1 curl -O &lt; links.txt\n</code></pre>\n<blockquote>\n<p>Whenever creating the <code>.txt</code> file, make sure to put each link on it’s own line with nothing else around it. You can also name the file whatever you please. Just remember to change it in the command before running.</p>\n</blockquote>\n",
+            "image": "https://furycd001.github.io/media/posts/60/curl-logo.svg",
             "author": {
                 "name": "Jonny"
             },
             "tags": [
-                   "mp3",
-                   "audio",
-                   "Video",
+                   "xargs",
+                   "curl",
                    "Terminal",
-                   "Convert",
-                   "Bash"
+                   "Download"
             ],
-            "date_published": "2022-09-28T13:26:37+01:00",
-            "date_modified": "2022-09-28T13:26:37+01:00"
-        },
-        {
-            "id": "https://furycd001.github.io/possibly-moving-to-bspwm/",
-            "url": "https://furycd001.github.io/possibly-moving-to-bspwm/",
-            "title": "Possibly moving to bspwm !!",
-            "summary": "I’m thinking of possibly moving to bspwm fulltime. It won’t be a full goodbye to XFCE, because I’ll still use&hellip;",
-            "content_html": "<p>I’m thinking of possibly moving to <a href=\"https://github.com/baskerville/bspwm\">bspwm</a> fulltime. It won’t be a full goodbye to XFCE, because I’ll still use apps like <a href=\"https://docs.xfce.org/xfce/thunar/start\">thunar</a> &amp; <a href=\"https://docs.xfce.org/apps/terminal/start\">xfce4-terminal</a>. Bspwm is currently installed on my system, but I have yet to fully dive into it….</p>\n",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "bspwm",
-                   "Xfce",
-                   "Window manager"
-            ],
-            "date_published": "2022-07-07T07:47:12+01:00",
-            "date_modified": "2022-07-07T07:47:12+01:00"
-        },
-        {
-            "id": "https://furycd001.github.io/fixing-error-with-updating-arch-linux-keyring/",
-            "url": "https://furycd001.github.io/fixing-error-with-updating-arch-linux-keyring/",
-            "title": "Fixing error with updating Arch Linux keyring",
-            "summary": "If like me you happen to run Arch Linux, you may (or may not) have run into the following error&hellip;",
-            "content_html": "<p>If like me you happen to run Arch Linux, you may (or may not) have run into the following error while trying to update with the system.</p>\n<blockquote>\n<p>Invalid or corrupted package PGP signature.</p>\n</blockquote>\n<p>This problem is super easy to fix. All you need to do is run the command below to update the keyring, before then running the update once again.</p>\n<pre><code class=\"language-bash\">sudo pacman -Sy archlinux-keyring\n</code></pre>\n",
-            "image": "https://furycd001.github.io/media/posts/66/Screenshot_2022-05-10_08-22-49.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "pacman",
-                   "Terminal",
-                   "Keyring",
-                   "Archlinux"
-            ],
-            "date_published": "2022-05-10T08:20:55+01:00",
-            "date_modified": "2022-05-10T08:23:15+01:00"
-        },
-        {
-            "id": "https://furycd001.github.io/how-to-launch-applications-with-sudo-using-rofi/",
-            "url": "https://furycd001.github.io/how-to-launch-applications-with-sudo-using-rofi/",
-            "title": "How to launch applications with sudo using rofi.",
-            "summary": "First off you’ll want to start by checking to see if pkexec is installed on your system. It wasn’t on&hellip;",
-            "content_html": "<p>First off you’ll want to start by checking to see if <code>pkexec</code> is installed on your system. It wasn’t on my <a href=\"archlinux.org/\"><strong>arch</strong></a> system, but it’s included with <code>systemctl-policy</code> so I just installed that to get it. Once installed I created the below bash script &amp; saved in <code>/usr/bin/</code> as <code>ssudo</code>. With the script created I can now launch applications with sudo using rofi….</p>\n<pre><code class=\"language-bash\">#!/usr/bin/env bash\npkexec $1\n</code></pre>\n<p>All I have to do is open rofi &amp; type <code>ssudo $nameofapplication</code></p>\n<blockquote>\n<p>Note that you can save the script with any name of your choice, but really ssudo kind of makes sense.</p>\n</blockquote>\n",
-            "image": "https://furycd001.github.io/media/posts/65/Screenshot_2022-03-15_14-47-59.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "systemctl",
-                   "rofi",
-                   "Sudo",
-                   "Bash"
-            ],
-            "date_published": "2022-03-15T14:52:46+00:00",
-            "date_modified": "2022-03-15T14:52:46+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/brian-benchoff-designed-a-dollar15-portable-computer/",
-            "url": "https://furycd001.github.io/brian-benchoff-designed-a-dollar15-portable-computer/",
-            "title": "Brian Benchoff designed a $15 portable computer.",
-            "summary": "Instead of rooting an Android phone, Brian Benchoff has gone &amp; created his own portable computer that runs Linux &amp;&hellip;",
-            "content_html": "<p>Instead of rooting an Android phone, Brian Benchoff has gone &amp; created his own portable computer that runs Linux &amp; fits in your pocket. The computer currently run <a href=\"http://buildroot.org/\"><strong>buildroot</strong></a>, has no gui &amp; the battery is AAA-sized NiMH batteries.</p>\n<blockquote>\n<p>Buildroot is a Linux version that targets small embedded systems..</p>\n</blockquote>\n<p><a href=\"https://bbenchoff.github.io/pages/LinuxDevice.html\"><strong>For more info.. Please click here to read Brians original post…</strong></a></p>\n",
-            "image": "https://furycd001.github.io/media/posts/64/Front.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Tech",
-                   "Portable",
-                   "Linux",
-                   "Buildroot"
-            ],
-            "date_published": "2022-03-03T08:36:06+00:00",
-            "date_modified": "2022-03-03T08:44:11+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/awesome-arch/",
-            "url": "https://furycd001.github.io/awesome-arch/",
-            "title": "Awesome Arch",
-            "summary": "Arch Linux is a Linux distribution thats lightweight &amp; tries to Keep things Simple. It can be installed as a&hellip;",
-            "content_html": "<p><a href=\"https://archlinux.org/\"><strong>Arch Linux</strong></a> is a Linux distribution thats lightweight &amp; tries to Keep things Simple. It can be installed as a minimal base system &amp; then configured from the ground up by the user. The user can create their own environment, through installing simply only what they may require. <a href=\"https://project-awesome.org/PandaFoss/Awesome-Arch#arch-based-distros\"><strong>Awesome Arch</strong></a> is a list of awesome Arch related projects.</p>\n",
-            "image": "https://furycd001.github.io/media/posts/63/logo.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Distro",
-                   "Awesome",
-                   "Archlinux"
-            ],
-            "date_published": "2022-02-08T12:24:47+00:00",
-            "date_modified": "2022-02-08T12:24:47+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/installing-arch-on-termux/",
-            "url": "https://furycd001.github.io/installing-arch-on-termux/",
-            "title": "Installing Arch on termux.",
-            "summary": "Ever wanted to have a portable Arch install that you can take with you whever you go :? Well with&hellip;",
-            "content_html": "<p>Ever wanted to have a portable <a href=\"https://archlinux.org/\"><strong>Arch</strong></a> install that you can take with you whever you go :? Well with the help of an android phone, <a href=\"https://f-droid.org/en/packages/com.termux/\"><strong>termux</strong></a> &amp; <a href=\"https://github.com/SDRausty/termux-arch/\"><strong>this bash script</strong></a> you can have just that. It’s not super hard to get set up &amp; it doesn’t take all that long either.</p>\n<ul>\n<li>To begin you’ll want to go ahead &amp; install <a href=\"https://f-droid.org/en/packages/com.termux/\"><strong>termux</strong></a> if you haven’t already done so. Once we have termux installed we can then go ahead &amp; install the base OS.</li>\n</ul>\n<pre><code class=\"language-sh\">pkg update &amp;&amp; pkg install bsdtar wget proot tergent tmux openssh\n</code></pre>\n<ul>\n<li>With the base OS installed you’ll now want to set up storage for termux.</li>\n</ul>\n<pre><code class=\"language-sh\">termux-setup-storage\n</code></pre>\n<ul>\n<li>When you’ve finished setting up storage we can now download the script &amp; begin setting up Arch.</li>\n</ul>\n<pre><code class=\"language-sh\">wget https://raw.githubusercontent.com/SDRausty/termux-arch/master/setupTermuxArch.bash\n</code></pre>\n<ul>\n<li>When the script has finished downloading, we can then proceed to run it.</li>\n</ul>\n<pre><code class=\"language-sh\">./setupTermuxArch.bash\n</code></pre>\n<blockquote>\n<p>This will download and install the base Arch system. The time this will take to finished will vary depending on your device &amp; connection.</p>\n</blockquote>\n<ul>\n<li>When everything has finished you’ll be dropped into a root shell for your new Arch install. We can now go ahead &amp; change the username &amp; password for our new install</li>\n</ul>\n<pre><code class=\"language-sh\">useradd -mG root -s /bin/bash newuser\npasswd newuser\n</code></pre>\n<blockquote>\n<p>Remember to change <em>newuser</em> to whatever you want your username to be..</p>\n</blockquote>\n<ul>\n<li>Once you’ve changed the username &amp; password, we can move on to making arch a little bit more useable. We’ll start by installing wget &amp; then downloading one final script.</li>\n</ul>\n<pre><code class=\"language-sh\">sudo pacman -Syyu wget &amp;&amp; wget --no-check-certificate  &#39;https://docs.google.com/uc?export=download&amp;id=107Fh0l_p0ItVkUufOhP9to-OU_6KYhPW&#39; -O fresharch.sh\n</code></pre>\n<ul>\n<li>When the script has finished downloading, we can make it executable &amp; then run it.</li>\n</ul>\n<pre><code class=\"language-sh\">chmod +x fresharch.sh &amp;&amp; sudo ./fresharch.sh\n</code></pre>\n<p>If everything goes smoothly &amp; you see no errors on the screen then you should have a fully functional Arch install with yay &amp; AUR support. If you happen to come across any errors, feel free to run through all of the steps again to verify everything. This worked for me whenever I tried it, so it should work for you also….</p>\n",
-            "image": "https://furycd001.github.io/media/posts/62/unnamed.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Termux",
-                   "Mobile",
-                   "Linux",
-                   "Archlinux",
-                   "Android"
-            ],
-            "date_published": "2022-01-04T13:12:47+00:00",
-            "date_modified": "2022-05-11T07:09:52+01:00"
-        },
-        {
-            "id": "https://furycd001.github.io/hiding-statusbar-in-tmux/",
-            "url": "https://furycd001.github.io/hiding-statusbar-in-tmux/",
-            "title": "Hiding statusbar in tmux.",
-            "summary": "If you are someone like me who occasionally uses tmux, but has no need for the statusbar then this post&hellip;",
-            "content_html": "<p>If you are someone like me who occasionally uses <a href=\"https://github.com/tmux/tmux\"><strong>tmux</strong></a>, but has no need for the statusbar then this post is for you. All you need to do is add the line below into your <code>~/.tmux.conf</code>.</p>\n<pre><code class=\"language-bash\">set -g status off\n</code></pre>\n<blockquote>\n<p>There was no <code>tmux.conf</code> by default on my system so I had to create it. You’ll probably need to do the same..</p>\n</blockquote>\n<h4 id=\"tmux-with-statusbar-showing\">Tmux with statusbar showing..</h4>\n<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"https://imgur.com/v3MRaOq.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<h4 id=\"tmux-with-statusbar-hidden\">Tmux with statusbar hidden..</h4>\n<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"https://imgur.com/MFZXMwA.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n",
-            "image": "https://furycd001.github.io/media/posts/61/Screenshot_2021-12-27_12-57-42.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Tmux",
-                   "Terminal",
-                   "Config"
-            ],
-            "date_published": "2021-12-27T12:59:13+00:00",
-            "date_modified": "2021-12-27T13:07:35+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/creating-a-simple-blog-with-markdown-and-bash/",
-            "url": "https://furycd001.github.io/creating-a-simple-blog-with-markdown-and-bash/",
-            "title": "Creating a simple blog with markdown &amp; bash.",
-            "summary": "Using only markdown, bash &amp; a converter we can create a super simple blog. To begin you’ll want to go&hellip;",
-            "content_html": "<p>Using only markdown, bash &amp; a converter we can create a super simple blog. To begin you’ll want to go ahead &amp; install some sort of markdown converter that works inside your terminal. For this I use <a href=\"https://www.pell.portland.or.us/~orc/Code/discount/\"><strong>discount</strong></a> &amp; on my arch system I can easily install it with <code>pacman -S discount</code>.</p>\n<blockquote>\n<p>I’ll be using discount for this post, so make sure to change any commands as needed for whatever converter you choose to use..</p>\n</blockquote>\n<p>So before we begin you’ll want to create a blog directory inside your home folder.</p>\n<pre><code class=\"language-bash\">mkdir ~/blog\n</code></pre>\n<blockquote>\n<p>You can create this directory anywhere, but for me my home folder makes sense..</p>\n</blockquote>\n<p>To get started lets create a template.html &amp; add the lines <code>&lt;!-- insert here --&gt;</code> in the middle.</p>\n<pre><code class=\"language-html\">&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;title&gt;Startpage..&lt;/title&gt;\n&lt;link rel=&quot;stylesheet&quot; href=&quot;Style.css&quot;&gt;\n&lt;meta charset=&quot;utf-8&quot;&gt;\n&lt;base target=&quot;_blank&quot;&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;div class=&quot;hello&quot;&gt;\n\n&lt;!-- insert here --&gt;\n\n&lt;/div&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n</code></pre>\n<blockquote>\n<p>The insert here park is where our post will be inserted later..</p>\n</blockquote>\n<p>With the <code>.html</code> created we can move onto the <code>.css</code>. This is were we will theme our blog &amp; you can really add anything you wish. For this post I’ve just gone &amp; centered everything in the middle of the page.</p>\n<pre><code class=\"language-css\">.hello {\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  width: 100%;\n  transform: translate(-50%, -50%);\n  font-family: Ubuntu;\n  font-size: 22px;\n  font-weight: 300;\n  text-align: center;\n}\n</code></pre>\n<blockquote>\n<p>You can save this file with whatever name you choose, as long as you remember to change the link in the <code>.html</code> to match..</p>\n</blockquote>\n<p>Once you have the directory &amp; html/css created, we can then move on to creating our script. This first piece of code is our shebang &amp; it’s used at the start of any script to tell the operating system which interpreter to use to parse the rest of the file.</p>\n<pre><code class=\"language-bash\">#!/usr/bin/env bash\n</code></pre>\n<p>This next part will be our converter. This will convert all our <em>.md</em> files to <em>.html</em>.</p>\n<pre><code class=\"language-bash\">for i in `ls *.md`; do\n  markdown $i &gt; ~/blog/`basename $i .md`.html;\ndone\n</code></pre>\n<p>Now that we have all of our files converted we can start editing our html. What we need to do is surround all our new html files with <code>&lt;div class=&#39;entry&#39;&gt;</code> and output everything into a file called entries.html.</p>\n<pre><code class=\"language-bash\">ls ~/blog/* | xargs -n 1 awk &#39;BEGIN {print &quot;&lt;div class=\\&quot;entry\\&quot;&gt;&quot; } {print $0} END {print &quot;&lt;/div&gt;&quot;}&#39; &gt; entries.html\n</code></pre>\n<p>We’re almost done now as this is the final command for our script. This command will insert everything in entries.html into your template.html file and output the result into a new file, called index.html.</p>\n<pre><code class=\"language-bash\">sed -e &#39;/&lt;!-- insert here/r entries.html&#39; template.html &gt; index.html\n</code></pre>\n<p>With that last command added to our script we can go ahead &amp; save it, then make it executable.</p>\n<pre><code class=\"language-bash\">chmod +x bashblog.sh\n</code></pre>\n<p>That’s our script created, so now we can test it out by creating a few simple blog posts in markdown &amp; then run the script. If your script fails at any point, make sure to check all the paths entered in the script are correct &amp; that you have the correct command if using a different converter.</p>\n",
-            "image": "https://furycd001.github.io/media/posts/60/bash.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Minimal",
-                   "Markdown",
-                   "Html",
-                   "Css",
-                   "Convert",
-                   "Blog",
-                   "Bash"
-            ],
-            "date_published": "2021-12-23T14:17:18+00:00",
-            "date_modified": "2021-12-29T13:17:54+00:00"
+            "date_published": "2022-11-09T13:12:38+00:00",
+            "date_modified": "2022-11-09T13:12:38+00:00"
         },
         {
             "id": "https://furycd001.github.io/chaning-the-background-color-of-image-tabs-in-firefox/",
             "url": "https://furycd001.github.io/chaning-the-background-color-of-image-tabs-in-firefox/",
             "title": "Chaning the background color of image tabs in firefox.",
             "summary": "This is how an open image in firefox usually looks. By simply adding the following code to your userContent.css, you&hellip;",
-            "content_html": "<p>This is how an open image in firefox usually looks.\n<figure class=\"post__image\"><img loading=\"lazy\" src=\"https://imgur.com/ZkrP6Zx.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n<p>By simply adding the following code to your <code>userContent.css</code>, you can change the color to whatever you want. It’s super simple….</p>\n<pre><code class=\"language-css\">/* Imagetab */\n@-moz-document regexp(&quot;((.*\\\\.(png|jpg|jpeg|gif|tiff|bmp|ico|PNG|JPG|JPEG|GIF|TIFF|BMP|ICO))|(^data:image/.*)|(.*/attachment\\.php[?]attachmentid=[0-9]+.*)|(about:logo))&quot;) {\n\n  /* site background */\n  html:not([id]):not([class]):not([lang]):not([dir]):not([xmlns]) &gt;\n  body:not([id]):not([class]):not([lang]):not([dir]):not([style]):not([title]):not([bgcolor]):not([text]):not([link]):not([onload]) {\n    background-image: none !important; /* remove noisy background */\n    background-color: #272B35 !important; /* change background color */\n  }\n\n  /* transparent image background */\n  img.decoded {\n    background-image: none !important; /* remove noisy background */\n    background-color: #272B35 !important; /* change background color */\n  }\n\n  /* transparent image background when hovering (checkerboard) */\n  img.decoded:hover {\n    background-image: url(&#39;data:image/gif;base64,R0lGODlhFAAUAIABAP///wAAACH5BAEKAAEALAAAAAAUABQAAAIojI+gy+jBInhJLnrsxVBP7n1YyHVaSYKhh7Lq+VotPLo1TaW3HEtlAQA7&#39;) !important;\n    background-color: #272B35 !important; /* change background color (here: color of dark squares) */\n  }\n}\n</code></pre>\n<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"https://imgur.com/l8J8ddp.png\" data-is-external-image=\"true\"  alt=\"alt text\" /></figure></p>\n",
+            "content_html": "<p>This is how an open image in firefox usually looks.\n<figure class=\"post__image\"><img loading=\"lazy\" src=\"https://imgur.com/ZkrP6Zx.png\" alt=\"alt text\"  data-is-external-image=\"true\"></figure></p>\n<p>By simply adding the following code to your <code>userContent.css</code>, you can change the color to whatever you want. It’s super simple….</p>\n<pre><code class=\"language-css\">/* Imagetab */\n@-moz-document regexp(&quot;((.*\\\\.(png|jpg|jpeg|gif|tiff|bmp|ico|PNG|JPG|JPEG|GIF|TIFF|BMP|ICO))|(^data:image/.*)|(.*/attachment\\.php[?]attachmentid=[0-9]+.*)|(about:logo))&quot;) {\n\n  /* site background */\n  html:not([id]):not([class]):not([lang]):not([dir]):not([xmlns]) &gt;\n  body:not([id]):not([class]):not([lang]):not([dir]):not([style]):not([title]):not([bgcolor]):not([text]):not([link]):not([onload]) {\n    background-image: none !important; /* remove noisy background */\n    background-color: #272B35 !important; /* change background color */\n  }\n\n  /* transparent image background */\n  img.decoded {\n    background-image: none !important; /* remove noisy background */\n    background-color: #272B35 !important; /* change background color */\n  }\n\n  /* transparent image background when hovering (checkerboard) */\n  img.decoded:hover {\n    background-image: url(&#39;data:image/gif;base64,R0lGODlhFAAUAIABAP///wAAACH5BAEKAAEALAAAAAAUABQAAAIojI+gy+jBInhJLnrsxVBP7n1YyHVaSYKhh7Lq+VotPLo1TaW3HEtlAQA7&#39;) !important;\n    background-color: #272B35 !important; /* change background color (here: color of dark squares) */\n  }\n}\n</code></pre>\n<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"https://imgur.com/l8J8ddp.png\" alt=\"alt text\"  data-is-external-image=\"true\"></figure></p>\n",
             "image": "https://furycd001.github.io/media/posts/59/Firefox_logo_2017-2.png",
             "author": {
                 "name": "Jonny"
@@ -201,6 +47,169 @@
             ],
             "date_published": "2021-10-27T12:09:04+01:00",
             "date_modified": "2021-10-27T12:28:12+01:00"
+        },
+        {
+            "id": "https://furycd001.github.io/downloading-age-restricted-videos-with-youtube-dl/",
+            "url": "https://furycd001.github.io/downloading-age-restricted-videos-with-youtube-dl/",
+            "title": "Downloading Age Restricted Videos With youtube-dl.",
+            "summary": "A while back youtube.com started adding age restrictions to Videos &amp; trying to download some of these videos with youtube-dl,&hellip;",
+            "content_html": "<p>A while back <strong><a href=\"https://youtube.com\">youtube.com</a></strong> started adding age restrictions to Videos &amp; trying to download some of these videos with <strong><a href=\"https://youtube-dl.org/\">youtube-dl</a></strong>, simply resulted in people receiving the following error message.</p>\n<blockquote>\n<p>WARNING: Unable to download video info webpage: HTTP Error 410: Gone<br>ERROR: Sign in to confirm your age<br>This video may be inappropriate for some users.</p>\n</blockquote>\n<p>You still want to download the video right :? The simple solution is to use a browser extension to download your youtube cookies &amp; then pass said cookies to youtube-dl with the <code>--cookies</code> flag. This was all pretty straight forward &amp; I was able to download the age restricted video in no time. Simply follow the steps below if you’d like to be able to do the same.</p>\n<ul>\n<li><h4 id=\"step1\">Step.1</h4>\n<p>Install a browser extension to download your cookies from youtube. I’m running <strong><a href=\"https://www.mozilla.org/\">firefox</a></strong> so I installed <strong><a href=\"https://addons.mozilla.org/en-GB/firefox/addon/cookies-txt/\">“this extension”</a></strong> &amp; saved my cookies to my downloads folder.</p>\n</li>\n<li><h4 id=\"step2\">Step.2</h4>\n<p>Add the <code>--cookies</code> flag to your youtube-dl command in the terminal &amp; follow it with the location of your cookies.txt file.</p>\n</li>\n</ul>\n<pre><code class=\"language-bash\">youtube-dl -f bestvideo+bestaudio --cookies /path/to/youtube-cookies.txt $youtubeurl\n</code></pre>\n<p>Thats all there is to it. Run the command &amp; your video should download as normal without giving you any age restriction errors.</p>\n",
+            "image": "https://furycd001.github.io/media/posts/58/Youtube.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Youtube-dl",
+                   "Youtube",
+                   "Web",
+                   "Video",
+                   "Terminal"
+            ],
+            "date_published": "2021-10-01T11:02:09+01:00",
+            "date_modified": "2021-10-01T11:02:18+01:00"
+        },
+        {
+            "id": "https://furycd001.github.io/identifying-an-operating-system-using-only-the-ping-command/",
+            "url": "https://furycd001.github.io/identifying-an-operating-system-using-only-the-ping-command/",
+            "title": "Identifying an operating system using only the ping command.",
+            "summary": "You can identify which operating system is running simply by pinging it. All you need to do is ping localhost&hellip;",
+            "content_html": "<p>You can identify which operating system is running simply by pinging it. All you need to do is ping localhost &amp; read the <code>TTL</code> value. This should work on almost any operating system that has access to ping from a terminal. Obviously theres way better ways to find the currently running operating system, but hey this is still cool nonetheless. Simply run the ping command below in a terminal &amp; then compare the <code>TTL</code> value with the table below to determine the opertaing system.</p>\n<pre><code class=\"language-bash\">ping -c5 localhost\n</code></pre>\n<table>\n<thead>\n<tr>\n<th>OS</th>\n<th>VERSION</th>\n<th>PROTOCOL</th>\n<th>TTL</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>AIX</td>\n<td></td>\n<td>TCP</td>\n<td>60</td>\n</tr>\n<tr>\n<td>AIX</td>\n<td></td>\n<td>UDP</td>\n<td>30</td>\n</tr>\n<tr>\n<td>Android</td>\n<td>3.2.1</td>\n<td>TCP and ICMP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>Android</td>\n<td>5.1.1</td>\n<td>TCP and ICMP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>AIX</td>\n<td>3.2, 4.1</td>\n<td>ICMP</td>\n<td>255</td>\n</tr>\n<tr>\n<td>BSDI</td>\n<td>BSD/OS 3.1 and 4.0</td>\n<td>ICMP</td>\n<td>255</td>\n</tr>\n<tr>\n<td>Compa</td>\n<td>Tru64 v5.0</td>\n<td>ICMP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>Cisco</td>\n<td></td>\n<td>ICMP</td>\n<td>254</td>\n</tr>\n<tr>\n<td>DEC Pathworks</td>\n<td>V5</td>\n<td>TCP and UDP</td>\n<td>30</td>\n</tr>\n<tr>\n<td>Foundry</td>\n<td></td>\n<td>ICMP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>FreeBSD</td>\n<td>2.1R</td>\n<td>TCP and UDP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>FreeBSD</td>\n<td>3.4, 4.0</td>\n<td>ICMP</td>\n<td>255</td>\n</tr>\n<tr>\n<td>FreeBSD</td>\n<td>5</td>\n<td>ICMP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>HP-UX</td>\n<td>9.0x</td>\n<td>TCP and UDP</td>\n<td>30</td>\n</tr>\n<tr>\n<td>HP-UX</td>\n<td>10.01</td>\n<td>TCP and UDP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>HP-UX</td>\n<td>10.2</td>\n<td>ICMP</td>\n<td>255</td>\n</tr>\n<tr>\n<td>HP-UX</td>\n<td>11</td>\n<td>ICMP</td>\n<td>255</td>\n</tr>\n<tr>\n<td>HP-UX</td>\n<td>11</td>\n<td>TCP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>Irix</td>\n<td>5.3</td>\n<td>TCP and UDP</td>\n<td>60</td>\n</tr>\n<tr>\n<td>Irix</td>\n<td>6.x</td>\n<td>TCP and UDP</td>\n<td>60</td>\n</tr>\n<tr>\n<td>Irix</td>\n<td>6.5.3, 6.5.8</td>\n<td>ICMP</td>\n<td>255</td>\n</tr>\n<tr>\n<td>juniper</td>\n<td></td>\n<td>ICMP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>MPE/IX (HP)</td>\n<td></td>\n<td>ICMP</td>\n<td>200</td>\n</tr>\n<tr>\n<td>Linux</td>\n<td>2.0.x kernel</td>\n<td>ICMP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>Linux</td>\n<td>2.2.14 kernel</td>\n<td>ICMP</td>\n<td>255</td>\n</tr>\n<tr>\n<td>Linux</td>\n<td>2.4 kernel</td>\n<td>ICMP</td>\n<td>255</td>\n</tr>\n<tr>\n<td>Linux</td>\n<td>Red Hat 9</td>\n<td>ICMP and TCP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>MacOS/MacTCP</td>\n<td>2.0.x</td>\n<td>TCP and UDP</td>\n<td>60</td>\n</tr>\n<tr>\n<td>MacOS/MacTCP</td>\n<td>X (10.5.6)</td>\n<td>ICMP/TCP/UDP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>NetBSD</td>\n<td></td>\n<td>ICMP</td>\n<td>255</td>\n</tr>\n<tr>\n<td>Netgear</td>\n<td>FVG318</td>\n<td>ICMP and UDP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>OpenBSD</td>\n<td>2.6 &amp; 2.7</td>\n<td>ICMP</td>\n<td>255</td>\n</tr>\n<tr>\n<td>OpenVMS</td>\n<td>07.01.2002</td>\n<td>ICMP</td>\n<td>255</td>\n</tr>\n<tr>\n<td>OS/2</td>\n<td>TCP/IP</td>\n<td>3.0</td>\n<td>64</td>\n</tr>\n<tr>\n<td>OSF/1</td>\n<td>V3.2A</td>\n<td>TCP</td>\n<td>60</td>\n</tr>\n<tr>\n<td>OSF/1</td>\n<td>V3.2A</td>\n<td>UDP</td>\n<td>30</td>\n</tr>\n<tr>\n<td>Solaris</td>\n<td>2.5.1, 2.6, 2.7, 2.8</td>\n<td>ICMP</td>\n<td>255</td>\n</tr>\n<tr>\n<td>Solaris</td>\n<td>2.8</td>\n<td>TCP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>Stratus</td>\n<td>TCP_OS</td>\n<td>ICMP</td>\n<td>255</td>\n</tr>\n<tr>\n<td>Stratus</td>\n<td>TCP_OS (14.2-)</td>\n<td>TCP and UDP</td>\n<td>30</td>\n</tr>\n<tr>\n<td>Stratus</td>\n<td>TCP_OS (14.3+)</td>\n<td>TCP and UDP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>Stratus</td>\n<td>STCP</td>\n<td>ICMP/TCP/UDP</td>\n<td>60</td>\n</tr>\n<tr>\n<td>SunOS</td>\n<td>4.1.3/4.1.4</td>\n<td>TCP and UDP</td>\n<td>60</td>\n</tr>\n<tr>\n<td>SunOS\t5.7</td>\n<td>ICMP and TCP</td>\n<td>255</td>\n<td></td>\n</tr>\n<tr>\n<td>Ultrix</td>\n<td>V4.1/V4.2A</td>\n<td>TCP</td>\n<td>60</td>\n</tr>\n<tr>\n<td>Ultrix</td>\n<td>V4.1/V4.2A</td>\n<td>UDP</td>\n<td>30</td>\n</tr>\n<tr>\n<td>Ultrix</td>\n<td>V4.2 – 4.5</td>\n<td>ICMP</td>\n<td>255</td>\n</tr>\n<tr>\n<td>VMS/Multinet</td>\n<td></td>\n<td>TCP and UDP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>VMS/TCPware</td>\n<td></td>\n<td>TCP</td>\n<td>60</td>\n</tr>\n<tr>\n<td>VMS/TCPware</td>\n<td></td>\n<td>UDP</td>\n<td>64</td>\n</tr>\n<tr>\n<td>VMS/Wollongong</td>\n<td>1.1.1.1</td>\n<td>TCP</td>\n<td>128</td>\n</tr>\n<tr>\n<td>VMS/Wollongong</td>\n<td>1.1.1.1</td>\n<td>UDP</td>\n<td>30</td>\n</tr>\n<tr>\n<td>VMS/UCX</td>\n<td></td>\n<td>TCP and UDP</td>\n<td>128</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>for Workgroups</td>\n<td>TCP and UDP</td>\n<td>32</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>95</td>\n<td>TCP and UDP</td>\n<td>32</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>98</td>\n<td>ICMP</td>\n<td>32</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>98, 98 SE</td>\n<td>ICMP</td>\n<td>128</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>98</td>\n<td>TCP</td>\n<td>128</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>NT 3.51</td>\n<td>TCP and UDP</td>\n<td>32</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>NT 4.0</td>\n<td>TCP and UDP</td>\n<td>128</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>NT 4.0 SP5-</td>\n<td></td>\n<td>32</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>NT 4.0 SP6+</td>\n<td></td>\n<td>128</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>NT 4 WRKS SP 3, SP 6a</td>\n<td>ICMP</td>\n<td>128</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>NT 4 Server SP4</td>\n<td>ICMP</td>\n<td>128</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>ME</td>\n<td>ICMP</td>\n<td>128</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>2000 pro</td>\n<td>ICMP/TCP/UDP</td>\n<td>128</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>2000 family</td>\n<td>ICMP</td>\n<td>128</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>Server 2003</td>\n<td></td>\n<td>128</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>XP</td>\n<td>ICMP/TCP/UDP</td>\n<td>128</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>Vista</td>\n<td>ICMP/TCP/UDP</td>\n<td>128</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>7</td>\n<td>ICMP/TCP/UDP</td>\n<td>128</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>Server 2008</td>\n<td>ICMP/TCP/UDP</td>\n<td>128</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>10</td>\n<td>ICMP/TCP/UDP</td>\n<td>128</td>\n</tr>\n</tbody></table>\n",
+            "image": "https://furycd001.github.io/media/posts/57/Screenshot_2021-09-21_13-00-07.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Terminal",
+                   "Ping",
+                   "Operating System"
+            ],
+            "date_published": "2021-09-21T13:00:36+01:00",
+            "date_modified": "2021-09-21T13:00:36+01:00"
+        },
+        {
+            "id": "https://furycd001.github.io/using-imagemagick-as-an-image-viewer/",
+            "url": "https://furycd001.github.io/using-imagemagick-as-an-image-viewer/",
+            "title": "Using imagemagick as an image viewer.",
+            "summary": "Did you know that you could use imagemagick as an image viewer :? Well I didn’t until recently &amp; it’s&hellip;",
+            "content_html": "<p>Did you know that you could use <strong><a href=\"https://imagemagick.org/index.php\">imagemagick</a></strong> as an image viewer :? Well I didn’t until recently &amp; it’s super easy to do so. Simply create &amp; save the super small bash script below &amp; call it from the terminal or from a custom action within your file manager. You’ll just need to change <code>1920x1200</code> to whatever your screen resolution is.</p>\n<pre><code class=\"language-bash\">#!/usr/bin/env bash\n# Open images with imagemagick....\n\ndisplay -resize 1920x1200 &quot;$1&quot;\n</code></pre>\n<blockquote>\n<p>I saved the script to <code>/usr/bin/image</code> so all I have to do now is run <code>image $/path/to/image.jpeg</code> when in a terminal.</p>\n</blockquote>\n",
+            "image": "https://furycd001.github.io/media/posts/56/ImageMagick_logo.svg.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Terminal",
+                   "ImageMagick",
+                   "Image",
+                   "Bash"
+            ],
+            "date_published": "2021-09-17T07:56:07+01:00",
+            "date_modified": "2021-09-17T07:56:07+01:00"
+        },
+        {
+            "id": "https://furycd001.github.io/installing-imagemagick-on-debian/",
+            "url": "https://furycd001.github.io/installing-imagemagick-on-debian/",
+            "title": "Installing imagemagick on debian.",
+            "summary": "Imagemagick is one heck of an awesome program &amp; you never know when it may just come in handy. The&hellip;",
+            "content_html": "<p><strong><a href=\"https://imagemagick.org/index.php\">Imagemagick</a></strong> is one heck of an awesome program &amp; you never know when it may just come in handy. The only problem is that if you happen to run debian you’ll find that it’s not included within the repos, therefore you’ll need to compile it from source. Never worry.. Compiling imagemagick from source isn’t all that compilicated &amp; I’m going to show you how to do just that right now.</p>\n<h4 id=\"step1\">Step.1</h4>\n<p>Prepare your system by opening up a terminal &amp; installing the <code>build-essential</code> package that includes things like <code>make</code> &amp; <code>gcc</code>.</p>\n<pre><code class=\"language-bash\">sudo apt update &amp;&amp; sudo apt-get install build-essential\n</code></pre>\n<h4 id=\"step2\">Step.2</h4>\n<p>In the same terminal window use wget to download the latest source code archive directly from the imagemagick website.</p>\n<pre><code class=\"language-bash\">wget https://www.imagemagick.org/download/ImageMagick.tar.gz\n</code></pre>\n<h4 id=\"step3\">Step.3</h4>\n<p>Once the download has finished we can then extract it’s contents.</p>\n<pre><code class=\"language-bash\">tar xvzf ImageMagick.tar.gz\n</code></pre>\n<h4 id=\"step4\">Step.4</h4>\n<p>With everything extracted we can now start compiling the source code. You’ll first want to configure the ImageMagick make script by running the <code>./configure</code> command to configure compiler environment.</p>\n<pre><code class=\"language-bash\">./configure\n</code></pre>\n<p>Once configure has finished, we can then use the <code>make</code> command to start the compiling.</p>\n<pre><code class=\"language-bash\">make\n</code></pre>\n<blockquote>\n<p>Look out for any errors that may appear within the terminal window &amp; <strong><a href=\"https://html.duckduckgo.com/html\">ddg</a></strong> them to search for the fix..</p>\n</blockquote>\n<h4 id=\"step5\">Step.5</h4>\n<p>When compiling finishes we can go &amp; install the imagemagick binary file using <code>make install</code> command.</p>\n<pre><code class=\"language-bash\">sudo make install \n</code></pre>\n<h4 id=\"step6\">Step.6</h4>\n<p>Imagemagick should now be installed on your debian system. You can launch it from the terminal by running the <code>display</code> command &amp; display version info by running <code>magick -version</code>.</p>\n",
+            "image": "https://furycd001.github.io/media/posts/55/ImageMagick_logo.svg-2.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Terminal",
+                   "Source Code",
+                   "ImageMagick",
+                   "Image",
+                   "Debian",
+                   "Compiling"
+            ],
+            "date_published": "2021-09-17T07:40:14+01:00",
+            "date_modified": "2021-09-17T07:40:14+01:00"
+        },
+        {
+            "id": "https://furycd001.github.io/download-all-media-from-a-users-instagram-or-twitter-account/",
+            "url": "https://furycd001.github.io/download-all-media-from-a-users-instagram-or-twitter-account/",
+            "title": "Download all media from a users instagram or twitter account.",
+            "summary": "You might not know this.. but you can easily download all media from a users instagram or twitter account. All&hellip;",
+            "content_html": "<p>You might not know this.. but you can easily download all media from a users instagram or twitter account. All you need is <strong><a href=\"https://github.com/mikf/gallery-dl\">gallery-dl</a></strong> &amp; some free space on your hard drive….</p>\n<h4 id=\"1-begin-by-installing-gallery-dl\">1. Begin by installing gallery-dl..</h4>\n<p>I’m currently running <strong><a href=\"archlinux.org/\">archlinux</a></strong> so I used the following command.</p>\n<pre><code class=\"language-bash\">yay -S gallery-dl-bin\n</code></pre>\n<p>You can check the repos of your distro to see if it’s available &amp; if not then you can install it using <code>pip</code>.</p>\n<pre><code class=\"language-bash\">python3 -m pip install -U gallery-dl\n</code></pre>\n<h4 id=\"2-start-downloading\">2. Start downloading..</h4>\n<p>Now that <strong><a href=\"https://github.com/mikf/gallery-dl\">gallery-dl</a></strong> is installed all that is left to do is to start downloading. Simply open up a terminal &amp; type <code>gallery-dl url</code> followed by your url to either a twitter or instagram user.</p>\n<pre><code class=\"language-bash\">gallery-dl https://twitter.com/yourawesomeusername/\n</code></pre>\n<h4 id=\"4-finished-downloading\">4. Finished downloading..</h4>\n<p>While gallery-dl is busy downloading you’ll see the files being downloaded listed in the terminal window. Whenever downloading has finished you can close the terminal window &amp; open up your file manager to view the downloaded media.</p>\n<blockquote>\n<p>Gallery-dl creates it’s own folder structure for each website. So inside the gallery-dl folder you’ll find separate folders for instagram, twitter &amp; any other supported websites. Inside each of those folders you’ll find folders relating to each user that you’ve downloaded from.</p>\n</blockquote>\n",
+            "image": "https://furycd001.github.io/media/posts/54/gallery-dl.jpg",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "gallery-dl",
+                   "Twitter",
+                   "Terminal",
+                   "Social Media",
+                   "Instagram",
+                   "Download"
+            ],
+            "date_published": "2021-09-01T13:24:18+01:00",
+            "date_modified": "2021-09-01T13:24:18+01:00"
+        },
+        {
+            "id": "https://furycd001.github.io/four-useful-ffmpeg-commands/",
+            "url": "https://furycd001.github.io/four-useful-ffmpeg-commands/",
+            "title": "Four useful ffmpeg commands.",
+            "summary": "In this blog post I’m listing four ffmpeg commands that I use more than any other. ffmpeg -i /home/furycd001/Downloads/video.mp4 /home/furycd001/Downloads/image_%04d.png&hellip;",
+            "content_html": "<p>In this blog post I’m listing four <strong><a href=\"https://www.ffmpeg.org/\">ffmpeg</a></strong> commands that I use more than any other.</p>\n<hr>\n<h4 id=\"extracting-frames-from-video\">Extracting frames from video..</h4>\n<pre><code>ffmpeg -i /home/furycd001/Downloads/video.mp4 /home/furycd001/Downloads/image_%04d.png\n</code></pre>\n<p>Using this command you can extract pretty much every frame from a video. The amount of numbers at the end of filename can be set by changing <code>04d</code> to <code>01d</code> or whatever you want. You can also change the filename from <code>image_%04d.png</code> to <code>soy_%02d.png</code> or again whatever you want. Just remember to keep the <code>%04d</code> part at the end or you’ll run into problems.</p>\n<h4 id=\"cutting-parts-from-a-video\">Cutting parts from a video..</h4>\n<pre><code>ffmpeg -i input.mp4 -ss 00:00:00 -to 00:00:00 -c:v copy -c:a copy -strict -2 output.mp4\n</code></pre>\n<p>Cutting parts from a video is as easy as running the command above. Just place the time you wish to start at after <code>-ss</code> &amp; then finish after <code>-to</code>. Sometimes if the cut length isn’t long enough i’ll get a blank output, but making it longer always sloves this.</p>\n<pre><code>ffmpeg -i input.mp4 -to 00:00:00 -c:v copy -c:a copy -strict -2 output.mp4\n</code></pre>\n<p>If you want cut the video to play from the start up until a certain point, you can remove the <code>-ss</code> start section leaving only the <code>-to </code> section. This will cut everything after the designated time. You can also reverse this by removing <code>-to</code> &amp; leaving <code>-ss</code>. This will cut everything from before the designated time &amp; leave everything else.</p>\n<h4 id=\"record-the-entire-screen\">Record the entire screen..</h4>\n<pre><code>ffmpeg -f x11grab -video_size 1920x1080 -framerate 30 -i :0.0 -f pulse -i default -preset ultrafast -crf 18 -pix_fmt yuv420p out.mp4\n</code></pre>\n<p>You can record your entire screen along with audio using the above command. You can check pavucontrol for recording options &amp; mute your microphone for no room audio.</p>\n<h4 id=\"increase-audio-volume-using-ffmpeg\">Increase audio volume using ffmpeg..</h4>\n<pre><code>ffmpeg -i input.mkv -filter:a &quot;volume=4.0&quot; output.mkv;\n</code></pre>\n<p>With this command you can increase the audio volume in a video or audio file. Just change <code>volume=4.0</code> to <code>volume=8.0</code> or whatever you require.</p>\n",
+            "image": "https://furycd001.github.io/media/posts/53/ffmpeg.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "stills",
+                   "screenrecording",
+                   "ffmpeg",
+                   "audio",
+                   "Video",
+                   "Terminal",
+                   "Audio editor"
+            ],
+            "date_published": "2021-08-25T10:50:10+01:00",
+            "date_modified": "2021-08-25T10:50:10+01:00"
+        },
+        {
+            "id": "https://furycd001.github.io/lofi-video-wallpaper/",
+            "url": "https://furycd001.github.io/lofi-video-wallpaper/",
+            "title": "Lofi video wallpaper.",
+            "summary": "A simple video wallpaper script written in bash using mpv &amp; xwinwrap. Includes audio…. Download the script…. wget https://raw.githubusercontent.com/furycd001/dots/master/Gucci/lofi.sh Open&hellip;",
+            "content_html": "<p>A simple video wallpaper script written in bash using <strong><a href=\"https://mpv.io/\">mpv</a></strong> &amp; <strong><a href=\"https://aur.archlinux.org/packages/xwinwrap-git/\">xwinwrap</a></strong>. Includes audio….</p>\n<h4 id=\"how-to-install\">How-to install.</h4>\n<ol>\n<li><p>Download the script….</p>\n<pre><code class=\"language-bash\">wget https://raw.githubusercontent.com/furycd001/dots/master/Gucci/lofi.sh\n</code></pre>\n</li>\n<li><p>Open <code>~/.config/mpv/mpv.conf</code> &amp; add the following….</p>\n<pre><code class=\"language-bash\">[lofi]\nfullscreen=yes\ntitle=vwall\ngeometry=100%x100%\nborder=no\nno-window-dragging\nx11-name=mpv-wallpaper\nhwdec=vaapi\naid=no\nvo=gpu\nloop-file=no\nshuffle=yes\nloop-playlist=yes\nidle=no\naid=no\nbackground=&quot;#e5b680&quot;\npanscan=1.0\n</code></pre>\n<blockquote>\n<p>You can remove the bottom line <code>panscan=1.0</code> if you do not want the video to fill the screen &amp; be partially cut off.</p>\n</blockquote>\n</li>\n<li><p>Run the script….</p>\n<pre><code class=\"language-bash\">./lofi.sh\n</code></pre>\n</li>\n<li><p>Enjoy-!!</p>\n</li>\n<li><p>Optional step to remove audio….</p>\n<pre><code class=\"language-bash\"> mpv --no-video https://www.youtube.com/watch?v=5qap5aO4i9A\n</code></pre>\n<blockquote>\n<p>Simply delete this line from the bottom of <code>lofi.sh</code> to remove the audio.</p>\n</blockquote>\n</li>\n</ol>\n",
+            "image": "https://furycd001.github.io/media/posts/52/Screenshot_2021-08-11_20-49-58.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "xwinwrap",
+                   "video wallpaper",
+                   "script",
+                   "mpv",
+                   "Video",
+                   "Lofi",
+                   "Bash"
+            ],
+            "date_published": "2021-08-11T20:50:21+01:00",
+            "date_modified": "2021-08-12T07:30:43+01:00"
+        },
+        {
+            "id": "https://furycd001.github.io/a-few-useful-pacman-commands/",
+            "url": "https://furycd001.github.io/a-few-useful-pacman-commands/",
+            "title": "A few useful pacman commands.",
+            "summary": "Here’s a few useful commands that you can use with pacman on arch Linux.. You can use this command to&hellip;",
+            "content_html": "<p>Here’s a few useful commands that you can use with <strong><a href=\"https://wiki.archlinux.org/title/pacman\">pacman</a></strong> on arch Linux..</p>\n<hr>\n<h4 id=\"search-for-package\">Search for package….</h4>\n<p>You can use this command to search for a package. Just replace <code>$packagename</code> with your package name.</p>\n<pre><code class=\"language-bash\">pacman -Ss $packagename\n</code></pre>\n<h4 id=\"update-system\">Update system….</h4>\n<p>Use this command to update the system.</p>\n<pre><code class=\"language-bash\">pacman -Syu\n</code></pre>\n<h4 id=\"update-database\">Update database….</h4>\n<p>This command can be used to update the database.</p>\n<pre><code class=\"language-bash\">pacman -Syy\n</code></pre>\n<h4 id=\"install-a-local-package\">Install a local package….</h4>\n<p>Installing a package saved locally is as simple as running this command.</p>\n<pre><code class=\"language-bash\">pacman -U $packagename\n</code></pre>\n<h4 id=\"install-a-package\">Install a package….</h4>\n<p>To install a package from within the arch repos, just run this command.</p>\n<pre><code class=\"language-bash\">pacman -S $packagename\n</code></pre>\n<h4 id=\"remove-a-package\">Remove a package….</h4>\n<p>To remove only a package &amp; nothing else, run this command.</p>\n<pre><code class=\"language-bash\">pacman -R $packagename\n</code></pre>\n<h4 id=\"completely-remove-package\">Completely remove package….</h4>\n<p>This command will remove a package &amp; all other files relating to said package. Please note that anything in your <code>home</code> directory will need to be removed manually.</p>\n<pre><code class=\"language-bash\">pacman -Rsn $packagename\n</code></pre>\n<h4 id=\"remove-package--any-dependencies-that-arent-needed-by-another-app\">Remove package &amp; any dependencies that aren’t needed by another app….</h4>\n<p>Run this command to remove a package &amp; also any dependencies that are not needed by any other package.</p>\n<pre><code class=\"language-bash\">pacman -Rs $packagename\n</code></pre>\n<h4 id=\"list-unneeded-dependencies\">List unneeded dependencies….</h4>\n<p>List all dependencies that are installed, but not required by any package.</p>\n<pre><code class=\"language-bash\">pacman -Qdt $packagename\n</code></pre>\n<h4 id=\"remove-all-unneeded--unused-dependencies\">Remove all unneeded / unused dependencies….</h4>\n<p>Like the above command this will list all dependencies that are installed, but will also remove them at the same time.</p>\n<pre><code class=\"language-bash\">pacman -Rsn $(pacman -Qdtq)\n</code></pre>\n",
+            "image": "https://furycd001.github.io/media/posts/51/pacman.jpg",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "pacman",
+                   "packagemanager",
+                   "Terminal",
+                   "Linux",
+                   "Archlinux"
+            ],
+            "date_published": "2021-08-11T09:41:31+01:00",
+            "date_modified": "2021-08-20T20:42:02+01:00"
         }
     ]
 }
