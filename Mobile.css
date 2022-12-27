@@ -1,7 +1,16 @@
+@font-face {
+    font-family: 'Chloe';
+    src: url('Chloe-Regular.woff2') format('woff2'),
+        url('Chloe-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 html{
   background-color: #272b35;
   color: #8c8c8b;
-  font-family: "Chloe";
+  font-family: 'Chloe';
   font-size: 24px;
   font-weight: 800;
   letter-spacing: 2px;
@@ -31,11 +40,6 @@ body {
   padding: 2em;
   width: auto;
   text-align: left;
-}
-
-.clock {
-  font-family: Erotique;
-  letter-spacing: 4px;
 }
 
 .ghost {
