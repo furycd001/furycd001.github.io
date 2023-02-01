@@ -3,12 +3,45 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-01-19T09:16:24+00:00</updated>
+    <updated>2023-02-01T11:18:15+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>XFCE Desktop Environment.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/xfce-desktop-environment/"/>
+        <id>https://furycd001.github.io/xfce-desktop-environment/</id>
+        <media:content url="https://furycd001.github.io/media/posts/62/Xfce_logo.png" medium="image" />
+            <category term="Xfce"/>
+            <category term="Linux"/>
+            <category term="Desktop Environment"/>
+
+        <updated>2023-02-01T11:18:15+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/62/Xfce_logo.png" alt="" />
+                    The XFCE Desktop Environment: A Simple and Lightweight Alternative If you’re looking for a simple and lightweight desktop environment for&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/62/Xfce_logo.png" class="type:primaryImage" alt="" /></p>
+                <p>The XFCE Desktop Environment: A Simple and Lightweight Alternative</p>
+<p>If you’re looking for a simple and lightweight desktop environment for your Linux system, you may want to consider XFCE. XFCE is a popular alternative to more resource-intensive desktop environments like Gnome or KDE, and it’s known for its speed and low system requirements.</p>
+<p>One of the main advantages of XFCE is its simplicity. The desktop environment is easy to use and navigate, with a familiar layout that includes a panel, a menu, and a desktop. XFCE also includes a number of useful tools and utilities, like a file manager, a terminal emulator, and a text editor, making it a great choice for users who want a desktop environment that provides everything they need without any unnecessary bells and whistles.</p>
+<p>Another advantage of XFCE is its low resource requirements. XFCE is designed to be light on system resources, making it a great choice for older or lower-powered systems. This also means that XFCE is fast and responsive, even on systems with limited hardware resources.</p>
+<p>In terms of customization, XFCE provides a number of options for users who want to make their desktop look and feel the way they want. You can change the desktop background, adjust the font size and color, and even add or remove panels and plugins. XFCE also includes a number of themes and icons that you can use to give your desktop a unique look and feel.</p>
+<p>Finally, XFCE is a highly customizable desktop environment. You can create custom keyboard shortcuts, adjust the behavior of windows and panels, and even install plugins and extensions to add additional functionality to your desktop. This makes XFCE a great choice for users who want a desktop environment that is tailored to their needs and preferences.</p>
+<p>In conclusion, XFCE is a great choice for users who want a simple and lightweight desktop environment that is easy to use, fast and responsive, and highly customizable. Whether you’re using an older or lower-powered system, or simply want a desktop environment that provides everything you need without any unnecessary distractions, XFCE is definitely worth checking out.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Disabling the new extensions button in firefox.</title>
         <author>
@@ -839,80 +872,6 @@ display -resize 1920x1200 &quot;$1&quot;
 <pre><code>ffmpeg -i input.mkv -filter:a &quot;volume=4.0&quot; output.mkv;
 </code></pre>
 <p>With this command you can increase the audio volume in a video or audio file. Just change <code>volume=4.0</code> to <code>volume=8.0</code> or whatever you require.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Lofi video wallpaper.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/lofi-video-wallpaper/"/>
-        <id>https://furycd001.github.io/lofi-video-wallpaper/</id>
-        <media:content url="https://furycd001.github.io/media/posts/52/Screenshot_2021-08-11_20-49-58.png" medium="image" />
-            <category term="xwinwrap"/>
-            <category term="video wallpaper"/>
-            <category term="script"/>
-            <category term="mpv"/>
-            <category term="Video"/>
-            <category term="Lofi"/>
-            <category term="Bash"/>
-
-        <updated>2021-08-12T07:30:43+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/52/Screenshot_2021-08-11_20-49-58.png" alt="Lofi" />
-                    A simple video wallpaper script written in bash using mpv &amp; xwinwrap. Includes audio…. Download the script…. wget https://raw.githubusercontent.com/furycd001/dots/master/Gucci/lofi.sh Open&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/52/Screenshot_2021-08-11_20-49-58.png" class="type:primaryImage" alt="Lofi" /></p>
-                <p>A simple video wallpaper script written in bash using <strong><a href="https://mpv.io/">mpv</a></strong> &amp; <strong><a href="https://aur.archlinux.org/packages/xwinwrap-git/">xwinwrap</a></strong>. Includes audio….</p>
-<h4 id="how-to-install">How-to install.</h4>
-<ol>
-<li><p>Download the script….</p>
-<pre><code class="language-bash">wget https://raw.githubusercontent.com/furycd001/dots/master/Gucci/lofi.sh
-</code></pre>
-</li>
-<li><p>Open <code>~/.config/mpv/mpv.conf</code> &amp; add the following….</p>
-<pre><code class="language-bash">[lofi]
-fullscreen=yes
-title=vwall
-geometry=100%x100%
-border=no
-no-window-dragging
-x11-name=mpv-wallpaper
-hwdec=vaapi
-aid=no
-vo=gpu
-loop-file=no
-shuffle=yes
-loop-playlist=yes
-idle=no
-aid=no
-background=&quot;#e5b680&quot;
-panscan=1.0
-</code></pre>
-<blockquote>
-<p>You can remove the bottom line <code>panscan=1.0</code> if you do not want the video to fill the screen &amp; be partially cut off.</p>
-</blockquote>
-</li>
-<li><p>Run the script….</p>
-<pre><code class="language-bash">./lofi.sh
-</code></pre>
-</li>
-<li><p>Enjoy-!!</p>
-</li>
-<li><p>Optional step to remove audio….</p>
-<pre><code class="language-bash"> mpv --no-video https://www.youtube.com/watch?v=5qap5aO4i9A
-</code></pre>
-<blockquote>
-<p>Simply delete this line from the bottom of <code>lofi.sh</code> to remove the audio.</p>
-</blockquote>
-</li>
-</ol>
 
             ]]>
         </content>
