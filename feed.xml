@@ -3,12 +3,69 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-02-01T11:18:15+00:00</updated>
+    <updated>2023-04-21T08:34:22+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>gtk-libwinmenu</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/gtk-libwinmenu/"/>
+        <id>https://furycd001.github.io/gtk-libwinmenu/</id>
+        <media:content url="https://furycd001.github.io/media/posts/63/Screenshot_2023-04-21_08-34-06.png" medium="image" />
+            <category term="gtk-libwinmenu"/>
+            <category term="Gtk"/>
+
+        <updated>2023-04-21T08:34:22+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/63/Screenshot_2023-04-21_08-34-06.png" alt="" />
+                    Gtk-libwinmenu is a library that provides a native Windows menu bar for GTK applications on Windows. This library replaces the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/63/Screenshot_2023-04-21_08-34-06.png" class="type:primaryImage" alt="" /></p>
+                <p>Gtk-libwinmenu is a library that provides a native Windows menu bar for GTK applications on Windows. This library replaces the standard GTK menu bar with a native Windows menu bar that looks and feels like a Windows application. This can be useful for GTK applications that are used on both Linux and Windows, and want to provide a consistent user experience across both platforms.</p>
+<p>The library is built on top of the Win32 API, and provides a bridge between the GTK application and the native Windows menu system. This allows GTK applications to access the full range of Windows menu features, including sub-menus, accelerators, and check-boxes.</p>
+<p>To use gtk-libwinmenu in your GTK application, you first need to download the library from its GitHub page. Once you have downloaded the library, you can compile and install it using the following commands:</p>
+<pre><code>$ ./autogen.sh
+$ ./configure
+$ make
+$ sudo make install
+</code></pre>
+<p>Once you have installed the library, you can enable the native Windows menu bar in your GTK application by calling the <code>gtk_win32_enable_menu_bar()</code> function. This function takes a pointer to the <code>GtkApplication</code> object as its argument, and should be called after you have created the main window for your application.</p>
+<pre><code>#include &lt;gtk/gtk.h&gt;
+#include &lt;gtk/win32/gtkwin32.h&gt;
+ 
+int main(int argc, char *argv[]) {
+  GtkWidget *window;
+ 
+  gtk_init(&amp;argc, &amp;argv);
+ 
+  window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+  gtk_window_set_title(GTK_WINDOW(window), &quot;My Application&quot;);
+  gtk_window_set_default_size(GTK_WINDOW(window), 640, 480);
+ 
+  gtk_win32_enable_menu_bar(GTK_APPLICATION(gtk_application_get_default()));
+ 
+  gtk_widget_show_all(window);
+ 
+  gtk_main();
+ 
+  return 0;
+}
+</code></pre>
+<p>The <code>gtk_win32_enable_menu_bar()</code> function tells GTK to use the native Windows menu system for the application. When the application is run on Windows, the standard GTK menu bar is replaced with a native Windows menu bar that is automatically generated from the menus defined in your application.</p>
+<p>In conclusion, Gtk-libwinmenu is a useful library for GTK developers who want to provide a consistent user experience across both Linux and Windows platforms. It enables GTK applications to use a native Windows menu bar, which can be important for providing a seamless and intuitive user experience. The installation and use of gtk-libwinmenu is straightforward, and should be considered by any GTK developer looking to make their application more user-friendly on Windows.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>XFCE Desktop Environment.</title>
         <author>
@@ -821,57 +878,6 @@ display -resize 1920x1200 &quot;$1&quot;
 <blockquote>
 <p>Gallery-dl creates it’s own folder structure for each website. So inside the gallery-dl folder you’ll find separate folders for instagram, twitter &amp; any other supported websites. Inside each of those folders you’ll find folders relating to each user that you’ve downloaded from.</p>
 </blockquote>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Four useful ffmpeg commands.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/four-useful-ffmpeg-commands/"/>
-        <id>https://furycd001.github.io/four-useful-ffmpeg-commands/</id>
-        <media:content url="https://furycd001.github.io/media/posts/53/ffmpeg.png" medium="image" />
-            <category term="stills"/>
-            <category term="screenrecording"/>
-            <category term="ffmpeg"/>
-            <category term="audio"/>
-            <category term="Video"/>
-            <category term="Terminal"/>
-            <category term="Audio editor"/>
-
-        <updated>2021-08-25T10:50:10+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/53/ffmpeg.png" alt="" />
-                    In this blog post I’m listing four ffmpeg commands that I use more than any other. ffmpeg -i /home/furycd001/Downloads/video.mp4 /home/furycd001/Downloads/image_%04d.png&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/53/ffmpeg.png" class="type:primaryImage" alt="" /></p>
-                <p>In this blog post I’m listing four <strong><a href="https://www.ffmpeg.org/">ffmpeg</a></strong> commands that I use more than any other.</p>
-<hr>
-<h4 id="extracting-frames-from-video">Extracting frames from video..</h4>
-<pre><code>ffmpeg -i /home/furycd001/Downloads/video.mp4 /home/furycd001/Downloads/image_%04d.png
-</code></pre>
-<p>Using this command you can extract pretty much every frame from a video. The amount of numbers at the end of filename can be set by changing <code>04d</code> to <code>01d</code> or whatever you want. You can also change the filename from <code>image_%04d.png</code> to <code>soy_%02d.png</code> or again whatever you want. Just remember to keep the <code>%04d</code> part at the end or you’ll run into problems.</p>
-<h4 id="cutting-parts-from-a-video">Cutting parts from a video..</h4>
-<pre><code>ffmpeg -i input.mp4 -ss 00:00:00 -to 00:00:00 -c:v copy -c:a copy -strict -2 output.mp4
-</code></pre>
-<p>Cutting parts from a video is as easy as running the command above. Just place the time you wish to start at after <code>-ss</code> &amp; then finish after <code>-to</code>. Sometimes if the cut length isn’t long enough i’ll get a blank output, but making it longer always sloves this.</p>
-<pre><code>ffmpeg -i input.mp4 -to 00:00:00 -c:v copy -c:a copy -strict -2 output.mp4
-</code></pre>
-<p>If you want cut the video to play from the start up until a certain point, you can remove the <code>-ss</code> start section leaving only the <code>-to </code> section. This will cut everything after the designated time. You can also reverse this by removing <code>-to</code> &amp; leaving <code>-ss</code>. This will cut everything from before the designated time &amp; leave everything else.</p>
-<h4 id="record-the-entire-screen">Record the entire screen..</h4>
-<pre><code>ffmpeg -f x11grab -video_size 1920x1080 -framerate 30 -i :0.0 -f pulse -i default -preset ultrafast -crf 18 -pix_fmt yuv420p out.mp4
-</code></pre>
-<p>You can record your entire screen along with audio using the above command. You can check pavucontrol for recording options &amp; mute your microphone for no room audio.</p>
-<h4 id="increase-audio-volume-using-ffmpeg">Increase audio volume using ffmpeg..</h4>
-<pre><code>ffmpeg -i input.mkv -filter:a &quot;volume=4.0&quot; output.mkv;
-</code></pre>
-<p>With this command you can increase the audio volume in a video or audio file. Just change <code>volume=4.0</code> to <code>volume=8.0</code> or whatever you require.</p>
 
             ]]>
         </content>

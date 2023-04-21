@@ -10,6 +10,23 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/gtk-libwinmenu/",
+            "url": "https://furycd001.github.io/gtk-libwinmenu/",
+            "title": "gtk-libwinmenu",
+            "summary": "Gtk-libwinmenu is a library that provides a native Windows menu bar for GTK applications on Windows. This library replaces the&hellip;",
+            "content_html": "<p>Gtk-libwinmenu is a library that provides a native Windows menu bar for GTK applications on Windows. This library replaces the standard GTK menu bar with a native Windows menu bar that looks and feels like a Windows application. This can be useful for GTK applications that are used on both Linux and Windows, and want to provide a consistent user experience across both platforms.</p>\n<p>The library is built on top of the Win32 API, and provides a bridge between the GTK application and the native Windows menu system. This allows GTK applications to access the full range of Windows menu features, including sub-menus, accelerators, and check-boxes.</p>\n<p>To use gtk-libwinmenu in your GTK application, you first need to download the library from its GitHub page. Once you have downloaded the library, you can compile and install it using the following commands:</p>\n<pre><code>$ ./autogen.sh\n$ ./configure\n$ make\n$ sudo make install\n</code></pre>\n<p>Once you have installed the library, you can enable the native Windows menu bar in your GTK application by calling the <code>gtk_win32_enable_menu_bar()</code> function. This function takes a pointer to the <code>GtkApplication</code> object as its argument, and should be called after you have created the main window for your application.</p>\n<pre><code>#include &lt;gtk/gtk.h&gt;\n#include &lt;gtk/win32/gtkwin32.h&gt;\n \nint main(int argc, char *argv[]) {\n  GtkWidget *window;\n \n  gtk_init(&amp;argc, &amp;argv);\n \n  window = gtk_window_new(GTK_WINDOW_TOPLEVEL);\n  gtk_window_set_title(GTK_WINDOW(window), &quot;My Application&quot;);\n  gtk_window_set_default_size(GTK_WINDOW(window), 640, 480);\n \n  gtk_win32_enable_menu_bar(GTK_APPLICATION(gtk_application_get_default()));\n \n  gtk_widget_show_all(window);\n \n  gtk_main();\n \n  return 0;\n}\n</code></pre>\n<p>The <code>gtk_win32_enable_menu_bar()</code> function tells GTK to use the native Windows menu system for the application. When the application is run on Windows, the standard GTK menu bar is replaced with a native Windows menu bar that is automatically generated from the menus defined in your application.</p>\n<p>In conclusion, Gtk-libwinmenu is a useful library for GTK developers who want to provide a consistent user experience across both Linux and Windows platforms. It enables GTK applications to use a native Windows menu bar, which can be important for providing a seamless and intuitive user experience. The installation and use of gtk-libwinmenu is straightforward, and should be considered by any GTK developer looking to make their application more user-friendly on Windows.</p>\n",
+            "image": "https://furycd001.github.io/media/posts/63/Screenshot_2023-04-21_08-34-06.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "gtk-libwinmenu",
+                   "Gtk"
+            ],
+            "date_published": "2023-04-21T08:34:22+01:00",
+            "date_modified": "2023-04-21T08:34:22+01:00"
+        },
+        {
             "id": "https://furycd001.github.io/xfce-desktop-environment/",
             "url": "https://furycd001.github.io/xfce-desktop-environment/",
             "title": "XFCE Desktop Environment.",
@@ -183,28 +200,6 @@
             ],
             "date_published": "2021-09-01T13:24:18+01:00",
             "date_modified": "2021-09-01T13:24:18+01:00"
-        },
-        {
-            "id": "https://furycd001.github.io/four-useful-ffmpeg-commands/",
-            "url": "https://furycd001.github.io/four-useful-ffmpeg-commands/",
-            "title": "Four useful ffmpeg commands.",
-            "summary": "In this blog post I’m listing four ffmpeg commands that I use more than any other. ffmpeg -i /home/furycd001/Downloads/video.mp4 /home/furycd001/Downloads/image_%04d.png&hellip;",
-            "content_html": "<p>In this blog post I’m listing four <strong><a href=\"https://www.ffmpeg.org/\">ffmpeg</a></strong> commands that I use more than any other.</p>\n<hr>\n<h4 id=\"extracting-frames-from-video\">Extracting frames from video..</h4>\n<pre><code>ffmpeg -i /home/furycd001/Downloads/video.mp4 /home/furycd001/Downloads/image_%04d.png\n</code></pre>\n<p>Using this command you can extract pretty much every frame from a video. The amount of numbers at the end of filename can be set by changing <code>04d</code> to <code>01d</code> or whatever you want. You can also change the filename from <code>image_%04d.png</code> to <code>soy_%02d.png</code> or again whatever you want. Just remember to keep the <code>%04d</code> part at the end or you’ll run into problems.</p>\n<h4 id=\"cutting-parts-from-a-video\">Cutting parts from a video..</h4>\n<pre><code>ffmpeg -i input.mp4 -ss 00:00:00 -to 00:00:00 -c:v copy -c:a copy -strict -2 output.mp4\n</code></pre>\n<p>Cutting parts from a video is as easy as running the command above. Just place the time you wish to start at after <code>-ss</code> &amp; then finish after <code>-to</code>. Sometimes if the cut length isn’t long enough i’ll get a blank output, but making it longer always sloves this.</p>\n<pre><code>ffmpeg -i input.mp4 -to 00:00:00 -c:v copy -c:a copy -strict -2 output.mp4\n</code></pre>\n<p>If you want cut the video to play from the start up until a certain point, you can remove the <code>-ss</code> start section leaving only the <code>-to </code> section. This will cut everything after the designated time. You can also reverse this by removing <code>-to</code> &amp; leaving <code>-ss</code>. This will cut everything from before the designated time &amp; leave everything else.</p>\n<h4 id=\"record-the-entire-screen\">Record the entire screen..</h4>\n<pre><code>ffmpeg -f x11grab -video_size 1920x1080 -framerate 30 -i :0.0 -f pulse -i default -preset ultrafast -crf 18 -pix_fmt yuv420p out.mp4\n</code></pre>\n<p>You can record your entire screen along with audio using the above command. You can check pavucontrol for recording options &amp; mute your microphone for no room audio.</p>\n<h4 id=\"increase-audio-volume-using-ffmpeg\">Increase audio volume using ffmpeg..</h4>\n<pre><code>ffmpeg -i input.mkv -filter:a &quot;volume=4.0&quot; output.mkv;\n</code></pre>\n<p>With this command you can increase the audio volume in a video or audio file. Just change <code>volume=4.0</code> to <code>volume=8.0</code> or whatever you require.</p>\n",
-            "image": "https://furycd001.github.io/media/posts/53/ffmpeg.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "stills",
-                   "screenrecording",
-                   "ffmpeg",
-                   "audio",
-                   "Video",
-                   "Terminal",
-                   "Audio editor"
-            ],
-            "date_published": "2021-08-25T10:50:10+01:00",
-            "date_modified": "2021-08-25T10:50:10+01:00"
         }
     ]
 }
