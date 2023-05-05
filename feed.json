@@ -10,6 +10,23 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/feh-image-viewer/",
+            "url": "https://furycd001.github.io/feh-image-viewer/",
+            "title": "Feh image viewer.",
+            "summary": "Feh is a lightweight and fast image viewer for Linux and Unix-like systems. It’s a versatile tool that can display&hellip;",
+            "content_html": "<p>Feh is a lightweight and fast image viewer for Linux and Unix-like systems. It’s a versatile tool that can display a wide range of image formats, including JPEG, PNG, TIFF, and GIF, among many others. Feh has a simple and intuitive interface that makes it easy to use, and it’s highly customizable through command-line options and configuration files.</p>\n<p>One of the most notable features of feh is its ability to display images in a slideshow mode. This mode can be customized to display images in a particular order, at a specific interval, and with various effects and transitions. Feh also supports a range of image manipulation options, such as zooming, rotating, and flipping images.</p>\n<p>Another advantage of feh is its small memory footprint. Feh is designed to be lightweight and fast, making it an excellent choice for users with low-end systems or those who prefer a minimalist approach.</p>\n<p>Overall, feh is a great image viewer for users who value speed, simplicity, and flexibility. Its extensive feature set, combined with its lightweight design, makes it an excellent choice for anyone looking for a powerful image viewer for their Linux or Unix-like system.</p>\n<p>One thing to note: Whenever you are browsing through a bunch of images, you can press <code>CTRL+delete</code> to delete the images from disk.</p>\n",
+            "image": "https://furycd001.github.io/media/posts/64/maxresdefault.jpg",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Image Viewer",
+                   "Image"
+            ],
+            "date_published": "2023-05-05T08:44:55+01:00",
+            "date_modified": "2023-05-05T08:44:55+01:00"
+        },
+        {
             "id": "https://furycd001.github.io/gtk-libwinmenu/",
             "url": "https://furycd001.github.io/gtk-libwinmenu/",
             "title": "gtk-libwinmenu",
@@ -179,27 +196,6 @@
             ],
             "date_published": "2021-09-17T07:40:14+01:00",
             "date_modified": "2021-09-17T07:40:14+01:00"
-        },
-        {
-            "id": "https://furycd001.github.io/download-all-media-from-a-users-instagram-or-twitter-account/",
-            "url": "https://furycd001.github.io/download-all-media-from-a-users-instagram-or-twitter-account/",
-            "title": "Download all media from a users instagram or twitter account.",
-            "summary": "You might not know this.. but you can easily download all media from a users instagram or twitter account. All&hellip;",
-            "content_html": "<p>You might not know this.. but you can easily download all media from a users instagram or twitter account. All you need is <strong><a href=\"https://github.com/mikf/gallery-dl\">gallery-dl</a></strong> &amp; some free space on your hard drive….</p>\n<h4 id=\"1-begin-by-installing-gallery-dl\">1. Begin by installing gallery-dl..</h4>\n<p>I’m currently running <strong><a href=\"archlinux.org/\">archlinux</a></strong> so I used the following command.</p>\n<pre><code class=\"language-bash\">yay -S gallery-dl-bin\n</code></pre>\n<p>You can check the repos of your distro to see if it’s available &amp; if not then you can install it using <code>pip</code>.</p>\n<pre><code class=\"language-bash\">python3 -m pip install -U gallery-dl\n</code></pre>\n<h4 id=\"2-start-downloading\">2. Start downloading..</h4>\n<p>Now that <strong><a href=\"https://github.com/mikf/gallery-dl\">gallery-dl</a></strong> is installed all that is left to do is to start downloading. Simply open up a terminal &amp; type <code>gallery-dl url</code> followed by your url to either a twitter or instagram user.</p>\n<pre><code class=\"language-bash\">gallery-dl https://twitter.com/yourawesomeusername/\n</code></pre>\n<h4 id=\"4-finished-downloading\">4. Finished downloading..</h4>\n<p>While gallery-dl is busy downloading you’ll see the files being downloaded listed in the terminal window. Whenever downloading has finished you can close the terminal window &amp; open up your file manager to view the downloaded media.</p>\n<blockquote>\n<p>Gallery-dl creates it’s own folder structure for each website. So inside the gallery-dl folder you’ll find separate folders for instagram, twitter &amp; any other supported websites. Inside each of those folders you’ll find folders relating to each user that you’ve downloaded from.</p>\n</blockquote>\n",
-            "image": "https://furycd001.github.io/media/posts/54/gallery-dl.jpg",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "gallery-dl",
-                   "Twitter",
-                   "Terminal",
-                   "Social Media",
-                   "Instagram",
-                   "Download"
-            ],
-            "date_published": "2021-09-01T13:24:18+01:00",
-            "date_modified": "2021-09-01T13:24:18+01:00"
         }
     ]
 }

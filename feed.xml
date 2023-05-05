@@ -3,12 +3,42 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-04-21T08:34:22+01:00</updated>
+    <updated>2023-05-05T08:44:55+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Feh image viewer.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/feh-image-viewer/"/>
+        <id>https://furycd001.github.io/feh-image-viewer/</id>
+        <media:content url="https://furycd001.github.io/media/posts/64/maxresdefault.jpg" medium="image" />
+            <category term="Image Viewer"/>
+            <category term="Image"/>
+
+        <updated>2023-05-05T08:44:55+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/64/maxresdefault.jpg" alt="" />
+                    Feh is a lightweight and fast image viewer for Linux and Unix-like systems. It’s a versatile tool that can display&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/64/maxresdefault.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Feh is a lightweight and fast image viewer for Linux and Unix-like systems. It’s a versatile tool that can display a wide range of image formats, including JPEG, PNG, TIFF, and GIF, among many others. Feh has a simple and intuitive interface that makes it easy to use, and it’s highly customizable through command-line options and configuration files.</p>
+<p>One of the most notable features of feh is its ability to display images in a slideshow mode. This mode can be customized to display images in a particular order, at a specific interval, and with various effects and transitions. Feh also supports a range of image manipulation options, such as zooming, rotating, and flipping images.</p>
+<p>Another advantage of feh is its small memory footprint. Feh is designed to be lightweight and fast, making it an excellent choice for users with low-end systems or those who prefer a minimalist approach.</p>
+<p>Overall, feh is a great image viewer for users who value speed, simplicity, and flexibility. Its extensive feature set, combined with its lightweight design, makes it an excellent choice for anyone looking for a powerful image viewer for their Linux or Unix-like system.</p>
+<p>One thing to note: Whenever you are browsing through a bunch of images, you can press <code>CTRL+delete</code> to delete the images from disk.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>gtk-libwinmenu</title>
         <author>
@@ -832,52 +862,6 @@ display -resize 1920x1200 &quot;$1&quot;
 </code></pre>
 <h4 id="step6">Step.6</h4>
 <p>Imagemagick should now be installed on your debian system. You can launch it from the terminal by running the <code>display</code> command &amp; display version info by running <code>magick -version</code>.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Download all media from a users instagram or twitter account.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/download-all-media-from-a-users-instagram-or-twitter-account/"/>
-        <id>https://furycd001.github.io/download-all-media-from-a-users-instagram-or-twitter-account/</id>
-        <media:content url="https://furycd001.github.io/media/posts/54/gallery-dl.jpg" medium="image" />
-            <category term="gallery-dl"/>
-            <category term="Twitter"/>
-            <category term="Terminal"/>
-            <category term="Social Media"/>
-            <category term="Instagram"/>
-            <category term="Download"/>
-
-        <updated>2021-09-01T13:24:18+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/54/gallery-dl.jpg" alt="" />
-                    You might not know this.. but you can easily download all media from a users instagram or twitter account. All&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/54/gallery-dl.jpg" class="type:primaryImage" alt="" /></p>
-                <p>You might not know this.. but you can easily download all media from a users instagram or twitter account. All you need is <strong><a href="https://github.com/mikf/gallery-dl">gallery-dl</a></strong> &amp; some free space on your hard drive….</p>
-<h4 id="1-begin-by-installing-gallery-dl">1. Begin by installing gallery-dl..</h4>
-<p>I’m currently running <strong><a href="archlinux.org/">archlinux</a></strong> so I used the following command.</p>
-<pre><code class="language-bash">yay -S gallery-dl-bin
-</code></pre>
-<p>You can check the repos of your distro to see if it’s available &amp; if not then you can install it using <code>pip</code>.</p>
-<pre><code class="language-bash">python3 -m pip install -U gallery-dl
-</code></pre>
-<h4 id="2-start-downloading">2. Start downloading..</h4>
-<p>Now that <strong><a href="https://github.com/mikf/gallery-dl">gallery-dl</a></strong> is installed all that is left to do is to start downloading. Simply open up a terminal &amp; type <code>gallery-dl url</code> followed by your url to either a twitter or instagram user.</p>
-<pre><code class="language-bash">gallery-dl https://twitter.com/yourawesomeusername/
-</code></pre>
-<h4 id="4-finished-downloading">4. Finished downloading..</h4>
-<p>While gallery-dl is busy downloading you’ll see the files being downloaded listed in the terminal window. Whenever downloading has finished you can close the terminal window &amp; open up your file manager to view the downloaded media.</p>
-<blockquote>
-<p>Gallery-dl creates it’s own folder structure for each website. So inside the gallery-dl folder you’ll find separate folders for instagram, twitter &amp; any other supported websites. Inside each of those folders you’ll find folders relating to each user that you’ve downloaded from.</p>
-</blockquote>
 
             ]]>
         </content>
