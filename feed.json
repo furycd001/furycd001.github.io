@@ -10,6 +10,25 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/batch-extracting-frames-from-multiple-videos/",
+            "url": "https://furycd001.github.io/batch-extracting-frames-from-multiple-videos/",
+            "title": "Batch extracting frames from multiple videos.",
+            "summary": "Streamline the process of batch extracting frames from multiple videos effortlessly with ffmpeg. By crafting a convenient bash script, you&hellip;",
+            "content_html": "<p>Streamline the process of batch extracting frames from multiple videos effortlessly with ffmpeg. By crafting a convenient bash script, you can harness the magic of automation. Here’s my step-by-step guide:</p>\n<ol>\n<li>Open a text editor and create a new bash script file.</li>\n<li>Insert the following code into the script:</li>\n</ol>\n<pre><code class=\"language-bash\">#!/usr/bin/env bash\n\nmkdir -p output_frames\n\nfor file in *.mp4; do\n    filename=$(basename -- &quot;$file&quot;)\n    filename=&quot;${filename%.*}&quot;\n    mkdir -p &quot;output_frames/$filename&quot;\n    ffmpeg -i &quot;$file&quot; &quot;output_frames/$filename/image_%04d.png&quot;\ndone\n</code></pre>\n<ol start=\"3\">\n<li>Save the script with a descriptive name, for example, “frames.sh” or even just “frames”.</li>\n<li>Move the script to a directory that is included in your system’s PATH environment variable, such as “.local/bin” or /usr/local/bin”, to make it accessible from anywhere in the terminal.</li>\n<li>Open a terminal, navigate to the directory where your video files are located, and execute the script by running its name, like this: <code>frames</code> or whatever you happened to call it.</li>\n</ol>\n<p>The script will automatically iterate through each video in the directory and extract all frames, saving them as individual images in corresponding directories within the “output_directory”. With this streamlined approach, you can effortlessly unlock the magic of batch frame extraction using ffmpeg.</p>\n",
+            "image": "https://furycd001.github.io/media/posts/65/FFmpeg_Logo_new.svg.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "ffmpeg",
+                   "Video",
+                   "Terminal",
+                   "Bash"
+            ],
+            "date_published": "2023-06-06T07:46:25+01:00",
+            "date_modified": "2023-06-06T07:46:25+01:00"
+        },
+        {
             "id": "https://furycd001.github.io/feh-image-viewer/",
             "url": "https://furycd001.github.io/feh-image-viewer/",
             "title": "Feh image viewer.",
@@ -175,27 +194,6 @@
             ],
             "date_published": "2021-09-17T07:56:07+01:00",
             "date_modified": "2021-09-17T07:56:07+01:00"
-        },
-        {
-            "id": "https://furycd001.github.io/installing-imagemagick-on-debian/",
-            "url": "https://furycd001.github.io/installing-imagemagick-on-debian/",
-            "title": "Installing imagemagick on debian.",
-            "summary": "Imagemagick is one heck of an awesome program &amp; you never know when it may just come in handy. The&hellip;",
-            "content_html": "<p><strong><a href=\"https://imagemagick.org/index.php\">Imagemagick</a></strong> is one heck of an awesome program &amp; you never know when it may just come in handy. The only problem is that if you happen to run debian you’ll find that it’s not included within the repos, therefore you’ll need to compile it from source. Never worry.. Compiling imagemagick from source isn’t all that compilicated &amp; I’m going to show you how to do just that right now.</p>\n<h4 id=\"step1\">Step.1</h4>\n<p>Prepare your system by opening up a terminal &amp; installing the <code>build-essential</code> package that includes things like <code>make</code> &amp; <code>gcc</code>.</p>\n<pre><code class=\"language-bash\">sudo apt update &amp;&amp; sudo apt-get install build-essential\n</code></pre>\n<h4 id=\"step2\">Step.2</h4>\n<p>In the same terminal window use wget to download the latest source code archive directly from the imagemagick website.</p>\n<pre><code class=\"language-bash\">wget https://www.imagemagick.org/download/ImageMagick.tar.gz\n</code></pre>\n<h4 id=\"step3\">Step.3</h4>\n<p>Once the download has finished we can then extract it’s contents.</p>\n<pre><code class=\"language-bash\">tar xvzf ImageMagick.tar.gz\n</code></pre>\n<h4 id=\"step4\">Step.4</h4>\n<p>With everything extracted we can now start compiling the source code. You’ll first want to configure the ImageMagick make script by running the <code>./configure</code> command to configure compiler environment.</p>\n<pre><code class=\"language-bash\">./configure\n</code></pre>\n<p>Once configure has finished, we can then use the <code>make</code> command to start the compiling.</p>\n<pre><code class=\"language-bash\">make\n</code></pre>\n<blockquote>\n<p>Look out for any errors that may appear within the terminal window &amp; <strong><a href=\"https://html.duckduckgo.com/html\">ddg</a></strong> them to search for the fix..</p>\n</blockquote>\n<h4 id=\"step5\">Step.5</h4>\n<p>When compiling finishes we can go &amp; install the imagemagick binary file using <code>make install</code> command.</p>\n<pre><code class=\"language-bash\">sudo make install \n</code></pre>\n<h4 id=\"step6\">Step.6</h4>\n<p>Imagemagick should now be installed on your debian system. You can launch it from the terminal by running the <code>display</code> command &amp; display version info by running <code>magick -version</code>.</p>\n",
-            "image": "https://furycd001.github.io/media/posts/55/ImageMagick_logo.svg-2.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Terminal",
-                   "Source Code",
-                   "ImageMagick",
-                   "Image",
-                   "Debian",
-                   "Compiling"
-            ],
-            "date_published": "2021-09-17T07:40:14+01:00",
-            "date_modified": "2021-09-17T07:40:14+01:00"
         }
     ]
 }
