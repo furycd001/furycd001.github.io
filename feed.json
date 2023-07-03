@@ -10,6 +10,24 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/mastering-background-removal-and-replacement-in-computer-graphics/",
+            "url": "https://furycd001.github.io/mastering-background-removal-and-replacement-in-computer-graphics/",
+            "title": "Mastering Background Removal and Replacement in Computer Graphics",
+            "summary": "In the realm of computer graphics, the ability to seamlessly remove or replace backgrounds from text logos and other visuals&hellip;",
+            "content_html": "<p>In the realm of computer graphics, the ability to seamlessly remove or replace backgrounds from text logos and other visuals is a valuable skill. Whether you’re a graphic designer, photographer, or simply an enthusiast, understanding the techniques for background manipulation can elevate your creative projects. In this blog post, we will explore a helpful resource, the GIMP Forum, and its dedicated thread on background removal and replacement in computer graphics.</p>\n<p>Link: <a href=\"https://www.gimp-forum.net/Thread-Background-removal-or-replacement-on-text-logos-and-other-computer-graphics\">GIMP Forum Thread: Background Removal or Replacement on Text Logos and Other Computer Graphics</a></p>\n<ol>\n<li><p>Joining a Knowledgeable Community:\nThe GIMP Forum serves as a hub for individuals interested in the GNU Image Manipulation Program (GIMP), a powerful open-source graphics editing software. By visiting the forum thread dedicated to background removal and replacement, you gain access to a community of experienced users who are willing to share their expertise and insights.</p>\n</li>\n<li><p>Techniques and Best Practices:\nThe forum thread delves into various techniques and best practices for removing and replacing backgrounds in text logos and computer graphics. Members discuss and exchange ideas on using selection tools, layer masks, color adjustments, and other essential features within GIMP. Learning from the experiences and recommendations of fellow users can help you refine your skills and discover new methods.</p>\n</li>\n<li><p>Problem Solving and Troubleshooting:\nWhile working with complex graphics and background manipulation, challenges may arise. The GIMP Forum thread offers a platform for problem-solving and troubleshooting. Users can seek assistance, ask questions, and receive guidance from the community. By actively participating in the discussion, you can overcome obstacles and enhance your proficiency in background removal and replacement.</p>\n</li>\n<li><p>Sharing and Inspiring Creativity:\nIn addition to seeking help, the GIMP Forum encourages users to share their work and creations. By showcasing your projects and techniques for background removal and replacement, you not only contribute to the community but also inspire others. The forum becomes a space for creative exchange, where members can learn from each other’s artistic endeavors.</p>\n</li>\n</ol>\n<p>A conclusion….\nThe GIMP Forum’s thread dedicated to background removal and replacement on text logos and other computer graphics is an invaluable resource for anyone involved in graphic design or image editing. By joining the forum, exploring the discussions, and actively participating, you can acquire new techniques, solve problems, and ignite your creativity.</p>\n<p>Visit the <a href=\"https://www.gimp-forum.net/Thread-Background-removal-or-replacement-on-text-logos-and-other-computer-graphics\">GIMP Forum Thread</a> today and unlock the secrets of mastering background manipulation in computer graphics.</p>\n<p>Happy editing and creating!</p>\n",
+            "image": "https://furycd001.github.io/media/posts/68/wilber-big.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Image",
+                   "Gimp",
+                   "Edit"
+            ],
+            "date_published": "2023-07-03T08:07:11+01:00",
+            "date_modified": "2023-07-03T08:07:11+01:00"
+        },
+        {
             "id": "https://furycd001.github.io/a-step-by-step-guide-on-upgrading-to-a-new-debian-release/",
             "url": "https://furycd001.github.io/a-step-by-step-guide-on-upgrading-to-a-new-debian-release/",
             "title": "A Step-by-Step Guide on upgrading to a new Debian release.",
@@ -176,26 +194,6 @@
             ],
             "date_published": "2021-10-27T12:09:04+01:00",
             "date_modified": "2021-10-27T12:28:12+01:00"
-        },
-        {
-            "id": "https://furycd001.github.io/downloading-age-restricted-videos-with-youtube-dl/",
-            "url": "https://furycd001.github.io/downloading-age-restricted-videos-with-youtube-dl/",
-            "title": "Downloading Age Restricted Videos With youtube-dl.",
-            "summary": "A while back youtube.com started adding age restrictions to Videos &amp; trying to download some of these videos with youtube-dl,&hellip;",
-            "content_html": "<p>A while back <strong><a href=\"https://youtube.com\">youtube.com</a></strong> started adding age restrictions to Videos &amp; trying to download some of these videos with <strong><a href=\"https://youtube-dl.org/\">youtube-dl</a></strong>, simply resulted in people receiving the following error message.</p>\n<blockquote>\n<p>WARNING: Unable to download video info webpage: HTTP Error 410: Gone<br>ERROR: Sign in to confirm your age<br>This video may be inappropriate for some users.</p>\n</blockquote>\n<p>You still want to download the video right :? The simple solution is to use a browser extension to download your youtube cookies &amp; then pass said cookies to youtube-dl with the <code>--cookies</code> flag. This was all pretty straight forward &amp; I was able to download the age restricted video in no time. Simply follow the steps below if you’d like to be able to do the same.</p>\n<ul>\n<li><h4 id=\"step1\">Step.1</h4>\n<p>Install a browser extension to download your cookies from youtube. I’m running <strong><a href=\"https://www.mozilla.org/\">firefox</a></strong> so I installed <strong><a href=\"https://addons.mozilla.org/en-GB/firefox/addon/cookies-txt/\">“this extension”</a></strong> &amp; saved my cookies to my downloads folder.</p>\n</li>\n<li><h4 id=\"step2\">Step.2</h4>\n<p>Add the <code>--cookies</code> flag to your youtube-dl command in the terminal &amp; follow it with the location of your cookies.txt file.</p>\n</li>\n</ul>\n<pre><code class=\"language-bash\">youtube-dl -f bestvideo+bestaudio --cookies /path/to/youtube-cookies.txt $youtubeurl\n</code></pre>\n<p>Thats all there is to it. Run the command &amp; your video should download as normal without giving you any age restriction errors.</p>\n",
-            "image": "https://furycd001.github.io/media/posts/58/Youtube.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Youtube-dl",
-                   "Youtube",
-                   "Web",
-                   "Video",
-                   "Terminal"
-            ],
-            "date_published": "2021-10-01T11:02:09+01:00",
-            "date_modified": "2021-10-01T11:02:18+01:00"
         }
     ]
 }

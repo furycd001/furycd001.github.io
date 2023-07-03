@@ -3,12 +3,58 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-07-03T08:01:16+01:00</updated>
+    <updated>2023-07-03T08:07:11+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Mastering Background Removal and Replacement in Computer Graphics</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/mastering-background-removal-and-replacement-in-computer-graphics/"/>
+        <id>https://furycd001.github.io/mastering-background-removal-and-replacement-in-computer-graphics/</id>
+        <media:content url="https://furycd001.github.io/media/posts/68/wilber-big.png" medium="image" />
+            <category term="Image"/>
+            <category term="Gimp"/>
+            <category term="Edit"/>
+
+        <updated>2023-07-03T08:07:11+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/68/wilber-big.png" alt="" />
+                    In the realm of computer graphics, the ability to seamlessly remove or replace backgrounds from text logos and other visuals&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/68/wilber-big.png" class="type:primaryImage" alt="" /></p>
+                <p>In the realm of computer graphics, the ability to seamlessly remove or replace backgrounds from text logos and other visuals is a valuable skill. Whether you’re a graphic designer, photographer, or simply an enthusiast, understanding the techniques for background manipulation can elevate your creative projects. In this blog post, we will explore a helpful resource, the GIMP Forum, and its dedicated thread on background removal and replacement in computer graphics.</p>
+<p>Link: <a href="https://www.gimp-forum.net/Thread-Background-removal-or-replacement-on-text-logos-and-other-computer-graphics">GIMP Forum Thread: Background Removal or Replacement on Text Logos and Other Computer Graphics</a></p>
+<ol>
+<li><p>Joining a Knowledgeable Community:
+The GIMP Forum serves as a hub for individuals interested in the GNU Image Manipulation Program (GIMP), a powerful open-source graphics editing software. By visiting the forum thread dedicated to background removal and replacement, you gain access to a community of experienced users who are willing to share their expertise and insights.</p>
+</li>
+<li><p>Techniques and Best Practices:
+The forum thread delves into various techniques and best practices for removing and replacing backgrounds in text logos and computer graphics. Members discuss and exchange ideas on using selection tools, layer masks, color adjustments, and other essential features within GIMP. Learning from the experiences and recommendations of fellow users can help you refine your skills and discover new methods.</p>
+</li>
+<li><p>Problem Solving and Troubleshooting:
+While working with complex graphics and background manipulation, challenges may arise. The GIMP Forum thread offers a platform for problem-solving and troubleshooting. Users can seek assistance, ask questions, and receive guidance from the community. By actively participating in the discussion, you can overcome obstacles and enhance your proficiency in background removal and replacement.</p>
+</li>
+<li><p>Sharing and Inspiring Creativity:
+In addition to seeking help, the GIMP Forum encourages users to share their work and creations. By showcasing your projects and techniques for background removal and replacement, you not only contribute to the community but also inspire others. The forum becomes a space for creative exchange, where members can learn from each other’s artistic endeavors.</p>
+</li>
+</ol>
+<p>A conclusion….
+The GIMP Forum’s thread dedicated to background removal and replacement on text logos and other computer graphics is an invaluable resource for anyone involved in graphic design or image editing. By joining the forum, exploring the discussions, and actively participating, you can acquire new techniques, solve problems, and ignite your creativity.</p>
+<p>Visit the <a href="https://www.gimp-forum.net/Thread-Background-removal-or-replacement-on-text-logos-and-other-computer-graphics">GIMP Forum Thread</a> today and unlock the secrets of mastering background manipulation in computer graphics.</p>
+<p>Happy editing and creating!</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>A Step-by-Step Guide on upgrading to a new Debian release.</title>
         <author>
@@ -420,50 +466,6 @@ int main(int argc, char *argv[]) {
 }
 </code></pre>
 <p><figure class="post__image"><img loading="lazy" src="https://imgur.com/l8J8ddp.png" alt="alt text"  data-is-external-image="true"></figure></p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Downloading Age Restricted Videos With youtube-dl.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/downloading-age-restricted-videos-with-youtube-dl/"/>
-        <id>https://furycd001.github.io/downloading-age-restricted-videos-with-youtube-dl/</id>
-        <media:content url="https://furycd001.github.io/media/posts/58/Youtube.png" medium="image" />
-            <category term="Youtube-dl"/>
-            <category term="Youtube"/>
-            <category term="Web"/>
-            <category term="Video"/>
-            <category term="Terminal"/>
-
-        <updated>2021-10-01T11:02:18+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/58/Youtube.png" alt="" />
-                    A while back youtube.com started adding age restrictions to Videos &amp; trying to download some of these videos with youtube-dl,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/58/Youtube.png" class="type:primaryImage" alt="" /></p>
-                <p>A while back <strong><a href="https://youtube.com">youtube.com</a></strong> started adding age restrictions to Videos &amp; trying to download some of these videos with <strong><a href="https://youtube-dl.org/">youtube-dl</a></strong>, simply resulted in people receiving the following error message.</p>
-<blockquote>
-<p>WARNING: Unable to download video info webpage: HTTP Error 410: Gone<br>ERROR: Sign in to confirm your age<br>This video may be inappropriate for some users.</p>
-</blockquote>
-<p>You still want to download the video right :? The simple solution is to use a browser extension to download your youtube cookies &amp; then pass said cookies to youtube-dl with the <code>--cookies</code> flag. This was all pretty straight forward &amp; I was able to download the age restricted video in no time. Simply follow the steps below if you’d like to be able to do the same.</p>
-<ul>
-<li><h4 id="step1">Step.1</h4>
-<p>Install a browser extension to download your cookies from youtube. I’m running <strong><a href="https://www.mozilla.org/">firefox</a></strong> so I installed <strong><a href="https://addons.mozilla.org/en-GB/firefox/addon/cookies-txt/">“this extension”</a></strong> &amp; saved my cookies to my downloads folder.</p>
-</li>
-<li><h4 id="step2">Step.2</h4>
-<p>Add the <code>--cookies</code> flag to your youtube-dl command in the terminal &amp; follow it with the location of your cookies.txt file.</p>
-</li>
-</ul>
-<pre><code class="language-bash">youtube-dl -f bestvideo+bestaudio --cookies /path/to/youtube-cookies.txt $youtubeurl
-</code></pre>
-<p>Thats all there is to it. Run the command &amp; your video should download as normal without giving you any age restriction errors.</p>
 
             ]]>
         </content>
