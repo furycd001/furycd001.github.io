@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-06-30T11:14:58+01:00</updated>
+    <updated>2023-07-03T08:01:16+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="Update"/>
             <category term="Debian"/>
 
-        <updated>2023-06-30T11:14:58+01:00</updated>
+        <updated>2023-07-03T08:01:16+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/67/Debian12-cabecera.png" alt="" />
@@ -44,19 +44,21 @@ sudo apt dist-upgrade
 </code></pre>
 <p>This will update your system with the latest available packages and dependencies.</p>
 <p>Step 3: Update the Sources List
-Next, update your sources list to point to the new Debian release. Open the <code>/etc/apt/sources.list</code> file in a text editor and replace all occurrences of the current release name (e.g., “stretch”) with the codename of the new release (e.g., “buster” for Debian 10 to 11 upgrade). Save the file.</p>
-<p>Step 4: Perform a System Update
+Next, update your sources list to point to the new Debian release. Using <code>sudo</code> open the <code>/etc/apt/sources.list</code> file in a text editor and replace all occurrences of the current release name (e.g., “stretch”) with the codename of the new release (e.g., “buster” for Debian 10 to 11 upgrade). Save the file.</p>
+<p>Step 4: Obtain a text shell
+To ensure a successful upgrade without potential desktop environment freezing, it is recommended to switch to a console tty using Ctrl+Alt+F3 on desktop machines. Performing the upgrade on a text console prevents any interruptions during post-installation or service restarts, thereby avoiding a system in a broken state.</p>
+<p>Step 5: Perform a System Update
 Once you have updated the sources list, execute the following commands in the terminal:</p>
 <pre><code>sudo apt update
 sudo apt upgrade
 </code></pre>
 <p>This will fetch the package lists for the new release and perform any necessary upgrades for your installed packages.</p>
-<p>Step 5: Upgrade to the New Debian Release
+<p>Step 6: Upgrade to the New Debian Release
 To initiate the upgrade process, execute the following command:</p>
 <pre><code>sudo apt dist-upgrade
 </code></pre>
 <p>This command will handle the upgrade of your entire system, including the installation of new packages, removal of obsolete packages, and necessary configuration changes.</p>
-<p>Step 6: Review Configuration File Changes
+<p>Step 7: Review Configuration File Changes
 During the upgrade process, you may encounter prompts regarding modified configuration files. Take the time to review these changes and decide whether to keep your current version or accept the new changes.</p>
 <p>Step 7: Reboot and Verify the Upgrade
 After the upgrade completes successfully, it is recommended to reboot your system. Upon reboot, you should be running the new Debian release. To verify the upgrade, open a terminal and execute:</p>
