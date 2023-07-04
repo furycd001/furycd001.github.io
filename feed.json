@@ -10,6 +10,25 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/simplify-your-blogging-experience-with-jenny/",
+            "url": "https://furycd001.github.io/simplify-your-blogging-experience-with-jenny/",
+            "title": "Simplify Your Blogging Experience with Jenny",
+            "summary": "Are you looking for a lightweight and efficient way to create and manage your blog? Look no further! Jenny, a&hellip;",
+            "content_html": "<p>Are you looking for a lightweight and efficient way to create and manage your blog? Look no further! Jenny, a static blog generator, is here to simplify your blogging experience. In this blog post, I’ll walk you through the process of installing and using Jenny, so you can start sharing your thoughts and ideas with the world.</p>\n<p><strong>Step 1: Installation</strong>\nGetting started with Jenny is a breeze. Follow these simple steps to install it on your local machine:</p>\n<ol>\n<li>Open the GitHub repository for Jenny at <a href=\"https://github.com/hmngwy/jenny\">https://github.com/hmngwy/jenny</a>.</li>\n<li>Click on the “Code” button and select “Download ZIP” to download the source code.</li>\n<li>Extract the downloaded ZIP file to a directory of your choice.</li>\n<li>Open a terminal or command prompt and navigate to the directory where you extracted the files.</li>\n<li>Install the required dependencies by running the following command:<pre><code>npm install\n</code></pre>\nThis command will download and install all the necessary packages.</li>\n</ol>\n<p><strong>Step 2: Configuration</strong>\nOnce you have installed Jenny, you need to configure it to suit your needs. Here’s how you can do it:</p>\n<ol>\n<li>In the project directory, locate the <code>config.js</code> file and open it in a text editor.</li>\n<li>Modify the settings in the configuration file to customize your blog. You can set options such as the blog title, description, author information, and more. Make sure to save your changes after making modifications.</li>\n</ol>\n<p><strong>Step 3: Creating Blog Posts</strong>\nWith Jenny, creating new blog posts is a straightforward process. Follow these steps to create your first blog post:</p>\n<ol>\n<li>In the project directory, navigate to the <code>src/posts</code> folder.</li>\n<li>Create a new Markdown file with a descriptive name, such as <code>my-first-post.md</code>.</li>\n<li>Open the Markdown file in a text editor and start writing your blog post using Markdown syntax. You can include headings, paragraphs, images, links, and more.</li>\n<li>Save the file once you’re done writing the content.</li>\n</ol>\n<p><strong>Step 4: Generating the Blog</strong>\nNow that you have your blog post ready, it’s time to generate your static blog site. Here’s how you can do it:</p>\n<ol>\n<li>In the terminal or command prompt, navigate to the project directory.</li>\n<li>Run the following command:<pre><code>npm run build\n</code></pre>\nThis command will generate the static files for your blog and place them in the <code>public</code> directory.</li>\n</ol>\n<p><strong>Step 5: Preview and Deploy</strong>\nCongratulations! You’ve successfully generated your static blog site. You can now preview it locally or deploy it to your preferred hosting platform. Here are a couple of options:</p>\n<ol>\n<li><p>Local Preview:</p>\n<ul>\n<li>In the terminal or command prompt, navigate to the project directory.</li>\n<li>Run the following command:<pre><code>npm run serve\n</code></pre>\n</li>\n<li>Open your web browser and visit <code>http://localhost:8080</code> to see your blog.</li>\n</ul>\n</li>\n<li><p>Deploy to Hosting Platform:</p>\n<ul>\n<li>Copy the contents of the <code>public</code> directory to your preferred hosting platform.</li>\n<li>Configure the necessary settings on your hosting platform, such as domain name, SSL certificate, and more.</li>\n<li>Once the deployment is complete, your blog will be live and accessible to the world.</li>\n</ul>\n</li>\n</ol>\n<h2 id=\"a-conclusion\">A conclusion….</h2>\n<p>Jenny offers a simple and efficient way to create and manage your blog. By following the installation and usage steps outlined in this blog post, you can have your blog up and running in no time. Enjoy the experience of writing and sharing your ideas with Jenny, the static blog generator. Happy blogging!</p>\n",
+            "image": "https://furycd001.github.io/media/posts/69/jenny.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "npm",
+                   "Jenny",
+                   "Github",
+                   "Blog"
+            ],
+            "date_published": "2023-07-04T07:53:46+01:00",
+            "date_modified": "2023-07-04T07:53:46+01:00"
+        },
+        {
             "id": "https://furycd001.github.io/mastering-background-removal-and-replacement-in-computer-graphics/",
             "url": "https://furycd001.github.io/mastering-background-removal-and-replacement-in-computer-graphics/",
             "title": "Mastering Background Removal and Replacement in Computer Graphics",
@@ -174,26 +193,6 @@
             ],
             "date_published": "2022-11-09T13:12:38+00:00",
             "date_modified": "2022-11-09T13:12:38+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/chaning-the-background-color-of-image-tabs-in-firefox/",
-            "url": "https://furycd001.github.io/chaning-the-background-color-of-image-tabs-in-firefox/",
-            "title": "Chaning the background color of image tabs in firefox.",
-            "summary": "This is how an open image in firefox usually looks. By simply adding the following code to your userContent.css, you&hellip;",
-            "content_html": "<p>This is how an open image in firefox usually looks.\n<figure class=\"post__image\"><img loading=\"lazy\" src=\"https://imgur.com/ZkrP6Zx.png\" alt=\"alt text\"  data-is-external-image=\"true\"></figure></p>\n<p>By simply adding the following code to your <code>userContent.css</code>, you can change the color to whatever you want. It’s super simple….</p>\n<pre><code class=\"language-css\">/* Imagetab */\n@-moz-document regexp(&quot;((.*\\\\.(png|jpg|jpeg|gif|tiff|bmp|ico|PNG|JPG|JPEG|GIF|TIFF|BMP|ICO))|(^data:image/.*)|(.*/attachment\\.php[?]attachmentid=[0-9]+.*)|(about:logo))&quot;) {\n\n  /* site background */\n  html:not([id]):not([class]):not([lang]):not([dir]):not([xmlns]) &gt;\n  body:not([id]):not([class]):not([lang]):not([dir]):not([style]):not([title]):not([bgcolor]):not([text]):not([link]):not([onload]) {\n    background-image: none !important; /* remove noisy background */\n    background-color: #272B35 !important; /* change background color */\n  }\n\n  /* transparent image background */\n  img.decoded {\n    background-image: none !important; /* remove noisy background */\n    background-color: #272B35 !important; /* change background color */\n  }\n\n  /* transparent image background when hovering (checkerboard) */\n  img.decoded:hover {\n    background-image: url(&#39;data:image/gif;base64,R0lGODlhFAAUAIABAP///wAAACH5BAEKAAEALAAAAAAUABQAAAIojI+gy+jBInhJLnrsxVBP7n1YyHVaSYKhh7Lq+VotPLo1TaW3HEtlAQA7&#39;) !important;\n    background-color: #272B35 !important; /* change background color (here: color of dark squares) */\n  }\n}\n</code></pre>\n<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"https://imgur.com/l8J8ddp.png\" alt=\"alt text\"  data-is-external-image=\"true\"></figure></p>\n",
-            "image": "https://furycd001.github.io/media/posts/59/Firefox_logo_2017-2.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Web browser",
-                   "Web",
-                   "Image",
-                   "Firefox",
-                   "Css"
-            ],
-            "date_published": "2021-10-27T12:09:04+01:00",
-            "date_modified": "2021-10-27T12:28:12+01:00"
         }
     ]
 }
