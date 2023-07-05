@@ -10,6 +10,27 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/a-guide-to-redirecting-websites-to-0000-on-linux/",
+            "url": "https://furycd001.github.io/a-guide-to-redirecting-websites-to-0000-on-linux/",
+            "title": "A guide to redirecting websites to 0.0.0.0 on Linux",
+            "summary": "As a Linux user, you have the power to control various aspects of your system, including network configurations. One useful&hellip;",
+            "content_html": "<p>As a Linux user, you have the power to control various aspects of your system, including network configurations. One useful capability is the ability to redirect websites to a specific IP address, such as 0.0.0.0. In this blog post, we will explore how you can redirect a website to 0.0.0.0 on Linux using the hosts file. This method allows you to block access to specific websites by redirecting their traffic to the localhost address. So, let’s dive in and learn how to implement this redirection.</p>\n<p><strong>Understanding the Hosts File:</strong>\nThe hosts file is a local configuration file on your Linux machine that allows you to override DNS settings. It associates hostnames with IP addresses, allowing you to redirect or block access to specific websites. By modifying this file, you can control where your system directs requests for specific domains.</p>\n<p><strong>Redirecting a Website to 0.0.0.0:</strong>\nTo redirect a website to the IP address 0.0.0.0, follow these steps:</p>\n<ol>\n<li><p>Open a terminal on your Linux machine. You can typically find it in your applications or use the keyboard shortcut <code>Ctrl + Alt + T</code>.</p>\n</li>\n<li><p>Gain administrative privileges by running the following command:</p>\n<pre><code>sudo vim /etc/hosts\n</code></pre>\n<p>This command opens the hosts file in the nano text editor with administrative privileges.</p>\n</li>\n<li><p>Scroll to the bottom of the file using the arrow keys and add a new line. The format for each entry is:</p>\n<pre><code>0.0.0.0   google.com\n</code></pre>\n<p>Replace <code>google.com</code> with the actual domain or website you want to redirect.</p>\n</li>\n<li><p>Press <code>Esc</code> key to ensure you’re in command mode, then type <strong>:wq</strong> followed by pressing <code>Enter</code>.</p>\n</li>\n</ol>\n<p>By adding the line <code>0.0.0.0   google.com</code> to the hosts file, you are effectively redirecting requests for the specified domain (<code>google.com</code>) to the IP address 0.0.0.0, which is the localhost address.</p>\n<p>Note: The changes you make to the hosts file are local to your Linux machine and will only affect DNS resolution on that system. Other devices on the network will not be affected by this redirection.</p>\n<p><strong>Removing the Redirection:</strong>\nTo remove the redirection and revert to normal DNS resolution, follow these steps:</p>\n<ol>\n<li><p>Open a terminal and gain administrative privileges by running the command:</p>\n<pre><code>sudo vim /etc/hosts\n</code></pre>\n</li>\n<li><p>Locate the line that you added earlier, starting with <code>0.0.0.0</code>.</p>\n</li>\n<li><p>Now press <code>dd</code> on your keyboard to delete the line containing the redirection entry.</p>\n</li>\n<li><p>Press <code>Esc</code> key to ensure you’re in command mode, then type <strong>:wq</strong> followed by pressing <code>Enter</code>.</p>\n</li>\n</ol>\n<blockquote>\n<p>Remember to remove the redirection from the hosts file when you no longer want to block access to the website.</p>\n</blockquote>\n<h3 id=\"a-conclusion\">A conclusion….</h3>\n<p>Being able to redirect websites to 0.0.0.0 on Linux provides you with a powerful tool to control your system’s access to specific domains. By modifying the hosts file, you can redirect traffic to the localhost address, effectively blocking access to unwanted websites. This method offers a convenient way to enhance your browsing experience and protect yourself from potentially harmful or distracting content. Just remember to exercise caution when making changes to system files and to remove the redirection when no longer needed. Take control of your browsing experience on Linux and enjoy a more personalized and secure online environment.</p>\n",
+            "image": "https://furycd001.github.io/media/posts/71/Untitled.jpg",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "vim",
+                   "hosts file",
+                   "guide",
+                   "Webpage",
+                   "Web browser",
+                   "Web"
+            ],
+            "date_published": "2023-07-05T08:07:34+01:00",
+            "date_modified": "2023-07-05T08:07:34+01:00"
+        },
+        {
             "id": "https://furycd001.github.io/ensuring-compatibility-the-importance-of-nvidia-proprietary-driver-versions/",
             "url": "https://furycd001.github.io/ensuring-compatibility-the-importance-of-nvidia-proprietary-driver-versions/",
             "title": "Ensuring Compatibility: The Importance of NVIDIA Proprietary Driver Versions",
@@ -173,25 +194,6 @@
             ],
             "date_published": "2023-01-19T09:16:24+00:00",
             "date_modified": "2023-01-19T09:16:24+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/downloading-multiple-urls-using-xargs-and-curl/",
-            "url": "https://furycd001.github.io/downloading-multiple-urls-using-xargs-and-curl/",
-            "title": "Downloading multiple urls using xargs &amp; curl.",
-            "summary": "Using both xargs &amp; curl together you can download multiple urls all at once without have to call curl over&hellip;",
-            "content_html": "<p>Using both <code>xargs</code> &amp; <code>curl</code> together you can download multiple urls all at once without have to call curl over &amp; over. Simply put all your links into a <code>.txt</code> file &amp; then call it using the command below….</p>\n<pre><code class=\"language-bash\">xargs -n 1 curl -O &lt; links.txt\n</code></pre>\n<blockquote>\n<p>Whenever creating the <code>.txt</code> file, make sure to put each link on it’s own line with nothing else around it. You can also name the file whatever you please. Just remember to change it in the command before running.</p>\n</blockquote>\n",
-            "image": "https://furycd001.github.io/media/posts/60/curl-logo.svg",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "xargs",
-                   "curl",
-                   "Terminal",
-                   "Download"
-            ],
-            "date_published": "2022-11-09T13:12:38+00:00",
-            "date_modified": "2022-11-09T13:12:38+00:00"
         }
     ]
 }

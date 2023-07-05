@@ -3,12 +3,83 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-07-04T15:38:10+01:00</updated>
+    <updated>2023-07-05T08:07:34+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>A guide to redirecting websites to 0.0.0.0 on Linux</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/a-guide-to-redirecting-websites-to-0000-on-linux/"/>
+        <id>https://furycd001.github.io/a-guide-to-redirecting-websites-to-0000-on-linux/</id>
+        <media:content url="https://furycd001.github.io/media/posts/71/Untitled.jpg" medium="image" />
+            <category term="vim"/>
+            <category term="hosts file"/>
+            <category term="guide"/>
+            <category term="Webpage"/>
+            <category term="Web browser"/>
+            <category term="Web"/>
+
+        <updated>2023-07-05T08:07:34+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/71/Untitled.jpg" alt="" />
+                    As a Linux user, you have the power to control various aspects of your system, including network configurations. One useful&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/71/Untitled.jpg" class="type:primaryImage" alt="" /></p>
+                <p>As a Linux user, you have the power to control various aspects of your system, including network configurations. One useful capability is the ability to redirect websites to a specific IP address, such as 0.0.0.0. In this blog post, we will explore how you can redirect a website to 0.0.0.0 on Linux using the hosts file. This method allows you to block access to specific websites by redirecting their traffic to the localhost address. So, let’s dive in and learn how to implement this redirection.</p>
+<p><strong>Understanding the Hosts File:</strong>
+The hosts file is a local configuration file on your Linux machine that allows you to override DNS settings. It associates hostnames with IP addresses, allowing you to redirect or block access to specific websites. By modifying this file, you can control where your system directs requests for specific domains.</p>
+<p><strong>Redirecting a Website to 0.0.0.0:</strong>
+To redirect a website to the IP address 0.0.0.0, follow these steps:</p>
+<ol>
+<li><p>Open a terminal on your Linux machine. You can typically find it in your applications or use the keyboard shortcut <code>Ctrl + Alt + T</code>.</p>
+</li>
+<li><p>Gain administrative privileges by running the following command:</p>
+<pre><code>sudo vim /etc/hosts
+</code></pre>
+<p>This command opens the hosts file in the nano text editor with administrative privileges.</p>
+</li>
+<li><p>Scroll to the bottom of the file using the arrow keys and add a new line. The format for each entry is:</p>
+<pre><code>0.0.0.0   google.com
+</code></pre>
+<p>Replace <code>google.com</code> with the actual domain or website you want to redirect.</p>
+</li>
+<li><p>Press <code>Esc</code> key to ensure you’re in command mode, then type <strong>:wq</strong> followed by pressing <code>Enter</code>.</p>
+</li>
+</ol>
+<p>By adding the line <code>0.0.0.0   google.com</code> to the hosts file, you are effectively redirecting requests for the specified domain (<code>google.com</code>) to the IP address 0.0.0.0, which is the localhost address.</p>
+<p>Note: The changes you make to the hosts file are local to your Linux machine and will only affect DNS resolution on that system. Other devices on the network will not be affected by this redirection.</p>
+<p><strong>Removing the Redirection:</strong>
+To remove the redirection and revert to normal DNS resolution, follow these steps:</p>
+<ol>
+<li><p>Open a terminal and gain administrative privileges by running the command:</p>
+<pre><code>sudo vim /etc/hosts
+</code></pre>
+</li>
+<li><p>Locate the line that you added earlier, starting with <code>0.0.0.0</code>.</p>
+</li>
+<li><p>Now press <code>dd</code> on your keyboard to delete the line containing the redirection entry.</p>
+</li>
+<li><p>Press <code>Esc</code> key to ensure you’re in command mode, then type <strong>:wq</strong> followed by pressing <code>Enter</code>.</p>
+</li>
+</ol>
+<blockquote>
+<p>Remember to remove the redirection from the hosts file when you no longer want to block access to the website.</p>
+</blockquote>
+<h3 id="a-conclusion">A conclusion….</h3>
+<p>Being able to redirect websites to 0.0.0.0 on Linux provides you with a powerful tool to control your system’s access to specific domains. By modifying the hosts file, you can redirect traffic to the localhost address, effectively blocking access to unwanted websites. This method offers a convenient way to enhance your browsing experience and protect yourself from potentially harmful or distracting content. Just remember to exercise caution when making changes to system files and to remove the redirection when no longer needed. Take control of your browsing experience on Linux and enjoy a more personalized and secure online environment.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Ensuring Compatibility: The Importance of NVIDIA Proprietary Driver Versions</title>
         <author>
@@ -425,39 +496,6 @@ int main(int argc, char *argv[]) {
 <p>After a little research, it turns out that you can actually hide the button. You just need to switch the preference below from true to false in <strong>about:config</strong>. By default it is set to true, so just flip it to false &amp; restart Firefox for the change to take effect.</p>
 <pre><code>extensions.unifiedExtensions.enabled
 </code></pre>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Downloading multiple urls using xargs &amp; curl.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/downloading-multiple-urls-using-xargs-and-curl/"/>
-        <id>https://furycd001.github.io/downloading-multiple-urls-using-xargs-and-curl/</id>
-        <media:content url="https://furycd001.github.io/media/posts/60/curl-logo.svg" medium="image" />
-            <category term="xargs"/>
-            <category term="curl"/>
-            <category term="Terminal"/>
-            <category term="Download"/>
-
-        <updated>2022-11-09T13:12:38+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/60/curl-logo.svg" alt="" />
-                    Using both xargs &amp; curl together you can download multiple urls all at once without have to call curl over&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/60/curl-logo.svg" class="type:primaryImage" alt="" /></p>
-                <p>Using both <code>xargs</code> &amp; <code>curl</code> together you can download multiple urls all at once without have to call curl over &amp; over. Simply put all your links into a <code>.txt</code> file &amp; then call it using the command below….</p>
-<pre><code class="language-bash">xargs -n 1 curl -O &lt; links.txt
-</code></pre>
-<blockquote>
-<p>Whenever creating the <code>.txt</code> file, make sure to put each link on it’s own line with nothing else around it. You can also name the file whatever you please. Just remember to change it in the command before running.</p>
-</blockquote>
 
             ]]>
         </content>
