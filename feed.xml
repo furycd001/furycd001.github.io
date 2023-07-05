@@ -3,12 +3,69 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-07-05T08:07:34+01:00</updated>
+    <updated>2023-07-05T11:42:14+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Unleashing the Potential: Querying Bluetooth Headset Battery Data with BlueZ</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/unleashing-the-potential-querying-bluetooth-headset-battery-data-with-bluez/"/>
+        <id>https://furycd001.github.io/unleashing-the-potential-querying-bluetooth-headset-battery-data-with-bluez/</id>
+
+        <updated>2023-07-05T11:42:14+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Bluetooth headsets have become an essential accessory for many, providing convenience and mobility. However, keeping track of the battery level&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Bluetooth headsets have become an essential accessory for many, providing convenience and mobility. However, keeping track of the battery level can sometimes be a challenge. Luckily, the BlueZ package, widely used for Bluetooth management on Linux, offers experimental support for querying Bluetooth headset battery data. In this blog post, we will guide you through the process of enabling these experimental features, allowing you to effortlessly monitor the battery status of your Bluetooth headsets. Let’s dive in and unlock this exciting capability.</p>
+<p>Step 1: Configuring the BlueZ Package
+The first step in enabling experimental support for querying Bluetooth headset battery data is to configure the BlueZ package. Follow the steps below:</p>
+<ol>
+<li><p>Open the configuration file for BlueZ by running the following command in your terminal with administrative privileges:</p>
+<pre><code>sudo vim /etc/bluetooth/main.conf
+</code></pre>
+</li>
+<li><p>Search for the line that contains <code>Experimental = false</code>. Uncomment the line by removing the preceding <code>#</code> symbol and change <code>false</code> to <code>true</code>. This modification activates the experimental features.</p>
+</li>
+<li><p>Save the changes and exit the text editor.</p>
+</li>
+</ol>
+<p>Step 2: Restarting the Bluetooth Service
+After updating the BlueZ configuration, it’s time to restart the Bluetooth service. Follow these instructions:</p>
+<ol>
+<li><p>In your terminal, enter the following command to restart the Bluetooth service:</p>
+<pre><code>sudo systemctl restart bluetooth
+</code></pre>
+</li>
+<li><p>To confirm the restart, you will be prompted to enter your root password. Provide the password and proceed with the restart.</p>
+</li>
+</ol>
+<p>Step 3: Connecting and Querying Battery Data
+With the experimental features enabled and the Bluetooth service restarted, you can now reconnect your Bluetooth device and query its battery data. Follow these final steps:</p>
+<ol>
+<li><p>Reconnect your Bluetooth headset to your Linux machine as you would typically do.</p>
+</li>
+<li><p>Open a terminal and run the following command to access the Bluetooth control tool:</p>
+<pre><code>bluetoothctl info
+</code></pre>
+</li>
+<li><p>This command will display detailed information about your connected Bluetooth device, including battery data.</p>
+</li>
+</ol>
+<h3 id="a-conclusion">A conclusion….</h3>
+<p>By enabling experimental features in the BlueZ package and following a few simple steps, you can now access battery data for your Bluetooth headsets effortlessly. With this newfound capability, you can monitor the battery levels of your devices, ensuring uninterrupted usage and avoiding any surprises. Stay informed and in control of your Bluetooth experience on Linux by utilizing the experimental support provided by BlueZ. Embrace the convenience and make the most of your Bluetooth headsets like never before.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>A guide to redirecting websites to 0.0.0.0 on Linux</title>
         <author>
@@ -462,40 +519,6 @@ int main(int argc, char *argv[]) {
 <p>In terms of customization, XFCE provides a number of options for users who want to make their desktop look and feel the way they want. You can change the desktop background, adjust the font size and color, and even add or remove panels and plugins. XFCE also includes a number of themes and icons that you can use to give your desktop a unique look and feel.</p>
 <p>Finally, XFCE is a highly customizable desktop environment. You can create custom keyboard shortcuts, adjust the behavior of windows and panels, and even install plugins and extensions to add additional functionality to your desktop. This makes XFCE a great choice for users who want a desktop environment that is tailored to their needs and preferences.</p>
 <p>In conclusion, XFCE is a great choice for users who want a simple and lightweight desktop environment that is easy to use, fast and responsive, and highly customizable. Whether you’re using an older or lower-powered system, or simply want a desktop environment that provides everything you need without any unnecessary distractions, XFCE is definitely worth checking out.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Disabling the new extensions button in firefox.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/disabling-the-new-extensions-button-in-firefox/"/>
-        <id>https://furycd001.github.io/disabling-the-new-extensions-button-in-firefox/</id>
-        <media:content url="https://furycd001.github.io/media/posts/61/page-image-master.1b6efe3d5631.jpg" medium="image" />
-            <category term="Web browser"/>
-            <category term="Web"/>
-            <category term="Firefox"/>
-            <category term="Extensions"/>
-
-        <updated>2023-01-19T09:16:24+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/61/page-image-master.1b6efe3d5631.jpg" alt="" />
-                    The new extensions button introduced in the lastest Firefox update is for me super annoying &amp; pretty useless. I only&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/61/page-image-master.1b6efe3d5631.jpg" class="type:primaryImage" alt="" /></p>
-                <p>The new extensions button introduced in the lastest Firefox update is for me super annoying &amp; pretty useless. I only have one extension installed on Firefox &amp; have no plans to ever stop using it or remove it. Quoting mozilla from <strong><a href="https://support.mozilla.org/en-US/kb/unified-extensions">this</a></strong> link they said that it’s not currently possible to move or remove the button..</p>
-<blockquote>
-<p>No, it is currently not possible to remove this button or change its location. This is by design. The extensions toolbar button is now the primary user interface and allows access to per-site permissions for MV3 extensions.</p>
-</blockquote>
-<p>After a little research, it turns out that you can actually hide the button. You just need to switch the preference below from true to false in <strong>about:config</strong>. By default it is set to true, so just flip it to false &amp; restart Firefox for the change to take effect.</p>
-<pre><code>extensions.unifiedExtensions.enabled
-</code></pre>
 
             ]]>
         </content>
