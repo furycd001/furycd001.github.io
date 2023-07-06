@@ -3,12 +3,134 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-07-05T11:42:14+01:00</updated>
+    <updated>2023-07-06T14:37:51+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Creating a basic blog post with Jenny.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/creating-a-basic-blog-post-with-jenny/"/>
+        <id>https://furycd001.github.io/creating-a-basic-blog-post-with-jenny/</id>
+        <media:content url="https://furycd001.github.io/media/posts/74/jenny1.jpg" medium="image" />
+            <category term="Webpage"/>
+            <category term="Jenny"/>
+            <category term="Blog"/>
+
+        <updated>2023-07-06T14:37:51+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/74/jenny1.jpg" alt="" />
+                    Inside the content directory of the cloned Jenny template repository, create a new file with a .md extension. For example,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/74/jenny1.jpg" class="type:primaryImage" alt="" /></p>
+                <ol>
+<li><p>Inside the <code>content</code> directory of the cloned Jenny template repository, create a new file with a <code>.md</code> extension. For example, let’s create a file called <code>my-first-post.md</code>.</p>
+</li>
+<li><p>Open <code>my-first-post.md</code> in a text editor and add the following content:*</p>
+<pre><code class="language-markdown">---
+title: My First Blog Post
+date: 2023-07-06
+author: John Doe
+---
+
+#Welcome to My Blog!
+
+This is my first blog post using Jenny. Isn&#39;t it exciting?
+
+##Subheading
+
+Here&#39;s some more content for my post. I can include text, images, code snippets, and more using Markdown formatting.
+
+###Code Example
+
+```python
+print(&quot;Hello, Jenny!&quot;)
+</code></pre>
+<p>That’s it for my first post. Stay tuned for more!</p>
+<pre><code>  
+ &gt; Please note that the markdown code above has had spaces removed in the heading sections....
+</code></pre>
+</li>
+<li><p>Save the file.</p>
+</li>
+</ol>
+<h3 id="a-conclusion">A conclusion….</h3>
+<p>By following these steps, you have created a new blog post titled “My First Blog Post” with a specified date and author. You can continue to create additional blog posts by adding more Markdown files to the <code>content</code> directory and following the same structure.
+Remember to adjust the content, titles, dates, and authors according to your needs and preferences. You can also explore additional features and formatting options provided by Markdown to enhance your blog posts, such as adding images, links, headings, and more.</p>
+<p>Happy blogging….</p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Jenny is a static blog generator..</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/jenny-is-a-static-blog-generator/"/>
+        <id>https://furycd001.github.io/jenny-is-a-static-blog-generator/</id>
+        <media:content url="https://furycd001.github.io/media/posts/73/jenny.jpg" medium="image" />
+            <category term="Webpage"/>
+            <category term="Web"/>
+            <category term="Jenny"/>
+            <category term="Github"/>
+            <category term="Blog"/>
+
+        <updated>2023-07-06T14:32:10+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/73/jenny.jpg" alt="" />
+                    Jenny is a static blog generator available on GitHub. There are various installation methods for Jenny, but today I’ll explore&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/73/jenny.jpg" class="type:primaryImage" alt="" /></p>
+                <p><a href="https://github.com/hmngwy/jenny">Jenny</a> is a static blog generator available on GitHub. There are various installation methods for Jenny, but today I’ll explore the option of using Jenny by cloning the existing GitHub repository.</p>
+<p>To get started using Jenny, you simply have to clone the repository to your machine, and do a small bit of configuration.</p>
+<p><strong>1. Clone the repository:</strong></p>
+<pre><code class="language-bash">git clone https://github.com/hmngwy/jenny-template.git
+</code></pre>
+<p><strong>2. Change to the drectory:</strong></p>
+<pre><code class="language-bash">cd jenny-template
+</code></pre>
+<p><strong>3. Configure:</strong></p>
+<ul>
+<li>Open the <code>config.py</code> file in a text editor.</li>
+<li>Modify the settings according to your preferences. You can configure details such as the blog title, author, description, theme, etc. Update the values as needed.</li>
+</ul>
+<p><strong>4. Create Content:</strong></p>
+<ul>
+<li>Inside the <code>content</code> directory, you can create Markdown files (with a <code>.md</code> extension) to write your blog posts.</li>
+<li>You can organize your content using subdirectories within the <code>content</code> directory.</li>
+<li>Each Markdown file should start with metadata in YAML format, specifying details like title, date, and any other desired fields. Below the metadata, you can write your blog post content using Markdown syntax.</li>
+</ul>
+<p><strong>5. Generate the Site:</strong></p>
+<ul>
+<li>To generate the static website from your content, run the following command:<pre><code class="language-bash">python build.py
+</code></pre>
+</li>
+<li>This command will use the Jinja2 templating engine and convert your Markdown files into HTML files, applying the configured theme.</li>
+</ul>
+<p><strong>6. Publish the Site:</strong></p>
+<ul>
+<li>Once the site is generated, the static files will be available in the <code>output</code> directory.</li>
+<li>You can upload the contents of the <code>output</code> directory to a web server or hosting platform to make your blog available on the internet.</li>
+</ul>
+<p>Please note that these instructions assume you have Python installed on your machine and the necessary dependencies are met. If any errors or missing dependencies occur during the process, you may need to install the required packages using a package manager like <code>pip</code>.</p>
+<p>Additionally, it’s worth mentioning that the specific steps may vary depending on the customizations made to the Jenny template or any modifications introduced by the repository’s owner. Therefore, it’s always a good idea to refer to the documentation or any provided instructions specific to the Jenny template you are using.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Unleashing the Potential: Querying Bluetooth Headset Battery Data with BlueZ</title>
         <author>
@@ -429,96 +551,6 @@ done
 <p>Another advantage of feh is its small memory footprint. Feh is designed to be lightweight and fast, making it an excellent choice for users with low-end systems or those who prefer a minimalist approach.</p>
 <p>Overall, feh is a great image viewer for users who value speed, simplicity, and flexibility. Its extensive feature set, combined with its lightweight design, makes it an excellent choice for anyone looking for a powerful image viewer for their Linux or Unix-like system.</p>
 <p>One thing to note: Whenever you are browsing through a bunch of images, you can press <code>CTRL+delete</code> to delete the images from disk.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>gtk-libwinmenu</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/gtk-libwinmenu/"/>
-        <id>https://furycd001.github.io/gtk-libwinmenu/</id>
-        <media:content url="https://furycd001.github.io/media/posts/63/Screenshot_2023-04-21_08-34-06.png" medium="image" />
-            <category term="gtk-libwinmenu"/>
-            <category term="Gtk"/>
-
-        <updated>2023-04-21T08:34:22+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/63/Screenshot_2023-04-21_08-34-06.png" alt="" />
-                    Gtk-libwinmenu is a library that provides a native Windows menu bar for GTK applications on Windows. This library replaces the&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/63/Screenshot_2023-04-21_08-34-06.png" class="type:primaryImage" alt="" /></p>
-                <p>Gtk-libwinmenu is a library that provides a native Windows menu bar for GTK applications on Windows. This library replaces the standard GTK menu bar with a native Windows menu bar that looks and feels like a Windows application. This can be useful for GTK applications that are used on both Linux and Windows, and want to provide a consistent user experience across both platforms.</p>
-<p>The library is built on top of the Win32 API, and provides a bridge between the GTK application and the native Windows menu system. This allows GTK applications to access the full range of Windows menu features, including sub-menus, accelerators, and check-boxes.</p>
-<p>To use gtk-libwinmenu in your GTK application, you first need to download the library from its GitHub page. Once you have downloaded the library, you can compile and install it using the following commands:</p>
-<pre><code>$ ./autogen.sh
-$ ./configure
-$ make
-$ sudo make install
-</code></pre>
-<p>Once you have installed the library, you can enable the native Windows menu bar in your GTK application by calling the <code>gtk_win32_enable_menu_bar()</code> function. This function takes a pointer to the <code>GtkApplication</code> object as its argument, and should be called after you have created the main window for your application.</p>
-<pre><code>#include &lt;gtk/gtk.h&gt;
-#include &lt;gtk/win32/gtkwin32.h&gt;
- 
-int main(int argc, char *argv[]) {
-  GtkWidget *window;
- 
-  gtk_init(&amp;argc, &amp;argv);
- 
-  window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
-  gtk_window_set_title(GTK_WINDOW(window), &quot;My Application&quot;);
-  gtk_window_set_default_size(GTK_WINDOW(window), 640, 480);
- 
-  gtk_win32_enable_menu_bar(GTK_APPLICATION(gtk_application_get_default()));
- 
-  gtk_widget_show_all(window);
- 
-  gtk_main();
- 
-  return 0;
-}
-</code></pre>
-<p>The <code>gtk_win32_enable_menu_bar()</code> function tells GTK to use the native Windows menu system for the application. When the application is run on Windows, the standard GTK menu bar is replaced with a native Windows menu bar that is automatically generated from the menus defined in your application.</p>
-<p>In conclusion, Gtk-libwinmenu is a useful library for GTK developers who want to provide a consistent user experience across both Linux and Windows platforms. It enables GTK applications to use a native Windows menu bar, which can be important for providing a seamless and intuitive user experience. The installation and use of gtk-libwinmenu is straightforward, and should be considered by any GTK developer looking to make their application more user-friendly on Windows.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>XFCE Desktop Environment.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/xfce-desktop-environment/"/>
-        <id>https://furycd001.github.io/xfce-desktop-environment/</id>
-        <media:content url="https://furycd001.github.io/media/posts/62/Xfce_logo.png" medium="image" />
-            <category term="Xfce"/>
-            <category term="Linux"/>
-            <category term="Desktop Environment"/>
-
-        <updated>2023-02-01T11:18:15+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/62/Xfce_logo.png" alt="" />
-                    The XFCE Desktop Environment: A Simple and Lightweight Alternative If you’re looking for a simple and lightweight desktop environment for&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/62/Xfce_logo.png" class="type:primaryImage" alt="" /></p>
-                <p>The XFCE Desktop Environment: A Simple and Lightweight Alternative</p>
-<p>If you’re looking for a simple and lightweight desktop environment for your Linux system, you may want to consider XFCE. XFCE is a popular alternative to more resource-intensive desktop environments like Gnome or KDE, and it’s known for its speed and low system requirements.</p>
-<p>One of the main advantages of XFCE is its simplicity. The desktop environment is easy to use and navigate, with a familiar layout that includes a panel, a menu, and a desktop. XFCE also includes a number of useful tools and utilities, like a file manager, a terminal emulator, and a text editor, making it a great choice for users who want a desktop environment that provides everything they need without any unnecessary bells and whistles.</p>
-<p>Another advantage of XFCE is its low resource requirements. XFCE is designed to be light on system resources, making it a great choice for older or lower-powered systems. This also means that XFCE is fast and responsive, even on systems with limited hardware resources.</p>
-<p>In terms of customization, XFCE provides a number of options for users who want to make their desktop look and feel the way they want. You can change the desktop background, adjust the font size and color, and even add or remove panels and plugins. XFCE also includes a number of themes and icons that you can use to give your desktop a unique look and feel.</p>
-<p>Finally, XFCE is a highly customizable desktop environment. You can create custom keyboard shortcuts, adjust the behavior of windows and panels, and even install plugins and extensions to add additional functionality to your desktop. This makes XFCE a great choice for users who want a desktop environment that is tailored to their needs and preferences.</p>
-<p>In conclusion, XFCE is a great choice for users who want a simple and lightweight desktop environment that is easy to use, fast and responsive, and highly customizable. Whether you’re using an older or lower-powered system, or simply want a desktop environment that provides everything you need without any unnecessary distractions, XFCE is definitely worth checking out.</p>
 
             ]]>
         </content>
