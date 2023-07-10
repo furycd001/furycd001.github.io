@@ -3,12 +3,60 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-07-06T14:37:51+01:00</updated>
+    <updated>2023-07-10T09:51:03+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Emacs</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/emacs/"/>
+        <id>https://furycd001.github.io/emacs/</id>
+        <media:content url="https://furycd001.github.io/media/posts/75/emacs.png" medium="image" />
+            <category term="Text editor"/>
+            <category term="Ide"/>
+            <category term="Gnu"/>
+            <category term="Emacs"/>
+
+        <updated>2023-07-10T09:51:03+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/75/emacs.png" alt="" />
+                    Emacs is a powerful, extensible, and highly customizable text editor. It was created by Richard Stallman and released in 1985&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/75/emacs.png" class="type:primaryImage" alt="" /></p>
+                <p>Emacs is a powerful, extensible, and highly customizable text editor. It was created by Richard Stallman and released in 1985 as part of the GNU Project, with the goal of providing a free and open-source alternative to proprietary text editors.</p>
+<p>At its core, Emacs is designed to facilitate text editing tasks, but it goes far beyond a simple editor. It provides a wide range of features and functionalities, making it more like an integrated development environment (IDE) for many programming languages and a productivity tool for various tasks.</p>
+<p>Here are some key features and capabilities of Emacs:</p>
+<ol>
+<li><p><strong>Extensibility</strong>: Emacs is built to be highly extensible, allowing users to customize and extend its functionality using Emacs Lisp, a dialect of the Lisp programming language. Users can write and install custom packages, define macros, and create powerful automation workflows.</p>
+</li>
+<li><p><strong>Text Editing</strong>: Emacs provides robust text editing capabilities, including advanced search and replace, syntax highlighting for many programming languages, support for multiple buffers and windows, indentation, automatic formatting, and powerful editing commands.</p>
+</li>
+<li><p><strong>Integrated Development Environment (IDE) Features</strong>: Emacs offers a rich set of features for software development, such as code navigation, code completion, compilation and error checking, version control integration (e.g., Git, SVN), debugging support, and integration with build systems.</p>
+</li>
+<li><p><strong>Modes and Major Modes</strong>: Emacs has different modes that provide specific functionalities depending on the task at hand. Major modes define the behavior and features specific to a particular programming language or file type, while minor modes provide additional functionalities or tweaks to the editor.</p>
+</li>
+<li><p><strong>File Management</strong>: Emacs allows you to manage files and directories within its interface, providing features like file browsing, directory tree view, file operations (copy, move, rename), and file permission management.</p>
+</li>
+<li><p><strong>Productivity Tools</strong>: Emacs includes various productivity tools, such as a calendar, email client (Gnus), newsreader, spreadsheet (Emacs Calc), project management, customizable keybindings, and support for various document formats (e.g., LaTeX, Markdown).</p>
+</li>
+<li><p><strong>Emacs Lisp REPL</strong>: Emacs provides an interactive environment called the Read-Eval-Print Loop (REPL) for Emacs Lisp. It enables users to experiment, evaluate, and execute Emacs Lisp code directly within Emacs.</p>
+</li>
+</ol>
+<h3 id="a-conclusion">A conclusion…</h3>
+<p>Emacs has a steep learning curve due to its extensive capabilities and customizable nature. However, it offers great flexibility and empowers users to tailor the editor to their specific needs and workflow preferences. There is an active community around Emacs, continuously developing packages and providing support to help users make the most of this powerful text editor.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Creating a basic blog post with Jenny.</title>
         <author>
@@ -521,36 +569,6 @@ done
 <li>Open a terminal, navigate to the directory where your video files are located, and execute the script by running its name, like this: <code>frames</code> or whatever you happened to call it.</li>
 </ol>
 <p>The script will automatically iterate through each video in the directory and extract all frames, saving them as individual images in corresponding directories within the “output_directory”. With this streamlined approach, you can effortlessly unlock the magic of batch frame extraction using ffmpeg.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Feh image viewer.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/feh-image-viewer/"/>
-        <id>https://furycd001.github.io/feh-image-viewer/</id>
-        <media:content url="https://furycd001.github.io/media/posts/64/maxresdefault.jpg" medium="image" />
-            <category term="Image Viewer"/>
-            <category term="Image"/>
-
-        <updated>2023-05-05T08:44:55+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/64/maxresdefault.jpg" alt="" />
-                    Feh is a lightweight and fast image viewer for Linux and Unix-like systems. It’s a versatile tool that can display&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/64/maxresdefault.jpg" class="type:primaryImage" alt="" /></p>
-                <p>Feh is a lightweight and fast image viewer for Linux and Unix-like systems. It’s a versatile tool that can display a wide range of image formats, including JPEG, PNG, TIFF, and GIF, among many others. Feh has a simple and intuitive interface that makes it easy to use, and it’s highly customizable through command-line options and configuration files.</p>
-<p>One of the most notable features of feh is its ability to display images in a slideshow mode. This mode can be customized to display images in a particular order, at a specific interval, and with various effects and transitions. Feh also supports a range of image manipulation options, such as zooming, rotating, and flipping images.</p>
-<p>Another advantage of feh is its small memory footprint. Feh is designed to be lightweight and fast, making it an excellent choice for users with low-end systems or those who prefer a minimalist approach.</p>
-<p>Overall, feh is a great image viewer for users who value speed, simplicity, and flexibility. Its extensive feature set, combined with its lightweight design, makes it an excellent choice for anyone looking for a powerful image viewer for their Linux or Unix-like system.</p>
-<p>One thing to note: Whenever you are browsing through a bunch of images, you can press <code>CTRL+delete</code> to delete the images from disk.</p>
 
             ]]>
         </content>
