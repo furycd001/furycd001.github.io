@@ -3,12 +3,116 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-07-10T09:51:03+01:00</updated>
+    <updated>2023-07-11T11:57:48+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Exploring the Power of Minimal Linux Live: A Tiny Educational Linux Distribution</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/exploring-the-power-of-minimal-linux-live-a-tiny-educational-linux-distribution/"/>
+        <id>https://furycd001.github.io/exploring-the-power-of-minimal-linux-live-a-tiny-educational-linux-distribution/</id>
+        <media:content url="https://furycd001.github.io/media/posts/77/mml.png" medium="image" />
+            <category term="Minimal"/>
+            <category term="Linux Live"/>
+            <category term="Linux Kernel"/>
+            <category term="Linux"/>
+
+        <updated>2023-07-11T11:57:41+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/77/mml.png" alt="" />
+                    In the vast world of Linux distributions, Minimal Linux Live stands out as a unique and educational offering. This tiny&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/77/mml.png" class="type:primaryImage" alt="" /></p>
+                <p>In the vast world of Linux distributions, Minimal Linux Live stands out as a unique and educational offering. This tiny Linux distribution provides an opportunity for users to build a fully functional operating system from scratch, utilizing a collection of automated shell scripts. Minimal Linux Live offers a minimalistic core environment, including the Linux kernel, GNU C library, and Busybox userland utilities. In this blog post, we will delve into the features and possibilities of Minimal Linux Live, showcasing its flexibility and educational value. Let’s embark on this enlightening journey into the world of minimalistic Linux.<a href="https://ivandavidov.github.io/minimal/#home">https://ivandavidov.github.io/minimal/#home</a></p>
+<p><strong>What is Minimal Linux Live?</strong>
+Minimal Linux Live is a minimalistic Linux distribution designed to be built from scratch. It provides a bare-bones foundation consisting of essential components like the Linux kernel, GNU C library, and Busybox userland utilities. This minimal environment serves as a canvas for users to craft their customized Linux system by adding additional software packages during the build process. Minimal Linux Live offers a highly configurable experience, allowing users to tailor the system to their specific needs.</p>
+<h3 id="features-and-educational-value">Features and Educational Value:</h3>
+<p><strong>1. Core Environment:</strong>
+Minimal Linux Live starts with a minimalist core environment, offering only essential components. This minimalism provides a clean slate for customization, enabling users to add the desired software packages and build their own tailored Linux system.</p>
+<p><strong>2. Automated Shell Scripts:</strong>
+The distribution comes with a collection of automated shell scripts that streamline the process of building the Linux system from scratch. These scripts handle the compilation and configuration of various components, making the creation of a custom Linux environment more accessible and efficient.</p>
+<p><strong>3. Customization through Configuration:</strong>
+Minimal Linux Live allows users to include additional software packages in the ISO image at build time. This is achieved through a well-documented con</p>
+<ol>
+<li>Core Environment:figuration file, which users can modify to specify the desired packages and their configurations. This flexibility empowers users to create a Linux system that perfectly matches their requirements.</li>
+</ol>
+<p><strong>4. Multiple Deployment Options:</strong>
+Minimal Linux Live offers various deployment options to suit different scenarios. Users can download pre-built images, build the distribution from scratch, or even run it in a web browser using a JavaScript PC emulator. These options make Minimal Linux Live accessible to a wide range of users, from beginners to experienced Linux enthusiasts.</p>
+<h3 id="getting-started-with-minimal-linux-live">Getting Started with Minimal Linux Live:</h3>
+<blockquote>
+<p>To get started with Minimal Linux Live, follow along with the steps below..</p>
+</blockquote>
+<ol>
+<li><p>Visit the Minimal Linux Live website at <a href="https://ivandavidov.github.io/minimal/#home">https://ivandavidov.github.io/minimal/#home</a> to explore the available resources and documentation.</p>
+</li>
+<li><p>Download the pre-built image if you prefer a ready-to-use distribution. Alternatively, you can build Minimal Linux Live from scratch by following the provided instructions.</p>
+</li>
+<li><p>Customize your Minimal Linux Live system by modifying the configuration file to include the desired software packages and configurations.</p>
+</li>
+<li><p>Build your customized Linux system using the automated shell scripts provided. This process will generate an ISO image containing your tailored Minimal Linux Live distribution.</p>
+</li>
+<li><p>Deploy and enjoy your personalized Minimal Linux Live system by booting from the ISO image or using the deployment option of your choice.</p>
+</li>
+</ol>
+<h3 id="a-conclusion">A conclusion….</h3>
+<p>Minimal Linux Live opens up a world of possibilities for Linux enthusiasts and learners. With its minimalistic core environment and automated shell scripts, users can build their own Linux system from scratch, tailored to their specific needs. The educational value and flexibility offered by Minimal Linux Live make it an excellent choice for those seeking to understand the inner workings of Linux and explore the art of customization. Embrace the power of minimalism, dive into the world of Minimal Linux Live, and unlock the potential of building your own Linux distribution from the ground up.</p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Crafting Your Customized Live Linux with Linux Live Kit</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/crafting-your-customized-live-linux-with-linux-live-kit/"/>
+        <id>https://furycd001.github.io/crafting-your-customized-live-linux-with-linux-live-kit/</id>
+        <media:content url="https://furycd001.github.io/media/posts/76/Screen-Shot-2023-07-11-at-11.51.24-fullpage.png" medium="image" />
+            <category term="Minimal"/>
+            <category term="Linux Live"/>
+            <category term="Linux Kernel"/>
+            <category term="Linux"/>
+
+        <updated>2023-07-11T11:57:48+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/76/Screen-Shot-2023-07-11-at-11.51.24-fullpage.png" alt="" />
+                    Linux enthusiasts often seek ways to tailor their computing experience to their specific needs and preferences. Linux Live Kit offers&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/76/Screen-Shot-2023-07-11-at-11.51.24-fullpage.png" class="type:primaryImage" alt="" /></p>
+                <p>Linux enthusiasts often seek ways to tailor their computing experience to their specific needs and preferences. Linux Live Kit offers a versatile solution by providing a set of shell scripts that allow users to create their own personalized Live Linux system from an existing Linux distribution. In this blog post, we will explore the capabilities of Linux Live Kit and guide you through the process of creating your bootable Live Linux system. Let’s embark on this exciting journey of customization and flexibility.</p>
+<p><strong>What is Linux Live Kit?</strong>
+Linux Live Kit is a collection of shell scripts designed to empower Linux users to generate their own Live Linux system. It leverages an already installed Linux distribution as the foundation and allows users to customize it according to their requirements. The resulting Live Linux system can be booted from a CD-ROM or USB Flash Drive, enabling users to carry their personalized operating system with them wherever they go.</p>
+<p><strong>Getting Started with Linux Live Kit:</strong>
+To embark on your Live Linux customization journey, follow these steps:</p>
+<p><strong>Step 1: Obtain Linux Live Kit:</strong>
+Visit the Linux Live Kit website at <a href="https://www.linux-live.org/">https://www.linux-live.org/</a> and download the latest version of the tool. Linux Live Kit is compatible with various Linux distributions and provides the necessary tools and scripts to create your Live Linux system.</p>
+<p><strong>Step 2: Installation:</strong>
+Once you have downloaded Linux Live Kit, extract the contents of the package to a directory of your choice. Ensure that you have the required dependencies installed, which may vary based on your Linux distribution.</p>
+<p><strong>Step 3: Configuration:</strong>
+Navigate to the directory where you extracted Linux Live Kit and locate the configuration files. These files allow you to customize various aspects of your Live Linux system, including the selection of packages, desktop environment, system settings, and more. Modify these configuration files according to your preferences to shape your personalized Live Linux environment.</p>
+<p><strong>Step 4: Building the Live Linux System:</strong>
+With your configuration in place, it’s time to build your Live Linux system. Execute the provided shell scripts, which automate the process of creating a bootable image from your customized configuration. The scripts will generate an ISO image or USB image that contains your personalized Live Linux system.</p>
+<p><strong>Step 5: Booting the Live Linux System:</strong>
+Once the build process is complete, you can now boot your customized Live Linux system. Burn the ISO image to a CD-ROM or create a bootable USB Flash Drive using the generated USB image. Insert the CD-ROM or connect the USB Flash Drive to your desired computer and restart it. The system will boot into your personalized Live Linux environment, ready to deliver the tailored experience you envisioned.</p>
+<h3 id="a-conclusion">A conclusion….</h3>
+<p>Linux Live Kit empowers Linux users to create their own Live Linux system, tailored to their unique needs and preferences. By leveraging existing Linux distributions and a set of powerful shell scripts, Linux Live Kit simplifies the process of customization, enabling users to build a bootable Live Linux environment. Whether you desire a portable operating system or a specialized setup for specific tasks, Linux Live Kit equips you with the tools to bring your vision to life. Explore the possibilities, unleash your creativity, and enjoy the flexibility of a personalized Live Linux system with Linux Live Kit.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Emacs</title>
         <author>
@@ -460,115 +564,6 @@ After the upgrade completes successfully, it is recommended to reboot your syste
 <p>Upgrading to a new Debian release is an important task to ensure you have the latest features, security updates, and enhancements. By following the steps outlined in this guide, you can perform a smooth and successful upgrade, keeping your Debian system up-to-date and secure.</p>
 <p>Remember to back up your data, update your current installation, modify the sources list, perform a system update, and finally, upgrade to the new release. With these steps, you’ll be able to seamlessly transition to the latest Debian release and enjoy its new features and improvements.</p>
 <p>Happy upgrading !!</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Managing Non-Debian Packages: Exploring the Power of &#x27;sudo apt list&#x27;</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/managing-non-debian-packages-exploring-the-power-of-sudo-apt-list/"/>
-        <id>https://furycd001.github.io/managing-non-debian-packages-exploring-the-power-of-sudo-apt-list/</id>
-        <media:content url="https://furycd001.github.io/media/posts/66/211801e93pxd7a6y4a9udc.jpg" medium="image" />
-            <category term="packagemanager"/>
-            <category term="apt"/>
-            <category term="Ubuntu"/>
-            <category term="Terminal"/>
-            <category term="Debian"/>
-
-        <updated>2023-06-30T11:11:49+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/66/211801e93pxd7a6y4a9udc.jpg" alt="" />
-                    Introduction…. When working with Debian-based Linux distributions like Ubuntu, managing packages is a crucial task. While the default repositories provide&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/66/211801e93pxd7a6y4a9udc.jpg" class="type:primaryImage" alt="" /></p>
-                <h2 id="introduction">Introduction….</h2>
-<p>When working with Debian-based Linux distributions like Ubuntu, managing packages is a crucial task. While the default repositories provide a vast collection of software, there are instances when you may have packages from external sources. In this blog post, we will dive into the powerful command <code>sudo apt list &#39;?narrow(?installed, ?not(?origin(Debian)))&#39;</code> and explore how it helps manage non-Debian packages efficiently.</p>
-<p>Understanding the Command:
-The command <code>sudo apt list &#39;?narrow(?installed, ?not(?origin(Debian)))&#39;</code> is a valuable tool for package management. Let’s break it down and understand its components:</p>
-<ol>
-<li><p><code>sudo</code>: The “sudo” prefix grants temporary administrative privileges to execute the subsequent command. It ensures that the user has the necessary rights to fetch package information.</p>
-</li>
-<li><p><code>apt list</code>: This command provides a list of packages based on specified criteria.</p>
-</li>
-<li><p><code>?narrow()</code>: A pattern-matching function within APT that narrows down the list of packages based on specific conditions.</p>
-</li>
-<li><p><code>?installed</code>: This condition filters only the installed packages on your system.</p>
-</li>
-<li><p><code>?not(?origin(Debian))</code>: This condition filters out packages originating from the Debian repository. It selects packages that do not have the “Debian” origin.</p>
-</li>
-</ol>
-<h2 id="exploring-some-use-cases">Exploring some use cases….</h2>
-<ol>
-<li><p>Identifying Non-Debian Packages: The command helps identify packages installed from external sources, giving you an overview of non-Debian software on your system. This is particularly useful when you want to keep track of packages obtained from personal repositories or third-party sources.</p>
-</li>
-<li><p>Managing Non-Debian Packages: By listing non-Debian packages, you gain better control over their management. You can choose to update, remove, or modify these packages separately from the ones obtained through official Debian repositories. This allows you to maintain a more organized and efficient package management system.</p>
-</li>
-<li><p>Troubleshooting Dependency Conflicts: Non-Debian packages may occasionally introduce conflicts with Debian packages due to differences in versions or dependencies. By identifying these non-Debian packages, you can better troubleshoot and resolve any conflicts that arise, ensuring the smooth functioning of your system.</p>
-</li>
-<li><p>Security and Updates: Keeping non-Debian packages up-to-date is crucial for security and stability. With the command, you can easily monitor and check for updates specifically for these packages, ensuring you are running the latest versions with necessary bug fixes and security patches.</p>
-</li>
-</ol>
-<h2 id="a-conclusion">A conclusion….</h2>
-<p>The <code>sudo apt list &#39;?narrow(?installed, ?not(?origin(Debian)))&#39;</code> command empowers Debian-based Linux users to efficiently manage non-Debian packages. By providing a clear list of packages installed from external sources, it enables better organization, troubleshooting, and updating of these packages.</p>
-<p>Whether you want to keep track of non-Debian packages, resolve dependency conflicts, or ensure security updates, this command proves to be an invaluable tool for maintaining a well-managed package ecosystem on your Debian-based system.</p>
-<p>Harness the power of <code>sudo apt list</code> and take control of your non-Debian packages today!</p>
-<p>Happy package management !!</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Batch extracting frames from multiple videos.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/batch-extracting-frames-from-multiple-videos/"/>
-        <id>https://furycd001.github.io/batch-extracting-frames-from-multiple-videos/</id>
-        <media:content url="https://furycd001.github.io/media/posts/65/FFmpeg_Logo_new.svg.png" medium="image" />
-            <category term="ffmpeg"/>
-            <category term="Video"/>
-            <category term="Terminal"/>
-            <category term="Bash"/>
-
-        <updated>2023-06-06T07:46:25+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/65/FFmpeg_Logo_new.svg.png" alt="" />
-                    Streamline the process of batch extracting frames from multiple videos effortlessly with ffmpeg. By crafting a convenient bash script, you&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/65/FFmpeg_Logo_new.svg.png" class="type:primaryImage" alt="" /></p>
-                <p>Streamline the process of batch extracting frames from multiple videos effortlessly with ffmpeg. By crafting a convenient bash script, you can harness the magic of automation. Here’s my step-by-step guide:</p>
-<ol>
-<li>Open a text editor and create a new bash script file.</li>
-<li>Insert the following code into the script:</li>
-</ol>
-<pre><code class="language-bash">#!/usr/bin/env bash
-
-mkdir -p output_frames
-
-for file in *.mp4; do
-    filename=$(basename -- &quot;$file&quot;)
-    filename=&quot;${filename%.*}&quot;
-    mkdir -p &quot;output_frames/$filename&quot;
-    ffmpeg -i &quot;$file&quot; &quot;output_frames/$filename/image_%04d.png&quot;
-done
-</code></pre>
-<ol start="3">
-<li>Save the script with a descriptive name, for example, “frames.sh” or even just “frames”.</li>
-<li>Move the script to a directory that is included in your system’s PATH environment variable, such as “.local/bin” or /usr/local/bin”, to make it accessible from anywhere in the terminal.</li>
-<li>Open a terminal, navigate to the directory where your video files are located, and execute the script by running its name, like this: <code>frames</code> or whatever you happened to call it.</li>
-</ol>
-<p>The script will automatically iterate through each video in the directory and extract all frames, saving them as individual images in corresponding directories within the “output_directory”. With this streamlined approach, you can effortlessly unlock the magic of batch frame extraction using ffmpeg.</p>
 
             ]]>
         </content>
