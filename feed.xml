@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-07-26T12:03:48+01:00</updated>
+    <updated>2023-07-26T12:05:18+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="Fediverse"/>
             <category term="Bash"/>
 
-        <updated>2023-07-26T12:03:48+01:00</updated>
+        <updated>2023-07-26T12:05:18+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/81/Mastodon_Logotype_Simple.svg.png" alt="" />
@@ -76,7 +76,7 @@ while true; do
 done
 </code></pre>
 <p><strong>Step 2: Customize &amp; saving the Script..</strong><br>Replace <code>https://your-mastodon-instance</code> with the URL for your Mastodon instance &amp; then save the script as <code>toot.sh</code>.</p>
-<p><strong>Step 3: Make the script executable &amp; then run it..</strong>  </p>
+<p><strong>Step 3: Make the script executable &amp; then run it..</strong><br>The first line makes the script executable &amp; the second line runs the script.</p>
 <pre><code class="language-bash">chmod +x toot.sh
 
 ./toot.sh
