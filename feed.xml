@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-07-26T11:51:06+01:00</updated>
+    <updated>2023-07-26T12:02:15+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="Fediverse"/>
             <category term="Bash"/>
 
-        <updated>2023-07-26T11:51:06+01:00</updated>
+        <updated>2023-07-26T12:02:15+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/81/Mastodon_Logotype_Simple.svg.png" alt="" />
@@ -39,8 +39,8 @@
 <li>A Mastodon account on your favorite instance.</li>
 <li><code>curl</code> and <code>jq</code> installed on your Linux system.</li>
 </ul>
-<p>Step 1: Create the Script
-Open a text editor and paste the following Bash script:</p>
+<p><strong>Step 1: Create the Script..</strong>
+Open a text editor and paste in the code below.</p>
 <pre><code class="language-bash">#!/bin/bash
 
 INSTANCE=&quot;https://your-mastodon-instance&quot;  # Replace with your Mastodon instance URL
@@ -76,13 +76,12 @@ while true; do
     display_timeline
 done
 </code></pre>
-<p>Step 2: Customize the Script
-Replace <code>https://your-mastodon-instance</code> with the URL of your Mastodon instance. Make sure to save the script in a file (e.g., <code>toots.sh</code>) and give it executable permissions:</p>
-<pre><code class="language-bash">chmod +x toots.sh
-</code></pre>
-<p>Step 3: Run the Script
-Execute the script in your terminal:</p>
-<pre><code class="language-bash">./toots.sh
+<p><strong>Step 2: Customize &amp; saving the Script..</strong>
+Replace <code>https://your-mastodon-instance</code> with the URL for your Mastodon instance &amp; then save the script as <code>toot.sh</code>.</p>
+<p><strong>Step 3: Make the script executable &amp; then run it..</strong></p>
+<pre><code class="language-bash">chmod +x toot.sh
+
+./toot.sh
 </code></pre>
 <p>The script will start displaying the latest public toots from your Mastodon instance. It will refresh every 60 seconds, displaying any new toots that appear in the public timeline. That’s it! You’ve now successfully set up a simple script to display Mastodon toots in your Linux terminal. Happy tooting !!</p>
 <h3 id="a-conclusion">A conclusion..</h3>
