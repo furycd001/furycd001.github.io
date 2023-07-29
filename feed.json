@@ -10,6 +10,23 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/activity-launcher-on-android/",
+            "url": "https://furycd001.github.io/activity-launcher-on-android/",
+            "title": "Activity Launcher on Android",
+            "summary": "Android enthusiasts are no strangers to the vast array of apps available on the Google Play Store. However, there’s a&hellip;",
+            "content_html": "<p>Android enthusiasts are no strangers to the vast array of apps available on the Google Play Store. However, there’s a hidden world of features and functionalities tucked away within a ton of apps that often remains unexplored. Enter Activity Launcher, a powerful Android app that opens the door to a realm of hidden activities and settings within your installed app’s. In this blog post, we will explore the wonders of Activity Launcher and how it enables users to access hidden features, customize their Android experience, and renew older apps that maybe no longer function correctly on newver versions of android.</p>\n<p><strong>What is Activity Launcher?</strong>\nActivity Launcher is an Android app designed to reveal hidden activities and settings within installed apps. With a user-friendly interface, the app acts as a window to the inner workings of each application, enabling users to launch activities that are not typically accessible through an app’s regular interface.</p>\n<p><strong>Discovering Hidden Activities..</strong>\nActivity Launcher lets you explore activities that developers have included in their apps but may not be readily visible to users. These hidden activities often offer additional functionalities or shortcuts that can enhance your experience with the app.</p>\n<p><strong>Personalization or Customization &amp; Accessing Advanced Settings..</strong>\nActivity Launcher allows users to tailor their Android experience by customizing their apps according to their preferences, and unlocking hidden settings and activities. You can access advanced settings for app’s directly from Activity Launcher. Whether it’s tweaking preferences, enabling experimental features, or adjusting UI elements, Activity Launcher provides a way to access these settings.</p>\n<p><strong>User-Friendly Interface..</strong>\nNavigating Activity Launcher is a breeze, even for those new to the world of hidden activities. The app neatly organizes the discovered activities and settings, making it easy to browse and access the hidden gems within each app.</p>\n<p><strong>Unveiling the Full Potential of Android Apps..</strong>\nActivity Launcher transcends the boundaries of standard app usage, allowing users to tap into the full potential of their favorite applications. It enables users to gain access to features they may not have known existed, ultimately enhancing their app experience and making their Android journey more rewarding.</p>\n<h3 id=\"a-conclusion\">A Conclusion..</h3>\n<p>Activity Launcher opens a world of possibilities for Android users, revealing hidden activities and settings that enrich their app experience. By offering a user-friendly interface and easy access to hidden functionalities, Activity Launcher enables users to personalize their apps and explore advanced settings like never before. Whether you’re a curious Android enthusiast or a seasoned tech-savvy user, Activity Launcher invites you to dive into the depths of your apps and unleash their full potential.</p>\n<p><strong><a href=\"https://play.google.com/store/apps/details?id=de.szalkowski.activitylauncher\">Get Activity Launcher now on the Google Play Store !!</a></strong></p>\n",
+            "image": "https://furycd001.github.io/media/posts/82/unnamed.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "Android",
+                   "Activity Launcher"
+            ],
+            "date_published": "2023-07-29T12:23:18+01:00",
+            "date_modified": "2023-07-29T12:23:18+01:00"
+        },
+        {
             "id": "https://furycd001.github.io/how-to-display-mastodon-toots-in-a-linux-terminal/",
             "url": "https://furycd001.github.io/how-to-display-mastodon-toots-in-a-linux-terminal/",
             "title": "How to Display Mastodon Toots in a Linux Terminal",
@@ -181,20 +198,6 @@
             ],
             "date_published": "2023-07-06T14:32:10+01:00",
             "date_modified": "2023-07-06T14:32:10+01:00"
-        },
-        {
-            "id": "https://furycd001.github.io/unleashing-the-potential-querying-bluetooth-headset-battery-data-with-bluez/",
-            "url": "https://furycd001.github.io/unleashing-the-potential-querying-bluetooth-headset-battery-data-with-bluez/",
-            "title": "Unleashing the Potential: Querying Bluetooth Headset Battery Data with BlueZ",
-            "summary": "Bluetooth headsets have become an essential accessory for many, providing convenience and mobility. However, keeping track of the battery level&hellip;",
-            "content_html": "<p>Bluetooth headsets have become an essential accessory for many, providing convenience and mobility. However, keeping track of the battery level can sometimes be a challenge. Luckily, the BlueZ package, widely used for Bluetooth management on Linux, offers experimental support for querying Bluetooth headset battery data. In this blog post, we will guide you through the process of enabling these experimental features, allowing you to effortlessly monitor the battery status of your Bluetooth headsets. Let’s dive in and unlock this exciting capability.</p>\n<p>Step 1: Configuring the BlueZ Package\nThe first step in enabling experimental support for querying Bluetooth headset battery data is to configure the BlueZ package. Follow the steps below:</p>\n<ol>\n<li><p>Open the configuration file for BlueZ by running the following command in your terminal with administrative privileges:</p>\n<pre><code>sudo vim /etc/bluetooth/main.conf\n</code></pre>\n</li>\n<li><p>Search for the line that contains <code>Experimental = false</code>. Uncomment the line by removing the preceding <code>#</code> symbol and change <code>false</code> to <code>true</code>. This modification activates the experimental features.</p>\n</li>\n<li><p>Save the changes and exit the text editor.</p>\n</li>\n</ol>\n<p>Step 2: Restarting the Bluetooth Service\nAfter updating the BlueZ configuration, it’s time to restart the Bluetooth service. Follow these instructions:</p>\n<ol>\n<li><p>In your terminal, enter the following command to restart the Bluetooth service:</p>\n<pre><code>sudo systemctl restart bluetooth\n</code></pre>\n</li>\n<li><p>To confirm the restart, you will be prompted to enter your root password. Provide the password and proceed with the restart.</p>\n</li>\n</ol>\n<p>Step 3: Connecting and Querying Battery Data\nWith the experimental features enabled and the Bluetooth service restarted, you can now reconnect your Bluetooth device and query its battery data. Follow these final steps:</p>\n<ol>\n<li><p>Reconnect your Bluetooth headset to your Linux machine as you would typically do.</p>\n</li>\n<li><p>Open a terminal and run the following command to access the Bluetooth control tool:</p>\n<pre><code>bluetoothctl info\n</code></pre>\n</li>\n<li><p>This command will display detailed information about your connected Bluetooth device, including battery data.</p>\n</li>\n</ol>\n<h3 id=\"a-conclusion\">A conclusion….</h3>\n<p>By enabling experimental features in the BlueZ package and following a few simple steps, you can now access battery data for your Bluetooth headsets effortlessly. With this newfound capability, you can monitor the battery levels of your devices, ensuring uninterrupted usage and avoiding any surprises. Stay informed and in control of your Bluetooth experience on Linux by utilizing the experimental support provided by BlueZ. Embrace the convenience and make the most of your Bluetooth headsets like never before.</p>\n",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-            ],
-            "date_published": "2023-07-05T11:42:14+01:00",
-            "date_modified": "2023-07-05T11:42:14+01:00"
         }
     ]
 }
