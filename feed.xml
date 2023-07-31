@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-07-31T08:19:16+01:00</updated>
+    <updated>2023-07-31T08:21:01+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -150,7 +150,7 @@ Actions=new-window;new-private-window;
             <category term="Fediverse"/>
             <category term="Bash"/>
 
-        <updated>2023-07-31T08:19:16+01:00</updated>
+        <updated>2023-07-31T08:21:01+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/81/Mastodon_Logotype_Simple.svg.png" alt="" />
@@ -233,7 +233,7 @@ done
             <category term="HUD"/>
             <category term="Gaming"/>
 
-        <updated>2023-07-22T23:35:45+01:00</updated>
+        <updated>2023-07-31T08:20:53+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/80/68747470733a2f2f692e696d6775722e636f6d2f64633335327a772e6a7067.jpg" alt="" />
@@ -244,16 +244,11 @@ done
             <![CDATA[
                     <p><img src="https://furycd001.github.io/media/posts/80/68747470733a2f2f692e696d6775722e636f6d2f64633335327a772e6a7067.jpg" class="type:primaryImage" alt="" /></p>
                 <p>For avid TF2 players seeking a sleek and optimized in-game experience, LightHUD has emerged as a game-changer. Designed with minimalism and performance in mind, LightHUD streamlines the TF2 heads-up display (HUD) while enhancing stability and boosting FPS. In this blog post, we will explore the key features of LightHUD and how it elevates your TF2 gameplay to new heights. Let’s dive into the world of LightHUD and discover how it revolutionizes the TF2 HUD experience.</p>
-<p><strong>A Sleek and Lightweight HUD..</strong>
-LightHUD aims to create a clean and uncluttered interface, removing unnecessary elements that might distract players during intense gameplay. By minimizing visual clutter, LightHUD allows players to focus solely on the game’s action, making every move count. Experience the thrill of competitive TF2 matches without any distractions, thanks to LightHUD’s sleek design.</p>
-<p><strong>Stability and Performance Boost..</strong>
-Unpredictable freezes or FPS drops can significantly hinder gameplay, affecting your overall performance. LightHUD addresses this concern by optimizing the HUD’s performance, bringing smoother gameplay and increased FPS. Say goodbye to frustrating stutters and lags, and embrace the newfound stability that LightHUD offers.</p>
-<p><strong>Customizable Elements..</strong>
-While LightHUD emphasizes minimalism, it doesn’t compromise on customization. Players have the freedom to fine-tune the HUD according to their preferences. Modify elements such as font size, color, and positioning to create a personalized HUD that aligns with your gameplay style.</p>
-<p><strong>Effortless Installation..</strong>
-Getting started with LightHUD is a breeze. Simply download the HUD files from the GitHub repository and follow the provided instructions for installation. The process is straightforward and hassle-free, allowing you to start enjoying the benefits of LightHUD in no time.</p>
-<p><strong>Embrace LightHUD for a Transformed TF2 Experience..</strong>
-Whether you’re a casual player or a seasoned TF2 enthusiast, LightHUD has something to offer. Embrace the elegance of a minimalist HUD, relish the stability it brings, and bask in the improved performance with increased FPS. LightHUD provides the perfect balance between functionality and simplicity, enhancing your TF2 journey without overwhelming your gameplay.</p>
+<p><strong>A Sleek and Lightweight HUD..</strong><br>LightHUD aims to create a clean and uncluttered interface, removing unnecessary elements that might distract players during intense gameplay. By minimizing visual clutter, LightHUD allows players to focus solely on the game’s action, making every move count. Experience the thrill of competitive TF2 matches without any distractions, thanks to LightHUD’s sleek design.</p>
+<p><strong>Stability and Performance Boost..</strong><br>Unpredictable freezes or FPS drops can significantly hinder gameplay, affecting your overall performance. LightHUD addresses this concern by optimizing the HUD’s performance, bringing smoother gameplay and increased FPS. Say goodbye to frustrating stutters and lags, and embrace the newfound stability that LightHUD offers.</p>
+<p><strong>Customizable Elements..</strong><br>While LightHUD emphasizes minimalism, it doesn’t compromise on customization. Players have the freedom to fine-tune the HUD according to their preferences. Modify elements such as font size, color, and positioning to create a personalized HUD that aligns with your gameplay style.</p>
+<p><strong>Effortless Installation..</strong><br>Getting started with LightHUD is a breeze. Simply download the HUD files from the GitHub repository and follow the provided instructions for installation. The process is straightforward and hassle-free, allowing you to start enjoying the benefits of LightHUD in no time.</p>
+<p><strong>Embrace LightHUD for a Transformed TF2 Experience..</strong><br>Whether you’re a casual player or a seasoned TF2 enthusiast, LightHUD has something to offer. Embrace the elegance of a minimalist HUD, relish the stability it brings, and bask in the improved performance with increased FPS. LightHUD provides the perfect balance between functionality and simplicity, enhancing your TF2 journey without overwhelming your gameplay.</p>
 <h3 id="a-conclusion">A Conclusion..</h3>
 <p>In the fast-paced world of TF2, every advantage counts. LightHUD proves to be a game-changer, offering a sleek, lightweight HUD that enhances stability and boosts FPS, all while retaining the essential elements for an immersive gaming experience. Embrace LightHUD’s minimalist design, enjoy smoother gameplay, and let your skills shine on the battlefield. Take your TF2 adventure to the next level with LightHUD.</p>
 <p><strong>Get LightHUD now on GitHub: <a href="https://github.com/Hypnootize/lighthud">https://github.com/Hypnootize/lighthud</a></strong></p>
@@ -275,7 +270,7 @@ Whether you’re a casual player or a seasoned TF2 enthusiast, LightHUD has some
             <category term="Xfce4"/>
             <category term="Xfce"/>
 
-        <updated>2023-07-22T19:22:52+01:00</updated>
+        <updated>2023-07-31T08:19:59+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/79/Xfce_logo.png" alt="" />
@@ -288,12 +283,9 @@ Whether you’re a casual player or a seasoned TF2 enthusiast, LightHUD has some
                 <p>For users seeking an efficient and streamlined desktop experience, XFCE provides a lightweight and highly customizable desktop environment. One of the key components of XFCE is XFWM4, its window manager, which offers a plethora of features to optimize window management. In this blog post, we will explore XFWM4’s powerful window keybindings, allowing users to boost productivity and navigate their workspace effortlessly. Let’s dive into the world of XFWM4 and discover how these keybindings can transform your desktop experience.</p>
 <h3 id="getting-started-with-xfwm4-window-keybindings">Getting Started with XFWM4 Window Keybindings</h3>
 <p>XFWM4’s window keybindings are designed to provide intuitive and convenient control over window placement, resizing, and navigation. To start leveraging these features, follow these steps:</p>
-<p><strong>1. Access XFWM4 Settings..</strong>
-To configure the window keybindings, access the XFWM4 Settings. Right-click on the desktop, select “Settings,” and navigate to the “Window Manager” section. Alternatively, you can access the settings via the “Settings Manager” from the XFCE main menu.</p>
-<p><strong>2. Discover the Keybindings Tab..</strong>
-In the XFWM4 Settings window, click on the “Keyboard” tab to explore a comprehensive list of pre-configured keybindings.</p>
-<p><strong>3. Customize Keybindings..</strong>
-To tailor the keybindings to your preferences, click on any entry in the list and select “Edit” to modify the associated shortcut. Customize actions such as moving windows, resizing, tiling, and more to suit your workflow.</p>
+<p><strong>1. Access XFWM4 Settings..</strong><br>To configure the window keybindings, access the XFWM4 Settings. Right-click on the desktop, select “Settings,” and navigate to the “Window Manager” section. Alternatively, you can access the settings via the “Settings Manager” from the XFCE main menu.</p>
+<p><strong>2. Discover the Keybindings Tab..</strong><br>In the XFWM4 Settings window, click on the “Keyboard” tab to explore a comprehensive list of pre-configured keybindings.</p>
+<p><strong>3. Customize Keybindings..</strong><br>To tailor the keybindings to your preferences, click on any entry in the list and select “Edit” to modify the associated shortcut. Customize actions such as moving windows, resizing, tiling, and more to suit your workflow.</p>
 <h3 id="popular-xfwm4-keybindings-to-enhance-productivity">Popular XFWM4 Keybindings to Enhance Productivity</h3>
 <ol>
 <li><p>Move and Resize: Quickly move and resize windows using keyboard shortcuts. For example, use Alt+F7 to initiate window move, and then use arrow keys to relocate the window. Similarly, Alt+F8 allows you to resize the window using the arrow keys.</p>
@@ -383,7 +375,7 @@ While addiction involving modern technology and the internet is a complex issue,
             <category term="Linux Kernel"/>
             <category term="Linux"/>
 
-        <updated>2023-07-11T11:57:41+01:00</updated>
+        <updated>2023-07-31T08:20:20+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/77/mml.png" alt="" />
@@ -397,17 +389,13 @@ While addiction involving modern technology and the internet is a complex issue,
 <p><strong>What is Minimal Linux Live?</strong>
 Minimal Linux Live is a minimalistic Linux distribution designed to be built from scratch. It provides a bare-bones foundation consisting of essential components like the Linux kernel, GNU C library, and Busybox userland utilities. This minimal environment serves as a canvas for users to craft their customized Linux system by adding additional software packages during the build process. Minimal Linux Live offers a highly configurable experience, allowing users to tailor the system to their specific needs.</p>
 <h3 id="features-and-educational-value">Features and Educational Value:</h3>
-<p><strong>1. Core Environment:</strong>
-Minimal Linux Live starts with a minimalist core environment, offering only essential components. This minimalism provides a clean slate for customization, enabling users to add the desired software packages and build their own tailored Linux system.</p>
-<p><strong>2. Automated Shell Scripts:</strong>
-The distribution comes with a collection of automated shell scripts that streamline the process of building the Linux system from scratch. These scripts handle the compilation and configuration of various components, making the creation of a custom Linux environment more accessible and efficient.</p>
-<p><strong>3. Customization through Configuration:</strong>
-Minimal Linux Live allows users to include additional software packages in the ISO image at build time. This is achieved through a well-documented con</p>
+<p><strong>1. Core Environment:</strong><br>Minimal Linux Live starts with a minimalist core environment, offering only essential components. This minimalism provides a clean slate for customization, enabling users to add the desired software packages and build their own tailored Linux system.</p>
+<p><strong>2. Automated Shell Scripts:</strong><br>The distribution comes with a collection of automated shell scripts that streamline the process of building the Linux system from scratch. These scripts handle the compilation and configuration of various components, making the creation of a custom Linux environment more accessible and efficient.</p>
+<p><strong>3. Customization through Configuration:</strong><br>Minimal Linux Live allows users to include additional software packages in the ISO image at build time. This is achieved through a well-documented con</p>
 <ol>
 <li>Core Environment:figuration file, which users can modify to specify the desired packages and their configurations. This flexibility empowers users to create a Linux system that perfectly matches their requirements.</li>
 </ol>
-<p><strong>4. Multiple Deployment Options:</strong>
-Minimal Linux Live offers various deployment options to suit different scenarios. Users can download pre-built images, build the distribution from scratch, or even run it in a web browser using a JavaScript PC emulator. These options make Minimal Linux Live accessible to a wide range of users, from beginners to experienced Linux enthusiasts.</p>
+<p><strong>4. Multiple Deployment Options:</strong><br>Minimal Linux Live offers various deployment options to suit different scenarios. Users can download pre-built images, build the distribution from scratch, or even run it in a web browser using a JavaScript PC emulator. These options make Minimal Linux Live accessible to a wide range of users, from beginners to experienced Linux enthusiasts.</p>
 <h3 id="getting-started-with-minimal-linux-live">Getting Started with Minimal Linux Live:</h3>
 <blockquote>
 <p>To get started with Minimal Linux Live, follow along with the steps below..</p>
@@ -443,7 +431,7 @@ Minimal Linux Live offers various deployment options to suit different scenarios
             <category term="Linux Kernel"/>
             <category term="Linux"/>
 
-        <updated>2023-07-11T11:57:48+01:00</updated>
+        <updated>2023-07-31T08:20:36+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/76/Screen-Shot-2023-07-11-at-11.51.24-fullpage.png" alt="" />
@@ -454,20 +442,13 @@ Minimal Linux Live offers various deployment options to suit different scenarios
             <![CDATA[
                     <p><img src="https://furycd001.github.io/media/posts/76/Screen-Shot-2023-07-11-at-11.51.24-fullpage.png" class="type:primaryImage" alt="" /></p>
                 <p>Linux enthusiasts often seek ways to tailor their computing experience to their specific needs and preferences. Linux Live Kit offers a versatile solution by providing a set of shell scripts that allow users to create their own personalized Live Linux system from an existing Linux distribution. In this blog post, we will explore the capabilities of Linux Live Kit and guide you through the process of creating your bootable Live Linux system. Let’s embark on this exciting journey of customization and flexibility.</p>
-<p><strong>What is Linux Live Kit?</strong>
-Linux Live Kit is a collection of shell scripts designed to empower Linux users to generate their own Live Linux system. It leverages an already installed Linux distribution as the foundation and allows users to customize it according to their requirements. The resulting Live Linux system can be booted from a CD-ROM or USB Flash Drive, enabling users to carry their personalized operating system with them wherever they go.</p>
-<p><strong>Getting Started with Linux Live Kit:</strong>
-To embark on your Live Linux customization journey, follow these steps:</p>
-<p><strong>Step 1: Obtain Linux Live Kit:</strong>
-Visit the Linux Live Kit website at <a href="https://www.linux-live.org/">https://www.linux-live.org/</a> and download the latest version of the tool. Linux Live Kit is compatible with various Linux distributions and provides the necessary tools and scripts to create your Live Linux system.</p>
-<p><strong>Step 2: Installation:</strong>
-Once you have downloaded Linux Live Kit, extract the contents of the package to a directory of your choice. Ensure that you have the required dependencies installed, which may vary based on your Linux distribution.</p>
-<p><strong>Step 3: Configuration:</strong>
-Navigate to the directory where you extracted Linux Live Kit and locate the configuration files. These files allow you to customize various aspects of your Live Linux system, including the selection of packages, desktop environment, system settings, and more. Modify these configuration files according to your preferences to shape your personalized Live Linux environment.</p>
-<p><strong>Step 4: Building the Live Linux System:</strong>
-With your configuration in place, it’s time to build your Live Linux system. Execute the provided shell scripts, which automate the process of creating a bootable image from your customized configuration. The scripts will generate an ISO image or USB image that contains your personalized Live Linux system.</p>
-<p><strong>Step 5: Booting the Live Linux System:</strong>
-Once the build process is complete, you can now boot your customized Live Linux system. Burn the ISO image to a CD-ROM or create a bootable USB Flash Drive using the generated USB image. Insert the CD-ROM or connect the USB Flash Drive to your desired computer and restart it. The system will boot into your personalized Live Linux environment, ready to deliver the tailored experience you envisioned.</p>
+<p><strong>What is Linux Live Kit?</strong><br>Linux Live Kit is a collection of shell scripts designed to empower Linux users to generate their own Live Linux system. It leverages an already installed Linux distribution as the foundation and allows users to customize it according to their requirements. The resulting Live Linux system can be booted from a CD-ROM or USB Flash Drive, enabling users to carry their personalized operating system with them wherever they go.</p>
+<p><strong>Getting Started with Linux Live Kit:</strong><br>To embark on your Live Linux customization journey, follow these steps:</p>
+<p><strong>Step 1: Obtain Linux Live Kit:</strong><br>Visit the Linux Live Kit website at <a href="https://www.linux-live.org/">https://www.linux-live.org/</a> and download the latest version of the tool. Linux Live Kit is compatible with various Linux distributions and provides the necessary tools and scripts to create your Live Linux system.</p>
+<p><strong>Step 2: Installation:</strong><br>Once you have downloaded Linux Live Kit, extract the contents of the package to a directory of your choice. Ensure that you have the required dependencies installed, which may vary based on your Linux distribution.</p>
+<p><strong>Step 3: Configuration:</strong><br>Navigate to the directory where you extracted Linux Live Kit and locate the configuration files. These files allow you to customize various aspects of your Live Linux system, including the selection of packages, desktop environment, system settings, and more. Modify these configuration files according to your preferences to shape your personalized Live Linux environment.</p>
+<p><strong>Step 4: Building the Live Linux System:</strong><br>With your configuration in place, it’s time to build your Live Linux system. Execute the provided shell scripts, which automate the process of creating a bootable image from your customized configuration. The scripts will generate an ISO image or USB image that contains your personalized Live Linux system.</p>
+<p><strong>Step 5: Booting the Live Linux System:</strong><br>Once the build process is complete, you can now boot your customized Live Linux system. Burn the ISO image to a CD-ROM or create a bootable USB Flash Drive using the generated USB image. Insert the CD-ROM or connect the USB Flash Drive to your desired computer and restart it. The system will boot into your personalized Live Linux environment, ready to deliver the tailored experience you envisioned.</p>
 <h3 id="a-conclusion">A conclusion….</h3>
 <p>Linux Live Kit empowers Linux users to create their own Live Linux system, tailored to their unique needs and preferences. By leveraging existing Linux distributions and a set of powerful shell scripts, Linux Live Kit simplifies the process of customization, enabling users to build a bootable Live Linux environment. Whether you desire a portable operating system or a specialized setup for specific tasks, Linux Live Kit equips you with the tools to bring your vision to life. Explore the possibilities, unleash your creativity, and enjoy the flexibility of a personalized Live Linux system with Linux Live Kit.</p>
 
