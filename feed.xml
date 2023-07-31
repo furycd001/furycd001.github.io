@@ -3,12 +3,51 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-07-29T12:23:18+01:00</updated>
+    <updated>2023-07-31T06:55:58+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>The Early Days of Paid WiFi with Starbucks</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/the-early-days-of-paid-wifi-with-starbucks/"/>
+        <id>https://furycd001.github.io/the-early-days-of-paid-wifi-with-starbucks/</id>
+        <media:content url="https://furycd001.github.io/media/posts/83/starbucks-wifi.png" medium="image" />
+            <category term="WiFi"/>
+            <category term="Starbucks"/>
+            <category term="Internet"/>
+            <category term="Coffee Shop"/>
+            <category term="Coffee"/>
+
+        <updated>2023-07-31T06:55:58+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/83/starbucks-wifi.png" alt="" />
+                    In the late 2000s, Starbucks emerged as more than just a coffee haven; it became a social hub and a&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/83/starbucks-wifi.png" class="type:primaryImage" alt="" /></p>
+                <p>In the late 2000s, Starbucks emerged as more than just a coffee haven; it became a social hub and a place to connect with friends and colleagues. However, during this period, the concept of free WiFi was not as ubiquitous as it is today. Instead, Starbucks UK offered a WiFi experience that required payment for access.</p>
+<p><strong>The Era of Paid WiFi at Starbucks UK..</strong>
+Around 2006 and 2007, Starbucks introduced its WiFi service to stores across the UK &amp; Ireland, offering customers the opportunity to access the internet while sipping their favorite beverages. However, unlike today’s widespread availability of free WiFi at various establishments, the service came with a nominal fee.</p>
+<p><strong>The Cost of Connectivity..</strong>
+During this time, customers at Starbucks in the UK &amp; Ireland were required to pay for WiFi access based on time increments. Typically, users could purchase access for an hour or a day, depending on their needs. The payment process involved obtaining a unique access code from the counter and logging in to the designated network.</p>
+<p><strong>Impact on Coffee Shop Culture..</strong>
+The introduction of paid WiFi at Starbucks in the UK &amp; Ireland had a notable impact on the coffee shop culture and customers’ behavior. With the advent of this new service, coffee shops became sought-after spots for professionals, students, and individuals seeking a temporary workspace. The ability to connect to the internet while enjoying a cup of coffee brought a sense of convenience and productivity, turning Starbucks into more than just a place to socialize.</p>
+<p><strong>The Shift to Free WiFi..</strong>
+As technology rapidly advanced and the demand for constant connectivity grew, the concept of free WiFi gained momentum. Competing coffee shops and establishments began to offer complimentary WiFi access to attract more customers. This shift towards free WiFi ultimately became an industry standard, transforming the way people utilized coffee shops and public spaces for work, study, and leisure. In the present day, free WiFi is expected and readily available at most coffee shops and public places. This transformation has allowed individuals to stay connected at all times, enhancing productivity, facilitating communication, and offering easy access to information on the go.</p>
+<h3 id="a-conclusion">A Conclusion..</h3>
+<p>The era of paid WiFi at Starbucks in the late 2000s evokes nostalgia for a time when connectivity was not as seamless as it is today. While it required a small fee, the WiFi service at Starbucks UK provided a glimpse into the future of public connectivity and how it would shape coffee shop culture. Today, with free WiFi being the norm, we celebrate the evolution of connectivity and the convenience it brings to our daily lives. So, the next time you visit a coffee shop, take a moment to appreciate the journey from paid WiFi in the past to the free, ubiquitous connectivity we enjoy today.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Activity Launcher on Android</title>
         <author>
@@ -491,67 +530,6 @@ print(&quot;Hello, Jenny!&quot;)
 <p>By following these steps, you have created a new blog post titled “My First Blog Post” with a specified date and author. You can continue to create additional blog posts by adding more Markdown files to the <code>content</code> directory and following the same structure.
 Remember to adjust the content, titles, dates, and authors according to your needs and preferences. You can also explore additional features and formatting options provided by Markdown to enhance your blog posts, such as adding images, links, headings, and more.</p>
 <p>Happy blogging….</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Jenny is a static blog generator..</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/jenny-is-a-static-blog-generator/"/>
-        <id>https://furycd001.github.io/jenny-is-a-static-blog-generator/</id>
-        <media:content url="https://furycd001.github.io/media/posts/73/jenny.jpg" medium="image" />
-            <category term="Webpage"/>
-            <category term="Web"/>
-            <category term="Jenny"/>
-            <category term="Github"/>
-            <category term="Blog"/>
-
-        <updated>2023-07-06T14:32:10+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/73/jenny.jpg" alt="" />
-                    Jenny is a static blog generator available on GitHub. There are various installation methods for Jenny, but today I’ll explore&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/73/jenny.jpg" class="type:primaryImage" alt="" /></p>
-                <p><a href="https://github.com/hmngwy/jenny">Jenny</a> is a static blog generator available on GitHub. There are various installation methods for Jenny, but today I’ll explore the option of using Jenny by cloning the existing GitHub repository.</p>
-<p>To get started using Jenny, you simply have to clone the repository to your machine, and do a small bit of configuration.</p>
-<p><strong>1. Clone the repository:</strong></p>
-<pre><code class="language-bash">git clone https://github.com/hmngwy/jenny-template.git
-</code></pre>
-<p><strong>2. Change to the drectory:</strong></p>
-<pre><code class="language-bash">cd jenny-template
-</code></pre>
-<p><strong>3. Configure:</strong></p>
-<ul>
-<li>Open the <code>config.py</code> file in a text editor.</li>
-<li>Modify the settings according to your preferences. You can configure details such as the blog title, author, description, theme, etc. Update the values as needed.</li>
-</ul>
-<p><strong>4. Create Content:</strong></p>
-<ul>
-<li>Inside the <code>content</code> directory, you can create Markdown files (with a <code>.md</code> extension) to write your blog posts.</li>
-<li>You can organize your content using subdirectories within the <code>content</code> directory.</li>
-<li>Each Markdown file should start with metadata in YAML format, specifying details like title, date, and any other desired fields. Below the metadata, you can write your blog post content using Markdown syntax.</li>
-</ul>
-<p><strong>5. Generate the Site:</strong></p>
-<ul>
-<li>To generate the static website from your content, run the following command:<pre><code class="language-bash">python build.py
-</code></pre>
-</li>
-<li>This command will use the Jinja2 templating engine and convert your Markdown files into HTML files, applying the configured theme.</li>
-</ul>
-<p><strong>6. Publish the Site:</strong></p>
-<ul>
-<li>Once the site is generated, the static files will be available in the <code>output</code> directory.</li>
-<li>You can upload the contents of the <code>output</code> directory to a web server or hosting platform to make your blog available on the internet.</li>
-</ul>
-<p>Please note that these instructions assume you have Python installed on your machine and the necessary dependencies are met. If any errors or missing dependencies occur during the process, you may need to install the required packages using a package manager like <code>pip</code>.</p>
-<p>Additionally, it’s worth mentioning that the specific steps may vary depending on the customizations made to the Jenny template or any modifications introduced by the repository’s owner. Therefore, it’s always a good idea to refer to the documentation or any provided instructions specific to the Jenny template you are using.</p>
 
             ]]>
         </content>
