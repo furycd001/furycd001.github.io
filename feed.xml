@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-07-31T08:16:09+01:00</updated>
+    <updated>2023-07-31T08:19:16+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="Firefox"/>
             <category term="Css"/>
 
-        <updated>2023-07-31T08:16:09+01:00</updated>
+        <updated>2023-07-31T08:18:57+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/84/Untitled.jpg" alt="" />
@@ -33,25 +33,17 @@
             <![CDATA[
                     <p><img src="https://furycd001.github.io/media/posts/84/Untitled.jpg" class="type:primaryImage" alt="" /></p>
                 <p>Did you know that you can craft basic web apps using Firefox? In this blog post, we will explore the steps to build your own web app with Firefox.</p>
-<p><strong>1. Creating a New Profile..</strong>
-The first step is to create a new profile in Firefox. Head over to <code>about:profiles</code> and follow the prompts to generate your new profile.</p>
-<p><strong>2. Launching the New Profile..</strong>
-Once the profile is created, you can launch it either by clicking on the “Launch profile in a new browser” button or via the terminal using “firefox -p profilenamegoeshere”.</p>
-<p><strong>3. Enabling UserChrome..</strong>
-Access <code>about:config</code>, search for <code>toolkit.legacyUserProfileCustomizations.stylesheets</code>, and set it to “true”.</p>
-<p><strong>4. Opening the Profile Folder..</strong>
-Locate your profile folder by visiting <code>about:profiles</code> and clicking the “Open Directory” button on the Root Folder line under the new profile.</p>
-<p><strong>5. Creating the Chrome Folder..</strong>
-Inside the opened folder, create a new folder named “<em>chrome</em>“.</p>
-<p><strong>6. Downloading the CSS..</strong>
-Download my <a href="https://github.com/furycd001/dots/blob/master/Firefox/webview.css">webview.css</a>, rename it to <code>userChrome.css</code>, and copy it into the newly created “chrome” folder.</p>
+<p><strong>1. Creating a New Profile..</strong><br>The first step is to create a new profile in Firefox. Head over to <code>about:profiles</code> and follow the prompts to generate your new profile.</p>
+<p><strong>2. Launching the New Profile..</strong><br>Once the profile is created, you can launch it either by clicking on the “Launch profile in a new browser” button or via the terminal using “firefox -p profilenamegoeshere”.</p>
+<p><strong>3. Enabling UserChrome..</strong><br>Access <code>about:config</code>, search for <code>toolkit.legacyUserProfileCustomizations.stylesheets</code>, and set it to “true”.</p>
+<p><strong>4. Opening the Profile Folder..</strong><br>Locate your profile folder by visiting <code>about:profiles</code> and clicking the “Open Directory” button on the Root Folder line under the new profile.</p>
+<p><strong>5. Creating the Chrome Folder..</strong><br>Inside the opened folder, create a new folder named “<em>chrome</em>“.</p>
+<p><strong>6. Downloading the CSS..</strong><br>Download my <a href="https://github.com/furycd001/dots/blob/master/Firefox/webview.css">webview.css</a>, rename it to <code>userChrome.css</code>, and copy it into the newly created “chrome” folder.</p>
 <blockquote>
 <p><strong>Please note: <code>userChrome.css</code> is case sensitive, so ensure to name it correctly !!</strong></p>
 </blockquote>
-<p><strong>7. Testing the Downloaded UserChrome..</strong>
-Close the profile and reopen it to ensure the downloaded userChrome is working as expected. Revisit step 2 above on how to launch the profile again.</p>
-<p><strong>8. Creating a .desktop File for Your Web App..</strong>
-In <code>/usr/share/applications/</code>, create a new <code>.desktop</code> file with the following content:
+<p><strong>7. Testing the Downloaded UserChrome..</strong><br>Close the profile and reopen it to ensure the downloaded userChrome is working as expected. Revisit step 2 above on how to launch the profile again.</p>
+<p><strong>8. Creating a .desktop File for Your Web App..</strong><br>In <code>/usr/share/applications/</code>, create a new <code>.desktop</code> file with the following content:
 **</p>
 <pre><code>[Desktop Entry]
 Version=1.0
@@ -70,8 +62,7 @@ StartupWMClass=firefox
 Categories=Network;WebBrowser;
 Actions=new-window;new-private-window;
 </code></pre>
-<p><strong>9. Enjoy Your Newly Created Web App..</strong>
-With all the steps completed, you can now launch your web app from your menu system.</p>
+<p><strong>9. Enjoy Your Newly Created Web App..</strong><br>With all the steps completed, you can now launch your web app from your menu system.</p>
 
             ]]>
         </content>
@@ -90,7 +81,7 @@ With all the steps completed, you can now launch your web app from your menu sys
             <category term="Coffee Shop"/>
             <category term="Coffee"/>
 
-        <updated>2023-07-31T06:55:58+01:00</updated>
+        <updated>2023-07-31T08:18:39+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/83/starbucks-wifi.png" alt="" />
@@ -101,14 +92,10 @@ With all the steps completed, you can now launch your web app from your menu sys
             <![CDATA[
                     <p><img src="https://furycd001.github.io/media/posts/83/starbucks-wifi.png" class="type:primaryImage" alt="" /></p>
                 <p>In the late 2000s, Starbucks emerged as more than just a coffee haven; it became a social hub and a place to connect with friends and colleagues. However, during this period, the concept of free WiFi was not as ubiquitous as it is today. Instead, Starbucks UK offered a WiFi experience that required payment for access.</p>
-<p><strong>The Era of Paid WiFi at Starbucks UK..</strong>
-Around 2006 and 2007, Starbucks introduced its WiFi service to stores across the UK &amp; Ireland, offering customers the opportunity to access the internet while sipping their favorite beverages. However, unlike today’s widespread availability of free WiFi at various establishments, the service came with a nominal fee.</p>
-<p><strong>The Cost of Connectivity..</strong>
-During this time, customers at Starbucks in the UK &amp; Ireland were required to pay for WiFi access based on time increments. Typically, users could purchase access for an hour or a day, depending on their needs. The payment process involved obtaining a unique access code from the counter and logging in to the designated network.</p>
-<p><strong>Impact on Coffee Shop Culture..</strong>
-The introduction of paid WiFi at Starbucks in the UK &amp; Ireland had a notable impact on the coffee shop culture and customers’ behavior. With the advent of this new service, coffee shops became sought-after spots for professionals, students, and individuals seeking a temporary workspace. The ability to connect to the internet while enjoying a cup of coffee brought a sense of convenience and productivity, turning Starbucks into more than just a place to socialize.</p>
-<p><strong>The Shift to Free WiFi..</strong>
-As technology rapidly advanced and the demand for constant connectivity grew, the concept of free WiFi gained momentum. Competing coffee shops and establishments began to offer complimentary WiFi access to attract more customers. This shift towards free WiFi ultimately became an industry standard, transforming the way people utilized coffee shops and public spaces for work, study, and leisure. In the present day, free WiFi is expected and readily available at most coffee shops and public places. This transformation has allowed individuals to stay connected at all times, enhancing productivity, facilitating communication, and offering easy access to information on the go.</p>
+<p><strong>The Era of Paid WiFi at Starbucks UK..</strong><br>Around 2006 and 2007, Starbucks introduced its WiFi service to stores across the UK &amp; Ireland, offering customers the opportunity to access the internet while sipping their favorite beverages. However, unlike today’s widespread availability of free WiFi at various establishments, the service came with a nominal fee.</p>
+<p><strong>The Cost of Connectivity..</strong><br>During this time, customers at Starbucks in the UK &amp; Ireland were required to pay for WiFi access based on time increments. Typically, users could purchase access for an hour or a day, depending on their needs. The payment process involved obtaining a unique access code from the counter and logging in to the designated network.</p>
+<p><strong>Impact on Coffee Shop Culture..</strong><br>The introduction of paid WiFi at Starbucks in the UK &amp; Ireland had a notable impact on the coffee shop culture and customers’ behavior. With the advent of this new service, coffee shops became sought-after spots for professionals, students, and individuals seeking a temporary workspace. The ability to connect to the internet while enjoying a cup of coffee brought a sense of convenience and productivity, turning Starbucks into more than just a place to socialize.</p>
+<p><strong>The Shift to Free WiFi..</strong><br>As technology rapidly advanced and the demand for constant connectivity grew, the concept of free WiFi gained momentum. Competing coffee shops and establishments began to offer complimentary WiFi access to attract more customers. This shift towards free WiFi ultimately became an industry standard, transforming the way people utilized coffee shops and public spaces for work, study, and leisure. In the present day, free WiFi is expected and readily available at most coffee shops and public places. This transformation has allowed individuals to stay connected at all times, enhancing productivity, facilitating communication, and offering easy access to information on the go.</p>
 <h3 id="a-conclusion">A Conclusion..</h3>
 <p>The era of paid WiFi at Starbucks in the late 2000s evokes nostalgia for a time when connectivity was not as seamless as it is today. While it required a small fee, the WiFi service at Starbucks UK provided a glimpse into the future of public connectivity and how it would shape coffee shop culture. Today, with free WiFi being the norm, we celebrate the evolution of connectivity and the convenience it brings to our daily lives. So, the next time you visit a coffee shop, take a moment to appreciate the journey from paid WiFi in the past to the free, ubiquitous connectivity we enjoy today.</p>
 
@@ -126,7 +113,7 @@ As technology rapidly advanced and the demand for constant connectivity grew, th
             <category term="Android"/>
             <category term="Activity Launcher"/>
 
-        <updated>2023-07-29T12:23:18+01:00</updated>
+        <updated>2023-07-31T08:19:07+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/82/unnamed.png" alt="" />
@@ -137,16 +124,11 @@ As technology rapidly advanced and the demand for constant connectivity grew, th
             <![CDATA[
                     <p><img src="https://furycd001.github.io/media/posts/82/unnamed.png" class="type:primaryImage" alt="" /></p>
                 <p>Android enthusiasts are no strangers to the vast array of apps available on the Google Play Store. However, there’s a hidden world of features and functionalities tucked away within a ton of apps that often remains unexplored. Enter Activity Launcher, a powerful Android app that opens the door to a realm of hidden activities and settings within your installed app’s. In this blog post, we will explore the wonders of Activity Launcher and how it enables users to access hidden features, customize their Android experience, and renew older apps that maybe no longer function correctly on newver versions of android.</p>
-<p><strong>What is Activity Launcher?</strong>
-Activity Launcher is an Android app designed to reveal hidden activities and settings within installed apps. With a user-friendly interface, the app acts as a window to the inner workings of each application, enabling users to launch activities that are not typically accessible through an app’s regular interface.</p>
-<p><strong>Discovering Hidden Activities..</strong>
-Activity Launcher lets you explore activities that developers have included in their apps but may not be readily visible to users. These hidden activities often offer additional functionalities or shortcuts that can enhance your experience with the app.</p>
-<p><strong>Personalization or Customization &amp; Accessing Advanced Settings..</strong>
-Activity Launcher allows users to tailor their Android experience by customizing their apps according to their preferences, and unlocking hidden settings and activities. You can access advanced settings for app’s directly from Activity Launcher. Whether it’s tweaking preferences, enabling experimental features, or adjusting UI elements, Activity Launcher provides a way to access these settings.</p>
-<p><strong>User-Friendly Interface..</strong>
-Navigating Activity Launcher is a breeze, even for those new to the world of hidden activities. The app neatly organizes the discovered activities and settings, making it easy to browse and access the hidden gems within each app.</p>
-<p><strong>Unveiling the Full Potential of Android Apps..</strong>
-Activity Launcher transcends the boundaries of standard app usage, allowing users to tap into the full potential of their favorite applications. It enables users to gain access to features they may not have known existed, ultimately enhancing their app experience and making their Android journey more rewarding.</p>
+<p><strong>What is Activity Launcher?</strong><br>Activity Launcher is an Android app designed to reveal hidden activities and settings within installed apps. With a user-friendly interface, the app acts as a window to the inner workings of each application, enabling users to launch activities that are not typically accessible through an app’s regular interface.</p>
+<p><strong>Discovering Hidden Activities..</strong><br>Activity Launcher lets you explore activities that developers have included in their apps but may not be readily visible to users. These hidden activities often offer additional functionalities or shortcuts that can enhance your experience with the app.</p>
+<p><strong>Personalization or Customization &amp; Accessing Advanced Settings..</strong><br>Activity Launcher allows users to tailor their Android experience by customizing their apps according to their preferences, and unlocking hidden settings and activities. You can access advanced settings for app’s directly from Activity Launcher. Whether it’s tweaking preferences, enabling experimental features, or adjusting UI elements, Activity Launcher provides a way to access these settings.</p>
+<p><strong>User-Friendly Interface..</strong><br>Navigating Activity Launcher is a breeze, even for those new to the world of hidden activities. The app neatly organizes the discovered activities and settings, making it easy to browse and access the hidden gems within each app.</p>
+<p><strong>Unveiling the Full Potential of Android Apps..</strong><br>Activity Launcher transcends the boundaries of standard app usage, allowing users to tap into the full potential of their favorite applications. It enables users to gain access to features they may not have known existed, ultimately enhancing their app experience and making their Android journey more rewarding.</p>
 <h3 id="a-conclusion">A Conclusion..</h3>
 <p>Activity Launcher opens a world of possibilities for Android users, revealing hidden activities and settings that enrich their app experience. By offering a user-friendly interface and easy access to hidden functionalities, Activity Launcher enables users to personalize their apps and explore advanced settings like never before. Whether you’re a curious Android enthusiast or a seasoned tech-savvy user, Activity Launcher invites you to dive into the depths of your apps and unleash their full potential.</p>
 <p><strong><a href="https://play.google.com/store/apps/details?id=de.szalkowski.activitylauncher">Get Activity Launcher now on the Google Play Store !!</a></strong></p>
@@ -168,7 +150,7 @@ Activity Launcher transcends the boundaries of standard app usage, allowing user
             <category term="Fediverse"/>
             <category term="Bash"/>
 
-        <updated>2023-07-26T12:16:08+01:00</updated>
+        <updated>2023-07-31T08:19:16+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://furycd001.github.io/media/posts/81/Mastodon_Logotype_Simple.svg.png" alt="" />
