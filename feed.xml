@@ -3,12 +3,79 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-07-31T06:55:58+01:00</updated>
+    <updated>2023-07-31T08:16:09+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Building Basic Web Apps with Firefox</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/building-basic-web-apps-with-firefox/"/>
+        <id>https://furycd001.github.io/building-basic-web-apps-with-firefox/</id>
+        <media:content url="https://furycd001.github.io/media/posts/84/Untitled.jpg" medium="image" />
+            <category term="userchrome"/>
+            <category term="Web Apps"/>
+            <category term="Firefox"/>
+            <category term="Css"/>
+
+        <updated>2023-07-31T08:16:09+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/84/Untitled.jpg" alt="" />
+                    Did you know that you can craft basic web apps using Firefox? In this blog post, we will explore the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/84/Untitled.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Did you know that you can craft basic web apps using Firefox? In this blog post, we will explore the steps to build your own web app with Firefox.</p>
+<p><strong>1. Creating a New Profile..</strong>
+The first step is to create a new profile in Firefox. Head over to <code>about:profiles</code> and follow the prompts to generate your new profile.</p>
+<p><strong>2. Launching the New Profile..</strong>
+Once the profile is created, you can launch it either by clicking on the “Launch profile in a new browser” button or via the terminal using “firefox -p profilenamegoeshere”.</p>
+<p><strong>3. Enabling UserChrome..</strong>
+Access <code>about:config</code>, search for <code>toolkit.legacyUserProfileCustomizations.stylesheets</code>, and set it to “true”.</p>
+<p><strong>4. Opening the Profile Folder..</strong>
+Locate your profile folder by visiting <code>about:profiles</code> and clicking the “Open Directory” button on the Root Folder line under the new profile.</p>
+<p><strong>5. Creating the Chrome Folder..</strong>
+Inside the opened folder, create a new folder named “<em>chrome</em>“.</p>
+<p><strong>6. Downloading the CSS..</strong>
+Download my <a href="https://github.com/furycd001/dots/blob/master/Firefox/webview.css">webview.css</a>, rename it to <code>userChrome.css</code>, and copy it into the newly created “chrome” folder.</p>
+<blockquote>
+<p><strong>Please note: <code>userChrome.css</code> is case sensitive, so ensure to name it correctly !!</strong></p>
+</blockquote>
+<p><strong>7. Testing the Downloaded UserChrome..</strong>
+Close the profile and reopen it to ensure the downloaded userChrome is working as expected. Revisit step 2 above on how to launch the profile again.</p>
+<p><strong>8. Creating a .desktop File for Your Web App..</strong>
+In <code>/usr/share/applications/</code>, create a new <code>.desktop</code> file with the following content:
+**</p>
+<pre><code>[Desktop Entry]
+Version=1.0
+Name=Webapp name goes here
+GenericName=My awesome web app.
+Comment=My awesome comment.
+Keywords=Internet;WWW;Browser;Web;Explorer
+Exec=/usr/lib/firefox/firefox -p web https://www.example.com/
+Icon=firefox
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;application/x-xpinstall;application/pdf;application/json;
+StartupNotify=true
+StartupWMClass=firefox
+Categories=Network;WebBrowser;
+Actions=new-window;new-private-window;
+</code></pre>
+<p><strong>9. Enjoy Your Newly Created Web App..</strong>
+With all the steps completed, you can now launch your web app from your menu system.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>The Early Days of Paid WiFi with Starbucks</title>
         <author>
@@ -469,67 +536,6 @@ Once the build process is complete, you can now boot your customized Live Linux 
 </ol>
 <h3 id="a-conclusion">A conclusion…</h3>
 <p>Emacs has a steep learning curve due to its extensive capabilities and customizable nature. However, it offers great flexibility and empowers users to tailor the editor to their specific needs and workflow preferences. There is an active community around Emacs, continuously developing packages and providing support to help users make the most of this powerful text editor.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Creating a basic blog post with Jenny.</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/creating-a-basic-blog-post-with-jenny/"/>
-        <id>https://furycd001.github.io/creating-a-basic-blog-post-with-jenny/</id>
-        <media:content url="https://furycd001.github.io/media/posts/74/jenny1.jpg" medium="image" />
-            <category term="Webpage"/>
-            <category term="Jenny"/>
-            <category term="Blog"/>
-
-        <updated>2023-07-06T14:37:51+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/74/jenny1.jpg" alt="" />
-                    Inside the content directory of the cloned Jenny template repository, create a new file with a .md extension. For example,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/74/jenny1.jpg" class="type:primaryImage" alt="" /></p>
-                <ol>
-<li><p>Inside the <code>content</code> directory of the cloned Jenny template repository, create a new file with a <code>.md</code> extension. For example, let’s create a file called <code>my-first-post.md</code>.</p>
-</li>
-<li><p>Open <code>my-first-post.md</code> in a text editor and add the following content:*</p>
-<pre><code class="language-markdown">---
-title: My First Blog Post
-date: 2023-07-06
-author: John Doe
----
-
-#Welcome to My Blog!
-
-This is my first blog post using Jenny. Isn&#39;t it exciting?
-
-##Subheading
-
-Here&#39;s some more content for my post. I can include text, images, code snippets, and more using Markdown formatting.
-
-###Code Example
-
-```python
-print(&quot;Hello, Jenny!&quot;)
-</code></pre>
-<p>That’s it for my first post. Stay tuned for more!</p>
-<pre><code>  
- &gt; Please note that the markdown code above has had spaces removed in the heading sections....
-</code></pre>
-</li>
-<li><p>Save the file.</p>
-</li>
-</ol>
-<h3 id="a-conclusion">A conclusion….</h3>
-<p>By following these steps, you have created a new blog post titled “My First Blog Post” with a specified date and author. You can continue to create additional blog posts by adding more Markdown files to the <code>content</code> directory and following the same structure.
-Remember to adjust the content, titles, dates, and authors according to your needs and preferences. You can also explore additional features and formatting options provided by Markdown to enhance your blog posts, such as adding images, links, headings, and more.</p>
-<p>Happy blogging….</p>
 
             ]]>
         </content>
