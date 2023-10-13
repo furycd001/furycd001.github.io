@@ -3,12 +3,47 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-09-01T11:18:37+01:00</updated>
+    <updated>2023-10-13T12:02:15+01:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>The Unexpected Hiccup in Ubuntu 23.10 Release</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/the-unexpected-hiccup-in-ubuntu-2310-release/"/>
+        <id>https://furycd001.github.io/the-unexpected-hiccup-in-ubuntu-2310-release/</id>
+        <media:content url="https://furycd001.github.io/media/posts/88/emoji.jpg" medium="image" />
+            <category term="Ubuntu"/>
+            <category term="Translation"/>
+            <category term="Linux"/>
+            <category term="Hate speech"/>
+
+        <updated>2023-10-13T12:02:15+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/88/emoji.jpg" alt="" />
+                    The highly anticipated release of Ubuntu 23.10 brought excitement to Linux enthusiasts worldwide. However, if you’re just waking up to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/88/emoji.jpg" class="type:primaryImage" alt="" /></p>
+                <p>The highly anticipated release of Ubuntu 23.10 brought excitement to Linux enthusiasts worldwide. However, if you’re just waking up to download it, you’ve probably hit a roadblock. The main Ubuntu 23.10 desktop ISO, which was recently announced, mysteriously vanished from the official website. It’s not a date mix-up; there’s a valid reason for this puzzling disappearance. In this blog post, we’ll unravel the curious case of Ubuntu 23.10 and its unexpected hiccup.</p>
+<p><strong>A Malicious Twist:</strong><br>In a surprising twist, Ubuntu’s official account on the social media platform X (formerly known as Twitter) shed light on the situation. It turns out that a contributor with malicious intent managed to sneak inappropriate content, bordering on hate speech, into translations submitted through a third-party tool outside of the Ubuntu Archive. As a result, the initial release of Ubuntu 23.10 contained these unsavory translations. These unsettling phrases found their way into the new Ubuntu installer but only surfaced when the installer was set to a specific language. It was a situation that was both unexpected and highly regrettable.</p>
+<p><strong>Swift Action and a Fresh Start:</strong><br>Ubuntu didn’t take this lightly. In a commendable response, they promptly removed the offensive translations, replaced them with appropriate ones, and prepared an updated ISO for release. This act of diligence reflects Ubuntu’s commitment to maintaining a high standard of quality and inclusivity.</p>
+<p><em>The Impact on Other Flavors:</em><br>The ripple effect of this incident extended to the ISOs for Ubuntu Budgie 23.10 and Ubuntu daily builds. While most Ubuntu flavors use Ubiquity or Calamares as their installers, these particular editions utilize the new installer, making them temporarily unavailable. However, revised versions have been prepared and will soon be back in action.</p>
+<p><strong>Terrible Translations:</strong><br>The unfortunate revelation of this incident points toward the Ukrainian translation file as the one compromised. Upon examination, it was discovered that around 25% of the file contained offensive sentences covering topics such as politics, sexuality, and current events. These translations were not just inappropriate but overtly provocative and designed to incite controversy rather than provide legitimate language support.</p>
+<p><strong>What’s Next:</strong><br>So, where does this leave eager Ubuntu 23.10 users? While the affected ISO was pulled from the official servers, it can still be downloaded from certain official Ubuntu mirrors, but this option may not last long. Additionally, unofficial sources and third-party websites might still host the original ISO, and torrents could be an alternative method for obtaining it. It’s important to note that this incident exclusively pertains to the new installer, leaving other Ubuntu flavors and legacy desktop images unaffected. Furthermore, Ubuntu upgrades remain unaffected, providing some relief for users who are looking to update their existing installations.</p>
+<h3 id="a-conclusion">A conclusion….</h3>
+<p>The mysterious disappearance of the Ubuntu 23.10 desktop ISO, due to the inclusion of offensive translations, is indeed an unexpected twist in the world of Linux releases. Ubuntu’s swift and diligent response in rectifying the situation demonstrates their commitment to delivering a top-quality product. While the hiccup is an inconvenience, it’s likely just a temporary one. Soon, a sanitized version will be back on the release servers, allowing users to experience Ubuntu 23.10 in all its glory.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Alternative Linux kernels.</title>
         <author>
@@ -428,63 +463,6 @@ done
 </ol>
 <h3 id="a-conclusion">A conclusion..</h3>
 <p>XFWM4 window keybindings offer a treasure trove of possibilities for users seeking a productive and efficient desktop experience. By customizing these keybindings to your preferences, you can navigate your workspace with ease, optimize window management, and effortlessly switch between tasks. XFCE’s lightweight design and powerful window manager, XFWM4, make it an excellent choice for users seeking a responsive and personalized desktop environment. So, unleash the potential of XFWM4 window keybindings and elevate your productivity to new heights within the XFCE desktop environment. Happy customizing!</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Navigating the State of Addiction in the Age of Modern Technology and the Internet</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/navigating-the-state-of-addiction-in-the-age-of-modern-technology-and-the-internet/"/>
-        <id>https://furycd001.github.io/navigating-the-state-of-addiction-in-the-age-of-modern-technology-and-the-internet/</id>
-        <media:content url="https://furycd001.github.io/media/posts/78/5636296.png" medium="image" />
-            <category term="Web"/>
-            <category term="Tech"/>
-            <category term="Addiction"/>
-
-        <updated>2023-07-20T09:56:52+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/78/5636296.png" alt="" />
-                    In the digital era, modern technology and the internet have become integral parts of our lives, offering convenience, connectivity, and&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/78/5636296.png" class="type:primaryImage" alt="" /></p>
-                <p>In the digital era, modern technology and the internet have become integral parts of our lives, offering convenience, connectivity, and countless opportunities. However, it is essential to recognize the potential challenges that arise with this unprecedented level of connectivity. One of the pressing issues is the state of addiction, where individuals find themselves caught in unhealthy and compulsive behaviors related to technology and internet usage. In this blog post, we will explore the state of addiction in the context of modern technology and the internet, shedding light on its impact and offering insights into navigating this complex landscape.</p>
-<h3 id="understanding-addiction-in-the-digital-age">Understanding Addiction in the Digital Age..</h3>
-<p>Addiction, in the context of technology and the internet, refers to a pattern of excessive and compulsive use that interferes with daily functioning, relationships, and overall well-being. The ubiquity of smartphones, social media platforms, online gaming, and instant access to information has created an environment ripe for addictive behaviors to manifest.</p>
-<h3 id="factors-contributing-to-addiction">Factors Contributing to Addiction..</h3>
-<p>Several factors contribute to the development and perpetuation of addiction in the digital age:</p>
-<ol>
-<li><p>Instant Gratification: Technology provides immediate rewards, such as social validation, entertainment, and information. The instant gratification associated with these experiences can create a cycle of dependency, as individuals seek continuous stimulation.</p>
-</li>
-<li><p>Social Connectivity: Social media platforms and online communication tools enable constant connection with others. However, the desire for social acceptance and fear of missing out (FOMO) can lead to excessive usage and addictive behaviors.</p>
-</li>
-<li><p>Gamification: Many apps and online platforms employ gamification techniques, incorporating rewards, achievements, and progress tracking. These elements can trigger addictive behaviors, as individuals strive for virtual accomplishments.</p>
-</li>
-<li><p>Escapism: The internet and technology can provide an escape from real-world challenges and emotions. This escapism, coupled with the endless distractions available, can lead to the neglect of essential responsibilities and a loss of control.</p>
-</li>
-</ol>
-<p>Navigating the State of Addiction:
-While addiction involving modern technology and the internet is a complex issue, several strategies can help individuals navigate and mitigate its impact:</p>
-<ol>
-<li><p>Self-Awareness: Recognize and acknowledge your relationship with technology and the internet. Be mindful of your usage patterns, emotional responses, and signs of dependency.</p>
-</li>
-<li><p>Set Boundaries: Establish healthy boundaries by defining specific times and spaces for technology usage. Limit the use of devices during designated periods, such as meal times, bedtime, and quality time with loved ones.</p>
-</li>
-<li><p>Digital Detox: Take intentional breaks from technology and the internet. Engage in offline activities that promote well-being, such as hobbies, exercise, mindfulness, and face-to-face interactions.</p>
-</li>
-<li><p>Seek Support: If you feel that your relationship with technology is negatively impacting your life, consider seeking support from professionals, support groups, or therapists specializing in digital addiction.</p>
-</li>
-<li><p>Practice Mindfulness: Cultivate mindfulness in your digital interactions. Be present and intentional, avoiding mindless scrolling and multitasking. Engage in activities that align with your values and promote personal growth.</p>
-</li>
-</ol>
-<h3 id="a-conclusion">A conclusion….</h3>
-<p>As technology continues to evolve and shape our lives, understanding and addressing the state of addiction in the context of modern technology and the internet is crucial. By fostering self-awareness, setting boundaries, taking breaks, seeking support, and practicing mindfulness, we can regain control over our digital lives and create a healthier relationship with technology. Let’s embrace the potential benefits of modern technology while striving for balance, well-being, and meaningful connections in this interconnected world.</p>
 
             ]]>
         </content>
