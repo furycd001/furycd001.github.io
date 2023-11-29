@@ -3,7 +3,7 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-11-29T08:50:01+00:00</updated>
+    <updated>2023-11-29T08:50:56+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
@@ -68,22 +68,22 @@
         </author>
         <link href="https://furycd001.github.io/archiveos-and-its-mission/"/>
         <id>https://furycd001.github.io/archiveos-and-its-mission/</id>
-        <media:content url="https://furycd001.github.io/media/posts/90/logo4-400px.webp" medium="image" />
+        <media:content url="https://furycd001.github.io/media/posts/90/logo4-400px.png" medium="image" />
             <category term="Operating System"/>
             <category term="Linux"/>
             <category term="Dos"/>
             <category term="BSD"/>
 
-        <updated>2023-11-29T08:31:40+00:00</updated>
+        <updated>2023-11-29T08:50:56+00:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/90/logo4-400px.webp" alt="" />
+                        <img src="https://furycd001.github.io/media/posts/90/logo4-400px.png" alt="" />
                     In the ever-evolving landscape of technology, where new operating systems emerge and fade away, there lies a treasure trove of&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/90/logo4-400px.webp" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://furycd001.github.io/media/posts/90/logo4-400px.png" class="type:primaryImage" alt="" /></p>
                 <p>In the ever-evolving landscape of technology, where new operating systems emerge and fade away, there lies a treasure trove of digital history. <strong><a href="https://archiveos.org">ArchiveOS</a></strong>, a unique initiative, stands as the guardian of this history. Its mission? To save the incredible work of numerous individuals who crafted open-source and freeware distributions.</p>
 <p><strong>Unveiling ArchiveOS..</strong><br>ArchiveOS is not just a repository; it’s a digital sanctuary. Its primary mission is to archive and preserve operating systems that have played pivotal roles in the tech ecosystem. The systems enshrined in ArchiveOS span across Linux, BSD, DOS, Solaris, and other independent technologies. This initiative is not merely about nostalgia; it’s a dedicated effort to ensure that the legacy of these operating systems remains accessible to future generations of tech enthusiasts, developers, and historians.  </p>
 <p>At the core of ArchiveOS is the preservation of digital heritage. Many of the featured operating systems might no longer be in active development, but they hold the DNA of technological evolution. By archiving them, ArchiveOS acts as a digital museum, allowing users to explore the roots of modern computing.  </p>
