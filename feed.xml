@@ -3,12 +3,64 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2023-11-29T08:31:40+00:00</updated>
+    <updated>2023-11-29T08:50:01+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Exploring Alternative YouTube Apps and Frontends</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/exploring-alternative-youtube-apps-and-frontends/"/>
+        <id>https://furycd001.github.io/exploring-alternative-youtube-apps-and-frontends/</id>
+        <media:content url="https://furycd001.github.io/media/posts/91/transparent-hand-drawn-icon-social-icon-youtube-icon-5d66ff858a2fc8.763313891567031173566.png" medium="image" />
+            <category term="Youtube"/>
+            <category term="Web"/>
+            <category term="Android"/>
+            <category term="Alternative frontend"/>
+
+        <updated>2023-11-29T08:50:01+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/91/transparent-hand-drawn-icon-social-icon-youtube-icon-5d66ff858a2fc8.763313891567031173566.png" alt="" />
+                    While YouTube remains a digital giant in the realm of video content, several alternative apps and frontends are emerging, offering&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/91/transparent-hand-drawn-icon-social-icon-youtube-icon-5d66ff858a2fc8.763313891567031173566.png" class="type:primaryImage" alt="" /></p>
+                <p>While YouTube remains a digital giant in the realm of video content, several alternative apps and frontends are emerging, offering users a fresh and decentralized approach to video consumption. Two popular alternatives are the Libretube Android app and Piped, a website that redefines how we explore trending content.</p>
+<h3 id="libretube-android-app">Libretube Android App..</h3>
+<p>Libretube brings a breath of fresh air to Android users seeking an alternative YouTube experience. Positioned as a libre app (libre meaning free in the sense of freedom), it stands out for its commitment to privacy, decentralization, and open-source principles. The app offers a user-friendly interface that echoes the familiarity of YouTube while prioritizing user control.</p>
+<p><strong>Key Features:</strong>  </p>
+<ul>
+<li><p><strong>Privacy-Centric:</strong> Libretube prioritizes user privacy, steering away from the data collection practices often associated with mainstream video platforms.</p>
+</li>
+<li><p><strong>Decentralized:</strong> Built on ActivityPub, the same protocol behind Mastodon and PeerTube, Libretube embraces decentralization. Users can connect with a broader network of content creators beyond the confines of a single platform.</p>
+</li>
+<li><p><strong>Open Source:</strong> The app is open source, allowing developers and enthusiasts to contribute to its improvement and ensuring transparency in its operation.</p>
+</li>
+</ul>
+<h3 id="piped-alternative-frontend">Piped alternative frontend..</h3>
+<p>Piped takes a unique stance on video content discovery, offering an alternative frontend for YouTube that organizes trending videos in a novel way. Piped’s approach is both refreshing and user-centric, providing a different lens through which users can explore popular content.</p>
+<p><strong>Key Features:</strong>  </p>
+<ul>
+<li><p><strong>Intuitive Interface:</strong> Piped reimagines how users interact with trending videos, organizing content in a visually appealing manner that differs from the conventional YouTube layout.</p>
+</li>
+<li><p><strong>Personalized Trending:</strong> The platform leverages algorithms to understand user preferences, delivering a personalized trending feed that aligns more closely with individual interests.</p>
+</li>
+<li><p><strong>Ad-Free Experience:</strong> Piped aims to enhance user experience by providing an ad-free environment, allowing users to focus on the content they love without interruptions.</p>
+</li>
+</ul>
+<h3 id="a-conclusion">A conclusion..</h3>
+<p>As alternatives like Libretube and Piped gain momentum, users are presented with more choices for how they consume video content. Whether you’re drawn to the privacy-centric ethos of Libretube or enticed by Piped’s innovative take on trending content, these platforms signify a broader shift towards decentralized, user-focused alternatives. In a digital landscape marked by diversity, exploring these alternatives might just redefine how we envision and engage with online video. Dive into the future of video consumption, embracing alternatives that prioritize user control, privacy, and innovative content discovery.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>ArchiveOS and its Mission</title>
         <author>
@@ -378,89 +430,6 @@ Actions=new-window;new-private-window;
 <h3 id="a-conclusion">A Conclusion..</h3>
 <p>Activity Launcher opens a world of possibilities for Android users, revealing hidden activities and settings that enrich their app experience. By offering a user-friendly interface and easy access to hidden functionalities, Activity Launcher enables users to personalize their apps and explore advanced settings like never before. Whether you’re a curious Android enthusiast or a seasoned tech-savvy user, Activity Launcher invites you to dive into the depths of your apps and unleash their full potential.</p>
 <p><strong><a href="https://play.google.com/store/apps/details?id=de.szalkowski.activitylauncher">Get Activity Launcher now on the Google Play Store !!</a></strong></p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to Display Mastodon Toots in a Linux Terminal</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/how-to-display-mastodon-toots-in-a-linux-terminal/"/>
-        <id>https://furycd001.github.io/how-to-display-mastodon-toots-in-a-linux-terminal/</id>
-        <media:content url="https://furycd001.github.io/media/posts/81/Mastodon_Logotype_Simple.svg.png" medium="image" />
-            <category term="Terminal"/>
-            <category term="Mastodon"/>
-            <category term="Fosstodon"/>
-            <category term="Fediverse"/>
-            <category term="Bash"/>
-
-        <updated>2023-07-31T08:21:01+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/81/Mastodon_Logotype_Simple.svg.png" alt="" />
-                    If you’re a Mastodon user and want to keep track of your home timeline directly from your Linux terminal, this&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/81/Mastodon_Logotype_Simple.svg.png" class="type:primaryImage" alt="" /></p>
-                <p>If you’re a Mastodon user and want to keep track of your home timeline directly from your Linux terminal, this simple script can help you achieve just that. With a few lines of Bash code and the power of <code>curl</code> and <code>jq</code>, you’ll be able to fetch and display the latest toots from your Mastodon instance without leaving the command line.</p>
-<p>Prerequisites:</p>
-<ul>
-<li>A Mastodon account on your favorite instance.</li>
-<li><code>curl</code> and <code>jq</code> installed on your Linux system.</li>
-</ul>
-<p><strong>Step 1: Create the Script..</strong><br>Open a text editor and paste in the code below.</p>
-<pre><code class="language-bash">#!/bin/env bash
-
-INSTANCE=&quot;https://fosstodon.org&quot;  # Replace with your Mastodon instance URL
-
-# Function to fetch and display the timeline
-function display_timeline {
-    # Fetch the public timeline using curl and the Mastodon API
-    toot_timeline=$(curl -s &quot;$INSTANCE/api/v1/timelines/public&quot; | jq -r &#39;.[] | .content? | gsub(&quot;&lt;[^&gt;]*&gt;&quot;; &quot;&quot;)&#39; | head -n 20)
-
-    # Loop through the toot texts and display them
-    while IFS= read -r toot_text; do
-        # If the toot text is empty or only contains spaces, continue to the next toot
-        if [ -z &quot;${toot_text// }&quot; ]; then
-            continue
-        fi
-
-        # Print the cleaned text-only toot content with a blank line after each toot
-        echo &quot;$toot_text&quot;
-        echo
-    done &lt;&lt;&lt; &quot;$toot_timeline&quot;
-}
-
-# Display the timeline initially
-display_timeline
-
-# Loop to check for new toots
-while true; do
-    sleep 60    # Wait for 60 seconds before fetching the timeline again
-
-    clear       # Clear the terminal screen
-
-    # Display the timeline and check for new toots
-    display_timeline
-done
-</code></pre>
-<p><strong>Step 2: Customize &amp; saving the Script..</strong><br>Replace <code>https://your-mastodon-instance</code> with the URL for your Mastodon instance &amp; then save the script as <code>toot.sh</code>.</p>
-<p><strong>Step 3: Make the script executable &amp; then run it..</strong><br>The first line makes the script executable &amp; the second line runs the script.</p>
-<pre><code class="language-bash">chmod +x toot.sh
-
-./toot.sh
-</code></pre>
-<p>The script will start displaying the latest public toots from your Mastodon instance. It will refresh every 60 seconds, displaying any new toots that appear in the public timeline. That’s it! You’ve now successfully set up a simple script to display Mastodon toots in your Linux terminal. Happy tooting !!</p>
-<h3 id="a-conclusion">A conclusion..</h3>
-<p>With just a few lines of code, you can now keep track of the latest toots on your Mastodon instance right from your Linux terminal. It may not be pretty, and it may not even be the best solution, but HEY.. it works !! Enjoy the convenience of staying updated with your Mastodon timeline without ever leaving the command line.</p>
-<h2 id="gist-link"><a href="https://gist.github.com/furycd001/4bc1e88f662b4d0bd620ce0675a416f4">GIST LINK</a></h2>
-<blockquote>
-<p>PLEASE NOTE: For security reasons, avoid using your Mastodon credentials in the script. Instead, rely on public timelines or use access tokens for authentication.</p>
-</blockquote>
 
             ]]>
         </content>
