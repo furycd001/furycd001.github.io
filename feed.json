@@ -10,6 +10,28 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/waveterm-the-open-source-cross-platform-terminal/",
+            "url": "https://furycd001.github.io/waveterm-the-open-source-cross-platform-terminal/",
+            "title": "Waveterm - The open-source cross-platform terminal",
+            "summary": "In the realm of technology, where innovation sets the pace, (Waveterm)[https://www.waveterm.dev/] emerges as a modern day terminal. waveterm isn’t just&hellip;",
+            "content_html": "<p>In the realm of technology, where innovation sets the pace, <strong>(Waveterm)[<a href=\"https://www.waveterm.dev/%5D\">https://www.waveterm.dev/]</a></strong> emerges as a modern day terminal. waveterm isn’t just a terminal; it’s an open-source, cross-platform marvel that leverages the power of open web standards. Waveterm takes a bold step forward by harnessing the potential of open web standards. This not only ensures cross-platform compatibility but also signifies a commitment to interoperability and accessibility. Whether you’re navigating the terminal on Linux, or macOS, waveterm offers a consistent and seamless experience, breaking down traditional barriers and creating a unified environment for developers and users alike.</p>\n<h3 id=\"key-features\">Key Features..</h3>\n<ol>\n<li><p><strong>Open Source..</strong>\nWaveterm stands proudly as an open-source project, inviting collaboration and innovation from the global developer community. This not only fosters transparency but also allows users to customize and tailor the terminal to meet their specific needs.</p>\n</li>\n<li><p><strong>Web Standards Integration..</strong>\nBy aligning with open web standards, Waveterm introduces a new paradigm in terminal functionality. The terminal becomes more than just a command-line interface; it transforms into a dynamic, web-powered space that opens up possibilities for enhanced user experiences.</p>\n</li>\n<li><p><strong>Cross-Platform Harmony..</strong>\nSay goodbye to compatibility woes. Waveterm seamlessly runs across different operating systems, embracing the diversity of platforms. Whether you’re on Linux or macOS, the terminal experience remains consistent and powerful.</p>\n</li>\n<li><p><strong>Modern Aesthetics..</strong>\nWaveterm isn’t just about functionality; it’s a visual delight. With a modern and intuitive design, it elevates the terminal experience, making it accessible to a broader audience and bridging the gap between aesthetics and functionality.</p>\n</li>\n</ol>\n",
+            "image": "https://furycd001.github.io/media/posts/92/nrzMNA7bbUZNHIK6cQ1T4gIj17s.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "macOS",
+                   "Web Apps",
+                   "Web",
+                   "Waveterm",
+                   "Terminal",
+                   "Opensource",
+                   "Linux"
+            ],
+            "date_published": "2023-12-07T15:47:39+00:00",
+            "date_modified": "2023-12-07T15:52:50+00:00"
+        },
+        {
             "id": "https://furycd001.github.io/exploring-alternative-youtube-apps-and-frontends/",
             "url": "https://furycd001.github.io/exploring-alternative-youtube-apps-and-frontends/",
             "title": "Exploring Alternative YouTube Apps and Frontends",
@@ -176,23 +198,6 @@
             ],
             "date_published": "2023-07-31T06:55:58+01:00",
             "date_modified": "2023-11-29T10:23:00+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/activity-launcher-on-android/",
-            "url": "https://furycd001.github.io/activity-launcher-on-android/",
-            "title": "Activity Launcher on Android",
-            "summary": "Android enthusiasts are no strangers to the vast array of apps available on the Google Play Store. However, there’s a&hellip;",
-            "content_html": "<p>Android enthusiasts are no strangers to the vast array of apps available on the Google Play Store. However, there’s a hidden world of features and functionalities tucked away within a ton of apps that often remains unexplored. Enter Activity Launcher, a powerful Android app that opens the door to a realm of hidden activities and settings within your installed app’s. In this blog post, we will explore the wonders of Activity Launcher and how it enables users to access hidden features, customize their Android experience, and renew older apps that maybe no longer function correctly on newver versions of android.</p>\n<p><strong>What is Activity Launcher?</strong><br>Activity Launcher is an Android app designed to reveal hidden activities and settings within installed apps. With a user-friendly interface, the app acts as a window to the inner workings of each application, enabling users to launch activities that are not typically accessible through an app’s regular interface.</p>\n<p><strong>Discovering Hidden Activities..</strong><br>Activity Launcher lets you explore activities that developers have included in their apps but may not be readily visible to users. These hidden activities often offer additional functionalities or shortcuts that can enhance your experience with the app.</p>\n<p><strong>Personalization or Customization &amp; Accessing Advanced Settings..</strong><br>Activity Launcher allows users to tailor their Android experience by customizing their apps according to their preferences, and unlocking hidden settings and activities. You can access advanced settings for app’s directly from Activity Launcher. Whether it’s tweaking preferences, enabling experimental features, or adjusting UI elements, Activity Launcher provides a way to access these settings.</p>\n<p><strong>User-Friendly Interface..</strong><br>Navigating Activity Launcher is a breeze, even for those new to the world of hidden activities. The app neatly organizes the discovered activities and settings, making it easy to browse and access the hidden gems within each app.</p>\n<p><strong>Unveiling the Full Potential of Android Apps..</strong><br>Activity Launcher transcends the boundaries of standard app usage, allowing users to tap into the full potential of their favorite applications. It enables users to gain access to features they may not have known existed, ultimately enhancing their app experience and making their Android journey more rewarding.</p>\n<p><strong>Conclusion..</strong><br>Activity Launcher opens a world of possibilities for Android users, revealing hidden activities and settings that enrich their app experience. By offering a user-friendly interface and easy access to hidden functionalities, Activity Launcher enables users to personalize their apps and explore advanced settings like never before. Whether you’re a curious Android enthusiast or a seasoned tech-savvy user, Activity Launcher invites you to dive into the depths of your apps and unleash their full potential.</p>\n<p><strong><a href=\"https://play.google.com/store/apps/details?id=de.szalkowski.activitylauncher\">Get Activity Launcher now on the Google Play Store !!</a></strong></p>\n",
-            "image": "https://furycd001.github.io/media/posts/82/unnamed.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Android",
-                   "Activity Launcher"
-            ],
-            "date_published": "2023-07-29T12:23:18+01:00",
-            "date_modified": "2023-11-29T10:23:09+00:00"
         }
     ]
 }
