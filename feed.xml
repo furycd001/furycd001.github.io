@@ -3,12 +3,45 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2024-01-25T08:28:13+00:00</updated>
+    <updated>2024-02-05T09:05:28+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>nvidia-470xx on Arch Linux</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/nvidia-470xx-on-arch-linux/"/>
+        <id>https://furycd001.github.io/nvidia-470xx-on-arch-linux/</id>
+        <media:content url="https://furycd001.github.io/media/posts/94/Screen-Shot-2024-02-05-at-09.03.34-fullpage.png" medium="image" />
+            <category term="nvidia-470xx"/>
+            <category term="aur"/>
+            <category term="Nvidia"/>
+            <category term="Drivers"/>
+            <category term="Archlinux"/>
+            <category term="AMD"/>
+
+        <updated>2024-02-05T09:05:28+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/94/Screen-Shot-2024-02-05-at-09.03.34-fullpage.png" alt="" />
+                    Embarking on the Arch Linux journey often means stepping into the realm of choices and customization, especially when it comes&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/94/Screen-Shot-2024-02-05-at-09.03.34-fullpage.png" class="type:primaryImage" alt="" /></p>
+                <p>Embarking on the Arch Linux journey often means stepping into the realm of choices and customization, especially when it comes to graphics drivers. For some, the <strong><a href="https://aur.archlinux.org/packages?O=0&K=nvidia-470xx">nvidia-470xx</a></strong> driver from the <em>AUR</em> is the essential component they depend on to ensure their graphics card functions and runs correctly.</p>
+<p>For me personally, my journey with this particular driver has been riddled with some boot failures and hiccups launching certain applications. This has become more than occasional as of recent, and when these moments occur, they raise some kind of frustration and the question: Is it worth the occasional hassle?</p>
+<p>The contemplation of upgrading to a newer graphics card looms large. With the most recent boot failure, the desire for a smoother, trouble-free experience whispers to me that a hardware refresh might be the solution. Yet, the pragmatist within questions whether the upgrade is truly necessary, given that the current GPU meets my existing needs and that upgrading may still come with its own troubles. The idea of maybe even switching to <em>AMD</em> has become a thought because AMD’s open-source drivers have gained popularity for their seamless integration into the Linux kernel and consistent updates. The allure of upgrading or switching to <em>AMD</em> is ever-present, yet the decision hinges between the desire for a smoother experience and the practicality of the current setup.</p>
+<p>While it stands as an essential component for many, including myself, the most recent boot failure has left me with the contemplation of a graphics card upgrade and a yearning for a smoother experience, yet the practicality of such a move remains uncertain. The allure of <em>AMD</em> and its open-source drivers adds another layer to the decision-making process.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Unraveling the low expectations behind decaf.</title>
         <author>
@@ -375,64 +408,6 @@ Waveterm isn’t just about functionality; it’s a visual delight. With a moder
 </code></pre>
 <p><strong>Analyzing the Result..</strong><br>The <code>difference.jpg</code> will highlight the dissimilarities between the two input images. The contrasting areas in the output image represent the variations, with brighter regions indicating greater differences.</p>
 <p><strong>Conclusion..</strong><br>Image comparison is a powerful technique that provides insights into the differences between images. ImageMagick’s “compare” command simplifies this process, offering a clear and visual way to identify disparities between two images. Whether you’re striving for perfection, troubleshooting, or indulging in creative experimentation, image comparison using ImageMagick opens up new dimensions of understanding and exploration. Try the “compare” command today, and uncover the nuances that set your images apart!</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Building Basic Web Apps with Firefox</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/building-basic-web-apps-with-firefox/"/>
-        <id>https://furycd001.github.io/building-basic-web-apps-with-firefox/</id>
-        <media:content url="https://furycd001.github.io/media/posts/84/Untitled.jpg" medium="image" />
-            <category term="userchrome"/>
-            <category term="Web Apps"/>
-            <category term="Firefox"/>
-            <category term="Css"/>
-
-        <updated>2023-07-31T08:18:57+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/84/Untitled.jpg" alt="" />
-                    Did you know that you can craft basic web apps using Firefox? In this blog post, we will explore the&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/84/Untitled.jpg" class="type:primaryImage" alt="" /></p>
-                <p>Did you know that you can craft basic web apps using Firefox? In this blog post, we will explore the steps to build your own web app with Firefox.</p>
-<p><strong>1. Creating a New Profile..</strong><br>The first step is to create a new profile in Firefox. Head over to <code>about:profiles</code> and follow the prompts to generate your new profile.</p>
-<p><strong>2. Launching the New Profile..</strong><br>Once the profile is created, you can launch it either by clicking on the “Launch profile in a new browser” button or via the terminal using “firefox -p profilenamegoeshere”.</p>
-<p><strong>3. Enabling UserChrome..</strong><br>Access <code>about:config</code>, search for <code>toolkit.legacyUserProfileCustomizations.stylesheets</code>, and set it to “true”.</p>
-<p><strong>4. Opening the Profile Folder..</strong><br>Locate your profile folder by visiting <code>about:profiles</code> and clicking the “Open Directory” button on the Root Folder line under the new profile.</p>
-<p><strong>5. Creating the Chrome Folder..</strong><br>Inside the opened folder, create a new folder named “<em>chrome</em>“.</p>
-<p><strong>6. Downloading the CSS..</strong><br>Download my <a href="https://github.com/furycd001/dots/blob/master/Firefox/webview.css">webview.css</a>, rename it to <code>userChrome.css</code>, and copy it into the newly created “chrome” folder.</p>
-<blockquote>
-<p><strong>Please note: <code>userChrome.css</code> is case sensitive, so ensure to name it correctly !!</strong></p>
-</blockquote>
-<p><strong>7. Testing the Downloaded UserChrome..</strong><br>Close the profile and reopen it to ensure the downloaded userChrome is working as expected. Revisit step 2 above on how to launch the profile again.</p>
-<p><strong>8. Creating a .desktop File for Your Web App..</strong><br>In <code>/usr/share/applications/</code>, create a new <code>.desktop</code> file with the following content:
-**</p>
-<pre><code>[Desktop Entry]
-Version=1.0
-Name=Webapp name goes here
-GenericName=My awesome web app.
-Comment=My awesome comment.
-Keywords=Internet;WWW;Browser;Web;Explorer
-Exec=/usr/lib/firefox/firefox -p web https://www.example.com/
-Icon=firefox
-Terminal=false
-X-MultipleArgs=false
-Type=Application
-MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;application/x-xpinstall;application/pdf;application/json;
-StartupNotify=true
-StartupWMClass=firefox
-Categories=Network;WebBrowser;
-Actions=new-window;new-private-window;
-</code></pre>
-<p><strong>9. Enjoy Your Newly Created Web App..</strong><br>With all the steps completed, you can now launch your web app from your menu system.</p>
 
             ]]>
         </content>

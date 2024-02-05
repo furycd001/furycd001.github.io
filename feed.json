@@ -10,6 +10,27 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/nvidia-470xx-on-arch-linux/",
+            "url": "https://furycd001.github.io/nvidia-470xx-on-arch-linux/",
+            "title": "nvidia-470xx on Arch Linux",
+            "summary": "Embarking on the Arch Linux journey often means stepping into the realm of choices and customization, especially when it comes&hellip;",
+            "content_html": "<p>Embarking on the Arch Linux journey often means stepping into the realm of choices and customization, especially when it comes to graphics drivers. For some, the <strong><a href=\"https://aur.archlinux.org/packages?O=0&K=nvidia-470xx\">nvidia-470xx</a></strong> driver from the <em>AUR</em> is the essential component they depend on to ensure their graphics card functions and runs correctly.</p>\n<p>For me personally, my journey with this particular driver has been riddled with some boot failures and hiccups launching certain applications. This has become more than occasional as of recent, and when these moments occur, they raise some kind of frustration and the question: Is it worth the occasional hassle?</p>\n<p>The contemplation of upgrading to a newer graphics card looms large. With the most recent boot failure, the desire for a smoother, trouble-free experience whispers to me that a hardware refresh might be the solution. Yet, the pragmatist within questions whether the upgrade is truly necessary, given that the current GPU meets my existing needs and that upgrading may still come with its own troubles. The idea of maybe even switching to <em>AMD</em> has become a thought because AMD’s open-source drivers have gained popularity for their seamless integration into the Linux kernel and consistent updates. The allure of upgrading or switching to <em>AMD</em> is ever-present, yet the decision hinges between the desire for a smoother experience and the practicality of the current setup.</p>\n<p>While it stands as an essential component for many, including myself, the most recent boot failure has left me with the contemplation of a graphics card upgrade and a yearning for a smoother experience, yet the practicality of such a move remains uncertain. The allure of <em>AMD</em> and its open-source drivers adds another layer to the decision-making process.</p>\n",
+            "image": "https://furycd001.github.io/media/posts/94/Screen-Shot-2024-02-05-at-09.03.34-fullpage.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "nvidia-470xx",
+                   "aur",
+                   "Nvidia",
+                   "Drivers",
+                   "Archlinux",
+                   "AMD"
+            ],
+            "date_published": "2024-02-05T09:05:28+00:00",
+            "date_modified": "2024-02-05T09:05:28+00:00"
+        },
+        {
             "id": "https://furycd001.github.io/unraveling-the-low-expectations-behind-decaf/",
             "url": "https://furycd001.github.io/unraveling-the-low-expectations-behind-decaf/",
             "title": "Unraveling the low expectations behind decaf.",
@@ -177,25 +198,6 @@
             ],
             "date_published": "2023-08-22T09:11:01+01:00",
             "date_modified": "2023-11-29T10:22:45+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/building-basic-web-apps-with-firefox/",
-            "url": "https://furycd001.github.io/building-basic-web-apps-with-firefox/",
-            "title": "Building Basic Web Apps with Firefox",
-            "summary": "Did you know that you can craft basic web apps using Firefox? In this blog post, we will explore the&hellip;",
-            "content_html": "<p>Did you know that you can craft basic web apps using Firefox? In this blog post, we will explore the steps to build your own web app with Firefox.</p>\n<p><strong>1. Creating a New Profile..</strong><br>The first step is to create a new profile in Firefox. Head over to <code>about:profiles</code> and follow the prompts to generate your new profile.</p>\n<p><strong>2. Launching the New Profile..</strong><br>Once the profile is created, you can launch it either by clicking on the “Launch profile in a new browser” button or via the terminal using “firefox -p profilenamegoeshere”.</p>\n<p><strong>3. Enabling UserChrome..</strong><br>Access <code>about:config</code>, search for <code>toolkit.legacyUserProfileCustomizations.stylesheets</code>, and set it to “true”.</p>\n<p><strong>4. Opening the Profile Folder..</strong><br>Locate your profile folder by visiting <code>about:profiles</code> and clicking the “Open Directory” button on the Root Folder line under the new profile.</p>\n<p><strong>5. Creating the Chrome Folder..</strong><br>Inside the opened folder, create a new folder named “<em>chrome</em>“.</p>\n<p><strong>6. Downloading the CSS..</strong><br>Download my <a href=\"https://github.com/furycd001/dots/blob/master/Firefox/webview.css\">webview.css</a>, rename it to <code>userChrome.css</code>, and copy it into the newly created “chrome” folder.</p>\n<blockquote>\n<p><strong>Please note: <code>userChrome.css</code> is case sensitive, so ensure to name it correctly !!</strong></p>\n</blockquote>\n<p><strong>7. Testing the Downloaded UserChrome..</strong><br>Close the profile and reopen it to ensure the downloaded userChrome is working as expected. Revisit step 2 above on how to launch the profile again.</p>\n<p><strong>8. Creating a .desktop File for Your Web App..</strong><br>In <code>/usr/share/applications/</code>, create a new <code>.desktop</code> file with the following content:\n**</p>\n<pre><code>[Desktop Entry]\nVersion=1.0\nName=Webapp name goes here\nGenericName=My awesome web app.\nComment=My awesome comment.\nKeywords=Internet;WWW;Browser;Web;Explorer\nExec=/usr/lib/firefox/firefox -p web https://www.example.com/\nIcon=firefox\nTerminal=false\nX-MultipleArgs=false\nType=Application\nMimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;application/x-xpinstall;application/pdf;application/json;\nStartupNotify=true\nStartupWMClass=firefox\nCategories=Network;WebBrowser;\nActions=new-window;new-private-window;\n</code></pre>\n<p><strong>9. Enjoy Your Newly Created Web App..</strong><br>With all the steps completed, you can now launch your web app from your menu system.</p>\n",
-            "image": "https://furycd001.github.io/media/posts/84/Untitled.jpg",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "userchrome",
-                   "Web Apps",
-                   "Firefox",
-                   "Css"
-            ],
-            "date_published": "2023-07-31T08:16:09+01:00",
-            "date_modified": "2023-07-31T08:18:57+01:00"
         }
     ]
 }
