@@ -10,6 +10,24 @@
     },
     "items": [
         {
+            "id": "https://furycd001.github.io/batch-download-videos-with-yt-dl-and-bash/",
+            "url": "https://furycd001.github.io/batch-download-videos-with-yt-dl-and-bash/",
+            "title": "Batch download videos with yt-dl and bash.",
+            "summary": "Do you need to download multiple or large amounts of video? Manually copying and pasting URLs to yt-dlp can be&hellip;",
+            "content_html": "<p>Do you need to download multiple or large amounts of video? Manually copying and pasting URLs to <code>yt-dlp</code> can be tedious and time-consuming. In this blog post, I will guide you through the simple bash script I created to automate downloading videos from a text files.</p>\n<h3 id=\"part_1-creating-the-script\">Part_1: Creating the script..</h3>\n<ol>\n<li><p>Open a text editor and create a new file named <code>batchdown</code> <em>(you can name the file whatever you like)</em>. </p>\n</li>\n<li><p>Paste the code below into the newly created file..</p>\n</li>\n</ol>\n<pre><code class=\"language-bash\">#!/bin/env bash\n\nwhile IFS= read -r line; do\n  yt-dlp &quot;$line&quot;\ndone &lt; &quot;$1&quot;\n\necho &quot;DOWNLOAD FINISHED !!.&quot;\n</code></pre>\n<blockquote>\n<p>The script is a basic bash loop that iterates through each line in the text file and uses <code>yt-dlp</code> to download from the listed URLs. Finally, it displays a finished message when all downloads have finished.</p>\n</blockquote>\n<ol start=\"3\">\n<li><p>Save the script to your <code>.local/bin</code> directory. \n 3.1. You’ll need to manually create this directory if it does not already exist.</p>\n<pre><code class=\"language-bash\">mkdir -p ~/.local/bin\n</code></pre>\n<p> 3.2. You’ll also need to add the directory to your path. This can be done by adding the following line to your <code>.bashrc</code> file.\n<code>export PATH=&quot;/home/yourusernamegoeshere/.local/bin:$PATH&quot;</code></p>\n</li>\n<li><p>Make the script executable.</p>\n<pre><code class=\"language-bash\">chmod +x batchdown\n</code></pre>\n</li>\n</ol>\n<h3 id=\"part_2-using-the-script\">Part_2: Using the Script..</h3>\n<ol>\n<li>Open a new terminal window and navigate to the directory containing your text file.</li>\n<li>Run the script with your text file as an argument:<pre><code class=\"language-bash\">batchdown downloads.txt\n</code></pre>\n</li>\n<li>The script will automatically download each video listed in your text file.</li>\n</ol>\n<h4 id=\"please-take-into-consideration-that-downloading-copyrighted-content-without-permission-is-illegal-please-use-this-script-responsibly\">Please take into consideration that downloading copyrighted content without permission is illegal. Please use this script responsibly.</h4>\n",
+            "image": "https://furycd001.github.io/media/posts/95/carbon.png",
+            "author": {
+                "name": "Jonny"
+            },
+            "tags": [
+                   "yt-dlp",
+                   "Download",
+                   "Bash"
+            ],
+            "date_published": "2024-03-12T12:13:02+00:00",
+            "date_modified": "2024-03-12T12:13:02+00:00"
+        },
+        {
             "id": "https://furycd001.github.io/nvidia-470xx-on-arch-linux/",
             "url": "https://furycd001.github.io/nvidia-470xx-on-arch-linux/",
             "title": "nvidia-470xx on Arch Linux",
@@ -181,23 +199,6 @@
             ],
             "date_published": "2023-08-22T09:28:39+01:00",
             "date_modified": "2024-02-07T07:18:55+00:00"
-        },
-        {
-            "id": "https://furycd001.github.io/image-comparison-using-imagemagick/",
-            "url": "https://furycd001.github.io/image-comparison-using-imagemagick/",
-            "title": "Image Comparison Using ImageMagick",
-            "summary": "In the world of visual content, whether you’re a photographer, designer, or simply curious about the intricacies of image manipulation,&hellip;",
-            "content_html": "<p>In the world of visual content, whether you’re a photographer, designer, or simply curious about the intricacies of image manipulation, the ability to identify differences between images can be invaluable. Enter ImageMagick’s “compare” command, a powerful tool that enables you to analyse and highlight disparities between two images.</p>\n<p><strong>Understanding Image Comparison..</strong><br>Image comparison involves analyzing two images to identify variations, discrepancies, or changes between them. This process is often used for quality control, debugging, or even creative purposes. By pinpointing differences, professionals can enhance their work and ensure a polished product.</p>\n<p><strong>The ImageMagick “compare” Command..</strong><br>ImageMagick, a versatile software suite for image manipulation, offers the “compare” command as part of its toolkit. This command allows users to compare two images and generate a third image that highlights the discrepancies between them. The result is an easily digestible visual representation of the differences.</p>\n<p><strong>Syntax and Usage..</strong><br>The syntax for using the “compare” command is as follows:</p>\n<pre><code class=\"language-bash\">compare image1.jpg image2.jpg difference.jpg\n</code></pre>\n<p><strong>Analyzing the Result..</strong><br>The <code>difference.jpg</code> will highlight the dissimilarities between the two input images. The contrasting areas in the output image represent the variations, with brighter regions indicating greater differences.</p>\n<p>Image comparison is a powerful technique that provides insights into the differences between images. ImageMagick’s “compare” command simplifies this process, offering a clear and visual way to identify disparities between two images. Whether you’re striving for perfection, troubleshooting, or indulging in creative experimentation, image comparison using ImageMagick opens up new dimensions of understanding and exploration. Try the “compare” command today, and uncover the nuances that set your images apart!</p>\n",
-            "image": "https://furycd001.github.io/media/posts/85/difference.png",
-            "author": {
-                "name": "Jonny"
-            },
-            "tags": [
-                   "Images",
-                   "ImageMagick"
-            ],
-            "date_published": "2023-08-22T09:11:01+01:00",
-            "date_modified": "2024-02-07T07:19:02+00:00"
         }
     ]
 }

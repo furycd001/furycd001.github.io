@@ -3,12 +3,79 @@
     <title>d:tour</title>
     <link href="https://furycd001.github.io/feed.xml" rel="self" />
     <link href="https://furycd001.github.io" />
-    <updated>2024-02-07T07:19:02+00:00</updated>
+    <updated>2024-03-12T12:13:02+00:00</updated>
     <author>
         <name>Jonny</name>
     </author>
     <id>https://furycd001.github.io</id>
 
+    <entry>
+        <title>Batch download videos with yt-dl and bash.</title>
+        <author>
+            <name>Jonny</name>
+        </author>
+        <link href="https://furycd001.github.io/batch-download-videos-with-yt-dl-and-bash/"/>
+        <id>https://furycd001.github.io/batch-download-videos-with-yt-dl-and-bash/</id>
+        <media:content url="https://furycd001.github.io/media/posts/95/carbon.png" medium="image" />
+            <category term="yt-dlp"/>
+            <category term="Download"/>
+            <category term="Bash"/>
+
+        <updated>2024-03-12T12:13:02+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://furycd001.github.io/media/posts/95/carbon.png" alt="" />
+                    Do you need to download multiple or large amounts of video? Manually copying and pasting URLs to yt-dlp can be&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://furycd001.github.io/media/posts/95/carbon.png" class="type:primaryImage" alt="" /></p>
+                <p>Do you need to download multiple or large amounts of video? Manually copying and pasting URLs to <code>yt-dlp</code> can be tedious and time-consuming. In this blog post, I will guide you through the simple bash script I created to automate downloading videos from a text files.</p>
+<h3 id="part_1-creating-the-script">Part_1: Creating the script..</h3>
+<ol>
+<li><p>Open a text editor and create a new file named <code>batchdown</code> <em>(you can name the file whatever you like)</em>. </p>
+</li>
+<li><p>Paste the code below into the newly created file..</p>
+</li>
+</ol>
+<pre><code class="language-bash">#!/bin/env bash
+
+while IFS= read -r line; do
+  yt-dlp &quot;$line&quot;
+done &lt; &quot;$1&quot;
+
+echo &quot;DOWNLOAD FINISHED !!.&quot;
+</code></pre>
+<blockquote>
+<p>The script is a basic bash loop that iterates through each line in the text file and uses <code>yt-dlp</code> to download from the listed URLs. Finally, it displays a finished message when all downloads have finished.</p>
+</blockquote>
+<ol start="3">
+<li><p>Save the script to your <code>.local/bin</code> directory. 
+ 3.1. You’ll need to manually create this directory if it does not already exist.</p>
+<pre><code class="language-bash">mkdir -p ~/.local/bin
+</code></pre>
+<p> 3.2. You’ll also need to add the directory to your path. This can be done by adding the following line to your <code>.bashrc</code> file.
+<code>export PATH=&quot;/home/yourusernamegoeshere/.local/bin:$PATH&quot;</code></p>
+</li>
+<li><p>Make the script executable.</p>
+<pre><code class="language-bash">chmod +x batchdown
+</code></pre>
+</li>
+</ol>
+<h3 id="part_2-using-the-script">Part_2: Using the Script..</h3>
+<ol>
+<li>Open a new terminal window and navigate to the directory containing your text file.</li>
+<li>Run the script with your text file as an argument:<pre><code class="language-bash">batchdown downloads.txt
+</code></pre>
+</li>
+<li>The script will automatically download each video listed in your text file.</li>
+</ol>
+<h4 id="please-take-into-consideration-that-downloading-copyrighted-content-without-permission-is-illegal-please-use-this-script-responsibly">Please take into consideration that downloading copyrighted content without permission is illegal. Please use this script responsibly.</h4>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>nvidia-470xx on Arch Linux</title>
         <author>
@@ -375,39 +442,6 @@ Waveterm isn’t just about functionality; it’s a visual delight. With a moder
 <p><strong>Exploring Possibilities..</strong><br>The realm of CSS-only syntax highlighting goes beyond mere code blocks. Creative developers have been known to experiment with animations and transitions, adding an extra layer of interactivity to their code presentations.</p>
 <p><strong>Putting it into Action..</strong><br><strong><a href="https://dev.to/grahamthedev/impossible-css-only-js-syntax-highlighting-with-a-single-element-and-gradients-243j">Visit this link</a></strong> to dive into the technical details and implementation steps of CSS-only syntax highlighting. Explore how a single element and the magic of gradients can transform your code into an aesthetically pleasing and engaging visual experience.</p>
 <p>CSS-only syntax highlighting is a testament to the creativity and innovation within the coding community. By harnessing the power of gradients and CSS, developers can elevate their code presentation and provide readers with an engaging, lightweight, and visually appealing experience. Embrace the future of code aesthetics with CSS-only syntax highlighting and unlock a new dimension of web development possibilities.</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Image Comparison Using ImageMagick</title>
-        <author>
-            <name>Jonny</name>
-        </author>
-        <link href="https://furycd001.github.io/image-comparison-using-imagemagick/"/>
-        <id>https://furycd001.github.io/image-comparison-using-imagemagick/</id>
-        <media:content url="https://furycd001.github.io/media/posts/85/difference.png" medium="image" />
-            <category term="Images"/>
-            <category term="ImageMagick"/>
-
-        <updated>2024-02-07T07:19:02+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://furycd001.github.io/media/posts/85/difference.png" alt="" />
-                    In the world of visual content, whether you’re a photographer, designer, or simply curious about the intricacies of image manipulation,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://furycd001.github.io/media/posts/85/difference.png" class="type:primaryImage" alt="" /></p>
-                <p>In the world of visual content, whether you’re a photographer, designer, or simply curious about the intricacies of image manipulation, the ability to identify differences between images can be invaluable. Enter ImageMagick’s “compare” command, a powerful tool that enables you to analyse and highlight disparities between two images.</p>
-<p><strong>Understanding Image Comparison..</strong><br>Image comparison involves analyzing two images to identify variations, discrepancies, or changes between them. This process is often used for quality control, debugging, or even creative purposes. By pinpointing differences, professionals can enhance their work and ensure a polished product.</p>
-<p><strong>The ImageMagick “compare” Command..</strong><br>ImageMagick, a versatile software suite for image manipulation, offers the “compare” command as part of its toolkit. This command allows users to compare two images and generate a third image that highlights the discrepancies between them. The result is an easily digestible visual representation of the differences.</p>
-<p><strong>Syntax and Usage..</strong><br>The syntax for using the “compare” command is as follows:</p>
-<pre><code class="language-bash">compare image1.jpg image2.jpg difference.jpg
-</code></pre>
-<p><strong>Analyzing the Result..</strong><br>The <code>difference.jpg</code> will highlight the dissimilarities between the two input images. The contrasting areas in the output image represent the variations, with brighter regions indicating greater differences.</p>
-<p>Image comparison is a powerful technique that provides insights into the differences between images. ImageMagick’s “compare” command simplifies this process, offering a clear and visual way to identify disparities between two images. Whether you’re striving for perfection, troubleshooting, or indulging in creative experimentation, image comparison using ImageMagick opens up new dimensions of understanding and exploration. Try the “compare” command today, and uncover the nuances that set your images apart!</p>
 
             ]]>
         </content>
