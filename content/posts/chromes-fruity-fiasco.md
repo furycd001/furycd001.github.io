@@ -1,7 +1,8 @@
 +++
 title = 'Chromes Fruity Fiasco'
 date = 2024-06-04T21:02:55+01:00
-draft = true
+draft = false
+tags = ["vancity vanlife", "chrome", "cruz", "short story"]
 +++
 
 Chrome wandered through the bustling market, eyeing the vibrant display of fruit. He picked up a ripe mango, its sweet aroma mingling with the scent of nearby oranges and strawberries. As he bit into the juicy flesh, Chrome couldn't help but smile, savoring the burst of tropical flavor that transported him to a sunny paradise.  
@@ -16,5 +17,5 @@ Chrome finally managed to steady himself, but not before an apple tumbled from a
 
 As Chrome hurried toward the exit, he slipped on a trail of blueberries, skidding comically until he crashed into a display of kiwis. "I think I've had my fill of fruit for the day," he groaned, dusting off kiwi fuzz and vowing to stick to canned fruit from now on.  
 
- ##[Click here to check out Vancity Vanlife's official YouTube channel!!](https://www.youtube.com/@VANCITYVANLIFE/)
- ##[Click here to check out Vancity Vanlife's official website!!](https://vancityvanlife.ca/)
+ ### [Vancity Vanlife's official YouTube channel !!](https://www.youtube.com/@VANCITYVANLIFE/)  
+ ### [Vancity Vanlife's official website !!](https://vancityvanlife.ca/)
