@@ -11,8 +11,6 @@ Chrome tripped over a rogue pineapple and landed face-first in a pile of waterme
 
 As he stood up, a banana peel clung to his shoe, causing him to slip again, this time into a cart of squishy peaches. "Fruit salad, anyone?" Chrome joked, waving off the concerned vendors as he tried to salvage what was left of his pride.  
 
-As he stood up, a banana peel clung to his shoe, causing him to slip again, this time into a cart of squishy peaches. "Fruit salad, anyone?" Chrome joked, waving off the concerned vendors as he tried to salvage what was left of his pride.  
-
 Chrome finally managed to steady himself, but not before an apple tumbled from a shelf and bonked him on the head. "Guess the apples are trying to keep the doctor away too!" he laughed, rubbing the bump and deciding it was time to leave the market before the grapes started throwing punches.  
 
 As Chrome hurried toward the exit, he slipped on a trail of blueberries, skidding comically until he crashed into a display of kiwis. "I think I've had my fill of fruit for the day," he groaned, dusting off kiwi fuzz and vowing to stick to canned fruit from now on.  

@@ -1,1 +1,3 @@
 # README
+
+d:tour creative writing blog.... 
