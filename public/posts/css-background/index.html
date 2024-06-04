@@ -1,0 +1,381 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en-us"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Adding a full page background image to any web page. - d:tour</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="One of the easiest ways to create a visually appealing web page is by adding a background image that covers the entire viewport. This technique can transform your website&rsquo;s aesthetics, making it more engaging.
+Before you begin, ensure you have a high-quality image stored in your project directory. For this example, i&rsquo;m going to use an image located at imgs/whatever.jpg.
+Start off by locating your CSS file, usually named styles.css or something similar, and open it in your editor of choice." />
+  <meta name="author" content="d:tour" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://furycd001.github.io/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://furycd001.github.io/theme.png" />
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  <script
+    defer
+    src="https://furycd001.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="https://furycd001.github.io/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://furycd001.github.io/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.126.2">
+
+  
+  
+  
+  
+  
+
+
+  
+  
+  <meta itemprop="name" content="Adding a full page background image to any web page.">
+  <meta itemprop="description" content="One of the easiest ways to create a visually appealing web page is by adding a background image that covers the entire viewport. This technique can transform your website’s aesthetics, making it more engaging.
+Before you begin, ensure you have a high-quality image stored in your project directory. For this example, i’m going to use an image located at imgs/whatever.jpg.
+Start off by locating your CSS file, usually named styles.css or something similar, and open it in your editor of choice.">
+  <meta itemprop="datePublished" content="2024-06-04T08:16:35+01:00">
+  <meta itemprop="dateModified" content="2024-06-04T08:16:35+01:00">
+  <meta itemprop="wordCount" content="253">
+  <meta itemprop="keywords" content="Html,Css,Code,Web,Web Browser,Dev">
+  
+  <meta property="og:url" content="https://furycd001.github.io/posts/css-background/">
+  <meta property="og:site_name" content="d:tour">
+  <meta property="og:title" content="Adding a full page background image to any web page.">
+  <meta property="og:description" content="One of the easiest ways to create a visually appealing web page is by adding a background image that covers the entire viewport. This technique can transform your website’s aesthetics, making it more engaging.
+Before you begin, ensure you have a high-quality image stored in your project directory. For this example, i’m going to use an image located at imgs/whatever.jpg.
+Start off by locating your CSS file, usually named styles.css or something similar, and open it in your editor of choice.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-06-04T08:16:35+01:00">
+    <meta property="article:modified_time" content="2024-06-04T08:16:35+01:00">
+    <meta property="article:tag" content="Html">
+    <meta property="article:tag" content="Css">
+    <meta property="article:tag" content="Code">
+    <meta property="article:tag" content="Web">
+    <meta property="article:tag" content="Web Browser">
+    <meta property="article:tag" content="Dev">
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Adding a full page background image to any web page.">
+  <meta name="twitter:description" content="One of the easiest ways to create a visually appealing web page is by adding a background image that covers the entire viewport. This technique can transform your website’s aesthetics, making it more engaging.
+Before you begin, ensure you have a high-quality image stored in your project directory. For this example, i’m going to use an image located at imgs/whatever.jpg.
+Start off by locating your CSS file, usually named styles.css or something similar, and open it in your editor of choice.">
+
+  
+  
+  
+  <link rel="canonical" href="https://furycd001.github.io/posts/css-background/" />
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="https://furycd001.github.io/"
+      >d:tour</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">Adding a full page background image to any web page.</h1>
+
+    
+    <div class="text-sm antialiased opacity-60">
+      
+      <time>Jun 4, 2024</time>
+      
+      
+      
+      
+    </div>
+    
+  </header>
+
+  <section><p>One of the easiest ways to create a visually appealing web page is by adding a background image that covers the entire viewport. This technique can transform your website&rsquo;s aesthetics, making it more engaging.</p>
+<blockquote>
+<p>Before you begin, ensure you have a high-quality image  stored in your project directory. For this example, i&rsquo;m going to use an image located at <code>imgs/whatever.jpg</code>.</p>
+</blockquote>
+<p>Start off by locating your CSS file, usually named <code>styles.css</code> or something similar, and open it in your editor of choice. Once open, go ahead and insert the CSS code below at the top of your <code>.css</code> file. This code will set the background image and ensure that it covers the entire viewport, while also keeping it fixed during scrolling.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">html</span> { 
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background</span>: url(<span style="color:#e6db74">imgs/whatever.jpg</span>) <span style="color:#66d9ef">no-repeat</span> <span style="color:#66d9ef">center</span> <span style="color:#66d9ef">center</span> <span style="color:#66d9ef">fixed</span>; 
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">background-size</span>: <span style="color:#66d9ef">cover</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-moz-</span><span style="color:#66d9ef">background-size</span>: <span style="color:#66d9ef">cover</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-o-</span><span style="color:#66d9ef">background-size</span>: <span style="color:#66d9ef">cover</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background-size</span>: <span style="color:#66d9ef">cover</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><blockquote>
+<p>Make sure to update the <code>url(imgs/whatever.jpg)</code> part of the code to match the path of your own image. If your image is located in a different directory or has a different name, adjust the path accordingly.</p>
+</blockquote>
+<h4 id="understanding-the-css-code"><strong>Understanding the CSS Code..</strong></h4>
+<ul>
+<li><code>html</code>: This selector targets the entire HTML document, ensuring the background image covers the entire page.</li>
+<li><code>background</code>: The <code>url()</code> function specifies the path to the image. The <code>no-repeat</code> value prevents the image from repeating, <code>center center</code> centers the image, and <code>fixed</code> ensures the image stays in place during scrolling.</li>
+<li><code>background-size: cover</code>: This property ensures the background image covers the entire viewport, maintaining its aspect ratio. The <code>-webkit-</code>, <code>-moz-</code>, and <code>-o-</code> prefixes ensure compatibility with various browsers.</li>
+</ul>
+</section>
+
+  
+  
+  <footer class="mt-12 flex flex-wrap">
+     
+    <a
+      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
+      href="https://furycd001.github.io/tags/html"
+      >html</a
+    >
+     
+    <a
+      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
+      href="https://furycd001.github.io/tags/css"
+      >css</a
+    >
+     
+    <a
+      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
+      href="https://furycd001.github.io/tags/code"
+      >code</a
+    >
+     
+    <a
+      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
+      href="https://furycd001.github.io/tags/web"
+      >web</a
+    >
+     
+    <a
+      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
+      href="https://furycd001.github.io/tags/web-browser"
+      >web browser</a
+    >
+     
+    <a
+      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
+      href="https://furycd001.github.io/tags/dev"
+      >dev</a
+    >
+    
+  </footer>
+  
+
+  
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    <a
+      class="flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="https://furycd001.github.io/posts/hamburger-menu/"
+      ><span class="mr-1.5">←</span><span>A common mistake made when coding a hamburger menu.</span></a
+    >
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="https://furycd001.github.io/posts/ideas-and-ramblings/"
+      ><span>Adding a full page background image to any web page.</span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2024
+    <a class="link" href="https://furycd001.github.io/">d:tour</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >✎ Paper</a
+  >
+</footer>
+
+  </body>
+</html>

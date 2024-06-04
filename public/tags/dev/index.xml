@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev on d:tour</title>
+    <link>https://furycd001.github.io/tags/dev/</link>
+    <description>Recent content in Dev on d:tour</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jun 2024 08:16:35 +0100</lastBuildDate>
+    <atom:link href="https://furycd001.github.io/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A common mistake made when coding a hamburger menu.</title>
+      <link>https://furycd001.github.io/posts/hamburger-menu/</link>
+      <pubDate>Tue, 04 Jun 2024 08:16:35 +0100</pubDate>
+      <guid>https://furycd001.github.io/posts/hamburger-menu/</guid>
+      <description>When it comes to coding a hamburger menu, many developers tend to position the menu absolutely. However, a more efficient approach involves positioning the content rather than the menu itself once the sidebar is opened. By shifting the focus to positioning everything else within the menu, you can achieve a cleaner and more manageable design.&#xA;Most developers initially position the hamburger menu using absolute positioning. While this method works, it can lead to complications and less maintainable code.</description>
+    </item>
+    <item>
+      <title>Adding a full page background image to any web page.</title>
+      <link>https://furycd001.github.io/posts/css-background/</link>
+      <pubDate>Tue, 04 Jun 2024 08:16:35 +0100</pubDate>
+      <guid>https://furycd001.github.io/posts/css-background/</guid>
+      <description>One of the easiest ways to create a visually appealing web page is by adding a background image that covers the entire viewport. This technique can transform your website&amp;rsquo;s aesthetics, making it more engaging.&#xA;Before you begin, ensure you have a high-quality image stored in your project directory. For this example, i&amp;rsquo;m going to use an image located at imgs/whatever.jpg.&#xA;Start off by locating your CSS file, usually named styles.css or something similar, and open it in your editor of choice.</description>
+    </item>
+  </channel>
+</rss>

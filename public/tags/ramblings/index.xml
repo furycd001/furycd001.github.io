@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ramblings on d:tour</title>
+    <link>http://localhost:1313/tags/ramblings/</link>
+    <description>Recent content in Ramblings on d:tour</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jun 2024 08:16:35 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ramblings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ideas, thoughts, &amp; ramblings.....</title>
+      <link>http://localhost:1313/posts/ideas-and-ramblings/</link>
+      <pubDate>Tue, 04 Jun 2024 08:16:35 +0100</pubDate>
+      <guid>http://localhost:1313/posts/ideas-and-ramblings/</guid>
+      <description>Ideas, thoughts &amp;amp; Ramblings&amp;hellip; that&amp;rsquo;s what this blog is all about. After spending a few days playing around with Hugo offline, I&amp;rsquo;ve discovered that I actually quite like it. It&amp;rsquo;s like a refreshing change.&#xA;A Fresh Start.. Initially, my plan was to transfer all my old blog posts from Publii to this new blog. However, upon reflection, I decided against it. A few of those posts were of low quality, and frankly, I have no idea why I ever published them.</description>
+    </item>
+  </channel>
+</rss>
