@@ -144,14 +144,21 @@
     <a
       class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
       href="https://furycd001.github.io/"
+      >d:tour</a
     >
-      <img src="/images/logo.webp" alt="d:tour" class="h-8">
-    </a>
-    
+        
     
   </div>
 
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
   
+
+    
   <div class="flex items-center space-x-4">
     
     <a href="https://github.com/furycd001" target="_blank" rel="noopener noreferrer">
@@ -176,14 +183,6 @@
     
   </div>
 
-  <div
-    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
-    role="button"
-    aria-label="Menu"
-  ></div>
-
-  
-
   <script>
     
     const htmlClass = document.documentElement.classList;
@@ -201,25 +200,30 @@
     const metaTheme = document.querySelector('meta[name="theme-color"]');
     const lightBg = '#faf8f1'.replace(/"/g, '');
     const setDark = (isDark) => {
-      metaTheme.setAttribute('content', '#272B35');
-      htmlClass.add('dark');
-      localStorage.setItem('dark', true);
+      metaTheme.setAttribute('content', isDark ? '#272B35' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
     };
 
     
-    setDark(true);
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
 
     
-    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
-    darkScheme.removeEventListener('change', (event) => {
-      setDark(true);
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
     });
 
     
-    
-    
-    
-    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
   </script>
 
   <div
@@ -231,6 +235,7 @@
     
   </div>
 </header>
+
 
     <main
       class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"

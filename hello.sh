@@ -1,19 +1,19 @@
 #!/bin/env bash
 
-# Check if there are any untracked files
-if git status --porcelain | grep -q "^??"; then
-    echo "New files found. Adding and pushing to GitHub..."
+# Check if there are any changes (untracked, modified, deleted)
+if git status --porcelain | grep -q "^[MADRCU?!]"; then
+    echo "Changes found. Adding and pushing to GitHub..."
     
-    # Add all untracked files
+    # Add all changes (tracked and untracked files)
     git add .
 
     # Commit the changes
-    git commit -m "Add new files"
+    git commit -m "Add new files and update existing ones"
 
     # Push changes to the remote repository
     git push origin main
     
     echo "Push successful!"
 else
-    echo "No new files found. Nothing to push."
+    echo "No changes found. Nothing to push."
 fi
