@@ -113,12 +113,15 @@
       href="http://localhost:1313/"
       >d:tour</a
     >
-    
+        
     
   </div>
 
-  
-  
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
 
   
 
@@ -155,8 +158,10 @@
     }, 10);
 
     
-    
-
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
