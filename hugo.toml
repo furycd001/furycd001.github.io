@@ -11,3 +11,6 @@ social = [
   { name = "email", url = "mailto:jonnybowes2000@googlemail.com" },
   { name = "donate", url = "https://paypal.me/furycd001?country.x=GB&locale.x=en_GB" }
 ]
+
+# Enable RSS
+rss = true
