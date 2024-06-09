@@ -5,7 +5,7 @@ draft = false
 tags = ["starbucks", "coffee", "coffee shop", "wifi",  "internet", "technology", "nostalgia"]
 +++
 
-In the late 2000s, Starbucks emerged as more than just a coffee haven; it became a social hub and a place to connect with friends and colleagues. However, during this period, the concept of free WiFi was not as ubiquitous as it is today. Instead, Starbucks UK offered a WiFi experience that required payment for access.  
+In the late 2000s, Starbucks emerged as more than just a coffee haven; it became a social hub, a place to connect with friends and colleagues. However, during this period, the concept of free WiFi was not as ubiquitous as it is today. Instead, Starbucks UK offered a WiFi experience that required payment for access.  
 
 ----
 
