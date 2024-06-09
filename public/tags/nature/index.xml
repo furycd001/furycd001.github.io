@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nature on d:tour</title>
-    <link>https://furycd001.github.io/tags/nature/</link>
+    <link>http://localhost:1313/tags/nature/</link>
     <description>Recent content in Nature on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 06 Jun 2024 07:17:32 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/nature/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/nature/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Unforgettable Picnic</title>
-      <link>https://furycd001.github.io/posts/the-unforgettable-picnic/</link>
+      <link>http://localhost:1313/posts/the-unforgettable-picnic/</link>
       <pubDate>Thu, 06 Jun 2024 07:17:32 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-unforgettable-picnic/</guid>
+      <guid>http://localhost:1313/posts/the-unforgettable-picnic/</guid>
       <description>In a peaceful meadow nestled between rolling hills, a group of friendly animals decided to have a delightful picnic. The sun was shining, the birds were singing, and the scent of wildflowers filled the air. It was the perfect day for a gathering of friends. Among them were Benny the Bear, Lucy the Rabbit, Max the Squirrel, and Andy the Ant Eater.&#xA;They arrived at their favorite spot under the big oak tree, setting down a colorful blanket and unpacking baskets full of delicious treats.</description>
     </item>
   </channel>
