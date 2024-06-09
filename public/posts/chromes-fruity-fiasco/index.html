@@ -115,36 +115,45 @@ Chrome tripped over a rogue pineapple and landed face-first in a pile of waterme
   <body class="text-black duration-200 ease-out dark:text-white">
     <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
   <div class="relative z-50 mr-auto flex items-center">
-    <a class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold" href="http://localhost:1313/">d:tour</a>
+    <a class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold" href="http://localhost:1313/">
+      d:tour
+    </a>
+    
+    
   </div>
+
+  
+  
+
+  
 
   
   <div class="flex items-center space-x-4 lg:space-x-6">
     
     <a href="https://github.com/furycd001" target="_blank" rel="noopener noreferrer">
-      <img src="http://localhost:1313/github.svg" alt="github" class="h-6 w-6">
+      <img src="/github.svg" alt="github" class="h-6 w-6">
     </a>
     
     <a href="https://github.com/furycd001/dots" target="_blank" rel="noopener noreferrer">
-      <img src="http://localhost:1313/dotfiles.svg" alt="dotfiles" class="h-6 w-6">
+      <img src="/dotfiles.svg" alt="dotfiles" class="h-6 w-6">
     </a>
     
     <a href="https://fosstodon.org/@Furycd001" target="_blank" rel="noopener noreferrer">
-      <img src="http://localhost:1313/mastodon.svg" alt="mastodon" class="h-6 w-6">
+      <img src="/mastodon.svg" alt="mastodon" class="h-6 w-6">
     </a>
     
     <a href="mailto:jonnybowes2000@googlemail.com" target="_blank" rel="noopener noreferrer">
-      <img src="http://localhost:1313/email.svg" alt="email" class="h-6 w-6">
+      <img src="/email.svg" alt="email" class="h-6 w-6">
     </a>
     
     <a href="https://paypal.me/furycd001?country.x=GB&amp;locale.x=en_GB" target="_blank" rel="noopener noreferrer">
-      <img src="http://localhost:1313/donate.svg" alt="donate" class="h-6 w-6">
+      <img src="/donate.svg" alt="donate" class="h-6 w-6">
     </a>
     
     
     
-    <a class="rss-icon" href="http://localhost:1313/index.xml" target="_blank" rel="noopener noreferrer">
-      <img src="http://localhost:1313/rss.svg" alt="RSS" class="h-6 w-6">
+    <a href="http://localhost:1313/index.xml" target="_blank" rel="noopener noreferrer">
+      <img src="/rss.svg" alt="RSS" class="h-6 w-6">
     </a>
     
   </div>
@@ -155,6 +164,10 @@ Chrome tripped over a rogue pineapple and landed face-first in a pile of waterme
     setTimeout(() => {
       htmlClass.remove('not-ready');
     }, 10);
+
+    
+    
+
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
@@ -181,20 +194,19 @@ Chrome tripped over a rogue pineapple and landed face-first in a pile of waterme
 
     
     const btnDark = document.querySelector('.btn-dark');
-    if (btnDark) {
-      btnDark.addEventListener('click', () => {
-        setDark(localStorage.getItem('dark') !== 'true');
-      });
-    }
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
   </script>
 
   <div class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none">
+    
     
 
     
     <nav class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6">
       
-      <a class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6" style="--url: url(http://localhost:1313/rss.svg)" href="http://localhost:1313/index.xml" target="_blank" rel="alternate">
+      <a class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6" style="--url: url(./rss.svg)" href="http://localhost:1313/index.xml" target="_blank" rel="alternate">
         rss
       </a>
       
