@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David Crowder on d:tour</title>
+    <link>http://localhost:1313/tags/david-crowder/</link>
+    <description>Recent content in David Crowder on d:tour</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Jun 2024 13:22:42 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/david-crowder/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sometimes</title>
+      <link>http://localhost:1313/posts/sometimes/</link>
+      <pubDate>Mon, 10 Jun 2024 13:22:42 +0100</pubDate>
+      <guid>http://localhost:1313/posts/sometimes/</guid>
+      <description>Sometimes, in the quiet of her room,&#xA;A girl with long ginger hair, like a bloom,&#xA;Felt the weight of the world, pressing down on her soul,&#xA;Wondering if she’d ever find a way to be whole.&#xA;Her extensions, a cascade of fire, so bright,&#xA;Reflected her spirit, her inner fight.&#xA;She’d look in the mirror, and sometimes she’d cry,&#xA;Feeling like she’d never understand why.&#xA;Sometimes every one of us feels</description>
+    </item>
+  </channel>
+</rss>
