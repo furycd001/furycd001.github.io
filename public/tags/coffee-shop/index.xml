@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coffee Shop on d:tour</title>
-    <link>http://localhost:1313/tags/coffee-shop/</link>
+    <link>https://furycd001.github.io/tags/coffee-shop/</link>
     <description>Recent content in Coffee Shop on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Jun 2024 14:18:58 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/coffee-shop/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furycd001.github.io/tags/coffee-shop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Early Days of Paid Wifi With Strbucks</title>
-      <link>http://localhost:1313/posts/the-early-days-of-paid-wifi-with-strbucks/</link>
+      <link>https://furycd001.github.io/posts/the-early-days-of-paid-wifi-with-strbucks/</link>
       <pubDate>Tue, 04 Jun 2024 14:18:58 +0100</pubDate>
-      <guid>http://localhost:1313/posts/the-early-days-of-paid-wifi-with-strbucks/</guid>
+      <guid>https://furycd001.github.io/posts/the-early-days-of-paid-wifi-with-strbucks/</guid>
       <description>In the late 2000s, Starbucks emerged as more than just a coffee haven; it became a social hub, a place to connect with friends and colleagues. However, during this period, the concept of free WiFi was not as ubiquitous as it is today. Instead, Starbucks UK offered a WiFi experience that required payment for access.&#xA;The Era of Paid WiFi at Starbucks UK.. Around 2006 and 2007, Starbucks introduced its WiFi service to stores across the UK &amp;amp; Ireland, offering customers the opportunity to access the internet while sipping their favorite beverages.</description>
     </item>
   </channel>
