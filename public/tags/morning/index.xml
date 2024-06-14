@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Coffee on d:tour</title>
-    <link>https://furycd001.github.io/tags/coffee/</link>
-    <description>Recent content in Coffee on d:tour</description>
+    <title>Morning on d:tour</title>
+    <link>https://furycd001.github.io/tags/morning/</link>
+    <description>Recent content in Morning on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Jun 2024 10:54:02 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/coffee/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furycd001.github.io/tags/morning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Morning Emma</title>
       <link>https://furycd001.github.io/posts/morning-emma/</link>
@@ -21,13 +21,6 @@
       <pubDate>Fri, 14 Jun 2024 10:40:59 +0100</pubDate>
       <guid>https://furycd001.github.io/posts/the-joys-of-joe/</guid>
       <description>Every morning, the kitchen came to life with the anticipation of a special ritual: the making of a perfect cup of coffee. As dawn&amp;rsquo;s first light filtered through the window, the beans awaited their transformation from mere ingredients into a steamy cup of joe, brimming with joy, promise, and excitement.&#xA;The journey began by selecting the beans, and carefully measuring them. Each bean holding the potential for greatness, ready to release its essence.</description>
-    </item>
-    <item>
-      <title>The Early Days of Paid Wifi With Strbucks</title>
-      <link>https://furycd001.github.io/posts/the-early-days-of-paid-wifi-with-strbucks/</link>
-      <pubDate>Tue, 04 Jun 2024 14:18:58 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-early-days-of-paid-wifi-with-strbucks/</guid>
-      <description>In the late 2000s, Starbucks emerged as more than just a coffee haven; it became a social hub, a place to connect with friends and colleagues. However, during this period, the concept of free WiFi was not as ubiquitous as it is today. Instead, Starbucks UK offered a WiFi experience that required payment for access.&#xA;The Era of Paid WiFi at Starbucks UK.. Around 2006 and 2007, Starbucks introduced its WiFi service to stores across the UK &amp;amp; Ireland, offering customers the opportunity to access the internet while sipping their favorite beverages.</description>
     </item>
   </channel>
 </rss>
