@@ -2,7 +2,7 @@
 title = 'Morning Emma'
 date = 2024-06-14T10:54:02+01:00
 draft = false
-tags = ["coffee", "joe", "joy", "morning", "emma", "short story"]
+tags = ["coffee", "joe", "joy", "morning", "short story"]
 +++
 
 Every morning, Emma woke up with a smile, not because of the day's prospects but because of the joy that awaited her in the kitchen. Her mornings began with a ritual she cherished above all else: making and enjoying her perfect cup of coffee.
