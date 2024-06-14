@@ -21,4 +21,4 @@ She took her first sip, and it was as if the world paused for a moment. The rich
 
 Emma sat by the window, watching the morning light filter through the trees, casting a golden glow over everything. She held her mug close, savoring each sip, each moment of tranquility. For her, there was nothing better than this first cup of coffee in the morning. It was a small joy, but it was hers, and it set the tone for the rest of her day.
 
-In that quiet, early hour, Emma found peace and contentment in her steamy cup of joe. It was more than just a drink; it was a daily ritual that brought her immense joy and a deep appreciation for the simple pleasures in life.
+In the quiet of the morning, Emma found peace and contentment in her steamy cup of joe. It was more than just a drink; it was a daily ritual that brought her immense joy and a deep appreciation for the simple pleasures in life.

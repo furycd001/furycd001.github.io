@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emma on d:tour</title>
-    <link>https://furycd001.github.io/tags/emma/</link>
+    <link>http://localhost:1313/tags/emma/</link>
     <description>Recent content in Emma on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Jun 2024 10:54:02 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/emma/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/emma/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Morning Emma</title>
-      <link>https://furycd001.github.io/posts/morning-emma/</link>
+      <link>http://localhost:1313/posts/morning-emma/</link>
       <pubDate>Fri, 14 Jun 2024 10:54:02 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/morning-emma/</guid>
+      <guid>http://localhost:1313/posts/morning-emma/</guid>
       <description>Every morning, Emma woke up with a smile, not because of the day&amp;rsquo;s prospects but because of the joy that awaited her in the kitchen. Her mornings began with a ritual she cherished above all else: making and enjoying her perfect cup of coffee.&#xA;She would shuffle out of bed, her slippers softly padding across the floor, and head straight to the kitchen. The familiar sight of her beloved coffee maker greeted her like an old friend.</description>
     </item>
   </channel>

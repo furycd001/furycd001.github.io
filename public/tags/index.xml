@@ -2,262 +2,262 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on d:tour</title>
-    <link>https://furycd001.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Jun 2024 10:54:02 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coffee</title>
-      <link>https://furycd001.github.io/tags/coffee/</link>
+      <link>http://localhost:1313/tags/coffee/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/coffee/</guid>
+      <guid>http://localhost:1313/tags/coffee/</guid>
       <description></description>
     </item>
     <item>
       <title>Emma</title>
-      <link>https://furycd001.github.io/tags/emma/</link>
+      <link>http://localhost:1313/tags/emma/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/emma/</guid>
+      <guid>http://localhost:1313/tags/emma/</guid>
       <description></description>
     </item>
     <item>
       <title>Joe</title>
-      <link>https://furycd001.github.io/tags/joe/</link>
+      <link>http://localhost:1313/tags/joe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/joe/</guid>
+      <guid>http://localhost:1313/tags/joe/</guid>
       <description></description>
     </item>
     <item>
       <title>Joy</title>
-      <link>https://furycd001.github.io/tags/joy/</link>
+      <link>http://localhost:1313/tags/joy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/joy/</guid>
+      <guid>http://localhost:1313/tags/joy/</guid>
       <description></description>
     </item>
     <item>
       <title>Morning</title>
-      <link>https://furycd001.github.io/tags/morning/</link>
+      <link>http://localhost:1313/tags/morning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/morning/</guid>
+      <guid>http://localhost:1313/tags/morning/</guid>
       <description></description>
     </item>
     <item>
       <title>Short Story</title>
-      <link>https://furycd001.github.io/tags/short-story/</link>
+      <link>http://localhost:1313/tags/short-story/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/short-story/</guid>
+      <guid>http://localhost:1313/tags/short-story/</guid>
       <description></description>
     </item>
     <item>
       <title>God</title>
-      <link>https://furycd001.github.io/tags/god/</link>
+      <link>http://localhost:1313/tags/god/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/god/</guid>
+      <guid>http://localhost:1313/tags/god/</guid>
       <description></description>
     </item>
     <item>
       <title>Journey</title>
-      <link>https://furycd001.github.io/tags/journey/</link>
+      <link>http://localhost:1313/tags/journey/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/journey/</guid>
+      <guid>http://localhost:1313/tags/journey/</guid>
       <description></description>
     </item>
     <item>
       <title>Sometimes</title>
-      <link>https://furycd001.github.io/tags/sometimes/</link>
+      <link>http://localhost:1313/tags/sometimes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/sometimes/</guid>
+      <guid>http://localhost:1313/tags/sometimes/</guid>
       <description></description>
     </item>
     <item>
       <title>Story</title>
-      <link>https://furycd001.github.io/tags/story/</link>
+      <link>http://localhost:1313/tags/story/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/story/</guid>
+      <guid>http://localhost:1313/tags/story/</guid>
       <description></description>
     </item>
     <item>
       <title>Dream</title>
-      <link>https://furycd001.github.io/tags/dream/</link>
+      <link>http://localhost:1313/tags/dream/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/dream/</guid>
+      <guid>http://localhost:1313/tags/dream/</guid>
       <description></description>
     </item>
     <item>
       <title>Dream Big</title>
-      <link>https://furycd001.github.io/tags/dream-big/</link>
+      <link>http://localhost:1313/tags/dream-big/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/dream-big/</guid>
+      <guid>http://localhost:1313/tags/dream-big/</guid>
       <description></description>
     </item>
     <item>
       <title>Stardom</title>
-      <link>https://furycd001.github.io/tags/stardom/</link>
+      <link>http://localhost:1313/tags/stardom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/stardom/</guid>
+      <guid>http://localhost:1313/tags/stardom/</guid>
       <description></description>
     </item>
     <item>
       <title>Animals</title>
-      <link>https://furycd001.github.io/tags/animals/</link>
+      <link>http://localhost:1313/tags/animals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/animals/</guid>
+      <guid>http://localhost:1313/tags/animals/</guid>
       <description></description>
     </item>
     <item>
       <title>Nature</title>
-      <link>https://furycd001.github.io/tags/nature/</link>
+      <link>http://localhost:1313/tags/nature/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/nature/</guid>
+      <guid>http://localhost:1313/tags/nature/</guid>
       <description></description>
     </item>
     <item>
       <title>Picnic</title>
-      <link>https://furycd001.github.io/tags/picnic/</link>
+      <link>http://localhost:1313/tags/picnic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/picnic/</guid>
+      <guid>http://localhost:1313/tags/picnic/</guid>
       <description></description>
     </item>
     <item>
       <title>Delirious</title>
-      <link>https://furycd001.github.io/tags/delirious/</link>
+      <link>http://localhost:1313/tags/delirious/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/delirious/</guid>
+      <guid>http://localhost:1313/tags/delirious/</guid>
       <description></description>
     </item>
     <item>
       <title>Obsession</title>
-      <link>https://furycd001.github.io/tags/obsession/</link>
+      <link>http://localhost:1313/tags/obsession/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/obsession/</guid>
+      <guid>http://localhost:1313/tags/obsession/</guid>
       <description></description>
     </item>
     <item>
       <title>Chrome</title>
-      <link>https://furycd001.github.io/tags/chrome/</link>
+      <link>http://localhost:1313/tags/chrome/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/chrome/</guid>
+      <guid>http://localhost:1313/tags/chrome/</guid>
       <description></description>
     </item>
     <item>
       <title>Cruz</title>
-      <link>https://furycd001.github.io/tags/cruz/</link>
+      <link>http://localhost:1313/tags/cruz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/cruz/</guid>
+      <guid>http://localhost:1313/tags/cruz/</guid>
       <description></description>
     </item>
     <item>
       <title>Vancity Vanlife</title>
-      <link>https://furycd001.github.io/tags/vancity-vanlife/</link>
+      <link>http://localhost:1313/tags/vancity-vanlife/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/vancity-vanlife/</guid>
+      <guid>http://localhost:1313/tags/vancity-vanlife/</guid>
       <description></description>
     </item>
     <item>
       <title>Coffee Shop</title>
-      <link>https://furycd001.github.io/tags/coffee-shop/</link>
+      <link>http://localhost:1313/tags/coffee-shop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/coffee-shop/</guid>
+      <guid>http://localhost:1313/tags/coffee-shop/</guid>
       <description></description>
     </item>
     <item>
       <title>Internet</title>
-      <link>https://furycd001.github.io/tags/internet/</link>
+      <link>http://localhost:1313/tags/internet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/internet/</guid>
+      <guid>http://localhost:1313/tags/internet/</guid>
       <description></description>
     </item>
     <item>
       <title>Nostalgia</title>
-      <link>https://furycd001.github.io/tags/nostalgia/</link>
+      <link>http://localhost:1313/tags/nostalgia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/nostalgia/</guid>
+      <guid>http://localhost:1313/tags/nostalgia/</guid>
       <description></description>
     </item>
     <item>
       <title>Starbucks</title>
-      <link>https://furycd001.github.io/tags/starbucks/</link>
+      <link>http://localhost:1313/tags/starbucks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/starbucks/</guid>
+      <guid>http://localhost:1313/tags/starbucks/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>https://furycd001.github.io/tags/technology/</link>
+      <link>http://localhost:1313/tags/technology/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/technology/</guid>
+      <guid>http://localhost:1313/tags/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>Wifi</title>
-      <link>https://furycd001.github.io/tags/wifi/</link>
+      <link>http://localhost:1313/tags/wifi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/wifi/</guid>
+      <guid>http://localhost:1313/tags/wifi/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>https://furycd001.github.io/tags/blog/</link>
+      <link>http://localhost:1313/tags/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/blog/</guid>
+      <guid>http://localhost:1313/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Creativity</title>
-      <link>https://furycd001.github.io/tags/creativity/</link>
+      <link>http://localhost:1313/tags/creativity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/creativity/</guid>
+      <guid>http://localhost:1313/tags/creativity/</guid>
       <description></description>
     </item>
     <item>
       <title>Ideas</title>
-      <link>https://furycd001.github.io/tags/ideas/</link>
+      <link>http://localhost:1313/tags/ideas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/ideas/</guid>
+      <guid>http://localhost:1313/tags/ideas/</guid>
       <description></description>
     </item>
     <item>
       <title>New Blog</title>
-      <link>https://furycd001.github.io/tags/new-blog/</link>
+      <link>http://localhost:1313/tags/new-blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/new-blog/</guid>
+      <guid>http://localhost:1313/tags/new-blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Ramblings</title>
-      <link>https://furycd001.github.io/tags/ramblings/</link>
+      <link>http://localhost:1313/tags/ramblings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/ramblings/</guid>
+      <guid>http://localhost:1313/tags/ramblings/</guid>
       <description></description>
     </item>
     <item>
       <title>Stories</title>
-      <link>https://furycd001.github.io/tags/stories/</link>
+      <link>http://localhost:1313/tags/stories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/stories/</guid>
+      <guid>http://localhost:1313/tags/stories/</guid>
       <description></description>
     </item>
     <item>
       <title>Talk</title>
-      <link>https://furycd001.github.io/tags/talk/</link>
+      <link>http://localhost:1313/tags/talk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/talk/</guid>
+      <guid>http://localhost:1313/tags/talk/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://furycd001.github.io/tags/hugo/</link>
+      <link>http://localhost:1313/tags/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/hugo/</guid>
+      <guid>http://localhost:1313/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Test Post</title>
-      <link>https://furycd001.github.io/tags/test-post/</link>
+      <link>http://localhost:1313/tags/test-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/tags/test-post/</guid>
+      <guid>http://localhost:1313/tags/test-post/</guid>
       <description></description>
     </item>
   </channel>
