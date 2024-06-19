@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Joy on d:tour</title>
-    <link>https://furycd001.github.io/tags/joy/</link>
+    <link>http://localhost:1313/tags/joy/</link>
     <description>Recent content in Joy on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Jun 2024 10:54:02 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/joy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/joy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Morning Emma</title>
-      <link>https://furycd001.github.io/posts/morning-emma/</link>
+      <link>http://localhost:1313/posts/morning-emma/</link>
       <pubDate>Fri, 14 Jun 2024 10:54:02 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/morning-emma/</guid>
+      <guid>http://localhost:1313/posts/morning-emma/</guid>
       <description>Every morning, Emma woke up with a smile, not because of the day&amp;rsquo;s prospects but because of the joy that awaited her in the kitchen. Her mornings began with a ritual she cherished above all else: making and enjoying her perfect cup of coffee.&#xA;She would shuffle out of bed, her slippers softly padding across the floor, and head straight to the kitchen. The familiar sight of her beloved coffee maker greeted her like an old friend.</description>
     </item>
     <item>
       <title>The Joys of Joe</title>
-      <link>https://furycd001.github.io/posts/the-joys-of-joe/</link>
+      <link>http://localhost:1313/posts/the-joys-of-joe/</link>
       <pubDate>Fri, 14 Jun 2024 10:40:59 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-joys-of-joe/</guid>
+      <guid>http://localhost:1313/posts/the-joys-of-joe/</guid>
       <description>Every morning, the kitchen came to life with the anticipation of a special ritual: the making of a perfect cup of coffee. As dawn&amp;rsquo;s first light filtered through the window, the beans awaited their transformation from mere ingredients into a steamy cup of joe, brimming with joy, promise, and excitement.&#xA;The journey began by selecting the beans, and carefully measuring them. Each bean holding the potential for greatness, ready to release its essence.</description>
     </item>
   </channel>
