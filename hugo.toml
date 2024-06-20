@@ -1,7 +1,7 @@
 baseURL = 'https://furycd001.github.io/'
 languageCode = 'en-us'
 title = 'd:tour'
-theme = 'hugo-paper'
+theme = 'mnml'
 
 [params]
 social = [

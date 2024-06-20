@@ -1,0 +1,35 @@
+<header>
+  <div class="header-content">
+    <h1><a href="{{ .Site.BaseURL }}">{{ site.Title }}</a></h1>
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  </div>
+
+  <div class="header-actions">
+    <div class="tags">
+      {{ if .Site.Params.tags }}
+        <a href="{{ .Site.Params.tags }}"><img src="{{ "hashtag.svg" | relURL }}" alt="Tags" class="icon"></a>
+      {{ end }}
+    </div>
+
+    <div class="external-links">
+      {{ if .Site.Params.rss }}
+        <a href="{{ "/index.xml" | absURL }}"><img src="{{ "rss.svg" | relURL }}" alt="RSS" class="icon"></a>
+      {{ end }}
+      {{ if .Site.Params.github }}
+        <a href="{{ .Site.Params.github }}"><img src="{{ "github.svg" | relURL }}" alt="GitHub" class="icon"></a>
+      {{ end }}
+      {{ if .Site.Params.dots }}
+        <a href="{{ .Site.Params.dots }}"><img src="{{ "dotfiles.svg" | relURL }}" alt="Dots" class="icon"></a>
+      {{ end }}
+      {{ if .Site.Params.mastodon }}
+        <a href="{{ .Site.Params.mastodon }}"><img src="{{ "mastodon.svg" | relURL }}" alt="Mastodon" class="icon"></a>
+      {{ end }}
+      {{ if .Site.Params.email }}
+        <a href="mailto:{{ .Site.Params.email }}"><img src="{{ "email.svg" | relURL }}" alt="Email" class="icon"></a>
+      {{ end }}
+      {{ if .Site.Params.donate }}
+        <a href="{{ .Site.Params.donate }}"><img src="{{ "donate.svg" | relURL }}" alt="Donate" class="icon"></a>
+      {{ end }}
+    </div>
+  </div>
+</header>
