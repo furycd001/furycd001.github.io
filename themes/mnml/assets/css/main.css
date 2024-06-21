@@ -94,20 +94,22 @@ h2 {
   margin-bottom: 0rem;
 }
 
+.post-header {
+  display: block;
+}
+
 p.post-date {
+  display: block;
   margin-top: 0rem; 
   margin-bottom: 2rem;
   font-size: 1em;
-  color: #525466;
-}
-
-.post-title {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 8px;
   color: #f2f2f2;
 }
 
-.post-date-post {
-  font-size: 1em;
-  font-weight: bold;
+.post-title {
   color: #f2f2f2;
 }
 
@@ -139,4 +141,20 @@ p.post-date {
 .tag a {
   color: #f2f2f2;
   text-decoration: none;
+}
+
+p {
+  padding-bottom: 1.1rem;
+}
+
+blockquote {
+  font-weight: bold;
+  font-style: italic;
+  margin: 1.4em 8px;
+  padding: 0.4em 8px;
+  color: #f2f2f2;
+}
+
+blockquote p {
+  margin: 0;
 }
