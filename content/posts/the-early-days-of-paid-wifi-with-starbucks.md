@@ -1,5 +1,5 @@
 +++
-title = 'The Early Days of Paid Wifi With Strbucks'
+title = 'The Early Days of Paid Wifi With Starbucks'
 date = 2024-06-04T14:18:58+01:00
 draft = false
 tags = ["starbucks", "coffee", "coffee shop", "wifi",  "internet", "technology", "nostalgia"]
