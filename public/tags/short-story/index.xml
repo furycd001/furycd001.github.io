@@ -2,66 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Short Story on d:tour</title>
-    <link>http://localhost:1313/tags/short-story/</link>
+    <link>https://furycd001.github.io/tags/short-story/</link>
     <description>Recent content in Short Story on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Jun 2024 13:58:34 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/short-story/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jun 2024 10:38:29 +0100</lastBuildDate>
+    <atom:link href="https://furycd001.github.io/tags/short-story/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heliboard</title>
+      <link>https://furycd001.github.io/posts/heliboard/</link>
+      <pubDate>Wed, 26 Jun 2024 10:38:29 +0100</pubDate>
+      <guid>https://furycd001.github.io/posts/heliboard/</guid>
+      <description>Jonny had always been curious about open-source technology, so when he heard about the open-source Heliboard keyboard for his phone, he decided to give it a try. The idea of using an open-source keyboard for enhanced privacy intrigued him, promising a level of data security that the default keyboard just couldn&amp;rsquo;t offer. He eagerly installed it, ready to protect his personal information.&#xA;However, from the moment Jonny started using Heliboard, things didn&amp;rsquo;t go as smoothly as he had hoped.</description>
+    </item>
     <item>
       <title>Serenitys Canvas</title>
-      <link>http://localhost:1313/posts/serenitys-canvas/</link>
+      <link>https://furycd001.github.io/posts/serenitys-canvas/</link>
       <pubDate>Wed, 19 Jun 2024 13:58:34 +0100</pubDate>
-      <guid>http://localhost:1313/posts/serenitys-canvas/</guid>
+      <guid>https://furycd001.github.io/posts/serenitys-canvas/</guid>
       <description>High atop a lonely, quiet mountain, the world seemed to pause, embracing the stillness that enveloped the peak. The air was crisp and clear, carrying the scent of pine and earth, a reminder of nature&amp;rsquo;s raw beauty. The rocks and trees stood as silent witnesses to the grandeur that unfolded every night.&#xA;As dusk faded and night took over, the sky transformed into a vast canvas, adorned with countless stars. Each one glistened with its own unique brilliance, contributing to a celestial tapestry that was both humbling and awe-inspiring.</description>
     </item>
     <item>
       <title>Morning Emma</title>
-      <link>http://localhost:1313/posts/morning-emma/</link>
+      <link>https://furycd001.github.io/posts/morning-emma/</link>
       <pubDate>Fri, 14 Jun 2024 10:54:02 +0100</pubDate>
-      <guid>http://localhost:1313/posts/morning-emma/</guid>
+      <guid>https://furycd001.github.io/posts/morning-emma/</guid>
       <description>Every morning, Emma woke up with a smile, not because of the day&amp;rsquo;s prospects but because of the joy that awaited her in the kitchen. Her mornings began with a ritual she cherished above all else: making and enjoying her perfect cup of coffee.&#xA;She would shuffle out of bed, her slippers softly padding across the floor, and head straight to the kitchen. The familiar sight of her beloved coffee maker greeted her like an old friend.</description>
     </item>
     <item>
       <title>The Joys of Joe</title>
-      <link>http://localhost:1313/posts/the-joys-of-joe/</link>
+      <link>https://furycd001.github.io/posts/the-joys-of-joe/</link>
       <pubDate>Fri, 14 Jun 2024 10:40:59 +0100</pubDate>
-      <guid>http://localhost:1313/posts/the-joys-of-joe/</guid>
+      <guid>https://furycd001.github.io/posts/the-joys-of-joe/</guid>
       <description>Every morning, the kitchen came to life with the anticipation of a special ritual: the making of a perfect cup of coffee. As dawn&amp;rsquo;s first light filtered through the window, the beans awaited their transformation from mere ingredients into a steamy cup of joe, brimming with joy, promise, and excitement.&#xA;The journey began by selecting the beans, and carefully measuring them. Each bean holding the potential for greatness, ready to release its essence.</description>
     </item>
     <item>
       <title>Clumsy Footsteps to Stardom</title>
-      <link>http://localhost:1313/posts/clumsy-footsteps-to-stardom/</link>
+      <link>https://furycd001.github.io/posts/clumsy-footsteps-to-stardom/</link>
       <pubDate>Thu, 06 Jun 2024 07:34:58 +0100</pubDate>
-      <guid>http://localhost:1313/posts/clumsy-footsteps-to-stardom/</guid>
+      <guid>https://furycd001.github.io/posts/clumsy-footsteps-to-stardom/</guid>
       <description>In a quaint little town, there lived a girl named Mia who had a dream. She wanted nothing more than to become a tap dancer, her feet creating rhythms that would captivate audiences. However, there was a small problem: Mia had no rhythm, was always out of balance, and was extremely clumsy. Despite her shortcomings, Mia&amp;rsquo;s heart was set on her dream, and she practiced tirelessly, day after day.&#xA;No matter how hard she tried, Mia seemed to get nowhere.</description>
     </item>
     <item>
       <title>The Unforgettable Picnic</title>
-      <link>http://localhost:1313/posts/the-unforgettable-picnic/</link>
+      <link>https://furycd001.github.io/posts/the-unforgettable-picnic/</link>
       <pubDate>Thu, 06 Jun 2024 07:17:32 +0100</pubDate>
-      <guid>http://localhost:1313/posts/the-unforgettable-picnic/</guid>
+      <guid>https://furycd001.github.io/posts/the-unforgettable-picnic/</guid>
       <description>In a peaceful meadow nestled between rolling hills, a group of friendly animals decided to have a delightful picnic. The sun was shining, the birds were singing, and the scent of wildflowers filled the air. It was the perfect day for a gathering of friends. Among them were Benny the Bear, Lucy the Rabbit, Max the Squirrel, and Andy the Ant Eater.&#xA;They arrived at their favorite spot under the big oak tree, setting down a colorful blanket and unpacking baskets full of delicious treats.</description>
     </item>
     <item>
       <title>Obsession</title>
-      <link>http://localhost:1313/posts/obsession/</link>
+      <link>https://furycd001.github.io/posts/obsession/</link>
       <pubDate>Wed, 05 Jun 2024 15:11:12 +0100</pubDate>
-      <guid>http://localhost:1313/posts/obsession/</guid>
+      <guid>https://furycd001.github.io/posts/obsession/</guid>
       <description>In the heart of a quaint little town, nestled among rolling hills and whispering trees, there lived a young woman named Lily. Lily was a dreamer, her mind often lost in the mysteries of the universe. She found solace in the unseen, the intangible, and the inexplicable.&#xA;One crisp autumn evening, as the moon cast its gentle glow upon the world, Lily found herself lost in contemplation. What could she do with her obsession, she wondered, with the things she could not see?</description>
     </item>
     <item>
       <title>Cruz and the Mud Puddle</title>
-      <link>http://localhost:1313/posts/cruz-and-the-mud-puddle/</link>
+      <link>https://furycd001.github.io/posts/cruz-and-the-mud-puddle/</link>
       <pubDate>Wed, 05 Jun 2024 07:43:39 +0100</pubDate>
-      <guid>http://localhost:1313/posts/cruz-and-the-mud-puddle/</guid>
+      <guid>https://furycd001.github.io/posts/cruz-and-the-mud-puddle/</guid>
       <description>In the heart of the sprawling wilderness, there lived a charming bulldog named Cruz. Cruz was no ordinary bulldog; he was an intrepid explorer with a heart full of adventure. He traveled the country in a cozy, colorful van with his owner, Chrome. Chrome was a free spirit with a love for the open road, and together, they explored every nook and cranny of the beautiful landscape.&#xA;One crisp morning, Cruz and Chrome arrived at a picturesque campground nestled among towering pine trees and shimmering lakes.</description>
     </item>
     <item>
       <title>Chromes Fruity Fiasco</title>
-      <link>http://localhost:1313/posts/chromes-fruity-fiasco/</link>
+      <link>https://furycd001.github.io/posts/chromes-fruity-fiasco/</link>
       <pubDate>Tue, 04 Jun 2024 21:02:55 +0100</pubDate>
-      <guid>http://localhost:1313/posts/chromes-fruity-fiasco/</guid>
+      <guid>https://furycd001.github.io/posts/chromes-fruity-fiasco/</guid>
       <description>Chrome wandered through the bustling market, eyeing the vibrant display of fruit. He picked up a ripe mango, its sweet aroma mingling with the scent of nearby oranges and strawberries. As he bit into the juicy flesh, Chrome couldn&amp;rsquo;t help but smile, savoring the burst of tropical flavor that transported him to a sunny paradise.&#xA;Chrome tripped over a rogue pineapple and landed face-first in a pile of watermelons. &amp;ldquo;Well, at least I&amp;rsquo;m getting my daily fruit intake,&amp;rdquo; he muttered, spitting out seeds and trying to regain his dignity.</description>
     </item>
   </channel>

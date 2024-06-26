@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on d:tour</title>
-    <link>http://localhost:1313/tags/tech/</link>
+    <link>https://furycd001.github.io/tags/tech/</link>
     <description>Recent content in Tech on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Jun 2024 09:55:54 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furycd001.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pc Perdicaments</title>
-      <link>http://localhost:1313/posts/pc-perdicaments/</link>
+      <link>https://furycd001.github.io/posts/pc-perdicaments/</link>
       <pubDate>Mon, 24 Jun 2024 09:55:54 +0100</pubDate>
-      <guid>http://localhost:1313/posts/pc-perdicaments/</guid>
+      <guid>https://furycd001.github.io/posts/pc-perdicaments/</guid>
       <description>In a cosy kitchen, a computer sat quietly in the corner underneath a black wooden desk. A reliable companion in a world increasingly dominated by sleek, modern devices. It wasn&amp;rsquo;t old, but it wasn&amp;rsquo;t brand new either—a comfortable middle ground. Running Linux, it represented a blend of stability and versatility, though not without its quirks. Its owner didn’t ask for much—just for it to work as expected.&#xA;Every morning, the computer was powered on with a sense of hope.</description>
     </item>
   </channel>

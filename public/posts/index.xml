@@ -2,108 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on d:tour</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://furycd001.github.io/posts/</link>
     <description>Recent content in Posts on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jun 2024 08:43:42 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jun 2024 10:38:29 +0100</lastBuildDate>
+    <atom:link href="https://furycd001.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heliboard</title>
+      <link>https://furycd001.github.io/posts/heliboard/</link>
+      <pubDate>Wed, 26 Jun 2024 10:38:29 +0100</pubDate>
+      <guid>https://furycd001.github.io/posts/heliboard/</guid>
+      <description>Jonny had always been curious about open-source technology, so when he heard about the open-source Heliboard keyboard for his phone, he decided to give it a try. The idea of using an open-source keyboard for enhanced privacy intrigued him, promising a level of data security that the default keyboard just couldn&amp;rsquo;t offer. He eagerly installed it, ready to protect his personal information.&#xA;However, from the moment Jonny started using Heliboard, things didn&amp;rsquo;t go as smoothly as he had hoped.</description>
+    </item>
     <item>
       <title>A Super Quick Introduction to the Fediverse and Mastodon</title>
-      <link>http://localhost:1313/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</link>
+      <link>https://furycd001.github.io/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</link>
       <pubDate>Wed, 26 Jun 2024 08:43:42 +0100</pubDate>
-      <guid>http://localhost:1313/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</guid>
+      <guid>https://furycd001.github.io/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</guid>
       <description>There are lots of guides explaining Fediverse and Mastodon, but most of them go into way too much detail. With this post, I would like to try and cover all, or at least most, of the basics you&amp;rsquo;ll need to know to get started. You can then gradually learn the rest from elsewhere.&#xA;The fediverse is NOT f**king twitter !! The fediverse is very different from twitter, and that&amp;rsquo;s by design.</description>
     </item>
     <item>
       <title>Pc Perdicaments</title>
-      <link>http://localhost:1313/posts/pc-perdicaments/</link>
+      <link>https://furycd001.github.io/posts/pc-perdicaments/</link>
       <pubDate>Mon, 24 Jun 2024 09:55:54 +0100</pubDate>
-      <guid>http://localhost:1313/posts/pc-perdicaments/</guid>
+      <guid>https://furycd001.github.io/posts/pc-perdicaments/</guid>
       <description>In a cosy kitchen, a computer sat quietly in the corner underneath a black wooden desk. A reliable companion in a world increasingly dominated by sleek, modern devices. It wasn&amp;rsquo;t old, but it wasn&amp;rsquo;t brand new either—a comfortable middle ground. Running Linux, it represented a blend of stability and versatility, though not without its quirks. Its owner didn’t ask for much—just for it to work as expected.&#xA;Every morning, the computer was powered on with a sense of hope.</description>
     </item>
     <item>
       <title>Serenitys Canvas</title>
-      <link>http://localhost:1313/posts/serenitys-canvas/</link>
+      <link>https://furycd001.github.io/posts/serenitys-canvas/</link>
       <pubDate>Wed, 19 Jun 2024 13:58:34 +0100</pubDate>
-      <guid>http://localhost:1313/posts/serenitys-canvas/</guid>
+      <guid>https://furycd001.github.io/posts/serenitys-canvas/</guid>
       <description>High atop a lonely, quiet mountain, the world seemed to pause, embracing the stillness that enveloped the peak. The air was crisp and clear, carrying the scent of pine and earth, a reminder of nature&amp;rsquo;s raw beauty. The rocks and trees stood as silent witnesses to the grandeur that unfolded every night.&#xA;As dusk faded and night took over, the sky transformed into a vast canvas, adorned with countless stars. Each one glistened with its own unique brilliance, contributing to a celestial tapestry that was both humbling and awe-inspiring.</description>
     </item>
     <item>
       <title>Morning Emma</title>
-      <link>http://localhost:1313/posts/morning-emma/</link>
+      <link>https://furycd001.github.io/posts/morning-emma/</link>
       <pubDate>Fri, 14 Jun 2024 10:54:02 +0100</pubDate>
-      <guid>http://localhost:1313/posts/morning-emma/</guid>
+      <guid>https://furycd001.github.io/posts/morning-emma/</guid>
       <description>Every morning, Emma woke up with a smile, not because of the day&amp;rsquo;s prospects but because of the joy that awaited her in the kitchen. Her mornings began with a ritual she cherished above all else: making and enjoying her perfect cup of coffee.&#xA;She would shuffle out of bed, her slippers softly padding across the floor, and head straight to the kitchen. The familiar sight of her beloved coffee maker greeted her like an old friend.</description>
     </item>
     <item>
       <title>The Joys of Joe</title>
-      <link>http://localhost:1313/posts/the-joys-of-joe/</link>
+      <link>https://furycd001.github.io/posts/the-joys-of-joe/</link>
       <pubDate>Fri, 14 Jun 2024 10:40:59 +0100</pubDate>
-      <guid>http://localhost:1313/posts/the-joys-of-joe/</guid>
+      <guid>https://furycd001.github.io/posts/the-joys-of-joe/</guid>
       <description>Every morning, the kitchen came to life with the anticipation of a special ritual: the making of a perfect cup of coffee. As dawn&amp;rsquo;s first light filtered through the window, the beans awaited their transformation from mere ingredients into a steamy cup of joe, brimming with joy, promise, and excitement.&#xA;The journey began by selecting the beans, and carefully measuring them. Each bean holding the potential for greatness, ready to release its essence.</description>
     </item>
     <item>
       <title>Sometimes</title>
-      <link>http://localhost:1313/posts/sometimes/</link>
+      <link>https://furycd001.github.io/posts/sometimes/</link>
       <pubDate>Mon, 10 Jun 2024 13:22:42 +0100</pubDate>
-      <guid>http://localhost:1313/posts/sometimes/</guid>
+      <guid>https://furycd001.github.io/posts/sometimes/</guid>
       <description>Sometimes, in the quiet of her room, A girl with long ginger hair, like a bloom, Felt the weight of the world, pressing down on her soul, Wondering if she’d ever find a way to be whole.&#xA;Her extensions, a cascade of fire, so bright, Reflected her spirit, her inner fight. She’d look in the mirror, and sometimes she’d cry, Feeling like she’d never understand why.&#xA;She set out on a journey, leaving her fears behind, With each step she took, she sought to find A purpose, a reason, a place to belong, Humming her favorite melody, a hopeful song.</description>
     </item>
     <item>
       <title>Clumsy Footsteps to Stardom</title>
-      <link>http://localhost:1313/posts/clumsy-footsteps-to-stardom/</link>
+      <link>https://furycd001.github.io/posts/clumsy-footsteps-to-stardom/</link>
       <pubDate>Thu, 06 Jun 2024 07:34:58 +0100</pubDate>
-      <guid>http://localhost:1313/posts/clumsy-footsteps-to-stardom/</guid>
+      <guid>https://furycd001.github.io/posts/clumsy-footsteps-to-stardom/</guid>
       <description>In a quaint little town, there lived a girl named Mia who had a dream. She wanted nothing more than to become a tap dancer, her feet creating rhythms that would captivate audiences. However, there was a small problem: Mia had no rhythm, was always out of balance, and was extremely clumsy. Despite her shortcomings, Mia&amp;rsquo;s heart was set on her dream, and she practiced tirelessly, day after day.&#xA;No matter how hard she tried, Mia seemed to get nowhere.</description>
     </item>
     <item>
       <title>The Unforgettable Picnic</title>
-      <link>http://localhost:1313/posts/the-unforgettable-picnic/</link>
+      <link>https://furycd001.github.io/posts/the-unforgettable-picnic/</link>
       <pubDate>Thu, 06 Jun 2024 07:17:32 +0100</pubDate>
-      <guid>http://localhost:1313/posts/the-unforgettable-picnic/</guid>
+      <guid>https://furycd001.github.io/posts/the-unforgettable-picnic/</guid>
       <description>In a peaceful meadow nestled between rolling hills, a group of friendly animals decided to have a delightful picnic. The sun was shining, the birds were singing, and the scent of wildflowers filled the air. It was the perfect day for a gathering of friends. Among them were Benny the Bear, Lucy the Rabbit, Max the Squirrel, and Andy the Ant Eater.&#xA;They arrived at their favorite spot under the big oak tree, setting down a colorful blanket and unpacking baskets full of delicious treats.</description>
     </item>
     <item>
       <title>Obsession</title>
-      <link>http://localhost:1313/posts/obsession/</link>
+      <link>https://furycd001.github.io/posts/obsession/</link>
       <pubDate>Wed, 05 Jun 2024 15:11:12 +0100</pubDate>
-      <guid>http://localhost:1313/posts/obsession/</guid>
+      <guid>https://furycd001.github.io/posts/obsession/</guid>
       <description>In the heart of a quaint little town, nestled among rolling hills and whispering trees, there lived a young woman named Lily. Lily was a dreamer, her mind often lost in the mysteries of the universe. She found solace in the unseen, the intangible, and the inexplicable.&#xA;One crisp autumn evening, as the moon cast its gentle glow upon the world, Lily found herself lost in contemplation. What could she do with her obsession, she wondered, with the things she could not see?</description>
     </item>
     <item>
       <title>Cruz and the Mud Puddle</title>
-      <link>http://localhost:1313/posts/cruz-and-the-mud-puddle/</link>
+      <link>https://furycd001.github.io/posts/cruz-and-the-mud-puddle/</link>
       <pubDate>Wed, 05 Jun 2024 07:43:39 +0100</pubDate>
-      <guid>http://localhost:1313/posts/cruz-and-the-mud-puddle/</guid>
+      <guid>https://furycd001.github.io/posts/cruz-and-the-mud-puddle/</guid>
       <description>In the heart of the sprawling wilderness, there lived a charming bulldog named Cruz. Cruz was no ordinary bulldog; he was an intrepid explorer with a heart full of adventure. He traveled the country in a cozy, colorful van with his owner, Chrome. Chrome was a free spirit with a love for the open road, and together, they explored every nook and cranny of the beautiful landscape.&#xA;One crisp morning, Cruz and Chrome arrived at a picturesque campground nestled among towering pine trees and shimmering lakes.</description>
     </item>
     <item>
       <title>Chromes Fruity Fiasco</title>
-      <link>http://localhost:1313/posts/chromes-fruity-fiasco/</link>
+      <link>https://furycd001.github.io/posts/chromes-fruity-fiasco/</link>
       <pubDate>Tue, 04 Jun 2024 21:02:55 +0100</pubDate>
-      <guid>http://localhost:1313/posts/chromes-fruity-fiasco/</guid>
+      <guid>https://furycd001.github.io/posts/chromes-fruity-fiasco/</guid>
       <description>Chrome wandered through the bustling market, eyeing the vibrant display of fruit. He picked up a ripe mango, its sweet aroma mingling with the scent of nearby oranges and strawberries. As he bit into the juicy flesh, Chrome couldn&amp;rsquo;t help but smile, savoring the burst of tropical flavor that transported him to a sunny paradise.&#xA;Chrome tripped over a rogue pineapple and landed face-first in a pile of watermelons. &amp;ldquo;Well, at least I&amp;rsquo;m getting my daily fruit intake,&amp;rdquo; he muttered, spitting out seeds and trying to regain his dignity.</description>
     </item>
     <item>
       <title>The Early Days of Paid Wifi With Starbucks</title>
-      <link>http://localhost:1313/posts/the-early-days-of-paid-wifi-with-starbucks/</link>
+      <link>https://furycd001.github.io/posts/the-early-days-of-paid-wifi-with-starbucks/</link>
       <pubDate>Tue, 04 Jun 2024 14:18:58 +0100</pubDate>
-      <guid>http://localhost:1313/posts/the-early-days-of-paid-wifi-with-starbucks/</guid>
+      <guid>https://furycd001.github.io/posts/the-early-days-of-paid-wifi-with-starbucks/</guid>
       <description>In the late 2000s, Starbucks emerged as more than just a coffee haven; it became a social hub, a place to connect with friends and colleagues. However, during this period, the concept of free WiFi was not as ubiquitous as it is today. Instead, Starbucks UK offered a WiFi experience that required payment for access.&#xA;The Era of Paid WiFi at Starbucks UK.. Around 2006 and 2007, Starbucks introduced its WiFi service to stores across the UK &amp;amp; Ireland, offering customers the opportunity to access the internet while sipping their favorite beverages.</description>
     </item>
     <item>
       <title>Ideas, thoughts, &amp; ramblings.....</title>
-      <link>http://localhost:1313/posts/ideas-and-ramblings/</link>
+      <link>https://furycd001.github.io/posts/ideas-and-ramblings/</link>
       <pubDate>Tue, 04 Jun 2024 08:16:35 +0100</pubDate>
-      <guid>http://localhost:1313/posts/ideas-and-ramblings/</guid>
+      <guid>https://furycd001.github.io/posts/ideas-and-ramblings/</guid>
       <description>Ideas, thoughts &amp;amp; Ramblings&amp;hellip; that&amp;rsquo;s what this blog is all about. After spending a few days playing around with Hugo offline, I&amp;rsquo;ve discovered that I actually quite like it. It&amp;rsquo;s like a refreshing change.&#xA;A Fresh Start.. Initially, my plan was to transfer all my old blog posts from Publii to this new blog. However, upon reflection, I decided against it. A few of those posts were of low quality, and frankly, I have no idea why I ever published them.</description>
     </item>
     <item>
       <title>New Blog</title>
-      <link>http://localhost:1313/posts/new-blog/</link>
+      <link>https://furycd001.github.io/posts/new-blog/</link>
       <pubDate>Fri, 31 May 2024 10:20:54 +0100</pubDate>
-      <guid>http://localhost:1313/posts/new-blog/</guid>
+      <guid>https://furycd001.github.io/posts/new-blog/</guid>
       <description>After using publii for several years, I&amp;rsquo;ve finally decided to switch to Hugo. I made the switch because I wanted a more minimalistic, less clunky, and easier-to-maintain solution.&#xA;At the moment, I&amp;rsquo;m just testing Hugo, and this post is primarily for experimental purposes. After re-uploading a few posts from my previous blog, I&amp;rsquo;ll look at my feelings towards Hugo based on my experience and the results. Depending on how I feel about it, I may or may not stick with Hugo.</description>
     </item>
   </channel>
