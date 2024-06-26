@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Earth on d:tour</title>
-    <link>https://furycd001.github.io/tags/earth/</link>
+    <link>http://localhost:1313/tags/earth/</link>
     <description>Recent content in Earth on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Jun 2024 13:58:34 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/earth/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/earth/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Serenitys Canvas</title>
-      <link>https://furycd001.github.io/posts/serenitys-canvas/</link>
+      <link>http://localhost:1313/posts/serenitys-canvas/</link>
       <pubDate>Wed, 19 Jun 2024 13:58:34 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/serenitys-canvas/</guid>
+      <guid>http://localhost:1313/posts/serenitys-canvas/</guid>
       <description>High atop a lonely, quiet mountain, the world seemed to pause, embracing the stillness that enveloped the peak. The air was crisp and clear, carrying the scent of pine and earth, a reminder of nature&amp;rsquo;s raw beauty. The rocks and trees stood as silent witnesses to the grandeur that unfolded every night.&#xA;As dusk faded and night took over, the sky transformed into a vast canvas, adorned with countless stars. Each one glistened with its own unique brilliance, contributing to a celestial tapestry that was both humbling and awe-inspiring.</description>
     </item>
   </channel>

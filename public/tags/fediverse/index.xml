@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fediverse on d:tour</title>
+    <link>http://localhost:1313/tags/fediverse/</link>
+    <description>Recent content in Fediverse on d:tour</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Jun 2024 08:43:42 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/fediverse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Super Quick Introduction to the Fediverse and Mastodon</title>
+      <link>http://localhost:1313/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</link>
+      <pubDate>Wed, 26 Jun 2024 08:43:42 +0100</pubDate>
+      <guid>http://localhost:1313/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</guid>
+      <description>There are lots of guides explaining Fediverse and Mastodon, but most of them go into way too much detail. With this post, I would like to try and cover all, or at least most, of the basics you&amp;rsquo;ll need to know to get started. You can then gradually learn the rest from elsewhere.&#xA;The fediverse is NOT f**king twitter !! The fediverse is very different from twitter, and that&amp;rsquo;s by design.</description>
+    </item>
+  </channel>
+</rss>
