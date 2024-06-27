@@ -22,7 +22,7 @@ Over time, you may want to switch to a smaller server with a closer tight knit c
 
 > Please do always keep in mind that the fediverse is run by volunteers !!
 
-The only two servers, I would avoid are mastodon.social & mastodon.online. I say this only because they've had a ton of moderation issues, and are very frequently overloaded.
+The only two servers, I would avoid are [mastodon.social](https://mastodon.social/) & [mastodon.online](https://mastodon.online). I say this only because they've had a ton of moderation issues, and are very frequently overloaded.
 
 ## Culture of the fediverse
 Culture on the fediverse can be split into two important parts:

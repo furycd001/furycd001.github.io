@@ -5,7 +5,7 @@ draft = false
 tags = ["heliboard", "keyboard", "typing", "open source", "android", "technology", "short story"]
 +++
 
-Jonny had always been curious about open-source technology, so when he heard about the open-source **[Heliboard](https://github.com/Helium314/HeliBoard)** keyboard for his phone, he decided to give it a try. The idea of using an open-source keyboard for enhanced privacy intrigued him, promising a level of data security that the default keyboard just couldn't offer. He eagerly installed it, ready to protect his personal information.
+Jonny had always been curious about open-source technology, so when he heard about the open-source [Heliboard](https://github.com/Helium314/HeliBoard) keyboard for his phone, he decided to give it a try. The idea of using an open-source keyboard for enhanced privacy intrigued him, promising a level of data security that the default keyboard just couldn't offer. He eagerly installed it, ready to protect his personal information.
 
 However, from the moment Jonny started using Heliboard, things didn't go as smoothly as he had hoped. Instead of the seamless experience he anticipated, he found himself constantly mistyping words and pressing the wrong buttons. With every little thing Jonny typed, he slowly became a little frustrated. Typed text was littered with typos and autocorrect failures, and simple phrases turned into jumbled nonsense. His friends started making playful jabs at his new creative spelling.
 
