@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/delirious/</loc>
+    <lastmod>2024-06-28T09:25:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/its-ok/</loc>
+    <lastmod>2024-06-28T09:25:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/its-ok/</loc>
+    <lastmod>2024-06-28T09:25:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-06-28T09:25:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/short-story/</loc>
+    <lastmod>2024-06-28T09:25:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-06-28T09:25:33+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/android/</loc>
     <lastmod>2024-06-26T10:38:29+01:00</lastmod>
   </url><url>
@@ -15,15 +33,6 @@
     <lastmod>2024-06-26T10:38:29+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/open-source/</loc>
-    <lastmod>2024-06-26T10:38:29+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-06-26T10:38:29+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/short-story/</loc>
-    <lastmod>2024-06-26T10:38:29+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-06-26T10:38:29+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/technology/</loc>
@@ -145,9 +154,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/the-unforgettable-picnic/</loc>
     <lastmod>2024-06-06T07:17:32+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/delirious/</loc>
-    <lastmod>2024-06-05T15:11:12+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/obsession/</loc>
     <lastmod>2024-06-05T15:11:12+01:00</lastmod>
