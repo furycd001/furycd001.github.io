@@ -70,10 +70,14 @@ a {
   color: #f2f2f2;
   font-weight: bold;
   text-decoration: none;
+}
+
+p a {
+  color: #f2f2f2;
+  font-weight: bold;
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 4px;
-  color: #f2f2f2;
 }
 
 li {
