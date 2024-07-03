@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/harmony/</loc>
+    <lastmod>2024-07-03T06:59:52+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/lifestyle/</loc>
+    <lastmod>2024-07-03T06:59:52+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mindset/</loc>
+    <lastmod>2024-07-03T06:59:52+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/minimalism/</loc>
+    <lastmod>2024-07-03T06:59:52+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/minimalist/</loc>
+    <lastmod>2024-07-03T06:59:52+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-07-03T06:59:52+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/short-story/</loc>
+    <lastmod>2024-07-03T06:59:52+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/simple-living/</loc>
+    <lastmod>2024-07-03T06:59:52+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-03T06:59:52+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/the-harmony-of-minimalism/</loc>
+    <lastmod>2024-07-03T06:59:52+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/delirious/</loc>
     <lastmod>2024-06-28T09:25:33+01:00</lastmod>
   </url><url>
@@ -9,15 +39,6 @@
     <lastmod>2024-06-28T09:25:33+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/its-ok/</loc>
-    <lastmod>2024-06-28T09:25:33+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-06-28T09:25:33+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/short-story/</loc>
-    <lastmod>2024-06-28T09:25:33+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-06-28T09:25:33+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/android/</loc>
@@ -66,9 +87,6 @@
     <lastmod>2024-06-24T09:55:54+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/minimal/</loc>
-    <lastmod>2024-06-24T09:55:54+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/minimalist/</loc>
     <lastmod>2024-06-24T09:55:54+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/pc-perdicaments/</loc>

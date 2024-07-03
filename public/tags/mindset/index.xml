@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Minimalist on d:tour</title>
-    <link>http://localhost:1313/tags/minimalist/</link>
-    <description>Recent content in Minimalist on d:tour</description>
+    <title>Mindset on d:tour</title>
+    <link>http://localhost:1313/tags/mindset/</link>
+    <description>Recent content in Mindset on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 Jul 2024 06:59:52 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/minimalist/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/mindset/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Harmony of Minimalism</title>
       <link>http://localhost:1313/posts/the-harmony-of-minimalism/</link>
       <pubDate>Wed, 03 Jul 2024 06:59:52 +0100</pubDate>
       <guid>http://localhost:1313/posts/the-harmony-of-minimalism/</guid>
       <description>Living with a minimalist mindset can be a serene and liberating experience. It’s about embracing simplicity and finding joy in the essentials, creating a sanctuary of calm in a world that often feels overwhelming. Yet, what happens when minimalism shares a space with a bit of delightful clutter?&#xA;Imagine a home where clean, open spaces coexist with charming knick-knacks and treasured collections. Here, minimalism and a more eclectic approach dance together in a harmonious waltz, each step complementing the other.</description>
-    </item>
-    <item>
-      <title>Pc Perdicaments</title>
-      <link>http://localhost:1313/posts/pc-perdicaments/</link>
-      <pubDate>Mon, 24 Jun 2024 09:55:54 +0100</pubDate>
-      <guid>http://localhost:1313/posts/pc-perdicaments/</guid>
-      <description>In a cosy kitchen, a computer sat quietly in the corner underneath a black wooden desk. A reliable companion in a world increasingly dominated by sleek, modern devices. It wasn&amp;rsquo;t old, but it wasn&amp;rsquo;t brand new either—a comfortable middle ground. Running Linux, it represented a blend of stability and versatility, though not without its quirks. Its owner didn’t ask for much—just for it to work as expected.&#xA;Every morning, the computer was powered on with a sense of hope.</description>
     </item>
   </channel>
 </rss>
