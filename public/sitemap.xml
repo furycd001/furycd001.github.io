@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/a-sip-of-adventure-part-1/</loc>
+    <lastmod>2024-07-09T16:03:41+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/adventure-awaits/</loc>
+    <lastmod>2024-07-09T16:03:41+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/coffee/</loc>
+    <lastmod>2024-07-09T16:03:41+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/explore/</loc>
+    <lastmod>2024-07-09T16:03:41+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/life-journey/</loc>
+    <lastmod>2024-07-09T16:03:41+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-07-09T16:03:41+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/short-story/</loc>
+    <lastmod>2024-07-09T16:03:41+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-09T16:03:41+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/code/</loc>
     <lastmod>2024-07-09T07:03:09+01:00</lastmod>
   </url><url>
@@ -11,16 +35,10 @@
     <loc>http://localhost:1313/tags/plugin/</loc>
     <lastmod>2024-07-09T07:03:09+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-07-09T07:03:09+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2024-07-09T07:03:09+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/sublime-text/</loc>
-    <lastmod>2024-07-09T07:03:09+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-07-09T07:03:09+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/writing/</loc>
@@ -42,9 +60,6 @@
     <lastmod>2024-07-03T06:59:52+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/minimalist/</loc>
-    <lastmod>2024-07-03T06:59:52+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/short-story/</loc>
     <lastmod>2024-07-03T06:59:52+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/simple-living/</loc>
@@ -139,9 +154,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/tranquil/</loc>
     <lastmod>2024-06-19T13:58:34+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/coffee/</loc>
-    <lastmod>2024-06-14T10:54:02+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/joe/</loc>
     <lastmod>2024-06-14T10:54:02+01:00</lastmod>
