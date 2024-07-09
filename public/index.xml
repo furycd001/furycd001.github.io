@@ -6,8 +6,15 @@
     <description>Recent content in Home on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jul 2024 06:59:52 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jul 2024 07:03:09 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing in Sublime Text</title>
+      <link>http://localhost:1313/posts/writing-in-sublime-text/</link>
+      <pubDate>Tue, 09 Jul 2024 07:03:09 +0100</pubDate>
+      <guid>http://localhost:1313/posts/writing-in-sublime-text/</guid>
+      <description>If, like me, you use Sublime Text to draft blog posts or simply to write, you might find yourself wishing for an easy way to switch between a larger font size for writing and a more normal size for coding and everything else. In this post, I will guide you through creating a custom keybinding in Sublime Text that will make toggling font sizes a breeze, ensuring your writing &amp;amp; coding adventures remain comfortable &amp;amp; productive.</description>
+    </item>
     <item>
       <title>The Harmony of Minimalism</title>
       <link>http://localhost:1313/posts/the-harmony-of-minimalism/</link>

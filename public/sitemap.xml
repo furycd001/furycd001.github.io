@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/code/</loc>
+    <lastmod>2024-07-09T07:03:09+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/creativity/</loc>
+    <lastmod>2024-07-09T07:03:09+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/plugin/</loc>
+    <lastmod>2024-07-09T07:03:09+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-07-09T07:03:09+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2024-07-09T07:03:09+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sublime-text/</loc>
+    <lastmod>2024-07-09T07:03:09+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-09T07:03:09+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/writing/</loc>
+    <lastmod>2024-07-09T07:03:09+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/writing-in-sublime-text/</loc>
+    <lastmod>2024-07-09T07:03:09+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/harmony/</loc>
     <lastmod>2024-07-03T06:59:52+01:00</lastmod>
   </url><url>
@@ -17,16 +44,10 @@
     <loc>http://localhost:1313/tags/minimalist/</loc>
     <lastmod>2024-07-03T06:59:52+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-07-03T06:59:52+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/short-story/</loc>
     <lastmod>2024-07-03T06:59:52+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/simple-living/</loc>
-    <lastmod>2024-07-03T06:59:52+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-07-03T06:59:52+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/the-harmony-of-minimalism/</loc>
@@ -213,9 +234,6 @@
     <lastmod>2024-06-04T14:18:58+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/blog/</loc>
-    <lastmod>2024-06-04T08:16:35+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/creativity/</loc>
     <lastmod>2024-06-04T08:16:35+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/ideas-and-ramblings/</loc>
