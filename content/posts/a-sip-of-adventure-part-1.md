@@ -1,5 +1,5 @@
 +++
-title = 'A Sip of Adventure'
+title = 'A Sip of Adventure (part.1)'
 date = 2024-07-09T16:03:41+01:00
 draft = false
 tags = ["coffee", "adventure awaits", "life journey", "explore", "short story"]
