@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Internet on d:tour</title>
-    <link>http://localhost:1313/tags/internet/</link>
+    <link>https://furycd001.github.io/tags/internet/</link>
     <description>Recent content in Internet on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jun 2024 14:18:58 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Jul 2024 11:57:36 +0100</lastBuildDate>
+    <atom:link href="https://furycd001.github.io/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spreading Kindness Online: Creating a Ripple Effect</title>
+      <link>https://furycd001.github.io/posts/spreading-kindness-online/</link>
+      <pubDate>Sun, 28 Jul 2024 11:57:36 +0100</pubDate>
+      <guid>https://furycd001.github.io/posts/spreading-kindness-online/</guid>
+      <description>In the digital age, the internet has become a central part of our daily lives. It&amp;rsquo;s a place where we connect with friends, share our thoughts, and discover new ideas. However, it&amp;rsquo;s also a space that can sometimes feel overwhelming and negative. Amidst the noise, a simple yet powerful truth remains: kindness online can have a ripple effect.&#xA;Imagine this.. You receive a heartfelt comment on a post you shared, or someone sends you an encouraging message when you need it most.</description>
+    </item>
+    <item>
+      <title>The Depression of the Internet: Pulling Us Away from Real Life</title>
+      <link>https://furycd001.github.io/posts/the-depression-of-the-internet/</link>
+      <pubDate>Sun, 28 Jul 2024 11:41:27 +0100</pubDate>
+      <guid>https://furycd001.github.io/posts/the-depression-of-the-internet/</guid>
+      <description>In the digital age, the internet has become an integral part of our daily lives. It connects us to a world of information, entertainment, and social interaction. Yet, as we immerse ourselves in this vast virtual landscape, there is a growing concern about the impact it has on our mental health and our connection to real life.&#xA;The Allure of the Digital World The internet offers endless possibilities. From social media platforms to streaming services, online shopping to gaming, it provides an escape from the mundane and a distraction from the stresses of everyday life.</description>
+    </item>
     <item>
       <title>The Early Days of Paid Wifi With Starbucks</title>
-      <link>http://localhost:1313/posts/the-early-days-of-paid-wifi-with-starbucks/</link>
+      <link>https://furycd001.github.io/posts/the-early-days-of-paid-wifi-with-starbucks/</link>
       <pubDate>Tue, 04 Jun 2024 14:18:58 +0100</pubDate>
-      <guid>http://localhost:1313/posts/the-early-days-of-paid-wifi-with-starbucks/</guid>
+      <guid>https://furycd001.github.io/posts/the-early-days-of-paid-wifi-with-starbucks/</guid>
       <description>In the late 2000s, Starbucks emerged as more than just a coffee haven; it became a social hub, a place to connect with friends and colleagues. However, during this period, the concept of free WiFi was not as ubiquitous as it is today. Instead, Starbucks UK offered a WiFi experience that required payment for access.&#xA;The Era of Paid WiFi at Starbucks UK.. Around 2006 and 2007, Starbucks introduced its WiFi service to stores across the UK &amp;amp; Ireland, offering customers the opportunity to access the internet while sipping their favorite beverages.</description>
     </item>
   </channel>

@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mindset on d:tour</title>
-    <link>http://localhost:1313/tags/mindset/</link>
+    <link>https://furycd001.github.io/tags/mindset/</link>
     <description>Recent content in Mindset on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jul 2024 06:59:52 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mindset/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Jul 2024 07:44:41 +0100</lastBuildDate>
+    <atom:link href="https://furycd001.github.io/tags/mindset/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embracing Minimalism on Modern Day Smartphones</title>
+      <link>https://furycd001.github.io/posts/embracing-minimalism-on-modern-day-smartphones/</link>
+      <pubDate>Mon, 22 Jul 2024 07:44:41 +0100</pubDate>
+      <guid>https://furycd001.github.io/posts/embracing-minimalism-on-modern-day-smartphones/</guid>
+      <description>In our fast-paced digital age, smartphones have become indispensable companions, seamlessly integrating into our daily lives. However, as these devices grow more advanced, they often come laden with features and apps that can lead to a cluttered and overwhelming experience. For some it can also be an undesirable experience. Enter minimalism—a philosophy that, when applied to modern smartphones, can bring clarity and purpose back to our digital interactions.&#xA;Minimalism on smartphones can take many forms, but for me, it&amp;rsquo;s all about decluttering and simplifying.</description>
+    </item>
     <item>
       <title>The Harmony of Minimalism</title>
-      <link>http://localhost:1313/posts/the-harmony-of-minimalism/</link>
+      <link>https://furycd001.github.io/posts/the-harmony-of-minimalism/</link>
       <pubDate>Wed, 03 Jul 2024 06:59:52 +0100</pubDate>
-      <guid>http://localhost:1313/posts/the-harmony-of-minimalism/</guid>
+      <guid>https://furycd001.github.io/posts/the-harmony-of-minimalism/</guid>
       <description>Living with a minimalist mindset can be a serene and liberating experience. It’s about embracing simplicity and finding joy in the essentials, creating a sanctuary of calm in a world that often feels overwhelming. Yet, what happens when minimalism shares a space with a bit of delightful clutter?&#xA;Imagine a home where clean, open spaces coexist with charming knick-knacks and treasured collections. Here, minimalism and a more eclectic approach dance together in a harmonious waltz, each step complementing the other.</description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Delirious on d:tour</title>
-    <link>http://localhost:1313/tags/delirious/</link>
+    <link>https://furycd001.github.io/tags/delirious/</link>
     <description>Recent content in Delirious on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Jun 2024 09:25:33 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/delirious/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furycd001.github.io/tags/delirious/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Its Ok</title>
-      <link>http://localhost:1313/posts/its-ok/</link>
+      <link>https://furycd001.github.io/posts/its-ok/</link>
       <pubDate>Fri, 28 Jun 2024 09:25:33 +0100</pubDate>
-      <guid>http://localhost:1313/posts/its-ok/</guid>
+      <guid>https://furycd001.github.io/posts/its-ok/</guid>
       <description>In a quiet town nestled between rolling hills and dense forests, there lived a girl named Lily. With her fiery spirit and searching eyes, she always felt a bit out of place. An enigma to those around her, Lily embraced her uniqueness with quiet strength.&#xA;As she walked through the town square, she would often whisper to herself:&#xA;&amp;ldquo;Take me or leave me; you don&amp;rsquo;t have to believe me.&amp;rdquo;&#xA;Her thoughts swirled like autumn leaves around her.</description>
     </item>
     <item>
       <title>Obsession</title>
-      <link>http://localhost:1313/posts/obsession/</link>
+      <link>https://furycd001.github.io/posts/obsession/</link>
       <pubDate>Wed, 05 Jun 2024 15:11:12 +0100</pubDate>
-      <guid>http://localhost:1313/posts/obsession/</guid>
+      <guid>https://furycd001.github.io/posts/obsession/</guid>
       <description>In the heart of a quaint little town, nestled among rolling hills and whispering trees, there lived a young woman named Lily. Lily was a dreamer, her mind often lost in the mysteries of the universe. She found solace in the unseen, the intangible, and the inexplicable.&#xA;One crisp autumn evening, as the moon cast its gentle glow upon the world, Lily found herself lost in contemplation. What could she do with her obsession, she wondered, with the things she could not see?</description>
     </item>
   </channel>

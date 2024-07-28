@@ -2,24 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ramblings on d:tour</title>
-    <link>http://localhost:1313/tags/ramblings/</link>
+    <link>https://furycd001.github.io/tags/ramblings/</link>
     <description>Recent content in Ramblings on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jun 2024 09:55:54 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ramblings/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Jul 2024 11:57:36 +0100</lastBuildDate>
+    <atom:link href="https://furycd001.github.io/tags/ramblings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spreading Kindness Online: Creating a Ripple Effect</title>
+      <link>https://furycd001.github.io/posts/spreading-kindness-online/</link>
+      <pubDate>Sun, 28 Jul 2024 11:57:36 +0100</pubDate>
+      <guid>https://furycd001.github.io/posts/spreading-kindness-online/</guid>
+      <description>In the digital age, the internet has become a central part of our daily lives. It&amp;rsquo;s a place where we connect with friends, share our thoughts, and discover new ideas. However, it&amp;rsquo;s also a space that can sometimes feel overwhelming and negative. Amidst the noise, a simple yet powerful truth remains: kindness online can have a ripple effect.&#xA;Imagine this.. You receive a heartfelt comment on a post you shared, or someone sends you an encouraging message when you need it most.</description>
+    </item>
+    <item>
+      <title>The Depression of the Internet: Pulling Us Away from Real Life</title>
+      <link>https://furycd001.github.io/posts/the-depression-of-the-internet/</link>
+      <pubDate>Sun, 28 Jul 2024 11:41:27 +0100</pubDate>
+      <guid>https://furycd001.github.io/posts/the-depression-of-the-internet/</guid>
+      <description>In the digital age, the internet has become an integral part of our daily lives. It connects us to a world of information, entertainment, and social interaction. Yet, as we immerse ourselves in this vast virtual landscape, there is a growing concern about the impact it has on our mental health and our connection to real life.&#xA;The Allure of the Digital World The internet offers endless possibilities. From social media platforms to streaming services, online shopping to gaming, it provides an escape from the mundane and a distraction from the stresses of everyday life.</description>
+    </item>
+    <item>
+      <title>Embracing Minimalism on Modern Day Smartphones</title>
+      <link>https://furycd001.github.io/posts/embracing-minimalism-on-modern-day-smartphones/</link>
+      <pubDate>Mon, 22 Jul 2024 07:44:41 +0100</pubDate>
+      <guid>https://furycd001.github.io/posts/embracing-minimalism-on-modern-day-smartphones/</guid>
+      <description>In our fast-paced digital age, smartphones have become indispensable companions, seamlessly integrating into our daily lives. However, as these devices grow more advanced, they often come laden with features and apps that can lead to a cluttered and overwhelming experience. For some it can also be an undesirable experience. Enter minimalism—a philosophy that, when applied to modern smartphones, can bring clarity and purpose back to our digital interactions.&#xA;Minimalism on smartphones can take many forms, but for me, it&amp;rsquo;s all about decluttering and simplifying.</description>
+    </item>
     <item>
       <title>Pc Perdicaments</title>
-      <link>http://localhost:1313/posts/pc-perdicaments/</link>
+      <link>https://furycd001.github.io/posts/pc-perdicaments/</link>
       <pubDate>Mon, 24 Jun 2024 09:55:54 +0100</pubDate>
-      <guid>http://localhost:1313/posts/pc-perdicaments/</guid>
+      <guid>https://furycd001.github.io/posts/pc-perdicaments/</guid>
       <description>In a cosy kitchen, a computer sat quietly in the corner underneath a black wooden desk. A reliable companion in a world increasingly dominated by sleek, modern devices. It wasn&amp;rsquo;t old, but it wasn&amp;rsquo;t brand new either—a comfortable middle ground. Running Linux, it represented a blend of stability and versatility, though not without its quirks. Its owner didn’t ask for much—just for it to work as expected.&#xA;Every morning, the computer was powered on with a sense of hope.</description>
     </item>
     <item>
       <title>Ideas, thoughts, &amp; ramblings.....</title>
-      <link>http://localhost:1313/posts/ideas-and-ramblings/</link>
+      <link>https://furycd001.github.io/posts/ideas-and-ramblings/</link>
       <pubDate>Tue, 04 Jun 2024 08:16:35 +0100</pubDate>
-      <guid>http://localhost:1313/posts/ideas-and-ramblings/</guid>
+      <guid>https://furycd001.github.io/posts/ideas-and-ramblings/</guid>
       <description>Ideas, thoughts &amp;amp; Ramblings&amp;hellip; that&amp;rsquo;s what this blog is all about. After spending a few days playing around with Hugo offline, I&amp;rsquo;ve discovered that I actually quite like it. It&amp;rsquo;s like a refreshing change.&#xA;A Fresh Start.. Initially, my plan was to transfer all my old blog posts from Publii to this new blog. However, upon reflection, I decided against it. A few of those posts were of low quality, and frankly, I have no idea why I ever published them.</description>
     </item>
   </channel>
