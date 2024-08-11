@@ -2,7 +2,7 @@
 title = 'The Harmony of Minimalism'
 date = 2024-07-03T06:59:52+01:00
 draft = false
-tags = ["minimalism", "minimalist", "minimalism", "harmony", "simple living", "lifestyle", "mindset", "short story"]
+tags = ["minimalism", "minimalist", "harmony", "simple living", "lifestyle", "mindset", "short story"]
 +++
 
 Living with a minimalist mindset can be a serene and liberating experience. It’s about embracing simplicity and finding joy in the essentials, creating a sanctuary of calm in a world that often feels overwhelming. Yet, what happens when minimalism shares a space with a bit of delightful clutter? 
