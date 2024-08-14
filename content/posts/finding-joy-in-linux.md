@@ -2,7 +2,7 @@
 title = 'Finding Joy in Linux: Why It’s My Happy Place'
 date = 2024-08-14T06:32:12+01:00
 draft = false
-tags = ["Linux", "joy", "happiness, "tech", "computers", "ramblings"]
+tags = ["Linux", "joy", "happiness", "tech", "computers", "ramblings"]
 +++
 
 There’s something truly special about finding something that not only fits your needs but also brings you joy. For me, that's Linux. It’s more than just an operating system—it’s a source of happiness, freedom, and all things good.
