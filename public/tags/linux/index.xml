@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on d:tour</title>
+    <link>https://furycd001.github.io/tags/linux/</link>
+    <description>Recent content in Linux on d:tour</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Aug 2024 06:32:12 +0100</lastBuildDate>
+    <atom:link href="https://furycd001.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finding Joy in Linux: Why It’s My Happy Place</title>
+      <link>https://furycd001.github.io/posts/finding-joy-in-linux/</link>
+      <pubDate>Wed, 14 Aug 2024 06:32:12 +0100</pubDate>
+      <guid>https://furycd001.github.io/posts/finding-joy-in-linux/</guid>
+      <description>There’s something truly special about finding something that not only fits your needs but also brings you joy. For me, that&amp;rsquo;s Linux. It’s more than just an operating system—it’s a source of happiness, freedom, and all things good.&#xA;I’ve been using Linux since 2002, and I can honestly say I’ve never looked back. There’s a certain magic in its flexibility and the way it empowers you to customize everything just the way you like.</description>
+    </item>
+  </channel>
+</rss>
