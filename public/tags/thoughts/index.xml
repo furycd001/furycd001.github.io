@@ -2,38 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thoughts on d:tour</title>
-    <link>https://furycd001.github.io/tags/thoughts/</link>
+    <link>http://localhost:1313/tags/thoughts/</link>
     <description>Recent content in Thoughts on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Aug 2024 06:54:17 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Aug 2024 09:58:50 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Falling Apart</title>
+      <link>http://localhost:1313/posts/falling-apart/</link>
+      <pubDate>Mon, 26 Aug 2024 09:58:50 +0100</pubDate>
+      <guid>http://localhost:1313/posts/falling-apart/</guid>
+      <description>Sometimes, it feels like we&amp;rsquo;re falling apart, like no matter what we do, we&amp;rsquo;re always falling short, making mistakes, messing things up, or that something goes wrong. But here&amp;rsquo;s the thing: we&amp;rsquo;re not always any of those things. Life can simply be hard sometimes. It&amp;rsquo;s full of challenges, unexpected twists, and moments that can make us feel overwhelmed or that the weight of the world is too much to carry. There are days when it seems like giving up might be easier than pushing forward.</description>
+    </item>
     <item>
       <title>Reimagining Terminal Software</title>
-      <link>https://furycd001.github.io/posts/reimagining-terminal-software/</link>
+      <link>http://localhost:1313/posts/reimagining-terminal-software/</link>
       <pubDate>Fri, 23 Aug 2024 06:54:17 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/reimagining-terminal-software/</guid>
+      <guid>http://localhost:1313/posts/reimagining-terminal-software/</guid>
       <description>In the world of technology, there’s something quietly beautiful about the way people are revisiting and reimagining old terminal software. These programs, with their roots dating back to the early days of computing, have been the backbone of countless systems for decades. But as technology evolves, so do the ways we interact with it.&#xA;Some modern developers are taking these time-tested tools and giving them a fresh coat of paint, not to erase the past but to enhance it.</description>
     </item>
     <item>
       <title>Mindful Bookmarking</title>
-      <link>https://furycd001.github.io/posts/mindful-firefox-bookmarks/</link>
+      <link>http://localhost:1313/posts/mindful-firefox-bookmarks/</link>
       <pubDate>Sun, 11 Aug 2024 10:12:52 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/mindful-firefox-bookmarks/</guid>
+      <guid>http://localhost:1313/posts/mindful-firefox-bookmarks/</guid>
       <description>In today&amp;rsquo;s digital age, it&amp;rsquo;s easy to accumulate a cluttered and overwhelming collection of bookmarks in your web browser. A disorganized bookmark list can make it difficult to find what you need and can contribute to digital overwhelm. By organizing your browsers bookmarks thoughtfully, you can create a more mindful and efficient browsing experience. To achieve this, you can consider following a series of thoughtful and carefully planned steps..&#xA;1. Audit Your Current Bookmarks Review and Clean: Start by reviewing all your existing bookmarks.</description>
     </item>
     <item>
       <title>Spreading Kindness Online: Creating a Ripple Effect</title>
-      <link>https://furycd001.github.io/posts/spreading-kindness-online/</link>
+      <link>http://localhost:1313/posts/spreading-kindness-online/</link>
       <pubDate>Sun, 28 Jul 2024 11:57:36 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/spreading-kindness-online/</guid>
+      <guid>http://localhost:1313/posts/spreading-kindness-online/</guid>
       <description>In the digital age, the internet has become a central part of our daily lives. It&amp;rsquo;s a place where we connect with friends, share our thoughts, and discover new ideas. However, it&amp;rsquo;s also a space that can sometimes feel overwhelming and negative. Amidst the noise, a simple yet powerful truth remains: kindness online can have a ripple effect.&#xA;Imagine this.. You receive a heartfelt comment on a post you shared, or someone sends you an encouraging message when you need it most.</description>
     </item>
     <item>
       <title>The Depression of the Internet: Pulling Us Away from Real Life</title>
-      <link>https://furycd001.github.io/posts/the-depression-of-the-internet/</link>
+      <link>http://localhost:1313/posts/the-depression-of-the-internet/</link>
       <pubDate>Sun, 28 Jul 2024 11:41:27 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-depression-of-the-internet/</guid>
+      <guid>http://localhost:1313/posts/the-depression-of-the-internet/</guid>
       <description>In the digital age, the internet has become an integral part of our daily lives. It connects us to a world of information, entertainment, and social interaction. Yet, as we immerse ourselves in this vast virtual landscape, there is a growing concern about the impact it has on our mental health and our connection to real life.&#xA;The Allure of the Digital World The internet offers endless possibilities. From social media platforms to streaming services, online shopping to gaming, it provides an escape from the mundane and a distraction from the stresses of everyday life.</description>
     </item>
   </channel>

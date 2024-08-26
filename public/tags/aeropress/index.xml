@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aeropress on d:tour</title>
+    <link>http://localhost:1313/tags/aeropress/</link>
+    <description>Recent content in Aeropress on d:tour</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Aug 2024 10:02:42 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/aeropress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Aeropress Ritual</title>
+      <link>http://localhost:1313/posts/the-aeropress-ritual/</link>
+      <pubDate>Mon, 26 Aug 2024 10:02:42 +0100</pubDate>
+      <guid>http://localhost:1313/posts/the-aeropress-ritual/</guid>
+      <description>In the quiet stillness of the morning, before the world had fully woken, there was a moment &amp;ldquo;a ritual&amp;rdquo; that was all his own. This was his time. The sacred few minutes dedicated to crafting the perfect cup of coffee with his beloved Aeropress.&#xA;The kitchen was a sanctuary at this hour, bathed in the gentle light of dawn. He moved with purpose, each step a part of a dance he knew by heart.</description>
+    </item>
+  </channel>
+</rss>

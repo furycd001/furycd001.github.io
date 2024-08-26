@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Browser on d:tour</title>
-    <link>https://furycd001.github.io/tags/web-browser/</link>
+    <link>http://localhost:1313/tags/web-browser/</link>
     <description>Recent content in Web Browser on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 11 Aug 2024 10:12:52 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/web-browser/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/web-browser/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mindful Bookmarking</title>
-      <link>https://furycd001.github.io/posts/mindful-firefox-bookmarks/</link>
+      <link>http://localhost:1313/posts/mindful-firefox-bookmarks/</link>
       <pubDate>Sun, 11 Aug 2024 10:12:52 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/mindful-firefox-bookmarks/</guid>
+      <guid>http://localhost:1313/posts/mindful-firefox-bookmarks/</guid>
       <description>In today&amp;rsquo;s digital age, it&amp;rsquo;s easy to accumulate a cluttered and overwhelming collection of bookmarks in your web browser. A disorganized bookmark list can make it difficult to find what you need and can contribute to digital overwhelm. By organizing your browsers bookmarks thoughtfully, you can create a more mindful and efficient browsing experience. To achieve this, you can consider following a series of thoughtful and carefully planned steps..&#xA;1. Audit Your Current Bookmarks Review and Clean: Start by reviewing all your existing bookmarks.</description>
     </item>
   </channel>

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Minimalist on d:tour</title>
-    <link>https://furycd001.github.io/tags/minimalist/</link>
+    <link>http://localhost:1313/tags/minimalist/</link>
     <description>Recent content in Minimalist on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 11 Aug 2024 10:12:52 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/minimalist/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/minimalist/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mindful Bookmarking</title>
-      <link>https://furycd001.github.io/posts/mindful-firefox-bookmarks/</link>
+      <link>http://localhost:1313/posts/mindful-firefox-bookmarks/</link>
       <pubDate>Sun, 11 Aug 2024 10:12:52 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/mindful-firefox-bookmarks/</guid>
+      <guid>http://localhost:1313/posts/mindful-firefox-bookmarks/</guid>
       <description>In today&amp;rsquo;s digital age, it&amp;rsquo;s easy to accumulate a cluttered and overwhelming collection of bookmarks in your web browser. A disorganized bookmark list can make it difficult to find what you need and can contribute to digital overwhelm. By organizing your browsers bookmarks thoughtfully, you can create a more mindful and efficient browsing experience. To achieve this, you can consider following a series of thoughtful and carefully planned steps..&#xA;1. Audit Your Current Bookmarks Review and Clean: Start by reviewing all your existing bookmarks.</description>
     </item>
     <item>
       <title>Embracing Minimalism on Modern Day Smartphones</title>
-      <link>https://furycd001.github.io/posts/embracing-minimalism-on-modern-day-smartphones/</link>
+      <link>http://localhost:1313/posts/embracing-minimalism-on-modern-day-smartphones/</link>
       <pubDate>Mon, 22 Jul 2024 07:44:41 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/embracing-minimalism-on-modern-day-smartphones/</guid>
+      <guid>http://localhost:1313/posts/embracing-minimalism-on-modern-day-smartphones/</guid>
       <description>In our fast-paced digital age, smartphones have become indispensable companions, seamlessly integrating into our daily lives. However, as these devices grow more advanced, they often come laden with features and apps that can lead to a cluttered and overwhelming experience. For some it can also be an undesirable experience. Enter minimalism—a philosophy that, when applied to modern smartphones, can bring clarity and purpose back to our digital interactions.&#xA;Minimalism on smartphones can take many forms, but for me, it&amp;rsquo;s all about decluttering and simplifying.</description>
     </item>
     <item>
       <title>The Harmony of Minimalism</title>
-      <link>https://furycd001.github.io/posts/the-harmony-of-minimalism/</link>
+      <link>http://localhost:1313/posts/the-harmony-of-minimalism/</link>
       <pubDate>Wed, 03 Jul 2024 06:59:52 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-harmony-of-minimalism/</guid>
+      <guid>http://localhost:1313/posts/the-harmony-of-minimalism/</guid>
       <description>Living with a minimalist mindset can be a serene and liberating experience. It’s about embracing simplicity and finding joy in the essentials, creating a sanctuary of calm in a world that often feels overwhelming. Yet, what happens when minimalism shares a space with a bit of delightful clutter?&#xA;Imagine a home where clean, open spaces coexist with charming knick-knacks and treasured collections. Here, minimalism and a more eclectic approach dance together in a harmonious waltz, each step complementing the other.</description>
     </item>
     <item>
       <title>Pc Perdicaments</title>
-      <link>https://furycd001.github.io/posts/pc-perdicaments/</link>
+      <link>http://localhost:1313/posts/pc-perdicaments/</link>
       <pubDate>Mon, 24 Jun 2024 09:55:54 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/pc-perdicaments/</guid>
+      <guid>http://localhost:1313/posts/pc-perdicaments/</guid>
       <description>In a cosy kitchen, a computer sat quietly in the corner underneath a black wooden desk. A reliable companion in a world increasingly dominated by sleek, modern devices. It wasn&amp;rsquo;t old, but it wasn&amp;rsquo;t brand new either—a comfortable middle ground. Running Linux, it represented a blend of stability and versatility, though not without its quirks. Its owner didn’t ask for much—just for it to work as expected.&#xA;Every morning, the computer was powered on with a sense of hope.</description>
     </item>
   </channel>

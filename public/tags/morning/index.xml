@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Morning on d:tour</title>
-    <link>https://furycd001.github.io/tags/morning/</link>
+    <link>http://localhost:1313/tags/morning/</link>
     <description>Recent content in Morning on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jun 2024 10:54:02 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/morning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Aug 2024 10:02:42 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/morning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Aeropress Ritual</title>
+      <link>http://localhost:1313/posts/the-aeropress-ritual/</link>
+      <pubDate>Mon, 26 Aug 2024 10:02:42 +0100</pubDate>
+      <guid>http://localhost:1313/posts/the-aeropress-ritual/</guid>
+      <description>In the quiet stillness of the morning, before the world had fully woken, there was a moment &amp;ldquo;a ritual&amp;rdquo; that was all his own. This was his time. The sacred few minutes dedicated to crafting the perfect cup of coffee with his beloved Aeropress.&#xA;The kitchen was a sanctuary at this hour, bathed in the gentle light of dawn. He moved with purpose, each step a part of a dance he knew by heart.</description>
+    </item>
     <item>
       <title>Morning Emma</title>
-      <link>https://furycd001.github.io/posts/morning-emma/</link>
+      <link>http://localhost:1313/posts/morning-emma/</link>
       <pubDate>Fri, 14 Jun 2024 10:54:02 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/morning-emma/</guid>
+      <guid>http://localhost:1313/posts/morning-emma/</guid>
       <description>Every morning, Emma woke up with a smile, not because of the day&amp;rsquo;s prospects but because of the joy that awaited her in the kitchen. Her mornings began with a ritual she cherished above all else: making and enjoying her perfect cup of coffee.&#xA;She would shuffle out of bed, her slippers softly padding across the floor, and head straight to the kitchen. The familiar sight of her beloved coffee maker greeted her like an old friend.</description>
     </item>
     <item>
       <title>The Joys of Joe</title>
-      <link>https://furycd001.github.io/posts/the-joys-of-joe/</link>
+      <link>http://localhost:1313/posts/the-joys-of-joe/</link>
       <pubDate>Fri, 14 Jun 2024 10:40:59 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-joys-of-joe/</guid>
+      <guid>http://localhost:1313/posts/the-joys-of-joe/</guid>
       <description>Every morning, the kitchen came to life with the anticipation of a special ritual: the making of a perfect cup of coffee. As dawn&amp;rsquo;s first light filtered through the window, the beans awaited their transformation from mere ingredients into a steamy cup of joe, brimming with joy, promise, and excitement.&#xA;The journey began by selecting the beans, and carefully measuring them. Each bean holding the potential for greatness, ready to release its essence.</description>
     </item>
   </channel>
