@@ -11,7 +11,7 @@ Creating an interactive bash script is like adding a dash of magic to your termi
 Start by creating a new file for your script. Open your terminal and use a text editor to create a file, such as `vim script-whatever.sh`
 
 ### Add the Shebang:
-At the very top of your script file, include the shebang line to specify that the script should be run with bash `#!/bin/bash`
+At the very top of your script file, include the shebang line to specify that the script should be run with bash `#!/usr/bin/env bash`
 
 ### Prompt the User:
 Use the `read` command to ask for user input. For example:
