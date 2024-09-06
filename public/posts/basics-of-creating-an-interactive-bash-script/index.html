@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Basics of Creating an Interactive Bash Script | d:tour</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <header>
+  <div class="header-content">
+    <h1><a href="http://localhost:1313/">d:tour</a></h1>
+    
+  </div>
+
+  <div class="header-actions">
+    <div class="tags">
+      
+        <a href="/tags"><img src="/hashtag.svg" alt="Tags" class="icon"></a>
+      
+    </div>
+
+    <div class="external-links">
+      
+        <a href="http://localhost:1313/index.xml"><img src="/rss.svg" alt="RSS" class="icon"></a>
+      
+      
+        <a href="https://github.com/furycd001"><img src="/github.svg" alt="GitHub" class="icon"></a>
+      
+      
+        <a href="https://github.com/furycd001/dots"><img src="/dotfiles.svg" alt="Dots" class="icon"></a>
+      
+      
+        <a href="https://fosstodon.org/@Furycd001"><img src="/mastodon.svg" alt="Mastodon" class="icon"></a>
+      
+      
+        <a href="mailto:jonnybowes2000@googlemail.com"><img src="/email.svg" alt="Email" class="icon"></a>
+      
+      
+        <a href="https://paypal.me/furycd001?country.x=GB&amp;locale.x=en_GB"><img src="/donate.svg" alt="Donate" class="icon"></a>
+      
+    </div>
+  </div>
+</header>
+  </header>
+  <main>
+    
+  <article>
+    <header class="post-header">
+      <h1 class="post-title">Basics of Creating an Interactive Bash Script</h1>
+      <p class="post-date">September 6, 2024</p>
+    </header>
+    
+    <p>Creating an interactive bash script is like adding a dash of magic to your terminal adventures!! It’s a fun and clever way to automate repetitive tasks and make your command-line experience smoother and more enjoyable. Here’s a little guide to sprinkle some scripting sparkle into your life:</p>
+<h3 id="create-the-script-file">Create the Script File:</h3>
+<p>Start by creating a new file for your script. Open your terminal and use a text editor to create a file, such as <code>vim script-whatever.sh</code></p>
+<h3 id="add-the-shebang">Add the Shebang:</h3>
+<p>At the very top of your script file, include the shebang line to specify that the script should be run with bash <code>#!/bin/bash</code></p>
+<h3 id="prompt-the-user">Prompt the User:</h3>
+<p>Use the <code>read</code> command to ask for user input. For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Please enter your name:&#34;</span>
+</span></span><span style="display:flex;"><span>read name
+</span></span></code></pre></div><h3 id="process-the-input">Process the Input:</h3>
+<p>You can then use the input within your script. For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Hello, </span>$name<span style="color:#e6db74">! Welcome to the script..&#34;</span>
+</span></span></code></pre></div><h3 id="add-more-interactivity">Add More Interactivity:</h3>
+<p>You can include more prompts and conditions to expand your script. For instance:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Do you want to continue? (yes/no)&#34;</span>
+</span></span><span style="display:flex;"><span>read answer
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;</span>$answer<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;yes&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;Great! Let&#39;s continue.&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;Goodbye!&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span></code></pre></div><h3 id="make-the-script-executable">Make the Script Executable:</h3>
+<p>Save your file and exit the editor. Then, make your script executable with: <code>chmod +x script-whatever.sh</code></p>
+<h3 id="run-the-script">Run the Script:</h3>
+<p>Execute your script by typing: <code>./interactive_script.sh</code></p>
+<p>Congratulations!! You&rsquo;ve just crafted your very first interactive bash script!! But why stop here? Now that you&rsquo;ve dipped your toes into the world of bash scripting, why not dive a little deeper? You can experiment with more complex interactions, add loops for repetitive tasks, or even incorporate conditional logic to make your script smarter. It’s like giving your script a whole new set of superpowers!!</p>
+<p>Try adding functions to organize your code, or use arrays to handle multiple pieces of data. The possibilities are as vast as the galaxy!! Remember, each line of code is a step in your scripting adventure, so let your creativity run wild. Happy scripting, and may your terminal always be full of wonder and joy!! Keep exploring and making your scripts more awesome.</p>
+
+    
+    <div class="post-tags">
+      
+        <a href="/tags/bash"><span class="tag">bash</span></a>
+      
+        <a href="/tags/terminal"><span class="tag">terminal</span></a>
+      
+        <a href="/tags/linux"><span class="tag">Linux</span></a>
+      
+        <a href="/tags/scripts"><span class="tag">scripts</span></a>
+      
+        <a href="/tags/coding"><span class="tag">coding</span></a>
+      
+    </div>
+  </article>
+
+  </main>
+  <footer>
+    <p>Copyright 2024 - furycd001</p>
+
+  </footer>
+</body>
+</html>
