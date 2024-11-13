@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/a-brief-history-of-gleno-northern-ireland/</loc>
+    <lastmod>2024-11-13T07:29:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/countries/</loc>
+    <lastmod>2024-11-13T07:29:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/history/</loc>
+    <lastmod>2024-11-13T07:29:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/life/</loc>
+    <lastmod>2024-11-13T07:29:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/places/</loc>
+    <lastmod>2024-11-13T07:29:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-11-13T07:29:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ramblings/</loc>
+    <lastmod>2024-11-13T07:29:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-11-13T07:29:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/discovering/</loc>
+    <lastmod>2024-10-28T09:59:56+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/elleni-the-label/</loc>
+    <lastmod>2024-10-28T09:59:56+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/elleni/</loc>
+    <lastmod>2024-10-28T09:59:56+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ellenithelabel-/</loc>
+    <lastmod>2024-10-28T09:59:56+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fashion/</loc>
+    <lastmod>2024-10-28T09:59:56+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fashionista/</loc>
+    <lastmod>2024-10-28T09:59:56+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fashionwithheart/</loc>
+    <lastmod>2024-10-28T09:59:56+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/bash/</loc>
     <lastmod>2024-09-06T10:49:33+01:00</lastmod>
   </url><url>
@@ -14,13 +59,7 @@
     <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2024-09-06T10:49:33+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-09-06T10:49:33+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/scripts/</loc>
-    <lastmod>2024-09-06T10:49:33+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-09-06T10:49:33+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/terminal/</loc>
@@ -53,9 +92,6 @@
     <loc>http://localhost:1313/tags/feelings/</loc>
     <lastmod>2024-08-26T09:58:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/life/</loc>
-    <lastmod>2024-08-26T09:58:50+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/mentalhealth/</loc>
     <lastmod>2024-08-26T09:58:50+01:00</lastmod>
   </url><url>
@@ -63,9 +99,6 @@
     <lastmod>2024-08-26T09:58:50+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/positivity/</loc>
-    <lastmod>2024-08-26T09:58:50+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ramblings/</loc>
     <lastmod>2024-08-26T09:58:50+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/thoughts/</loc>
