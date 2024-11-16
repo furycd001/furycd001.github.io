@@ -11,11 +11,12 @@ But have you noticed something curious? When the rare moments of peace and quiet
 
 White space isn’t just a luxury; it’s essential. It’s the buffer between the chaos. It’s where the magic happens—the quieter arts that make us whole. This sacred space allows us to:
 
-	+ Reflect and make sense of life
-	+ Think deeply and creatively
-	+ Reset and recharge
-	+ Catch up with ourselves
-	+ Dream, plan, and care for our hearts and minds
++ Reflect and make sense of life..
++ Think deeply and creatively..
++ Reset and recharge..
++ Catch up with ourselves..
++ Dream, plan, and care for our hearts and minds..
++ ‎ ‎ 
 
 But here's the thing: in a world that glorifies "busy," white space is often the first thing to be sacrificed. The calls for more, more, more drown out our need for less. Yet, just as day needs night, effort needs rest, and noise needs quiet, we need balance. We need to protect the gentle Yin to the world’s relentless Yang.
 

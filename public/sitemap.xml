@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/life/</loc>
+    <lastmod>2024-11-16T08:19:18+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mindfulness/</loc>
+    <lastmod>2024-11-16T08:19:18+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/moments/</loc>
+    <lastmod>2024-11-16T08:19:18+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pauseandbreathe/</loc>
+    <lastmod>2024-11-16T08:19:18+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-11-16T08:19:18+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/quietmoments/</loc>
+    <lastmod>2024-11-16T08:19:18+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/selfcare/</loc>
+    <lastmod>2024-11-16T08:19:18+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-11-16T08:19:18+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/white-space/</loc>
+    <lastmod>2024-11-16T08:19:18+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/whitespace/</loc>
+    <lastmod>2024-11-16T08:19:18+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/a-brief-history-of-gleno-northern-ireland/</loc>
     <lastmod>2024-11-13T07:29:26+00:00</lastmod>
   </url><url>
@@ -11,19 +41,10 @@
     <loc>http://localhost:1313/tags/history/</loc>
     <lastmod>2024-11-13T07:29:26+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/life/</loc>
-    <lastmod>2024-11-13T07:29:26+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/places/</loc>
     <lastmod>2024-11-13T07:29:26+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-11-13T07:29:26+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/ramblings/</loc>
-    <lastmod>2024-11-13T07:29:26+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-11-13T07:29:26+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/discovering/</loc>
