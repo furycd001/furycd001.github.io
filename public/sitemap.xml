@@ -2,8 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/always-have-a-sense-of-your-own-ridiculousness/</loc>
+    <lastmod>2024-11-25T08:17:12+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/humor/</loc>
+    <lastmod>2024-11-25T08:17:12+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/joy/</loc>
+    <lastmod>2024-11-25T08:17:12+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kindness/</loc>
+    <lastmod>2024-11-25T08:17:12+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/life/</loc>
-    <lastmod>2024-11-16T08:19:18+00:00</lastmod>
+    <lastmod>2024-11-25T08:17:12+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/positivity/</loc>
+    <lastmod>2024-11-25T08:17:12+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-11-25T08:17:12+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/reflection/</loc>
+    <lastmod>2024-11-25T08:17:12+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/selflove/</loc>
+    <lastmod>2024-11-25T08:17:12+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-11-25T08:17:12+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/mindfulness/</loc>
     <lastmod>2024-11-16T08:19:18+00:00</lastmod>
@@ -14,16 +41,10 @@
     <loc>http://localhost:1313/tags/pauseandbreathe/</loc>
     <lastmod>2024-11-16T08:19:18+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-11-16T08:19:18+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/quietmoments/</loc>
     <lastmod>2024-11-16T08:19:18+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/selfcare/</loc>
-    <lastmod>2024-11-16T08:19:18+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-11-16T08:19:18+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/white-space/</loc>
@@ -95,9 +116,6 @@
     <loc>http://localhost:1313/tags/joe/</loc>
     <lastmod>2024-08-26T10:02:42+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/joy/</loc>
-    <lastmod>2024-08-26T10:02:42+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/morning/</loc>
     <lastmod>2024-08-26T10:02:42+01:00</lastmod>
   </url><url>
@@ -117,9 +135,6 @@
     <lastmod>2024-08-26T09:58:50+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/perseverance/</loc>
-    <lastmod>2024-08-26T09:58:50+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/positivity/</loc>
     <lastmod>2024-08-26T09:58:50+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/thoughts/</loc>
@@ -186,9 +201,6 @@
     <lastmod>2024-08-11T10:12:52+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/internet/</loc>
-    <lastmod>2024-07-28T11:57:36+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/kindness/</loc>
     <lastmod>2024-07-28T11:57:36+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/spreading-kindness-online/</loc>
