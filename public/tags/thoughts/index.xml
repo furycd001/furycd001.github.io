@@ -2,45 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thoughts on d:tour</title>
-    <link>http://localhost:1313/tags/thoughts/</link>
+    <link>https://furycd001.github.io/tags/thoughts/</link>
     <description>Recent content in Thoughts on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Aug 2024 09:58:50 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Dec 2024 07:32:12 +0000</lastBuildDate>
+    <atom:link href="https://furycd001.github.io/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why a Derivative of a Derivative Might Not Be the Best Choice</title>
+      <link>https://furycd001.github.io/posts/derivative-of-a-derivative/</link>
+      <pubDate>Thu, 05 Dec 2024 07:32:12 +0000</pubDate>
+      <guid>https://furycd001.github.io/posts/derivative-of-a-derivative/</guid>
+      <description>&lt;p&gt;When it comes to choosing a Linux distribution, the options can feel overwhelming. From the giants like Arch, Fedora, OpenSuse and Ubuntu, to the more niche derivatives that branch off these powerhouses, there’s a flavor for just about everyone. But what happens when you venture beyond a first-layer derivative to a derivative of a derivative? While it might seem harmless, this extra step away from the “source” can sometimes create unforeseen challenges that are worth considering before you commit.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Falling Apart</title>
-      <link>http://localhost:1313/posts/falling-apart/</link>
+      <link>https://furycd001.github.io/posts/falling-apart/</link>
       <pubDate>Mon, 26 Aug 2024 09:58:50 +0100</pubDate>
-      <guid>http://localhost:1313/posts/falling-apart/</guid>
+      <guid>https://furycd001.github.io/posts/falling-apart/</guid>
       <description>&lt;p&gt;Sometimes, it feels like we&amp;rsquo;re falling apart, like no matter what we do, we&amp;rsquo;re always falling short, making mistakes, messing things up, or that something goes wrong. But here&amp;rsquo;s the thing: we&amp;rsquo;re not always any of those things. Life can simply be hard sometimes. It&amp;rsquo;s full of challenges, unexpected twists, and moments that can make us feel overwhelmed or that the weight of the world is too much to carry. There are days when it seems like giving up might be easier than pushing forward. Just sometimes, life is simply hard.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reimagining Terminal Software</title>
-      <link>http://localhost:1313/posts/reimagining-terminal-software/</link>
+      <link>https://furycd001.github.io/posts/reimagining-terminal-software/</link>
       <pubDate>Fri, 23 Aug 2024 06:54:17 +0100</pubDate>
-      <guid>http://localhost:1313/posts/reimagining-terminal-software/</guid>
+      <guid>https://furycd001.github.io/posts/reimagining-terminal-software/</guid>
       <description>&lt;p&gt;In the world of technology, there’s something quietly beautiful about the way people are revisiting and reimagining old terminal software. These programs, with their roots dating back to the early days of computing, have been the backbone of countless systems for decades. But as technology evolves, so do the ways we interact with it.&lt;/p&gt;&#xA;&lt;p&gt;Some modern developers are taking these time-tested tools and giving them a fresh coat of paint, not to erase the past but to enhance it. By rewriting and tweaking the old software, they aim to improve functionality, make interfaces more intuitive, or simply adapt the software to meet today’s needs. It’s a delicate balance—respecting the original while embracing the possibilities of the new.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mindful Bookmarking</title>
-      <link>http://localhost:1313/posts/mindful-firefox-bookmarks/</link>
+      <link>https://furycd001.github.io/posts/mindful-firefox-bookmarks/</link>
       <pubDate>Sun, 11 Aug 2024 10:12:52 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mindful-firefox-bookmarks/</guid>
+      <guid>https://furycd001.github.io/posts/mindful-firefox-bookmarks/</guid>
       <description>&lt;p&gt;In today&amp;rsquo;s digital age, it&amp;rsquo;s easy to accumulate a cluttered and overwhelming collection of bookmarks in your web browser. A disorganized bookmark list can make it difficult to find what you need and can contribute to digital overwhelm. By organizing your browsers bookmarks thoughtfully, you can create a more mindful and efficient browsing experience.  To achieve this, you can consider following a series of thoughtful and carefully planned steps..&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-audit-your-current-bookmarks&#34;&gt;1. Audit Your Current Bookmarks&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Review and Clean:&lt;/strong&gt; Start by reviewing all your existing bookmarks. Delete any that are outdated, irrelevant, or ones that may no longer serve a purpos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spreading Kindness Online: Creating a Ripple Effect</title>
-      <link>http://localhost:1313/posts/spreading-kindness-online/</link>
+      <link>https://furycd001.github.io/posts/spreading-kindness-online/</link>
       <pubDate>Sun, 28 Jul 2024 11:57:36 +0100</pubDate>
-      <guid>http://localhost:1313/posts/spreading-kindness-online/</guid>
+      <guid>https://furycd001.github.io/posts/spreading-kindness-online/</guid>
       <description>&lt;p&gt;In the digital age, the internet has become a central part of our daily lives. It&amp;rsquo;s a place where we connect with friends, share our thoughts, and discover new ideas. However, it&amp;rsquo;s also a space that can sometimes feel overwhelming and negative. Amidst the noise, a simple yet powerful truth remains: kindness online can have a ripple effect.&lt;/p&gt;&#xA;&lt;p&gt;Imagine this.. You receive a heartfelt comment on a post you shared, or someone sends you an encouraging message when you need it most. These small acts of kindness can brighten your day and change your outlook. The beauty of kindness is that it doesn&amp;rsquo;t stop with you. One small act of kindness can inspire others to follow suit, creating a wave of positivity that can spread far and wide.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Depression of the Internet: Pulling Us Away from Real Life</title>
-      <link>http://localhost:1313/posts/the-depression-of-the-internet/</link>
+      <link>https://furycd001.github.io/posts/the-depression-of-the-internet/</link>
       <pubDate>Sun, 28 Jul 2024 11:41:27 +0100</pubDate>
-      <guid>http://localhost:1313/posts/the-depression-of-the-internet/</guid>
+      <guid>https://furycd001.github.io/posts/the-depression-of-the-internet/</guid>
       <description>&lt;p&gt;In the digital age, the internet has become an integral part of our daily lives. It connects us to a world of information, entertainment, and social interaction. Yet, as we immerse ourselves in this vast virtual landscape, there is a growing concern about the impact it has on our mental health and our connection to real life.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-allure-of-the-digital-world&#34;&gt;The Allure of the Digital World&lt;/h2&gt;&#xA;&lt;p&gt;The internet offers endless possibilities. From social media platforms to streaming services, online shopping to gaming, it provides an escape from the mundane and a distraction from the stresses of everyday life. However, this constant accessibility and the allure of instant gratification can also lead to a dangerous cycle of overuse and dependency.&lt;/p&gt;</description>
     </item>
   </channel>

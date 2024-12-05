@@ -2,7 +2,7 @@
 title = 'Why a Derivative of a Derivative Might Not Be the Best Choice'
 date = 2024-12-05T07:32:12Z
 draft = false
-tags = ["Linux", "operating systems", "tech", "thoughts", ramblings"]
+tags = ["Linux", "operating systems", "tech", "thoughts", "ramblings"]
 +++
 
 When it comes to choosing a Linux distribution, the options can feel overwhelming. From the giants like Arch, Fedora, OpenSuse and Ubuntu, to the more niche derivatives that branch off these powerhouses, there’s a flavor for just about everyone. But what happens when you venture beyond a first-layer derivative to a derivative of a derivative? While it might seem harmless, this extra step away from the “source” can sometimes create unforeseen challenges that are worth considering before you commit.  

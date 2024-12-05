@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on d:tour</title>
-    <link>http://localhost:1313/tags/python/</link>
+    <link>https://furycd001.github.io/tags/python/</link>
     <description>Recent content in Python on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Jul 2024 07:03:09 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furycd001.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Writing in Sublime Text</title>
-      <link>http://localhost:1313/posts/writing-in-sublime-text/</link>
+      <link>https://furycd001.github.io/posts/writing-in-sublime-text/</link>
       <pubDate>Tue, 09 Jul 2024 07:03:09 +0100</pubDate>
-      <guid>http://localhost:1313/posts/writing-in-sublime-text/</guid>
+      <guid>https://furycd001.github.io/posts/writing-in-sublime-text/</guid>
       <description>&lt;p&gt;If, like me, you use &lt;strong&gt;&lt;a href=&#34;https://www.sublimetext.com/&#34;&gt;Sublime Text&lt;/a&gt;&lt;/strong&gt; to draft blog posts or simply to write, you might find yourself wishing for an easy way to switch between a larger font size for writing and a more normal size for coding and everything else. In this post, I will guide you through creating a custom keybinding in Sublime Text that will make toggling font sizes a breeze, ensuring your writing &amp;amp; coding adventures remain comfortable &amp;amp; productive.&lt;/p&gt;</description>
     </item>
   </channel>
