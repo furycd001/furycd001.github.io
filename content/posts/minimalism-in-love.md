@@ -2,7 +2,7 @@
 title = 'Minimalism in Love'
 date = 2025-01-28T07:19:26Z
 draft = false
-tags = ["minimalism", "minimalist", "mindset", "harmony", "lifestyle", "short story"]
+tags = ["minimalism", "minimalist", "mindset", "harmony", "lifestyle"]
 +++
 
 Minimalism is a mindset, a way of simplifying life, focusing on what truly matters, and letting go of distractions. I’ve embraced this philosophy, striving for a life unburdened by excess and filled with a clear mind. Yet, minimalism isn’t just about things; it’s about relationships too. And that's where I find my greatest lesson in balance.
