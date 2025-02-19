@@ -5,9 +5,7 @@ draft = false
 tags = ["Valve", "Steam", "tf2", "sdk", "thoughts"]
 +++
 
-Valve has just released a massive update to the [Source SDK](https://developer.valvesoftware.com) by including all the Team Fortress 2 client and server game code. This move empowers mod makers to create anything from small tweaks to completely new games based on TF2, while also updating other classic multiplayer titles from the Source engine.
-
-Below, are my personal thoughts on the good and bad from this release and what it means for the game's lifespan and future updates.
+Valve has just released a massive update to the [Source SDK](https://developer.valvesoftware.com) by including all the Team Fortress 2 client and server game code. This move empowers mod makers to create anything from small tweaks to completely new games based on TF2, while also updating other classic multiplayer titles from the Source engine. I want to share my thoughts on the good and bad takeaways from this release and what it means for the game's lifespan and future updates.
 
 ---
 
@@ -15,8 +13,7 @@ Below, are my personal thoughts on the good and bad from this release and what i
 
 ### Full Access for Modders
 - **Comprehensive Code Access:**  
-  The SDK gives creators access to both the client and server code, allowing them to modify, extend, or even completely rewrite TF2. This opens the door for full conversions and entirely new games built on the TF2 engine.  
-  :contentReference[oaicite:0]{index=0}
+  The SDK gives creators access to both the client and server code, allowing them to modify, extend, or even completely rewrite TF2. This opens the door for full conversions and entirely new games built on the TF2 engine.
 
 ### Engine Improvements
 - **Modern Enhancements:**  
@@ -24,20 +21,17 @@ Below, are my personal thoughts on the good and bad from this release and what i
   - 64-bit binary support  
   - A scalable HUD/UI  
   - Prediction fixes  
-  These improvements not only enhance the base game but also benefit any mods developed using the SDK.  
-  :contentReference[oaicite:1]{index=1}
+  These improvements not only enhance the base game but also benefit any mods developed using the SDK.
 
 ### Community Engagement and Extended Lifespan
 - **Empowering the Community:**  
   By providing these powerful modding tools, Valve is enabling a wave of creativity that could significantly extend the life of TF2. Even if official updates slow down, community-driven mods can keep the game fresh and engaging.  
-  :contentReference[oaicite:2]{index=2}
 
 ### Steam Store Integration for Mods
 - **New Opportunities for Modders:**  
   Mods created with the SDK can be published on the Steam Store as standalone games. This integration allows players to:
   - Enjoy new experiences while still using their TF2 inventories  
-  - Continue to participate in the vibrant TF2 ecosystem  
-  :contentReference[oaicite:3]{index=3}
+  - Continue to participate in the vibrant TF2 ecosystem
 
 ---
 
@@ -46,7 +40,6 @@ Below, are my personal thoughts on the good and bad from this release and what i
 ### Non-Commercial Licensing Limitations
 - **Free-Only Mods:**  
   The SDK is licensed on a non-commercial basis, meaning all mods must be free. This restriction could limit monetization opportunities for developers, potentially reducing the incentive for some to invest heavily in mod creation.  
-  :contentReference[oaicite:4]{index=4}
 
 ### Risk of Community Fragmentation
 - **Divergent Experiences:**  
@@ -57,8 +50,7 @@ Below, are my personal thoughts on the good and bad from this release and what i
   While increased freedom for modders can drive innovation, it also raises the risk of:
   - Bugs and instability in community mods  
   - Challenges with balancing and quality control  
-  Without direct oversight from Valve, some mods might negatively impact the reputation of the TF2 brand if widely adopted.  
-  :contentReference[oaicite:5]{index=5}
+  Without direct oversight from Valve, some mods might negatively impact the reputation of the TF2 brand if widely adopted.
 
 ---
 
@@ -68,15 +60,13 @@ Below, are my personal thoughts on the good and bad from this release and what i
 - **Sustaining Interest:**  
   By handing over these tools to the community, Valve is likely to see a surge in innovative content that will help keep TF2 fresh and relevant for years to come.
 - **Complementary Content:**  
-  Even as official updates may become less frequent, community mods can serve as a supplementary pipeline of new experiences for dedicated players.  
-  :contentReference[oaicite:6]{index=6}
+  Even as official updates may become less frequent, community mods can serve as a supplementary pipeline of new experiences for dedicated players.
 
 ### Ongoing Official Support
 - **Not a Complete Hand-Off:**  
   Valve’s release of the SDK is not a signal that they will stop updating TF2. Instead, it represents an expansion of the game's future:
   - Official updates should continue alongside community-driven content.
-  - This dual approach helps ensure the game’s longevity while fostering innovation.  
-  :contentReference[oaicite:7]{index=7}
+  - This dual approach helps ensure the game’s longevity while fostering innovation.
 
 ---
 
