@@ -5,7 +5,7 @@ draft = false
 tags = ["Valve", "Steam", "tf2", "sdk", "thoughts"]
 +++
 
-Valve has just released a massive update to the [Source SDK](https://developer.valvesoftware.com) by including all the Team Fortress 2 client and server game code. This move empowers mod makers to create anything from small tweaks to completely new games based on TF2, while also updating other classic multiplayer titles from the Source engine. I want to share my thoughts on the good and bad takeaways from this release and what it means for the game's lifespan and future updates.
+Valve has just unveiled a massive update to the **[Source SDK](https://developer.valvesoftware.com)** that now features the complete Team Fortress 2 client and server game code. This significant move empowers modders to develop anything from subtle tweaks to entirely new games built on the TF2 engine, while also breathing new life into other classic multiplayer titles powered by the Source engine. In this post, In this post I want to share my thoughts on both the advantages and potential drawbacks of this release and explore what it means for the game's long-term future and upcoming updates.
 
 ---
 
