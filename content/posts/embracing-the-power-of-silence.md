@@ -1,5 +1,5 @@
 +++
-title = 'Embracing the power of silence: A somewhat guide to mindful living
+title = 'Embracing the power of silence: A somewhat guide to mindful living'
 date = 2025-03-07T20:56:31Z
 draft = false
 tags = ["life", "mindfulness", "meditation", "quiet", "mentalhealth", "thoughts", "ramblings"]
