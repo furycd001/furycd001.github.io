@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adventure Awaits on d:tour</title>
-    <link>https://furycd001.github.io/tags/adventure-awaits/</link>
+    <link>http://localhost:1313/tags/adventure-awaits/</link>
     <description>Recent content in Adventure Awaits on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Jul 2024 16:03:41 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/adventure-awaits/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/adventure-awaits/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Sip of Adventure (part.1)</title>
-      <link>https://furycd001.github.io/posts/a-sip-of-adventure-part-1/</link>
+      <link>http://localhost:1313/posts/a-sip-of-adventure-part-1/</link>
       <pubDate>Tue, 09 Jul 2024 16:03:41 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/a-sip-of-adventure-part-1/</guid>
+      <guid>http://localhost:1313/posts/a-sip-of-adventure-part-1/</guid>
       <description>&lt;p&gt;A young girl always dreamed of a life that was big and grand, full of adventures that would take her to the far corners of the world. She believed that happiness could sometimes be found in those big adventures.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Hell yeah!&amp;rdquo; she shouted one morning, pouring a delicious mug of steaming hot coffee. The rich aroma filled her small kitchen, and for a moment, the world seemed perfect.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Oh, hell yeah!&amp;rdquo; she exclaimed again, sitting down in her comfy chair by the window. Taking her first sip of the delicious brew, she felt a warmth spread through her, not just from the coffee, but from the excitement of possibility.&lt;/p&gt;</description>
     </item>
   </channel>

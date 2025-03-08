@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lifestyle on d:tour</title>
-    <link>https://furycd001.github.io/tags/lifestyle/</link>
+    <link>http://localhost:1313/tags/lifestyle/</link>
     <description>Recent content in Lifestyle on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jul 2024 06:59:52 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/lifestyle/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Jan 2025 07:19:26 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/lifestyle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Minimalism in Love</title>
+      <link>http://localhost:1313/posts/minimalism-in-love/</link>
+      <pubDate>Tue, 28 Jan 2025 07:19:26 +0000</pubDate>
+      <guid>http://localhost:1313/posts/minimalism-in-love/</guid>
+      <description>&lt;p&gt;Minimalism is a mindset, a way of simplifying life, focusing on what truly matters, and letting go of distractions. I’ve embraced this philosophy, striving for a life unburdened by excess and filled with a clear mind. Yet, minimalism isn’t just about things; it’s about relationships too. And that&amp;rsquo;s where I find my greatest lesson in balance.&lt;/p&gt;&#xA;&lt;p&gt;You see, I share my life with someone who loves ornaments, picture frames, wall art, and all the little things that bring her joy. Our home is filled with the warmth of her personality: colorful, sentimental, and alive. It’s a stark contrast to the minimalist ideal I sometimes yearn for, serene, uncluttered, and bare. There have been moments when I wished it would all vanish, that the house could mirror the simplicity I find calming. And then there are times when I simply ignore it, focusing on quietness.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Harmony of Minimalism</title>
-      <link>https://furycd001.github.io/posts/the-harmony-of-minimalism/</link>
+      <link>http://localhost:1313/posts/the-harmony-of-minimalism/</link>
       <pubDate>Wed, 03 Jul 2024 06:59:52 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-harmony-of-minimalism/</guid>
+      <guid>http://localhost:1313/posts/the-harmony-of-minimalism/</guid>
       <description>&lt;p&gt;Living with a minimalist mindset can be a serene and liberating experience. It’s about embracing simplicity and finding joy in the essentials, creating a sanctuary of calm in a world that often feels overwhelming. Yet, what happens when minimalism shares a space with a bit of delightful clutter?&lt;/p&gt;&#xA;&lt;p&gt;Imagine a home where clean, open spaces coexist with charming knick-knacks and treasured collections. Here, minimalism and a more eclectic approach dance together in a harmonious waltz, each step complementing the other. This unique blend creates a living environment that is both functional and full of personality.&lt;/p&gt;</description>
     </item>
   </channel>

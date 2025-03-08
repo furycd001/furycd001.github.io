@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Knowledge on d:tour</title>
-    <link>https://furycd001.github.io/tags/knowledge/</link>
+    <link>http://localhost:1313/tags/knowledge/</link>
     <description>Recent content in Knowledge on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Aug 2024 07:37:40 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/knowledge/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/knowledge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Power of Asking Questions</title>
-      <link>https://furycd001.github.io/posts/the-power-of-asking-questions/</link>
+      <link>http://localhost:1313/posts/the-power-of-asking-questions/</link>
       <pubDate>Thu, 22 Aug 2024 07:37:40 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-power-of-asking-questions/</guid>
+      <guid>http://localhost:1313/posts/the-power-of-asking-questions/</guid>
       <description>&lt;p&gt;Asking questions is a fundamental part of learning and growth, yet many of us hesitate when it comes to seeking out the knowledge we need. Whether it&amp;rsquo;s due to a fear of judgment, a fear of appearing uninformed, or maybe simply not wanting to bother others, we often keep our questions to ourselves. But here&amp;rsquo;s the truth: there’s no shame in asking questions—only in missing out on the opportunity to learn. Asking questions is one of the most powerful tools we have for learning and growth. It’s not a sign of weakness; it’s a sign of curiosity, courage, and a genuine desire to understand the world around us.&lt;/p&gt;</description>
     </item>
   </channel>

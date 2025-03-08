@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fashion on d:tour</title>
-    <link>https://furycd001.github.io/tags/fashion/</link>
+    <link>http://localhost:1313/tags/fashion/</link>
     <description>Recent content in Fashion on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Oct 2024 09:59:56 +0000</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/fashion/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/fashion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Discovering Elleni the Label</title>
-      <link>https://furycd001.github.io/posts/elleni-the-label/</link>
+      <link>http://localhost:1313/posts/elleni-the-label/</link>
       <pubDate>Mon, 28 Oct 2024 09:59:56 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/elleni-the-label/</guid>
+      <guid>http://localhost:1313/posts/elleni-the-label/</guid>
       <description>&lt;p&gt;There&amp;rsquo;s something undeniably special about finding a brand that feels like it was crafted in the clouds—a brand that brings joy with each click and sparkles with creativity, quality, and a unique sense of charm. That’s precisely the experience you get with &lt;strong&gt;&lt;a href=&#34;https://ellenithelabel.com&#34;&gt;Elleni the Label&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;When you step into the world of Elleni the Label, you’re not just browsing another clothing site. You’re entering a carefully curated collection of pieces that tell a story of elegance, kindness, fabulousness, and a playful spirit. Everything feels warm and inviting, like a cozy hug on a chilly day. It’s fashion that isn’t just about looking good; it’s about feeling wonderful, wrapped in joy, and staying true to the little spark that makes you, you.. It’s the perfect blend of simplicity, grace, and that little spark of delight that makes each piece feel extra special.&lt;/p&gt;</description>
     </item>
   </channel>

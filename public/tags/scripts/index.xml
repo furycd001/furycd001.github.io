@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scripts on d:tour</title>
-    <link>https://furycd001.github.io/tags/scripts/</link>
+    <link>http://localhost:1313/tags/scripts/</link>
     <description>Recent content in Scripts on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Sep 2024 10:49:33 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/scripts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/scripts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basics of Creating an Interactive Bash Script</title>
-      <link>https://furycd001.github.io/posts/basics-of-creating-an-interactive-bash-script/</link>
+      <link>http://localhost:1313/posts/basics-of-creating-an-interactive-bash-script/</link>
       <pubDate>Fri, 06 Sep 2024 10:49:33 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/basics-of-creating-an-interactive-bash-script/</guid>
+      <guid>http://localhost:1313/posts/basics-of-creating-an-interactive-bash-script/</guid>
       <description>&lt;p&gt;Creating an interactive bash script is like adding a dash of magic to your terminal adventures!! It’s a fun and clever way to automate repetitive tasks and make your command-line experience smoother and more enjoyable. Here’s a little guide to sprinkle some scripting sparkle into your life:&lt;/p&gt;&#xA;&lt;h3 id=&#34;create-the-script-file&#34;&gt;Create the Script File:&lt;/h3&gt;&#xA;&lt;p&gt;Start by creating a new file for your script. Open your terminal and use a text editor to create a file, such as &lt;code&gt;vim script-whatever.sh&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>

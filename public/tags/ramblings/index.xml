@@ -2,73 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ramblings on d:tour</title>
-    <link>https://furycd001.github.io/tags/ramblings/</link>
+    <link>http://localhost:1313/tags/ramblings/</link>
     <description>Recent content in Ramblings on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Dec 2024 07:32:12 +0000</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/ramblings/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Mar 2025 20:56:31 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ramblings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embracing the power of silence: A somewhat guide to mindful living</title>
+      <link>http://localhost:1313/posts/embracing-the-power-of-silence/</link>
+      <pubDate>Fri, 07 Mar 2025 20:56:31 +0000</pubDate>
+      <guid>http://localhost:1313/posts/embracing-the-power-of-silence/</guid>
+      <description>&lt;p&gt;In a world that often feels overwhelmingly noisy, taking time to be still and speak less can have a profound impact on our wellbeing. Mindfulness isn&amp;rsquo;t just about meditation or quiet reflection—it&amp;rsquo;s about cultivating a lifestyle that values listening over constant chatter, intentionality over impulsiveness, and inner calm over external chaos. In this post, I want to try and explore the benefits of embracing silence and offer some practical tips for integrating more mindful moments into your daily.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why a Derivative of a Derivative Might Not Be the Best Choice</title>
-      <link>https://furycd001.github.io/posts/derivative-of-a-derivative/</link>
+      <link>http://localhost:1313/posts/derivative-of-a-derivative/</link>
       <pubDate>Thu, 05 Dec 2024 07:32:12 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/derivative-of-a-derivative/</guid>
+      <guid>http://localhost:1313/posts/derivative-of-a-derivative/</guid>
       <description>&lt;p&gt;When it comes to choosing a Linux distribution, the options can feel overwhelming. From the giants like Arch, Fedora, OpenSuse and Ubuntu, to the more niche derivatives that branch off these powerhouses, there’s a flavor for just about everyone. But what happens when you venture beyond a first-layer derivative to a derivative of a derivative? While it might seem harmless, this extra step away from the “source” can sometimes create unforeseen challenges that are worth considering before you commit.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Brief History of Gleno Northern Ireland</title>
-      <link>https://furycd001.github.io/posts/a-brief-history-of-gleno-northern-ireland/</link>
+      <link>http://localhost:1313/posts/a-brief-history-of-gleno-northern-ireland/</link>
       <pubDate>Wed, 13 Nov 2024 07:29:26 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/a-brief-history-of-gleno-northern-ireland/</guid>
+      <guid>http://localhost:1313/posts/a-brief-history-of-gleno-northern-ireland/</guid>
       <description>&lt;p&gt;Nestled in the picturesque landscapes of County Antrim, Northern Ireland, the small village of Gleno is often overlooked by visitors, yet its charm and history make it a fascinating stop for those seeking to explore Northern Ireland&amp;rsquo;s rich heritage. Though small in size, Gleno is a village steeped in local lore, natural beauty, and historical significance.&lt;/p&gt;&#xA;&lt;h3 id=&#34;origins-and-name&#34;&gt;Origins and Name&lt;/h3&gt;&#xA;&lt;p&gt;The name &lt;em&gt;Gleno&lt;/em&gt;, or &lt;em&gt;Glenoe&lt;/em&gt;, is derived from the Irish &lt;em&gt;Gleann Ó&lt;/em&gt;, meaning &amp;ldquo;Glen of the mass or lump.&amp;rdquo; This name reflects the unique geological features of the area, including the prominent hills and rock formations that frame the village. Located in County Antrim, Gleno is located near a scenic waterfall that feeds into a meandering stream, a feature that has shaped much of its early history, and has attracted settlement for centuries due to its scenic beauty and the life-giving stream that flows through the valley. Gleno&amp;rsquo;s tranquil surroundings, characterized by rolling hills and lush greenery, have made it an attractive spot for human settlement for centuries, with roots stretching back to early farming communities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Falling Apart</title>
-      <link>https://furycd001.github.io/posts/falling-apart/</link>
+      <link>http://localhost:1313/posts/falling-apart/</link>
       <pubDate>Mon, 26 Aug 2024 09:58:50 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/falling-apart/</guid>
+      <guid>http://localhost:1313/posts/falling-apart/</guid>
       <description>&lt;p&gt;Sometimes, it feels like we&amp;rsquo;re falling apart, like no matter what we do, we&amp;rsquo;re always falling short, making mistakes, messing things up, or that something goes wrong. But here&amp;rsquo;s the thing: we&amp;rsquo;re not always any of those things. Life can simply be hard sometimes. It&amp;rsquo;s full of challenges, unexpected twists, and moments that can make us feel overwhelmed or that the weight of the world is too much to carry. There are days when it seems like giving up might be easier than pushing forward. Just sometimes, life is simply hard.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Finding Joy in Linux: Why It’s My Happy Place</title>
-      <link>https://furycd001.github.io/posts/finding-joy-in-linux/</link>
+      <link>http://localhost:1313/posts/finding-joy-in-linux/</link>
       <pubDate>Wed, 14 Aug 2024 06:32:12 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/finding-joy-in-linux/</guid>
+      <guid>http://localhost:1313/posts/finding-joy-in-linux/</guid>
       <description>&lt;p&gt;There’s something truly special about finding something that not only fits your needs but also brings you joy. For me, that&amp;rsquo;s Linux. It’s more than just an operating system—it’s a source of happiness, freedom, and all things good.&lt;/p&gt;&#xA;&lt;p&gt;I’ve been using Linux since 2002, and I can honestly say I’ve never looked back. There’s a certain magic in its flexibility and the way it empowers you to customize everything just the way you like. Unlike Windows or macOS, Linux doesn’t box you in; instead, it opens up a world of possibilities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spreading Kindness Online: Creating a Ripple Effect</title>
-      <link>https://furycd001.github.io/posts/spreading-kindness-online/</link>
+      <link>http://localhost:1313/posts/spreading-kindness-online/</link>
       <pubDate>Sun, 28 Jul 2024 11:57:36 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/spreading-kindness-online/</guid>
+      <guid>http://localhost:1313/posts/spreading-kindness-online/</guid>
       <description>&lt;p&gt;In the digital age, the internet has become a central part of our daily lives. It&amp;rsquo;s a place where we connect with friends, share our thoughts, and discover new ideas. However, it&amp;rsquo;s also a space that can sometimes feel overwhelming and negative. Amidst the noise, a simple yet powerful truth remains: kindness online can have a ripple effect.&lt;/p&gt;&#xA;&lt;p&gt;Imagine this.. You receive a heartfelt comment on a post you shared, or someone sends you an encouraging message when you need it most. These small acts of kindness can brighten your day and change your outlook. The beauty of kindness is that it doesn&amp;rsquo;t stop with you. One small act of kindness can inspire others to follow suit, creating a wave of positivity that can spread far and wide.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Depression of the Internet: Pulling Us Away from Real Life</title>
-      <link>https://furycd001.github.io/posts/the-depression-of-the-internet/</link>
+      <link>http://localhost:1313/posts/the-depression-of-the-internet/</link>
       <pubDate>Sun, 28 Jul 2024 11:41:27 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-depression-of-the-internet/</guid>
+      <guid>http://localhost:1313/posts/the-depression-of-the-internet/</guid>
       <description>&lt;p&gt;In the digital age, the internet has become an integral part of our daily lives. It connects us to a world of information, entertainment, and social interaction. Yet, as we immerse ourselves in this vast virtual landscape, there is a growing concern about the impact it has on our mental health and our connection to real life.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-allure-of-the-digital-world&#34;&gt;The Allure of the Digital World&lt;/h2&gt;&#xA;&lt;p&gt;The internet offers endless possibilities. From social media platforms to streaming services, online shopping to gaming, it provides an escape from the mundane and a distraction from the stresses of everyday life. However, this constant accessibility and the allure of instant gratification can also lead to a dangerous cycle of overuse and dependency.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Embracing Minimalism on Modern Day Smartphones</title>
-      <link>https://furycd001.github.io/posts/embracing-minimalism-on-modern-day-smartphones/</link>
+      <link>http://localhost:1313/posts/embracing-minimalism-on-modern-day-smartphones/</link>
       <pubDate>Mon, 22 Jul 2024 07:44:41 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/embracing-minimalism-on-modern-day-smartphones/</guid>
+      <guid>http://localhost:1313/posts/embracing-minimalism-on-modern-day-smartphones/</guid>
       <description>&lt;p&gt;In our fast-paced digital age, smartphones have become indispensable companions, seamlessly integrating into our daily lives. However, as these devices grow more advanced, they often come laden with features and apps that can lead to a cluttered and overwhelming experience. For some it can also be an undesirable experience. Enter minimalism—a philosophy that, when applied to modern smartphones, can bring clarity and purpose back to our digital interactions.&lt;/p&gt;&#xA;&lt;p&gt;Minimalism on smartphones can take many forms, but for me, it&amp;rsquo;s all about decluttering and simplifying. It&amp;rsquo;s about curating an environment that encourages focus and productivity rather than distraction. I keep what matters within reach while removing the unwanted or unneeded. I start by evaluating the apps on my home screen: are they essential, a one-time use, or just there because I downloaded them and never removed them? Removing redundant or unused apps can immediately make your phone feel less chaotic. Additionally, consider the widgets that consume your home screen. Keep only those that provide valuable information, helping you stay organized without overwhelming your visual space.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pc Perdicaments</title>
-      <link>https://furycd001.github.io/posts/pc-perdicaments/</link>
+      <link>http://localhost:1313/posts/pc-perdicaments/</link>
       <pubDate>Mon, 24 Jun 2024 09:55:54 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/pc-perdicaments/</guid>
+      <guid>http://localhost:1313/posts/pc-perdicaments/</guid>
       <description>&lt;p&gt;In a cosy kitchen, a computer sat quietly in the corner underneath a black wooden desk. A reliable companion in a world increasingly dominated by sleek, modern devices. It wasn&amp;rsquo;t old, but it wasn&amp;rsquo;t brand new either—a comfortable middle ground. Running Linux, it represented a blend of stability and versatility, though not without its quirks. Its owner didn’t ask for much—just for it to work as expected.&lt;/p&gt;&#xA;&lt;p&gt;Every morning, the computer was powered on with a sense of hope. The familiar hum of the fan and the soft glow of the screen brought a small but significant comfort. Its operating system, a sturdy version of Linux, booted up smoothly most days. However, there were times when unexpected glitches would appear—a program crashing here, a slow response there. These minor annoyances didn’t make the computer boring; they added a layer of challenge, a puzzle to solve.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ideas, thoughts, &amp; ramblings.....</title>
-      <link>https://furycd001.github.io/posts/ideas-and-ramblings/</link>
+      <link>http://localhost:1313/posts/ideas-and-ramblings/</link>
       <pubDate>Tue, 04 Jun 2024 08:16:35 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/ideas-and-ramblings/</guid>
+      <guid>http://localhost:1313/posts/ideas-and-ramblings/</guid>
       <description>&lt;h3 id=&#34;ideas-thoughts--ramblings&#34;&gt;Ideas, thoughts &amp;amp; Ramblings&amp;hellip;&lt;/h3&gt;&#xA;&lt;p&gt;that&amp;rsquo;s what this blog is all about. After spending a few days playing around with Hugo offline, I&amp;rsquo;ve discovered that I actually quite like it. It&amp;rsquo;s like a refreshing change.&lt;/p&gt;&#xA;&lt;h3 id=&#34;a-fresh-start&#34;&gt;A Fresh Start..&lt;/h3&gt;&#xA;&lt;p&gt;Initially, my plan was to transfer all my old blog posts from Publii to this new blog. However, upon reflection, I decided against it. A few of those posts were of low quality, and frankly, I have no idea why I ever published them. This fresh start gives me the opportunity to be more selective and thoughtful about the content I share.&lt;/p&gt;</description>
     </item>
   </channel>

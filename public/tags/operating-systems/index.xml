@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Operating Systems on d:tour</title>
-    <link>https://furycd001.github.io/tags/operating-systems/</link>
+    <link>http://localhost:1313/tags/operating-systems/</link>
     <description>Recent content in Operating Systems on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Dec 2024 07:32:12 +0000</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/operating-systems/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/operating-systems/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why a Derivative of a Derivative Might Not Be the Best Choice</title>
-      <link>https://furycd001.github.io/posts/derivative-of-a-derivative/</link>
+      <link>http://localhost:1313/posts/derivative-of-a-derivative/</link>
       <pubDate>Thu, 05 Dec 2024 07:32:12 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/derivative-of-a-derivative/</guid>
+      <guid>http://localhost:1313/posts/derivative-of-a-derivative/</guid>
       <description>&lt;p&gt;When it comes to choosing a Linux distribution, the options can feel overwhelming. From the giants like Arch, Fedora, OpenSuse and Ubuntu, to the more niche derivatives that branch off these powerhouses, there’s a flavor for just about everyone. But what happens when you venture beyond a first-layer derivative to a derivative of a derivative? While it might seem harmless, this extra step away from the “source” can sometimes create unforeseen challenges that are worth considering before you commit.&lt;/p&gt;</description>
     </item>
   </channel>

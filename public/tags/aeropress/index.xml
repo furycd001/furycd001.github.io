@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aeropress on d:tour</title>
-    <link>https://furycd001.github.io/tags/aeropress/</link>
+    <link>http://localhost:1313/tags/aeropress/</link>
     <description>Recent content in Aeropress on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 26 Aug 2024 10:02:42 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/aeropress/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/aeropress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Aeropress Ritual</title>
-      <link>https://furycd001.github.io/posts/the-aeropress-ritual/</link>
+      <link>http://localhost:1313/posts/the-aeropress-ritual/</link>
       <pubDate>Mon, 26 Aug 2024 10:02:42 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-aeropress-ritual/</guid>
+      <guid>http://localhost:1313/posts/the-aeropress-ritual/</guid>
       <description>&lt;p&gt;In the quiet stillness of the morning, before the world had fully woken, there was a moment &amp;ldquo;a ritual&amp;rdquo; that was all his own. This was his time. The sacred few minutes dedicated to crafting the perfect cup of coffee with his beloved Aeropress.&lt;/p&gt;&#xA;&lt;p&gt;The kitchen was a sanctuary at this hour, bathed in the gentle light of dawn. He moved with purpose, each step a part of a dance he knew by heart. First, he reached for the coffee tub—a sturdy, reliable container that kept the grounds fresh and fragrant. As he took off the lid, a deep, earthy aroma filled the air, wrapping around him like a familiar embrace. This was a scent that spoke of warmth and comfort, with the promise of clarity to come.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Valve on d:tour</title>
+    <link>http://localhost:1313/tags/valve/</link>
+    <description>Recent content in Valve on d:tour</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Feb 2025 08:04:16 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/valve/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Valve Releases the TF2 SDK</title>
+      <link>http://localhost:1313/posts/tf2-sdk/</link>
+      <pubDate>Wed, 19 Feb 2025 08:04:16 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tf2-sdk/</guid>
+      <description>&lt;p&gt;Valve has just unveiled a massive update to the &lt;strong&gt;&lt;a href=&#34;https://developer.valvesoftware.com&#34;&gt;Source SDK&lt;/a&gt;&lt;/strong&gt; that now features the complete Team Fortress 2 client and server game code. This significant move empowers modders to develop anything from subtle tweaks to entirely new games built on the TF2 engine, while also breathing new life into other classic multiplayer titles powered by the Source engine. In this post, In this post I want to share my thoughts on both the advantages and potential drawbacks of this release and explore what it means for the game&amp;rsquo;s long-term future and upcoming updates.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

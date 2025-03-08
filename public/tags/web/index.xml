@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web on d:tour</title>
-    <link>https://furycd001.github.io/tags/web/</link>
+    <link>http://localhost:1313/tags/web/</link>
     <description>Recent content in Web on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Aug 2024 10:12:52 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Mar 2025 09:40:29 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Take on Mozilla’s New Firefox Terms of Use</title>
+      <link>http://localhost:1313/posts/my-take-on-mozilla-s-new-firefox-terms-of-use/</link>
+      <pubDate>Tue, 04 Mar 2025 09:40:29 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-take-on-mozilla-s-new-firefox-terms-of-use/</guid>
+      <description>&lt;p&gt;This is my take on &lt;strong&gt;&lt;a href=&#34;https://www.mozilla.org/en-US/&#34;&gt;Mozilla’s&lt;/a&gt;&lt;/strong&gt; New Firefox &lt;strong&gt;&lt;a href=&#34;https://www.mozilla.org/en-US/about/legal/terms/firefox/&#34;&gt;Terms of Use&lt;/a&gt;&lt;/strong&gt; effective as of &lt;em&gt;February 25, 2025&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Whenever Mozilla’s updated the Firefox Terms of Use, I had a read, and honestly, it left me a bit frustrated. I’m not here for any of the extra data sharing or corporate maneuvering.. I just want a straightforward, no-frills web browser.&lt;/p&gt;&#xA;&lt;h2 id=&#34;i-just-want-a-browser-not-a-data-processor&#34;&gt;I Just Want a Browser, Not a Data Processor..&lt;/h2&gt;&#xA;&lt;p&gt;What really gets me is the part about Mozilla using my data to “help me navigate” the web. I’m all for a smooth browsing experience, but I’m not a fan of any extra sharing or selling of my data. I just want Firefox to work as a web browser without turning into a data mine.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mindful Bookmarking</title>
-      <link>https://furycd001.github.io/posts/mindful-firefox-bookmarks/</link>
+      <link>http://localhost:1313/posts/mindful-firefox-bookmarks/</link>
       <pubDate>Sun, 11 Aug 2024 10:12:52 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/mindful-firefox-bookmarks/</guid>
+      <guid>http://localhost:1313/posts/mindful-firefox-bookmarks/</guid>
       <description>&lt;p&gt;In today&amp;rsquo;s digital age, it&amp;rsquo;s easy to accumulate a cluttered and overwhelming collection of bookmarks in your web browser. A disorganized bookmark list can make it difficult to find what you need and can contribute to digital overwhelm. By organizing your browsers bookmarks thoughtfully, you can create a more mindful and efficient browsing experience.  To achieve this, you can consider following a series of thoughtful and carefully planned steps..&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-audit-your-current-bookmarks&#34;&gt;1. Audit Your Current Bookmarks&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Review and Clean:&lt;/strong&gt; Start by reviewing all your existing bookmarks. Delete any that are outdated, irrelevant, or ones that may no longer serve a purpos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Super Quick Introduction to the Fediverse and Mastodon</title>
-      <link>https://furycd001.github.io/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</link>
+      <link>http://localhost:1313/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</link>
       <pubDate>Wed, 26 Jun 2024 08:43:42 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</guid>
+      <guid>http://localhost:1313/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</guid>
       <description>&lt;p&gt;There are lots of guides explaining Fediverse and Mastodon, but most of them go into way too much detail. With this post, I would like to try and cover all, or at least most, of the basics you&amp;rsquo;ll need to know to get started. You can then gradually learn the rest from elsewhere.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-fediverse-is-not-fking-twitter-&#34;&gt;The fediverse is NOT f**king twitter !!&lt;/h2&gt;&#xA;&lt;p&gt;The fediverse is very different from twitter, and that&amp;rsquo;s by design. It&amp;rsquo;s made for building communities and bringing people together, not dividing people or for boosting celebrities. Things will certainly work differently from what you&amp;rsquo;re probably used to. Just give it some time, and ask for help if you&amp;rsquo;re not sure why something works how it does! People on the fediverse are usually happy to explain, as long as it&amp;rsquo;s a genuine question. People on the fediverse expect you to talk to them like they&amp;rsquo;re real human beings, and in return they will do the same.&lt;/p&gt;</description>
     </item>
   </channel>

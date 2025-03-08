@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Test Post on d:tour</title>
-    <link>https://furycd001.github.io/tags/test-post/</link>
+    <link>http://localhost:1313/tags/test-post/</link>
     <description>Recent content in Test Post on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 31 May 2024 10:20:54 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/test-post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/test-post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Blog</title>
-      <link>https://furycd001.github.io/posts/new-blog/</link>
+      <link>http://localhost:1313/posts/new-blog/</link>
       <pubDate>Fri, 31 May 2024 10:20:54 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/new-blog/</guid>
+      <guid>http://localhost:1313/posts/new-blog/</guid>
       <description>&lt;p&gt;After using &lt;a href=&#34;https://getpublii.com/&#34;&gt;publii&lt;/a&gt; for several years, I&amp;rsquo;ve finally decided to switch to Hugo. I made the switch because I wanted a more minimalistic, less clunky, and easier-to-maintain solution.&lt;/p&gt;&#xA;&lt;p&gt;At the moment, I&amp;rsquo;m just testing Hugo, and this post is primarily for experimental purposes. After re-uploading a few posts from my previous blog, I&amp;rsquo;ll look at my feelings towards Hugo based on my experience and the results. Depending on how I feel about it, I may or may not stick with Hugo. I&amp;rsquo;m also considering other options, such as &lt;a href=&#34;https://github.com/hmngwy/jenny&#34;&gt;Jenny&lt;/a&gt; and [Bashblog](&lt;a href=&#34;https://github.com/cfenollosa/bashblog&#34;&gt;https://github.com/cfenollosa/bashblog&lt;/a&gt; which are on my radar as potential alternatives to explore and try.&lt;/p&gt;</description>
     </item>
   </channel>
