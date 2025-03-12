@@ -6,8 +6,15 @@
     <description>Recent content in Home on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Mar 2025 20:56:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Now</title>
+      <link>http://localhost:1313/now/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/now/</guid>
+      <description>&lt;h2 id=&#34;listening-to&#34;&gt;Listening to..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Delirious&lt;/li&gt;&#xA;&lt;li&gt;Mercy Me&lt;/li&gt;&#xA;&lt;li&gt;Ozzy Osbourne&lt;/li&gt;&#xA;&lt;li&gt;Stryper&lt;/li&gt;&#xA;&lt;li&gt;Uriah Heep&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;playing&#34;&gt;Playing..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;TF2&lt;/li&gt;&#xA;&lt;li&gt;Ricochet&lt;/li&gt;&#xA;&lt;li&gt;Deathmatch Classic&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;working-on&#34;&gt;Working on..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;YOLO detection in python to batch create profile pictures &amp;amp; wallpapers.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;learning&#34;&gt;Learning..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I’ve just started learning Qtile lately, exploring its tiling features and customization options. Coming from over 20 years of using XFCE, it’s definitely a learning curve.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Embracing the power of silence: A somewhat guide to mindful living</title>
       <link>http://localhost:1313/posts/embracing-the-power-of-silence/</link>
