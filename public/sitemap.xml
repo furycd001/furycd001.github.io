@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/embracing-the-power-of-silence/</loc>
-    <lastmod>2025-03-07T20:56:31+00:00</lastmod>
+    <loc>http://localhost:1313/posts/evolving-minimalism/</loc>
+    <lastmod>2025-03-26T07:31:33+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/life/</loc>
+    <lastmod>2025-03-26T07:31:33+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mindfulness/</loc>
+    <lastmod>2025-03-26T07:31:33+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/minimalism/</loc>
+    <lastmod>2025-03-26T07:31:33+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-03-26T07:31:33+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ramblings/</loc>
+    <lastmod>2025-03-26T07:31:33+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-03-26T07:31:33+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/thoughts/</loc>
+    <lastmod>2025-03-26T07:31:33+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/now/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/embracing-the-power-of-silence/</loc>
     <lastmod>2025-03-07T20:56:31+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/meditation/</loc>
@@ -14,22 +38,7 @@
     <loc>http://localhost:1313/tags/mentalhealth/</loc>
     <lastmod>2025-03-07T20:56:31+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mindfulness/</loc>
-    <lastmod>2025-03-07T20:56:31+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-03-07T20:56:31+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/quiet/</loc>
-    <lastmod>2025-03-07T20:56:31+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ramblings/</loc>
-    <lastmod>2025-03-07T20:56:31+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-03-07T20:56:31+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/thoughts/</loc>
     <lastmod>2025-03-07T20:56:31+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/firefox/</loc>
@@ -72,9 +81,6 @@
     <lastmod>2025-01-28T07:19:26+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/mindset/</loc>
-    <lastmod>2025-01-28T07:19:26+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/minimalism/</loc>
     <lastmod>2025-01-28T07:19:26+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/minimalism-in-love/</loc>
@@ -481,8 +487,6 @@
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/now/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>

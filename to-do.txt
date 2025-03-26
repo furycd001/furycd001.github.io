@@ -1,0 +1,16 @@
+
++ Rework blog to contain the following sections..
+	
+		+ Care, self-care or life
+		+ Writing
+		+ Linux
+		+ Tech
+		+ Web
+		+ Hockey
+
+
++ Main page for blog should contain the latest post from all sections listed above..
+
++ Blog name needs to be centered, with all of the links above being placed on either side..
+
++ Links to dots etc, should be moved to the footer..
