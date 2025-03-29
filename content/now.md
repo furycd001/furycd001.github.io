@@ -6,18 +6,15 @@ draft = false
   
 ## Listening to..
 + Delirious
-+ Mercy Me
-+ Ozzy Osbourne
-+ Stryper
-+ Uriah Heep
++ Powerwolf
++ Lord of The Lost
++ Unleash The Archers
 
 ## Playing..
 + TF2
-+ Ricochet
-+ Deathmatch Classic
 
 ## Working on..
-+ YOLO detection in python to batch create profile pictures & wallpapers.
++ Python based web scrapers to download images fromblogs & forums.
 
 ## Learning..
-+ I’ve just started learning Qtile lately, exploring its tiling features and customization options. Coming from over 20 years of using XFCE, it’s definitely a learning curve.
++ Nothing right now !!
