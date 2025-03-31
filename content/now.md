@@ -14,7 +14,7 @@ draft = false
 + TF2
 
 ## Working on..
-+ Python based web scrapers to download images fromblogs & forums.
++ Python based web scrapers to download images from blogs & forums.
 
 ## Learning..
 + Nothing right now !!
