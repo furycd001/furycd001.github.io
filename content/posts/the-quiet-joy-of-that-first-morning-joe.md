@@ -2,7 +2,7 @@
 title = 'The Quiet Joy of That First Morning Joe'
 date = 2025-04-07T06:59:25+01:00
 draft = false
-tags = ["coffee", "joe", "joy", "morning", "short story"]
+tags = ["coffee", "joe", "cuppa", "joy", "morning", "short story"]
 +++
 
 There’s a sacred stillness to the early hours. Before the world stirs, before notifications blink to life, and before the rush begins, there exists a space of serenity that asks nothing of us but to simply be. It’s in that quiet, often overlooked moment that we find one of life’s purest joys: the first sip of morning coffee.

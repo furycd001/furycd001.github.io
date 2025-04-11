@@ -2,7 +2,7 @@
 title = 'The Aeropress Ritual'
 date = 2024-08-26T10:02:42+01:00
 draft = false
-tags = ["coffee", "aeropress", "joe", "joy", "morning", "short story"]
+tags = ["coffee", "aeropress", "cuppa", "joe", "joy", "morning", "short story"]
 +++
 
 In the quiet stillness of the morning, before the world had fully woken, there was a moment "a ritual" that was all his own. This was his time. The sacred few minutes dedicated to crafting the perfect cup of coffee with his beloved Aeropress.

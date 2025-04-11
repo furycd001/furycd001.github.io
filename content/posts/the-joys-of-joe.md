@@ -2,7 +2,7 @@
 title = 'The Joys of Joe'
 date = 2024-06-14T10:40:59+01:00
 draft = false
-tags = ["coffee", "joe", "joy", "morning", "short story"]
+tags = ["coffee", "joe", "cuppa", "joy", "morning", "short story"]
 +++
 
 Every morning, the kitchen came to life with the anticipation of a special ritual: the making of a perfect cup of coffee. As dawn's first light filtered through the window, the beans awaited their transformation from mere ingredients into a steamy cup of joe, brimming with joy, promise, and excitement.
