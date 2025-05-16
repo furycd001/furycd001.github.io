@@ -6,8 +6,29 @@
     <description>Recent content in Home on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Mar 2025 07:31:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 May 2025 07:40:40 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Morning Coffee</title>
+      <link>http://localhost:1313/posts/morning-coffee/</link>
+      <pubDate>Fri, 16 May 2025 07:40:40 +0100</pubDate>
+      <guid>http://localhost:1313/posts/morning-coffee/</guid>
+      <description>&lt;p&gt;The kitchen was small. Not in a sad way, more like a cozy way, like it had decided long ago it didn’t need to impress anyone. The cabinets were slightly crooked, the window rattled when the wind got opinionated, and the old radiator made ticking sounds like it was keeping score. But in the soft, amber light of a the morning, the space felt almost enchanted, like it knew how to hold quiet moments just right.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Quiet Within the Cup</title>
+      <link>http://localhost:1313/posts/the-quiet-within-the-cup/</link>
+      <pubDate>Fri, 11 Apr 2025 09:38:54 +0100</pubDate>
+      <guid>http://localhost:1313/posts/the-quiet-within-the-cup/</guid>
+      <description>&lt;p&gt;There’s a certain stillness that lives in the steam of a freshly brewed cuppa tea. Not the hurried sip between meetings or the lukewarm remnants forgotten at the side of the desk, but the perfect cuppa. The one you prepare with care, not just for the taste, but for the ritual.&lt;/p&gt;&#xA;&lt;p&gt;It starts with the boil, that patient crescendo of water warming, humming a quiet promise of pause. Then comes the pour, a gentle swirl as leaves or bag meet their purpose. And finally, the wait. Those few minutes of steeping are a gift in disguise, a small, carved-out space in the day where time slows down just enough to remind you: you&amp;rsquo;re allowed to breathe.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Quiet Joy of That First Morning Joe</title>
+      <link>http://localhost:1313/posts/the-quiet-joy-of-that-first-morning-joe/</link>
+      <pubDate>Mon, 07 Apr 2025 06:59:25 +0100</pubDate>
+      <guid>http://localhost:1313/posts/the-quiet-joy-of-that-first-morning-joe/</guid>
+      <description>&lt;p&gt;There’s a sacred stillness to the early hours. Before the world stirs, before notifications blink to life, and before the rush begins, there exists a space of serenity that asks nothing of us but to simply be. It’s in that quiet, often overlooked moment that we find one of life’s purest joys: the first sip of morning coffee.&lt;/p&gt;&#xA;&lt;p&gt;The warmth of the cup in your hands. The gentle steam rising like whispers into the silence. The first deep breath of that rich aroma, it’s more than caffeine. It’s a ritual of presence. A gentle grounding. A reminder that before we chase the day, we are allowed this pause.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Evolving Minimalism</title>
       <link>http://localhost:1313/posts/evolving-minimalism/</link>
@@ -20,7 +41,7 @@
       <link>http://localhost:1313/now/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/now/</guid>
-      <description>&lt;h2 id=&#34;listening-to&#34;&gt;Listening to..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Delirious&lt;/li&gt;&#xA;&lt;li&gt;Mercy Me&lt;/li&gt;&#xA;&lt;li&gt;Ozzy Osbourne&lt;/li&gt;&#xA;&lt;li&gt;Stryper&lt;/li&gt;&#xA;&lt;li&gt;Uriah Heep&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;playing&#34;&gt;Playing..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;TF2&lt;/li&gt;&#xA;&lt;li&gt;Ricochet&lt;/li&gt;&#xA;&lt;li&gt;Deathmatch Classic&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;working-on&#34;&gt;Working on..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;YOLO detection in python to batch create profile pictures &amp;amp; wallpapers.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;learning&#34;&gt;Learning..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I’ve just started learning Qtile lately, exploring its tiling features and customization options. Coming from over 20 years of using XFCE, it’s definitely a learning curve.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;listening-to&#34;&gt;Listening to..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Delirious&lt;/li&gt;&#xA;&lt;li&gt;Powerwolf&lt;/li&gt;&#xA;&lt;li&gt;Lord of The Lost&lt;/li&gt;&#xA;&lt;li&gt;Unleash The Archers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;playing&#34;&gt;Playing..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;TF2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;working-on&#34;&gt;Working on..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python based web scrapers to download images from blogs &amp;amp; forums.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;learning&#34;&gt;Learning..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Nothing right now !!&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Embracing the power of silence: A somewhat guide to mindful living</title>

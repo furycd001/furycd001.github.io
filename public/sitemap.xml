@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/coffee/</loc>
+    <lastmod>2025-05-16T07:40:40+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cuppa/</loc>
+    <lastmod>2025-05-16T07:40:40+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/joe/</loc>
+    <lastmod>2025-05-16T07:40:40+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/joy/</loc>
+    <lastmod>2025-05-16T07:40:40+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/morning/</loc>
+    <lastmod>2025-05-16T07:40:40+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/morning-coffee/</loc>
+    <lastmod>2025-05-16T07:40:40+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-05-16T07:40:40+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/short-story/</loc>
+    <lastmod>2025-05-16T07:40:40+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-05-16T07:40:40+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ritual/</loc>
+    <lastmod>2025-04-11T09:38:54+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tea/</loc>
+    <lastmod>2025-04-11T09:38:54+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/the-quiet-within-the-cup/</loc>
+    <lastmod>2025-04-11T09:38:54+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/the-quiet-joy-of-that-first-morning-joe/</loc>
+    <lastmod>2025-04-07T06:59:25+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/evolving-minimalism/</loc>
     <lastmod>2025-03-26T07:31:33+00:00</lastmod>
   </url><url>
@@ -14,13 +53,7 @@
     <loc>http://localhost:1313/tags/minimalism/</loc>
     <lastmod>2025-03-26T07:31:33+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-03-26T07:31:33+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/ramblings/</loc>
-    <lastmod>2025-03-26T07:31:33+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-03-26T07:31:33+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/thoughts/</loc>
@@ -107,9 +140,6 @@
     <loc>http://localhost:1313/tags/humor/</loc>
     <lastmod>2024-11-25T08:17:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/joy/</loc>
-    <lastmod>2024-11-25T08:17:12+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/kindness/</loc>
     <lastmod>2024-11-25T08:17:12+00:00</lastmod>
   </url><url>
@@ -189,18 +219,6 @@
     <lastmod>2024-09-06T10:49:33+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/aeropress/</loc>
-    <lastmod>2024-08-26T10:02:42+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/coffee/</loc>
-    <lastmod>2024-08-26T10:02:42+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/joe/</loc>
-    <lastmod>2024-08-26T10:02:42+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/morning/</loc>
-    <lastmod>2024-08-26T10:02:42+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/short-story/</loc>
     <lastmod>2024-08-26T10:02:42+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/the-aeropress-ritual/</loc>
