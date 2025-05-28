@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/dream/</loc>
+    <lastmod>2025-05-28T14:37:32+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/life/</loc>
+    <lastmod>2025-05-28T14:37:32+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/life-as-a-dream/</loc>
+    <lastmod>2025-05-28T14:37:32+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pauseandbreathe/</loc>
+    <lastmod>2025-05-28T14:37:32+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-05-28T14:37:32+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ramblings/</loc>
+    <lastmod>2025-05-28T14:37:32+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-05-28T14:37:32+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/thoughts/</loc>
+    <lastmod>2025-05-28T14:37:32+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/coffee/</loc>
     <lastmod>2025-05-16T07:40:40+01:00</lastmod>
   </url><url>
@@ -20,13 +44,7 @@
     <loc>http://localhost:1313/posts/morning-coffee/</loc>
     <lastmod>2025-05-16T07:40:40+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-05-16T07:40:40+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/short-story/</loc>
-    <lastmod>2025-05-16T07:40:40+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-05-16T07:40:40+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ritual/</loc>
@@ -44,19 +62,10 @@
     <loc>http://localhost:1313/posts/evolving-minimalism/</loc>
     <lastmod>2025-03-26T07:31:33+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/life/</loc>
-    <lastmod>2025-03-26T07:31:33+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/mindfulness/</loc>
     <lastmod>2025-03-26T07:31:33+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/minimalism/</loc>
-    <lastmod>2025-03-26T07:31:33+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ramblings/</loc>
-    <lastmod>2025-03-26T07:31:33+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/thoughts/</loc>
     <lastmod>2025-03-26T07:31:33+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/now/</loc>
@@ -153,9 +162,6 @@
     <lastmod>2024-11-25T08:17:12+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/moments/</loc>
-    <lastmod>2024-11-16T08:19:18+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/pauseandbreathe/</loc>
     <lastmod>2024-11-16T08:19:18+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/quietmoments/</loc>
@@ -423,9 +429,6 @@
     <lastmod>2024-06-10T13:22:42+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clumsy-footsteps-to-stardom/</loc>
-    <lastmod>2024-06-06T07:34:58+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/dream/</loc>
     <lastmod>2024-06-06T07:34:58+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/dream-big/</loc>
