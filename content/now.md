@@ -14,7 +14,8 @@ draft = false
 + TF2
 
 ## Working on..
-+ Python based web scrapers to download images from blogs & forums.
++ A minimalist gtk theme.
 
 ## Learning..
-+ Nothing right now !!
++ GTK themeing
++ Qtile
