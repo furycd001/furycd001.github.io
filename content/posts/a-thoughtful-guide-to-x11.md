@@ -5,7 +5,7 @@ draft = false
 tags = ["Linux", "operating systems", "desktop environments", "x11", "foss", "open source", "thoughts"]
 +++
 
-In the ever-evolving world of Linux desktop environments, there's been a clear trend: **Wayland*+ is growing. It's sleek, modern, and promises a more secure and efficient future. But for many of us, **Xorg (X11)** still represents stability, flexibility, and control.
+In the ever-evolving world of Linux desktop environments, there's been a clear trend: **Wayland** is growing. It's sleek, modern, and promises a more secure and efficient future. But for many of us, **Xorg (X11)** still represents stability, flexibility, and control.
 
 Whether you're on older hardware, running highly configurable window managers, or just appreciate the tried-and-true reliability of X11, this post is for you.
 
