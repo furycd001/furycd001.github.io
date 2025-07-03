@@ -6,14 +6,42 @@
     <description>Recent content in Thoughts on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 May 2025 14:37:32 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jul 2025 19:07:09 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI is not Intelligent. Stop pretending that it is.</title>
+      <link>http://localhost:1313/posts/ai-is-not-intelligent/</link>
+      <pubDate>Thu, 03 Jul 2025 19:07:09 +0100</pubDate>
+      <guid>http://localhost:1313/posts/ai-is-not-intelligent/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Why the Illusion of “Thinking Machines” Is More Dangerous Than You Think&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Every day, we are invited — encouraged, even — to imagine AI as something eerily like ourselves. It talks like us. It “feels” like us. It offers comfort, guidance, inspiration. It tells jokes, writes poetry, composes music, translates languages, generates ideas, and even apologises when it gets things wrong.&lt;/p&gt;&#xA;&lt;p&gt;It is, in so many ways, designed to appear human.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Thoughtful Guide to X11 Desktop Environments</title>
+      <link>http://localhost:1313/posts/a-thoughtful-guide-to-x11/</link>
+      <pubDate>Thu, 03 Jul 2025 07:35:45 +0100</pubDate>
+      <guid>http://localhost:1313/posts/a-thoughtful-guide-to-x11/</guid>
+      <description>&lt;p&gt;In the ever-evolving world of Linux desktop environments, there&amp;rsquo;s been a clear trend: &lt;strong&gt;Wayland&lt;/strong&gt; is growing. It&amp;rsquo;s sleek, modern, and promises a more secure and efficient future. But for many of us, &lt;strong&gt;Xorg (X11)&lt;/strong&gt; still represents stability, flexibility, and control.&lt;/p&gt;&#xA;&lt;p&gt;Whether you&amp;rsquo;re on older hardware, running highly configurable window managers, or just appreciate the tried-and-true reliability of X11, this post is for you.&lt;/p&gt;&#xA;&lt;p&gt;Let’s explore the wide variety of &lt;strong&gt;Xorg-based desktop environments&lt;/strong&gt; that continue to thrive, not as resistance to change, but as a celebration of &lt;em&gt;freedom of choice&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>When Minimalism Misses the Mark</title>
+      <link>http://localhost:1313/posts/when-minimalism-misses-the-mark/</link>
+      <pubDate>Tue, 24 Jun 2025 12:08:25 +0100</pubDate>
+      <guid>http://localhost:1313/posts/when-minimalism-misses-the-mark/</guid>
+      <description>&lt;p&gt;Minimalist design, when done well, can be timeless. It can speak softly but leave a lasting impression. Whether it&amp;rsquo;s a website, a product package, or a brand identity, good minimalist design doesn’t just strip away excess, it reveals the essence of what&amp;rsquo;s left. That’s what I love about it.&lt;/p&gt;&#xA;&lt;p&gt;But lately, something I’ve observed repeatedly has made me pause, reflect, and think.&lt;/p&gt;&#xA;&lt;p&gt;Much of what gets labeled as “minimalist” today, especially in branding, packaging, and web design, feels hollow. It often seems rushed, as if minimalism has become a shortcut rather than a design philosophy. A plain white background, some sans-serif text, maybe a pastel accent color&amp;hellip; and that’s it. The result frequently feels more like an afterthought than a thoughtful simplification. It’s as if “looking clean” is being mistaken for “being considered.”&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Choosing a System Service Manager: A Personal Perspective</title>
+      <link>http://localhost:1313/posts/system-service-managers/</link>
+      <pubDate>Tue, 17 Jun 2025 21:25:13 +0100</pubDate>
+      <guid>http://localhost:1313/posts/system-service-managers/</guid>
+      <description>&lt;p&gt;When it comes to system service managers on Linux, such as systemd, OpenRC, runit, SysVinit, and others, the conversation can quickly turn into a debate. Each has its merits, its history, and its dedicated user base. But for most people using Linux on a desktop or laptop, the differences between them often fade quietly into the background.&lt;/p&gt;&#xA;&lt;p&gt;At their core, service managers are responsible for initializing the system, managing background services (daemons), handling dependencies, logging, and shutting down gracefully. On servers, where stability, fine-grained control, and predictability are essential, choosing the right init system can be a high-stakes decision. Administrators often require transparency, auditability, and exact behavior, especially in high-availability or containerized environments.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Life as a Dream: The Imagination of Ourselves</title>
       <link>http://localhost:1313/posts/life-as-a-dream/</link>
       <pubDate>Wed, 28 May 2025 14:37:32 +0100</pubDate>
       <guid>http://localhost:1313/posts/life-as-a-dream/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;Life is only a dream, and we are the imagination of ourselves.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;At first glance, this phrase sounds poetic—almost surreal. But within it lies a profound perspective on existence, one that challenges how we perceive reality, identity, and purpose.&lt;/p&gt;&#xA;&lt;p&gt;If life is a dream, then what we call “reality” may be less solid than we think. Our experiences, memories, beliefs—they&amp;rsquo;re all filtered through perception, shaped by thoughts, feelings, and stories we tell ourselves. What we think of as &amp;ldquo;me&amp;rdquo; is not fixed, but fluid—a narrative continually written and rewritten in the mind&amp;rsquo;s theater.&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;Life is only a dream, and we are the imagination of ourselves.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;At first glance, this phrase sounds poetic, almost surreal. But within it lies a profound perspective on existence, one that challenges how we perceive reality, identity, and purpose.&lt;/p&gt;&#xA;&lt;p&gt;If life is a dream, then what we call “reality” may be less solid than we think. Perception filters our experiences, memories, and beliefs, shaping them through thoughts, feelings, and stories we tell ourselves. What we think of as &amp;ldquo;me&amp;rdquo; is not fixed but fluid, a narrative continually written and rewritten in the mind&amp;rsquo;s theater.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Evolving Minimalism</title>

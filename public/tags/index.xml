@@ -6,8 +6,106 @@
     <description>Recent content in Tags on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 May 2025 14:37:32 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jul 2025 19:07:09 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Thu, 03 Jul 2025 19:07:09 +0100</pubDate>
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ramblings</title>
+      <link>http://localhost:1313/tags/ramblings/</link>
+      <pubDate>Thu, 03 Jul 2025 19:07:09 +0100</pubDate>
+      <guid>http://localhost:1313/tags/ramblings/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thoughts</title>
+      <link>http://localhost:1313/tags/thoughts/</link>
+      <pubDate>Thu, 03 Jul 2025 19:07:09 +0100</pubDate>
+      <guid>http://localhost:1313/tags/thoughts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Desktop Environments</title>
+      <link>http://localhost:1313/tags/desktop-environments/</link>
+      <pubDate>Thu, 03 Jul 2025 07:35:45 +0100</pubDate>
+      <guid>http://localhost:1313/tags/desktop-environments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Foss</title>
+      <link>http://localhost:1313/tags/foss/</link>
+      <pubDate>Thu, 03 Jul 2025 07:35:45 +0100</pubDate>
+      <guid>http://localhost:1313/tags/foss/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Thu, 03 Jul 2025 07:35:45 +0100</pubDate>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open Source</title>
+      <link>http://localhost:1313/tags/open-source/</link>
+      <pubDate>Thu, 03 Jul 2025 07:35:45 +0100</pubDate>
+      <guid>http://localhost:1313/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Operating Systems</title>
+      <link>http://localhost:1313/tags/operating-systems/</link>
+      <pubDate>Thu, 03 Jul 2025 07:35:45 +0100</pubDate>
+      <guid>http://localhost:1313/tags/operating-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>X11</title>
+      <link>http://localhost:1313/tags/x11/</link>
+      <pubDate>Thu, 03 Jul 2025 07:35:45 +0100</pubDate>
+      <guid>http://localhost:1313/tags/x11/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mindset</title>
+      <link>http://localhost:1313/tags/mindset/</link>
+      <pubDate>Fri, 27 Jun 2025 23:17:05 +0100</pubDate>
+      <guid>http://localhost:1313/tags/mindset/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Minimalism</title>
+      <link>http://localhost:1313/tags/minimalism/</link>
+      <pubDate>Fri, 27 Jun 2025 23:17:05 +0100</pubDate>
+      <guid>http://localhost:1313/tags/minimalism/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Minimalist</title>
+      <link>http://localhost:1313/tags/minimalist/</link>
+      <pubDate>Fri, 27 Jun 2025 23:17:05 +0100</pubDate>
+      <guid>http://localhost:1313/tags/minimalist/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smartphone</title>
+      <link>http://localhost:1313/tags/smartphone/</link>
+      <pubDate>Fri, 27 Jun 2025 23:17:05 +0100</pubDate>
+      <guid>http://localhost:1313/tags/smartphone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>http://localhost:1313/tags/tech/</link>
+      <pubDate>Fri, 27 Jun 2025 23:17:05 +0100</pubDate>
+      <guid>http://localhost:1313/tags/tech/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Dream</title>
       <link>http://localhost:1313/tags/dream/</link>
@@ -23,24 +121,10 @@
       <description></description>
     </item>
     <item>
-      <title>PauseAndBreathe</title>
-      <link>http://localhost:1313/tags/pauseandbreathe/</link>
+      <title>Mindfulness</title>
+      <link>http://localhost:1313/tags/mindfulness/</link>
       <pubDate>Wed, 28 May 2025 14:37:32 +0100</pubDate>
-      <guid>http://localhost:1313/tags/pauseandbreathe/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ramblings</title>
-      <link>http://localhost:1313/tags/ramblings/</link>
-      <pubDate>Wed, 28 May 2025 14:37:32 +0100</pubDate>
-      <guid>http://localhost:1313/tags/ramblings/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Thoughts</title>
-      <link>http://localhost:1313/tags/thoughts/</link>
-      <pubDate>Wed, 28 May 2025 14:37:32 +0100</pubDate>
-      <guid>http://localhost:1313/tags/thoughts/</guid>
+      <guid>http://localhost:1313/tags/mindfulness/</guid>
       <description></description>
     </item>
     <item>
@@ -100,20 +184,6 @@
       <description></description>
     </item>
     <item>
-      <title>Mindfulness</title>
-      <link>http://localhost:1313/tags/mindfulness/</link>
-      <pubDate>Wed, 26 Mar 2025 07:31:33 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mindfulness/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Minimalism</title>
-      <link>http://localhost:1313/tags/minimalism/</link>
-      <pubDate>Wed, 26 Mar 2025 07:31:33 +0000</pubDate>
-      <guid>http://localhost:1313/tags/minimalism/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Meditation</title>
       <link>http://localhost:1313/tags/meditation/</link>
       <pubDate>Fri, 07 Mar 2025 20:56:31 +0000</pubDate>
@@ -146,13 +216,6 @@
       <link>http://localhost:1313/tags/mozilla/</link>
       <pubDate>Tue, 04 Mar 2025 09:40:29 +0000</pubDate>
       <guid>http://localhost:1313/tags/mozilla/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Open Source</title>
-      <link>http://localhost:1313/tags/open-source/</link>
-      <pubDate>Tue, 04 Mar 2025 09:40:29 +0000</pubDate>
-      <guid>http://localhost:1313/tags/open-source/</guid>
       <description></description>
     </item>
     <item>
@@ -212,41 +275,6 @@
       <description></description>
     </item>
     <item>
-      <title>Mindset</title>
-      <link>http://localhost:1313/tags/mindset/</link>
-      <pubDate>Tue, 28 Jan 2025 07:19:26 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mindset/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Minimalist</title>
-      <link>http://localhost:1313/tags/minimalist/</link>
-      <pubDate>Tue, 28 Jan 2025 07:19:26 +0000</pubDate>
-      <guid>http://localhost:1313/tags/minimalist/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
-      <pubDate>Thu, 05 Dec 2024 07:32:12 +0000</pubDate>
-      <guid>http://localhost:1313/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Operating Systems</title>
-      <link>http://localhost:1313/tags/operating-systems/</link>
-      <pubDate>Thu, 05 Dec 2024 07:32:12 +0000</pubDate>
-      <guid>http://localhost:1313/tags/operating-systems/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tech</title>
-      <link>http://localhost:1313/tags/tech/</link>
-      <pubDate>Thu, 05 Dec 2024 07:32:12 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tech/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Humor</title>
       <link>http://localhost:1313/tags/humor/</link>
       <pubDate>Mon, 25 Nov 2024 08:17:12 +0000</pubDate>
@@ -286,6 +314,13 @@
       <link>http://localhost:1313/tags/moments/</link>
       <pubDate>Sat, 16 Nov 2024 08:19:18 +0000</pubDate>
       <guid>http://localhost:1313/tags/moments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PauseAndBreathe</title>
+      <link>http://localhost:1313/tags/pauseandbreathe/</link>
+      <pubDate>Sat, 16 Nov 2024 08:19:18 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pauseandbreathe/</guid>
       <description></description>
     </item>
     <item>
@@ -496,13 +531,6 @@
       <link>http://localhost:1313/tags/depression/</link>
       <pubDate>Sun, 28 Jul 2024 11:41:27 +0100</pubDate>
       <guid>http://localhost:1313/tags/depression/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Smartphone</title>
-      <link>http://localhost:1313/tags/smartphone/</link>
-      <pubDate>Mon, 22 Jul 2024 07:44:41 +0100</pubDate>
-      <guid>http://localhost:1313/tags/smartphone/</guid>
       <description></description>
     </item>
     <item>

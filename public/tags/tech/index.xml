@@ -6,8 +6,22 @@
     <description>Recent content in Tech on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Dec 2024 07:32:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jun 2025 23:17:05 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mindful Tech: Embracing Life With an Older Android Phone</title>
+      <link>http://localhost:1313/posts/mindful-tech/</link>
+      <pubDate>Fri, 27 Jun 2025 23:17:05 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mindful-tech/</guid>
+      <description>&lt;p&gt;In a world that constantly pushes us toward the newest devices and the fastest updates, there is a quiet satisfaction in choosing to continue using what we already have, especially when it comes to our smartphones. If you are still using an older Android phone beyond its official warranty and support period, you are not alone. You are also not wrong to do so.&lt;/p&gt;&#xA;&lt;p&gt;There is a certain mindfulness that comes with this decision. It invites us to be more aware, more deliberate, and more intentional. This applies not just to our tech, but also to our habits and our overall digital hygiene.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Choosing a System Service Manager: A Personal Perspective</title>
+      <link>http://localhost:1313/posts/system-service-managers/</link>
+      <pubDate>Tue, 17 Jun 2025 21:25:13 +0100</pubDate>
+      <guid>http://localhost:1313/posts/system-service-managers/</guid>
+      <description>&lt;p&gt;When it comes to system service managers on Linux, such as systemd, OpenRC, runit, SysVinit, and others, the conversation can quickly turn into a debate. Each has its merits, its history, and its dedicated user base. But for most people using Linux on a desktop or laptop, the differences between them often fade quietly into the background.&lt;/p&gt;&#xA;&lt;p&gt;At their core, service managers are responsible for initializing the system, managing background services (daemons), handling dependencies, logging, and shutting down gracefully. On servers, where stability, fine-grained control, and predictability are essential, choosing the right init system can be a high-stakes decision. Administrators often require transparency, auditability, and exact behavior, especially in high-availability or containerized environments.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why a Derivative of a Derivative Might Not Be the Best Choice</title>
       <link>http://localhost:1313/posts/derivative-of-a-derivative/</link>
