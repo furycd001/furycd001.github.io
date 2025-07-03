@@ -17,13 +17,13 @@ Let’s explore the wide variety of **Xorg-based desktop environments** that con
 
 Before diving into the desktop environments, let’s consider why you may still stick with Xorg:
 
-+ **Mature software support**
++ **Mature software support..**  
   Xorg has been around for decades and remains well-supported by a majority of desktop applications and toolkits.
 
-+ **Better compatibility**
++ **Better compatibility..**  
   Certain graphics drivers, legacy applications, and niche tools still work best, *or only* on Xorg.
 
-+ **Freedom of choice**
++ **Freedom of choice..**  
   In the Linux world, choosing your tools is a feature, not a flaw. Xorg offers one of many valid paths.
 
 ---
