@@ -9,7 +9,7 @@ In the ever-evolving world of Linux desktop environments, there's been a clear t
 
 Whether you're on older hardware, running highly configurable window managers, or just appreciate the tried-and-true reliability of X11, this post is for you.
 
-Let’s explore the wide variety of **Xorg-based desktop environments*+ that continue to thrive, not as resistance to change, but as a celebration of *freedom of choice*.
+Let’s explore the wide variety of **Xorg-based desktop environments** that continue to thrive, not as resistance to change, but as a celebration of *freedom of choice*.
 
 ---
 
