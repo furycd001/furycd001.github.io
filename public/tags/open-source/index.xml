@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source on d:tour</title>
-    <link>http://localhost:1313/tags/open-source/</link>
+    <link>https://furycd001.github.io/tags/open-source/</link>
     <description>Recent content in Open Source on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Jul 2025 07:35:45 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furycd001.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Thoughtful Guide to X11 Desktop Environments</title>
-      <link>http://localhost:1313/posts/a-thoughtful-guide-to-x11/</link>
+      <link>https://furycd001.github.io/posts/a-thoughtful-guide-to-x11/</link>
       <pubDate>Thu, 03 Jul 2025 07:35:45 +0100</pubDate>
-      <guid>http://localhost:1313/posts/a-thoughtful-guide-to-x11/</guid>
+      <guid>https://furycd001.github.io/posts/a-thoughtful-guide-to-x11/</guid>
       <description>&lt;p&gt;In the ever-evolving world of Linux desktop environments, there&amp;rsquo;s been a clear trend: &lt;strong&gt;Wayland&lt;/strong&gt; is growing. It&amp;rsquo;s sleek, modern, and promises a more secure and efficient future. But for many of us, &lt;strong&gt;Xorg (X11)&lt;/strong&gt; still represents stability, flexibility, and control.&lt;/p&gt;&#xA;&lt;p&gt;Whether you&amp;rsquo;re on older hardware, running highly configurable window managers, or just appreciate the tried-and-true reliability of X11, this post is for you.&lt;/p&gt;&#xA;&lt;p&gt;Let’s explore the wide variety of &lt;strong&gt;Xorg-based desktop environments&lt;/strong&gt; that continue to thrive, not as resistance to change, but as a celebration of &lt;em&gt;freedom of choice&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Take on Mozilla’s New Firefox Terms of Use</title>
-      <link>http://localhost:1313/posts/my-take-on-mozilla-s-new-firefox-terms-of-use/</link>
+      <link>https://furycd001.github.io/posts/my-take-on-mozilla-s-new-firefox-terms-of-use/</link>
       <pubDate>Tue, 04 Mar 2025 09:40:29 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-take-on-mozilla-s-new-firefox-terms-of-use/</guid>
+      <guid>https://furycd001.github.io/posts/my-take-on-mozilla-s-new-firefox-terms-of-use/</guid>
       <description>&lt;p&gt;This is my take on &lt;strong&gt;&lt;a href=&#34;https://www.mozilla.org/en-US/&#34;&gt;Mozilla’s&lt;/a&gt;&lt;/strong&gt; New Firefox &lt;strong&gt;&lt;a href=&#34;https://www.mozilla.org/en-US/about/legal/terms/firefox/&#34;&gt;Terms of Use&lt;/a&gt;&lt;/strong&gt; effective as of &lt;em&gt;February 25, 2025&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Whenever Mozilla’s updated the Firefox Terms of Use, I had a read, and honestly, it left me a bit frustrated. I’m not here for any of the extra data sharing or corporate maneuvering.. I just want a straightforward, no-frills web browser.&lt;/p&gt;&#xA;&lt;h2 id=&#34;i-just-want-a-browser-not-a-data-processor&#34;&gt;I Just Want a Browser, Not a Data Processor..&lt;/h2&gt;&#xA;&lt;p&gt;What really gets me is the part about Mozilla using my data to “help me navigate” the web. I’m all for a smooth browsing experience, but I’m not a fan of any extra sharing or selling of my data. I just want Firefox to work as a web browser without turning into a data mine.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Heliboard</title>
-      <link>http://localhost:1313/posts/heliboard/</link>
+      <link>https://furycd001.github.io/posts/heliboard/</link>
       <pubDate>Wed, 26 Jun 2024 10:38:29 +0100</pubDate>
-      <guid>http://localhost:1313/posts/heliboard/</guid>
+      <guid>https://furycd001.github.io/posts/heliboard/</guid>
       <description>&lt;p&gt;Jonny had always been curious about open-source technology, so when he heard about the open-source &lt;a href=&#34;https://github.com/Helium314/HeliBoard&#34;&gt;Heliboard&lt;/a&gt; keyboard for his phone, he decided to give it a try. The idea of using an open-source keyboard for enhanced privacy intrigued him, promising a level of data security that the default keyboard just couldn&amp;rsquo;t offer. He eagerly installed it, ready to protect his personal information.&lt;/p&gt;&#xA;&lt;p&gt;However, from the moment Jonny started using Heliboard, things didn&amp;rsquo;t go as smoothly as he had hoped. Instead of the seamless experience he anticipated, he found himself constantly mistyping words and pressing the wrong buttons. With every little thing Jonny typed, he slowly became a little frustrated. Typed text was littered with typos and autocorrect failures, and simple phrases turned into jumbled nonsense. His friends started making playful jabs at his new creative spelling.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terminal on d:tour</title>
-    <link>http://localhost:1313/tags/terminal/</link>
+    <link>https://furycd001.github.io/tags/terminal/</link>
     <description>Recent content in Terminal on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Sep 2024 10:49:33 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furycd001.github.io/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basics of Creating an Interactive Bash Script</title>
-      <link>http://localhost:1313/posts/basics-of-creating-an-interactive-bash-script/</link>
+      <link>https://furycd001.github.io/posts/basics-of-creating-an-interactive-bash-script/</link>
       <pubDate>Fri, 06 Sep 2024 10:49:33 +0100</pubDate>
-      <guid>http://localhost:1313/posts/basics-of-creating-an-interactive-bash-script/</guid>
+      <guid>https://furycd001.github.io/posts/basics-of-creating-an-interactive-bash-script/</guid>
       <description>&lt;p&gt;Creating an interactive bash script is like adding a dash of magic to your terminal adventures!! It’s a fun and clever way to automate repetitive tasks and make your command-line experience smoother and more enjoyable. Here’s a little guide to sprinkle some scripting sparkle into your life:&lt;/p&gt;&#xA;&lt;h3 id=&#34;create-the-script-file&#34;&gt;Create the Script File:&lt;/h3&gt;&#xA;&lt;p&gt;Start by creating a new file for your script. Open your terminal and use a text editor to create a file, such as &lt;code&gt;vim script-whatever.sh&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reimagining Terminal Software</title>
-      <link>http://localhost:1313/posts/reimagining-terminal-software/</link>
+      <link>https://furycd001.github.io/posts/reimagining-terminal-software/</link>
       <pubDate>Fri, 23 Aug 2024 06:54:17 +0100</pubDate>
-      <guid>http://localhost:1313/posts/reimagining-terminal-software/</guid>
+      <guid>https://furycd001.github.io/posts/reimagining-terminal-software/</guid>
       <description>&lt;p&gt;In the world of technology, there’s something quietly beautiful about the way people are revisiting and reimagining old terminal software. These programs, with their roots dating back to the early days of computing, have been the backbone of countless systems for decades. But as technology evolves, so do the ways we interact with it.&lt;/p&gt;&#xA;&lt;p&gt;Some modern developers are taking these time-tested tools and giving them a fresh coat of paint, not to erase the past but to enhance it. By rewriting and tweaking the old software, they aim to improve functionality, make interfaces more intuitive, or simply adapt the software to meet today’s needs. It’s a delicate balance—respecting the original while embracing the possibilities of the new.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mastodon on d:tour</title>
-    <link>http://localhost:1313/tags/mastodon/</link>
+    <link>https://furycd001.github.io/tags/mastodon/</link>
     <description>Recent content in Mastodon on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Jun 2024 08:43:42 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mastodon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furycd001.github.io/tags/mastodon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Super Quick Introduction to the Fediverse and Mastodon</title>
-      <link>http://localhost:1313/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</link>
+      <link>https://furycd001.github.io/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</link>
       <pubDate>Wed, 26 Jun 2024 08:43:42 +0100</pubDate>
-      <guid>http://localhost:1313/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</guid>
+      <guid>https://furycd001.github.io/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</guid>
       <description>&lt;p&gt;There are lots of guides explaining Fediverse and Mastodon, but most of them go into way too much detail. With this post, I would like to try and cover all, or at least most, of the basics you&amp;rsquo;ll need to know to get started. You can then gradually learn the rest from elsewhere.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-fediverse-is-not-fking-twitter-&#34;&gt;The fediverse is NOT f**king twitter !!&lt;/h2&gt;&#xA;&lt;p&gt;The fediverse is very different from twitter, and that&amp;rsquo;s by design. It&amp;rsquo;s made for building communities and bringing people together, not dividing people or for boosting celebrities. Things will certainly work differently from what you&amp;rsquo;re probably used to. Just give it some time, and ask for help if you&amp;rsquo;re not sure why something works how it does! People on the fediverse are usually happy to explain, as long as it&amp;rsquo;s a genuine question. People on the fediverse expect you to talk to them like they&amp;rsquo;re real human beings, and in return they will do the same.&lt;/p&gt;</description>
     </item>
   </channel>

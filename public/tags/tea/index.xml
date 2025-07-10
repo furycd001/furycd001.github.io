@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tea on d:tour</title>
-    <link>http://localhost:1313/tags/tea/</link>
+    <link>https://furycd001.github.io/tags/tea/</link>
     <description>Recent content in Tea on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Apr 2025 09:38:54 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tea/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furycd001.github.io/tags/tea/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Quiet Within the Cup</title>
-      <link>http://localhost:1313/posts/the-quiet-within-the-cup/</link>
+      <link>https://furycd001.github.io/posts/the-quiet-within-the-cup/</link>
       <pubDate>Fri, 11 Apr 2025 09:38:54 +0100</pubDate>
-      <guid>http://localhost:1313/posts/the-quiet-within-the-cup/</guid>
+      <guid>https://furycd001.github.io/posts/the-quiet-within-the-cup/</guid>
       <description>&lt;p&gt;There’s a certain stillness that lives in the steam of a freshly brewed cuppa tea. Not the hurried sip between meetings or the lukewarm remnants forgotten at the side of the desk, but the perfect cuppa. The one you prepare with care, not just for the taste, but for the ritual.&lt;/p&gt;&#xA;&lt;p&gt;It starts with the boil, that patient crescendo of water warming, humming a quiet promise of pause. Then comes the pour, a gentle swirl as leaves or bag meet their purpose. And finally, the wait. Those few minutes of steeping are a gift in disguise, a small, carved-out space in the day where time slows down just enough to remind you: you&amp;rsquo;re allowed to breathe.&lt;/p&gt;</description>
     </item>
   </channel>

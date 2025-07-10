@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Operating Systems on d:tour</title>
-    <link>http://localhost:1313/tags/operating-systems/</link>
+    <link>https://furycd001.github.io/tags/operating-systems/</link>
     <description>Recent content in Operating Systems on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Jul 2025 07:35:45 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/operating-systems/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://furycd001.github.io/tags/operating-systems/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Thoughtful Guide to X11 Desktop Environments</title>
-      <link>http://localhost:1313/posts/a-thoughtful-guide-to-x11/</link>
+      <link>https://furycd001.github.io/posts/a-thoughtful-guide-to-x11/</link>
       <pubDate>Thu, 03 Jul 2025 07:35:45 +0100</pubDate>
-      <guid>http://localhost:1313/posts/a-thoughtful-guide-to-x11/</guid>
+      <guid>https://furycd001.github.io/posts/a-thoughtful-guide-to-x11/</guid>
       <description>&lt;p&gt;In the ever-evolving world of Linux desktop environments, there&amp;rsquo;s been a clear trend: &lt;strong&gt;Wayland&lt;/strong&gt; is growing. It&amp;rsquo;s sleek, modern, and promises a more secure and efficient future. But for many of us, &lt;strong&gt;Xorg (X11)&lt;/strong&gt; still represents stability, flexibility, and control.&lt;/p&gt;&#xA;&lt;p&gt;Whether you&amp;rsquo;re on older hardware, running highly configurable window managers, or just appreciate the tried-and-true reliability of X11, this post is for you.&lt;/p&gt;&#xA;&lt;p&gt;Let’s explore the wide variety of &lt;strong&gt;Xorg-based desktop environments&lt;/strong&gt; that continue to thrive, not as resistance to change, but as a celebration of &lt;em&gt;freedom of choice&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Choosing a System Service Manager: A Personal Perspective</title>
-      <link>http://localhost:1313/posts/system-service-managers/</link>
+      <link>https://furycd001.github.io/posts/system-service-managers/</link>
       <pubDate>Tue, 17 Jun 2025 21:25:13 +0100</pubDate>
-      <guid>http://localhost:1313/posts/system-service-managers/</guid>
+      <guid>https://furycd001.github.io/posts/system-service-managers/</guid>
       <description>&lt;p&gt;When it comes to system service managers on Linux, such as systemd, OpenRC, runit, SysVinit, and others, the conversation can quickly turn into a debate. Each has its merits, its history, and its dedicated user base. But for most people using Linux on a desktop or laptop, the differences between them often fade quietly into the background.&lt;/p&gt;&#xA;&lt;p&gt;At their core, service managers are responsible for initializing the system, managing background services (daemons), handling dependencies, logging, and shutting down gracefully. On servers, where stability, fine-grained control, and predictability are essential, choosing the right init system can be a high-stakes decision. Administrators often require transparency, auditability, and exact behavior, especially in high-availability or containerized environments.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why a Derivative of a Derivative Might Not Be the Best Choice</title>
-      <link>http://localhost:1313/posts/derivative-of-a-derivative/</link>
+      <link>https://furycd001.github.io/posts/derivative-of-a-derivative/</link>
       <pubDate>Thu, 05 Dec 2024 07:32:12 +0000</pubDate>
-      <guid>http://localhost:1313/posts/derivative-of-a-derivative/</guid>
+      <guid>https://furycd001.github.io/posts/derivative-of-a-derivative/</guid>
       <description>&lt;p&gt;When it comes to choosing a Linux distribution, the options can feel overwhelming. From the giants like Arch, Fedora, OpenSuse and Ubuntu, to the more niche derivatives that branch off these powerhouses, there’s a flavor for just about everyone. But what happens when you venture beyond a first-layer derivative to a derivative of a derivative? While it might seem harmless, this extra step away from the “source” can sometimes create unforeseen challenges that are worth considering before you commit.&lt;/p&gt;</description>
     </item>
   </channel>
