@@ -1,0 +1,19 @@
+name = 'Theme name'
+license = 'MIT'
+licenselink = 'https://github.com/furycd001/mnml/LICENSE'
+description = 'Mnml theme for hugo..'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/furycd001/mnml'
+
+# If you have a running demo of the theme
+demosite = 'https://owner.github.io/repo'
+
+# Taxonomy terms
+tags = ['Mnml', 'minimal', 'hugo']
+features = ['minimal', 'lightweight', 'dark']
+
+# If the theme has a single author
+[author]
+  name = 'Jonny Sherwood-Bowes'
+  homepage = 'https://furycd001.github.io/'

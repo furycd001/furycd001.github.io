@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/age-verification/</loc>
+    <lastmod>2025-07-09T10:19:29+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/internet/</loc>
+    <lastmod>2025-07-09T10:19:29+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-07-09T10:19:29+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ramblings/</loc>
+    <lastmod>2025-07-09T10:19:29+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-07-09T10:19:29+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/the-web-wasnt-built-for-age-gates/</loc>
+    <lastmod>2025-07-09T10:19:29+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/thoughts/</loc>
+    <lastmod>2025-07-09T10:19:29+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2025-07-03T19:07:09+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/ai-is-not-intelligent/</loc>
-    <lastmod>2025-07-03T19:07:09+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-07-03T19:07:09+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ramblings/</loc>
-    <lastmod>2025-07-03T19:07:09+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-07-03T19:07:09+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/thoughts/</loc>
     <lastmod>2025-07-03T19:07:09+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/a-thoughtful-guide-to-x11/</loc>
@@ -307,9 +316,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/mindful-firefox-bookmarks/</loc>
     <lastmod>2024-08-11T10:12:52+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/internet/</loc>
-    <lastmod>2024-07-28T11:57:36+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/spreading-kindness-online/</loc>
     <lastmod>2024-07-28T11:57:36+01:00</lastmod>

@@ -1,0 +1,18 @@
+baseURL = 'https://furycd001.github.io/'
+languageCode = 'en-us'
+title = 'Mnml'
+
+[params]
+  github = "https://github.com/furycd001"
+  dots = "https://github.com/furycd001/dots"
+  mastodon = "https://fosstodon.org/@Furycd001"
+  email = "jonnybowes2000@googlemail.com"
+  donate = "https://paypal.me/furycd001?country.x=GB&locale.x=en_GB"
+  tags = "/tags"
+  rss = true
+  staticDir = "static"
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Age Verification on d:tour</title>
+    <link>http://localhost:1313/tags/age-verification/</link>
+    <description>Recent content in Age Verification on d:tour</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Jul 2025 10:19:29 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/age-verification/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Web Wasnt Built for Age Gates</title>
+      <link>http://localhost:1313/posts/the-web-wasnt-built-for-age-gates/</link>
+      <pubDate>Wed, 09 Jul 2025 10:19:29 +0100</pubDate>
+      <guid>http://localhost:1313/posts/the-web-wasnt-built-for-age-gates/</guid>
+      <description>&lt;p&gt;In recent years, we’ve watched the web, once a messy, wild, gloriously chaotic frontier, be slowly strangled under the guise of “safety.” Of all the regulatory assaults on the open internet, few are more deceptive, misguided, and insidiously destructive than &lt;em&gt;age verification&lt;/em&gt; (AV). These mandates, imposed by governments in a growing number of countries, force websites to demand deeply personal user data like ID documents, facial scans, and credit card info just to access legal content. And what do we get in return? A false sense of security, a broken internet, and a chilling step toward mass surveillance.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
