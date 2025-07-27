@@ -5,7 +5,7 @@ draft = false
 tags = ["Linux", "operating systems", "electron", "web", "chromium"]
 +++
 
-I've made a conscious decision to avoid Electron-based applications like Discord and Spotify, and it stems from the same philosophy that guides me away from Chromium-based browsers: efficiency, simplicity, and respect for system resources.
+I’ve made a conscious decision to avoid Electron-based applications like Discord and Spotify. This stems from the same philosophy that guides me away from many popular browsers: a preference for efficiency, simplicity, and respect for system resources.
 
 Electron apps bundle an entire instance of the Chromium web engine with every application. In effect, each one is running its own standalone browser, just to render what could otherwise be a lightweight interface. This design choice might be convenient for developers, but it comes at a significant cost to users: increased RAM and CPU usage, larger disk footprints, and slower performance, especially noticeable on older or less powerful machines. There's also the added concern of security, since these apps often lag behind in updating the embedded Chromium engine.
 
