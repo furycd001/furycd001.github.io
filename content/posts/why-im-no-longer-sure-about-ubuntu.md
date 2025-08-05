@@ -12,15 +12,15 @@ For as long as I’ve used Linux, Ubuntu has been a name I associated with appro
 
 Over the past few cycles, Ubuntu has started replacing long-standing GNU tools like coreutils, curl, diff, findutils, HTTPie, sudo, and even wget with modern rewrites. Tools like uutils, sudo-rs and xh are being introduced as defaults in some images, replacing their tried-and-tested counterparts.
 
-| Original | Replaced With |
-| :--- | :--- |
-| coreutils | `uutils` |
-| curl | `xh` |
-| diff | `diffutils` *(part of `uutils`)* |
-| findutils | `findutils` *(part of `uutils`)* |
-| HTTPie | `xh` |
-| sudo | `sudo-rs` |
-| wget | `wcurl` |
+| Original |  | Replaced With |
+| -------- | ------- | -------- |
+| coreutils | > | uutils |
+| curl | > | xh |
+| diff | > | diffutils *(part of uutils)* |
+| findutils | > | findutils *(part of uutils)* |
+| HTTPie | > | xh |
+| sudo | > | sudo-rs |
+| wget | > | wcurl |
 
 Let me be clear: this isn’t inherently a bad thing. Innovation in open source is vital, and rewriting old tools in safer, more maintainable languages like Rust can bring genuine benefits: memory safety, clearer error messages, better performance in some cases. I understand and respect that. But by altering its core tooling, Ubuntu risks disrupting the reliability and predictability that have long defined its place in the Linux ecosystem.
 
