@@ -2,360 +2,395 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on d:tour</title>
-    <link>https://furycd001.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Jul 2025 10:19:29 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Aug 2025 06:55:44 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Im No Longer Sure About Ubuntu</title>
+      <link>http://localhost:1313/posts/why-im-no-longer-sure-about-ubuntu/</link>
+      <pubDate>Tue, 05 Aug 2025 06:55:44 +0100</pubDate>
+      <guid>http://localhost:1313/posts/why-im-no-longer-sure-about-ubuntu/</guid>
+      <description>&lt;p&gt;For as long as I’ve used Linux, Ubuntu has been a name I associated with approachability &amp;amp; stability. It was often the distribution I recommended to new users, an accessible introduction to the wider Linux world that made things feel less intimidating. But lately, I’ve found myself pausing, and not just pausing, but reconsidering whether Ubuntu is still aligned with what I value in a Linux distribution.&lt;/p&gt;&#xA;&lt;h3 id=&#34;a-new-direction&#34;&gt;A New Direction&lt;/h3&gt;&#xA;&lt;p&gt;Over the past few cycles, Ubuntu has started replacing long-standing GNU tools like coreutils, curl, diff, findutils, HTTPie, sudo, and even wget with modern rewrites. Tools like uutils, sudo-rs and xh are being introduced as defaults in some images, replacing their tried-and-tested counterparts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Transition From X11 to wayland</title>
+      <link>http://localhost:1313/posts/the-transition-from-x11-to-wayland/</link>
+      <pubDate>Thu, 31 Jul 2025 06:53:47 +0100</pubDate>
+      <guid>http://localhost:1313/posts/the-transition-from-x11-to-wayland/</guid>
+      <description>&lt;p&gt;Traditionally, Linux desktops have used X11 (via X.Org Server) to render windows and manage input. wayland emerged as a modern, simpler, and more secure protocol, with compositors like GNOME’s Mutter, KDE’s KWin, Sway, Weston, and others implementing it.&lt;/p&gt;&#xA;&lt;p&gt;Yet most existing applications, and many workflows, rely on X11. That’s why Xwayland was created, to serve as a bridge that allows X11 applications to function within a wayland environment. It translates X protocol requests into wayland-compatible ones, allowing legacy applications to continue running, often with little to no disruption.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why I Refuse to Use Electron Apps</title>
+      <link>http://localhost:1313/posts/why-i-refuse-to-use-electron-apps/</link>
+      <pubDate>Sun, 27 Jul 2025 08:55:11 +0100</pubDate>
+      <guid>http://localhost:1313/posts/why-i-refuse-to-use-electron-apps/</guid>
+      <description>&lt;p&gt;I’ve made a conscious decision to avoid Electron-based applications like Discord and Spotify. This stems from the same philosophy that guides me away from many popular browsers: a preference for efficiency, simplicity, and respect for system resources.&lt;/p&gt;&#xA;&lt;p&gt;Electron apps bundle an entire instance of the Chromium web engine with every application. In effect, each one is running its own standalone browser, just to render what could otherwise be a lightweight interface. This design choice might be convenient for developers, but it comes at a significant cost to users: increased RAM and CPU usage, larger disk footprints, and slower performance, especially noticeable on older or less powerful machines. There&amp;rsquo;s also the added concern of security, since these apps often lag behind in updating the embedded Chromium engine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dive into DistroSea..</title>
+      <link>http://localhost:1313/posts/dive-into-distrosea/</link>
+      <pubDate>Tue, 15 Jul 2025 07:46:58 +0100</pubDate>
+      <guid>http://localhost:1313/posts/dive-into-distrosea/</guid>
+      <description>&lt;p&gt;If you’ve ever wanted to explore a Linux distribution without the fuss of downloading ISOs or setting up virtual machines, &lt;strong&gt;&lt;a href=&#34;https://distrosea.com&#34;&gt;DistroSea&lt;/a&gt;&lt;/strong&gt; lets you dive in instantly, right from your browser.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-what-is-distrosea&#34;&gt;1. What Is DistroSea?&lt;/h3&gt;&#xA;&lt;p&gt;DistroSea is a free web-based platform that lets you launch and interact with over 60 Linux and BSD distributions directly in your browser, no installation needed. From mainstream distros like Ubuntu, Fedora, and Debian to niche options like Void, DragonFlyBSD, and Haiku, there’s something for every user.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Semi Automated Belfast Giants Fixtures</title>
+      <link>http://localhost:1313/posts/semi-automated-belfast-giants-fixtures/</link>
+      <pubDate>Fri, 11 Jul 2025 15:42:05 +0100</pubDate>
+      <guid>http://localhost:1313/posts/semi-automated-belfast-giants-fixtures/</guid>
+      <description>&lt;h1 id=&#34;semi-automated-workflow-to-add-belfast-giants-fixtures-to-google-calendar&#34;&gt;Semi-Automated Workflow to Add Belfast Giants Fixtures to Google Calendar..&lt;/h1&gt;&#xA;&lt;p&gt;This guide walks you through extracting all upcoming fixtures from the &lt;a href=&#34;https://www.belfastgiants.com/game-centre&#34;&gt;Belfast Giants Game Centre&lt;/a&gt;, saving them to a CSV file, and importing them into Google Calendar — &lt;strong&gt;no login, APIs, or scraping frameworks required!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-youll-need&#34;&gt;What You’ll Need..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Firefox or Chrome&lt;/li&gt;&#xA;&lt;li&gt;Python 3 installed&lt;/li&gt;&#xA;&lt;li&gt;Basic terminal access (Linux/BSD, Haiku or macOS )&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;step-1-extract-fixtures-in-the-browser&#34;&gt;Step 1: Extract Fixtures in the Browser..&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Open the &lt;a href=&#34;https://www.belfastgiants.com/game-centre&#34;&gt;Belfast Giants Game Centre.&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Press &lt;strong&gt;F12&lt;/strong&gt; to open &lt;strong&gt;DevTools&lt;/strong&gt;, then go to the &lt;strong&gt;Console&lt;/strong&gt; tab.&lt;/li&gt;&#xA;&lt;li&gt;Paste in the JavaScript below and press &lt;strong&gt;Enter&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(() =&amp;gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fixtures&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [];&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;gameDetails&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelectorAll&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.matchMonth__game--details&amp;#39;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;gameDetails&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;forEach&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;details&lt;/span&gt; =&amp;gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;homeAway&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;details&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelector&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.homeAway&amp;#39;&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;?&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;innerText&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;trim&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;UNKNOWN&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;competition&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;details&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelector&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.matchMonth__competition&amp;#39;&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;?&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;innerText&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;trim&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;UNKNOWN&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;pTag&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;details&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelector&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;p&amp;#39;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;strong&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;pTag&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;?&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelector&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;strong&amp;#39;&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;?&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;innerText&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;trim&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;NO DATE/TIME&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;venue&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;pTag&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;?&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;pTag&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;innerText&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;replace&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;strong&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;trim&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;NO VENUE&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;teamsContainer&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;details&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextElementSibling&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;teamsContainer&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;?&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;classList&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;contains&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;matchMonth__game--teams&amp;#39;&lt;/span&gt;)) &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;teamDivs&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;teamsContainer&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelectorAll&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.nameLogo&amp;#39;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;team1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;teamDivs&lt;/span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;?&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelector&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;h4&amp;#39;&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;?&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;innerText&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;trim&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Team 1 missing&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;team2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;teamDivs&lt;/span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;?&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelector&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;h4&amp;#39;&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;?&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;innerText&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;trim&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Team 2 missing&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;fixtures&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;push&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;strong&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; — &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;competition&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; — &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;homeAway&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; — &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;team1&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; VS &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;team2&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; — Venue: &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;venue&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  });&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;output&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fixtures&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;join&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\n&amp;#39;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;output&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// Also download as a file&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;blob&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Blob&lt;/span&gt;([&lt;span style=&#34;color:#a6e22e&#34;&gt;output&lt;/span&gt;], { &lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;text/plain&amp;#34;&lt;/span&gt; });&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;createElement&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;a&amp;#34;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;URL&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;createObjectURL&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;blob&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;download&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;giantsfixtures.txt&amp;#34;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;click&lt;/span&gt;();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;})();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This downloads a file named &lt;strong&gt;&lt;code&gt;giantsfixtures.txt&lt;/code&gt;&lt;/strong&gt; with clean formatting for each fixture.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Web Wasnt Built for Age Gates</title>
-      <link>https://furycd001.github.io/posts/the-web-wasnt-built-for-age-gates/</link>
+      <link>http://localhost:1313/posts/the-web-wasnt-built-for-age-gates/</link>
       <pubDate>Wed, 09 Jul 2025 10:19:29 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-web-wasnt-built-for-age-gates/</guid>
+      <guid>http://localhost:1313/posts/the-web-wasnt-built-for-age-gates/</guid>
       <description>&lt;p&gt;In recent years, we’ve watched the web, once a messy, wild, gloriously chaotic frontier, be slowly strangled under the guise of “safety.” Of all the regulatory assaults on the open internet, few are more deceptive, misguided, and insidiously destructive than &lt;em&gt;age verification&lt;/em&gt; (AV). These mandates, imposed by governments in a growing number of countries, force websites to demand deeply personal user data like ID documents, facial scans, and credit card info just to access legal content. And what do we get in return? A false sense of security, a broken internet, and a chilling step toward mass surveillance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI is not Intelligent. Stop pretending that it is.</title>
-      <link>https://furycd001.github.io/posts/ai-is-not-intelligent/</link>
+      <link>http://localhost:1313/posts/ai-is-not-intelligent/</link>
       <pubDate>Thu, 03 Jul 2025 19:07:09 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/ai-is-not-intelligent/</guid>
+      <guid>http://localhost:1313/posts/ai-is-not-intelligent/</guid>
       <description>&lt;p&gt;Every day, we are invited, encouraged, even, to imagine AI as something eerily like ourselves. It talks like us. It “feels” like us. It offers comfort, guidance, inspiration. It tells jokes, writes poetry, composes music, translates languages, generates ideas, and even apologises when it gets things wrong.&lt;/p&gt;&#xA;&lt;p&gt;It is, in so many ways, designed to appear human. And yet… it is not.&lt;/p&gt;&#xA;&lt;p&gt;Let’s be clear: AI is not intelligent. Not in the way the word actually means. We need to stop pretending that it is. Because while this illusion may seem harmless, even charming, it is anything but. An intelligent-sounding machine with no understanding is not just a technological feat. It is a societal hazard.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Thoughtful Guide to X11 Desktop Environments</title>
-      <link>https://furycd001.github.io/posts/a-thoughtful-guide-to-x11/</link>
+      <link>http://localhost:1313/posts/a-thoughtful-guide-to-x11/</link>
       <pubDate>Thu, 03 Jul 2025 07:35:45 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/a-thoughtful-guide-to-x11/</guid>
+      <guid>http://localhost:1313/posts/a-thoughtful-guide-to-x11/</guid>
       <description>&lt;p&gt;In the ever-evolving world of Linux desktop environments, there&amp;rsquo;s been a clear trend: &lt;strong&gt;Wayland&lt;/strong&gt; is growing. It&amp;rsquo;s sleek, modern, and promises a more secure and efficient future. But for many of us, &lt;strong&gt;Xorg (X11)&lt;/strong&gt; still represents stability, flexibility, and control.&lt;/p&gt;&#xA;&lt;p&gt;Whether you&amp;rsquo;re on older hardware, running highly configurable window managers, or just appreciate the tried-and-true reliability of X11, this post is for you.&lt;/p&gt;&#xA;&lt;p&gt;Let’s explore the wide variety of &lt;strong&gt;Xorg-based desktop environments&lt;/strong&gt; that continue to thrive, not as resistance to change, but as a celebration of &lt;em&gt;freedom of choice&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mindful Tech: Embracing Life With an Older Android Phone</title>
-      <link>https://furycd001.github.io/posts/mindful-tech/</link>
+      <link>http://localhost:1313/posts/mindful-tech/</link>
       <pubDate>Fri, 27 Jun 2025 23:17:05 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/mindful-tech/</guid>
+      <guid>http://localhost:1313/posts/mindful-tech/</guid>
       <description>&lt;p&gt;In a world that constantly pushes us toward the newest devices and the fastest updates, there is a quiet satisfaction in choosing to continue using what we already have, especially when it comes to our smartphones. If you are still using an older Android phone beyond its official warranty and support period, you are not alone. You are also not wrong to do so.&lt;/p&gt;&#xA;&lt;p&gt;There is a certain mindfulness that comes with this decision. It invites us to be more aware, more deliberate, and more intentional. This applies not just to our tech, but also to our habits and our overall digital hygiene.&lt;/p&gt;</description>
     </item>
     <item>
       <title>When Minimalism Misses the Mark</title>
-      <link>https://furycd001.github.io/posts/when-minimalism-misses-the-mark/</link>
+      <link>http://localhost:1313/posts/when-minimalism-misses-the-mark/</link>
       <pubDate>Tue, 24 Jun 2025 12:08:25 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/when-minimalism-misses-the-mark/</guid>
+      <guid>http://localhost:1313/posts/when-minimalism-misses-the-mark/</guid>
       <description>&lt;p&gt;Minimalist design, when done well, can be timeless. It can speak softly but leave a lasting impression. Whether it&amp;rsquo;s a website, a product package, or a brand identity, good minimalist design doesn’t just strip away excess, it reveals the essence of what&amp;rsquo;s left. That’s what I love about it.&lt;/p&gt;&#xA;&lt;p&gt;But lately, something I’ve observed repeatedly has made me pause, reflect, and think.&lt;/p&gt;&#xA;&lt;p&gt;Much of what gets labeled as “minimalist” today, especially in branding, packaging, and web design, feels hollow. It often seems rushed, as if minimalism has become a shortcut rather than a design philosophy. A plain white background, some sans-serif text, maybe a pastel accent color&amp;hellip; and that’s it. The result frequently feels more like an afterthought than a thoughtful simplification. It’s as if “looking clean” is being mistaken for “being considered.”&lt;/p&gt;</description>
     </item>
     <item>
       <title>Choosing a System Service Manager: A Personal Perspective</title>
-      <link>https://furycd001.github.io/posts/system-service-managers/</link>
+      <link>http://localhost:1313/posts/system-service-managers/</link>
       <pubDate>Tue, 17 Jun 2025 21:25:13 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/system-service-managers/</guid>
+      <guid>http://localhost:1313/posts/system-service-managers/</guid>
       <description>&lt;p&gt;When it comes to system service managers on Linux, such as systemd, OpenRC, runit, SysVinit, and others, the conversation can quickly turn into a debate. Each has its merits, its history, and its dedicated user base. But for most people using Linux on a desktop or laptop, the differences between them often fade quietly into the background.&lt;/p&gt;&#xA;&lt;p&gt;At their core, service managers are responsible for initializing the system, managing background services (daemons), handling dependencies, logging, and shutting down gracefully. On servers, where stability, fine-grained control, and predictability are essential, choosing the right init system can be a high-stakes decision. Administrators often require transparency, auditability, and exact behavior, especially in high-availability or containerized environments.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Life as a Dream: The Imagination of Ourselves</title>
-      <link>https://furycd001.github.io/posts/life-as-a-dream/</link>
+      <link>http://localhost:1313/posts/life-as-a-dream/</link>
       <pubDate>Wed, 28 May 2025 14:37:32 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/life-as-a-dream/</guid>
+      <guid>http://localhost:1313/posts/life-as-a-dream/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;Life is only a dream, and we are the imagination of ourselves.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;At first glance, this phrase sounds poetic, almost surreal. But within it lies a profound perspective on existence, one that challenges how we perceive reality, identity, and purpose.&lt;/p&gt;&#xA;&lt;p&gt;If life is a dream, then what we call “reality” may be less solid than we think. Perception filters our experiences, memories, and beliefs, shaping them through thoughts, feelings, and stories we tell ourselves. What we think of as &amp;ldquo;me&amp;rdquo; is not fixed but fluid, a narrative continually written and rewritten in the mind&amp;rsquo;s theater.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Morning Coffee</title>
-      <link>https://furycd001.github.io/posts/morning-coffee/</link>
+      <link>http://localhost:1313/posts/morning-coffee/</link>
       <pubDate>Fri, 16 May 2025 07:40:40 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/morning-coffee/</guid>
+      <guid>http://localhost:1313/posts/morning-coffee/</guid>
       <description>&lt;p&gt;The kitchen was small. Not in a sad way, more like a cozy way, like it had decided long ago it didn’t need to impress anyone. The cabinets were slightly crooked, the window rattled when the wind got opinionated, and the old radiator made ticking sounds like it was keeping score. But in the soft, amber light of a the morning, the space felt almost enchanted, like it knew how to hold quiet moments just right.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Quiet Within the Cup</title>
-      <link>https://furycd001.github.io/posts/the-quiet-within-the-cup/</link>
+      <link>http://localhost:1313/posts/the-quiet-within-the-cup/</link>
       <pubDate>Fri, 11 Apr 2025 09:38:54 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-quiet-within-the-cup/</guid>
+      <guid>http://localhost:1313/posts/the-quiet-within-the-cup/</guid>
       <description>&lt;p&gt;There’s a certain stillness that lives in the steam of a freshly brewed cuppa tea. Not the hurried sip between meetings or the lukewarm remnants forgotten at the side of the desk, but the perfect cuppa. The one you prepare with care, not just for the taste, but for the ritual.&lt;/p&gt;&#xA;&lt;p&gt;It starts with the boil, that patient crescendo of water warming, humming a quiet promise of pause. Then comes the pour, a gentle swirl as leaves or bag meet their purpose. And finally, the wait. Those few minutes of steeping are a gift in disguise, a small, carved-out space in the day where time slows down just enough to remind you: you&amp;rsquo;re allowed to breathe.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Quiet Joy of That First Morning Joe</title>
-      <link>https://furycd001.github.io/posts/the-quiet-joy-of-that-first-morning-joe/</link>
+      <link>http://localhost:1313/posts/the-quiet-joy-of-that-first-morning-joe/</link>
       <pubDate>Mon, 07 Apr 2025 06:59:25 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-quiet-joy-of-that-first-morning-joe/</guid>
+      <guid>http://localhost:1313/posts/the-quiet-joy-of-that-first-morning-joe/</guid>
       <description>&lt;p&gt;There’s a sacred stillness to the early hours. Before the world stirs, before notifications blink to life, and before the rush begins, there exists a space of serenity that asks nothing of us but to simply be. It’s in that quiet, often overlooked moment that we find one of life’s purest joys: the first sip of morning coffee.&lt;/p&gt;&#xA;&lt;p&gt;The warmth of the cup in your hands. The gentle steam rising like whispers into the silence. The first deep breath of that rich aroma, it’s more than caffeine. It’s a ritual of presence. A gentle grounding. A reminder that before we chase the day, we are allowed this pause.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Evolving Minimalism</title>
-      <link>https://furycd001.github.io/posts/evolving-minimalism/</link>
+      <link>http://localhost:1313/posts/evolving-minimalism/</link>
       <pubDate>Wed, 26 Mar 2025 07:31:33 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/evolving-minimalism/</guid>
+      <guid>http://localhost:1313/posts/evolving-minimalism/</guid>
       <description>&lt;p&gt;Traditional minimalism might remind us of cleaning out closets or investing in that perfect, minimalist item. But modern minimalism has evolved into a practice that touches every aspect of our lives. It encourages us to let go not only of physical items but also of the mental and emotional baggage we accumulate over time. Just as physical clutter can obscure our space, clutter in the form of old worries, negative emotions, or unhelpful habits can weigh us down and block our path to inner peace.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Now</title>
-      <link>https://furycd001.github.io/now/</link>
+      <link>http://localhost:1313/now/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://furycd001.github.io/now/</guid>
+      <guid>http://localhost:1313/now/</guid>
       <description>&lt;h2 id=&#34;listening-to&#34;&gt;Listening to..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Delirious&lt;/li&gt;&#xA;&lt;li&gt;Powerwolf&lt;/li&gt;&#xA;&lt;li&gt;Lord of The Lost&lt;/li&gt;&#xA;&lt;li&gt;Unleash The Archers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;playing&#34;&gt;Playing..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;TF2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;working-on&#34;&gt;Working on..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A minimalist gtk theme.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;learning&#34;&gt;Learning..&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GTK themeing&lt;/li&gt;&#xA;&lt;li&gt;Qtile&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Embracing the power of silence: A somewhat guide to mindful living</title>
-      <link>https://furycd001.github.io/posts/embracing-the-power-of-silence/</link>
+      <link>http://localhost:1313/posts/embracing-the-power-of-silence/</link>
       <pubDate>Fri, 07 Mar 2025 20:56:31 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/embracing-the-power-of-silence/</guid>
+      <guid>http://localhost:1313/posts/embracing-the-power-of-silence/</guid>
       <description>&lt;p&gt;In a world that often feels overwhelmingly noisy, taking time to be still and speak less can have a profound impact on our wellbeing. Mindfulness isn&amp;rsquo;t just about meditation or quiet reflection—it&amp;rsquo;s about cultivating a lifestyle that values listening over constant chatter, intentionality over impulsiveness, and inner calm over external chaos. In this post, I want to try and explore the benefits of embracing silence and offer some practical tips for integrating more mindful moments into your daily.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Take on Mozilla’s New Firefox Terms of Use</title>
-      <link>https://furycd001.github.io/posts/my-take-on-mozilla-s-new-firefox-terms-of-use/</link>
+      <link>http://localhost:1313/posts/my-take-on-mozilla-s-new-firefox-terms-of-use/</link>
       <pubDate>Tue, 04 Mar 2025 09:40:29 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/my-take-on-mozilla-s-new-firefox-terms-of-use/</guid>
+      <guid>http://localhost:1313/posts/my-take-on-mozilla-s-new-firefox-terms-of-use/</guid>
       <description>&lt;p&gt;This is my take on &lt;strong&gt;&lt;a href=&#34;https://www.mozilla.org/en-US/&#34;&gt;Mozilla’s&lt;/a&gt;&lt;/strong&gt; New Firefox &lt;strong&gt;&lt;a href=&#34;https://www.mozilla.org/en-US/about/legal/terms/firefox/&#34;&gt;Terms of Use&lt;/a&gt;&lt;/strong&gt; effective as of &lt;em&gt;February 25, 2025&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Whenever Mozilla’s updated the Firefox Terms of Use, I had a read, and honestly, it left me a bit frustrated. I’m not here for any of the extra data sharing or corporate maneuvering.. I just want a straightforward, no-frills web browser.&lt;/p&gt;&#xA;&lt;h2 id=&#34;i-just-want-a-browser-not-a-data-processor&#34;&gt;I Just Want a Browser, Not a Data Processor..&lt;/h2&gt;&#xA;&lt;p&gt;What really gets me is the part about Mozilla using my data to “help me navigate” the web. I’m all for a smooth browsing experience, but I’m not a fan of any extra sharing or selling of my data. I just want Firefox to work as a web browser without turning into a data mine.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Valve Releases the TF2 SDK</title>
-      <link>https://furycd001.github.io/posts/tf2-sdk/</link>
+      <link>http://localhost:1313/posts/tf2-sdk/</link>
       <pubDate>Wed, 19 Feb 2025 08:04:16 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/tf2-sdk/</guid>
+      <guid>http://localhost:1313/posts/tf2-sdk/</guid>
       <description>&lt;p&gt;Valve has just unveiled a massive update to the &lt;strong&gt;&lt;a href=&#34;https://developer.valvesoftware.com&#34;&gt;Source SDK&lt;/a&gt;&lt;/strong&gt; that now features the complete Team Fortress 2 client and server game code. This significant move empowers modders to develop anything from subtle tweaks to entirely new games built on the TF2 engine, while also breathing new life into other classic multiplayer titles powered by the Source engine. In this post, In this post I want to share my thoughts on both the advantages and potential drawbacks of this release and explore what it means for the game&amp;rsquo;s long-term future and upcoming updates.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Minimalism in Love</title>
-      <link>https://furycd001.github.io/posts/minimalism-in-love/</link>
+      <link>http://localhost:1313/posts/minimalism-in-love/</link>
       <pubDate>Tue, 28 Jan 2025 07:19:26 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/minimalism-in-love/</guid>
+      <guid>http://localhost:1313/posts/minimalism-in-love/</guid>
       <description>&lt;p&gt;Minimalism is a mindset, a way of simplifying life, focusing on what truly matters, and letting go of distractions. I’ve embraced this philosophy, striving for a life unburdened by excess and filled with a clear mind. Yet, minimalism isn’t just about things; it’s about relationships too. And that&amp;rsquo;s where I find my greatest lesson in balance.&lt;/p&gt;&#xA;&lt;p&gt;You see, I share my life with someone who loves ornaments, picture frames, wall art, and all the little things that bring her joy. Our home is filled with the warmth of her personality: colorful, sentimental, and alive. It’s a stark contrast to the minimalist ideal I sometimes yearn for, serene, uncluttered, and bare. There have been moments when I wished it would all vanish, that the house could mirror the simplicity I find calming. And then there are times when I simply ignore it, focusing on quietness.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why a Derivative of a Derivative Might Not Be the Best Choice</title>
-      <link>https://furycd001.github.io/posts/derivative-of-a-derivative/</link>
+      <link>http://localhost:1313/posts/derivative-of-a-derivative/</link>
       <pubDate>Thu, 05 Dec 2024 07:32:12 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/derivative-of-a-derivative/</guid>
+      <guid>http://localhost:1313/posts/derivative-of-a-derivative/</guid>
       <description>&lt;p&gt;When it comes to choosing a Linux distribution, the options can feel overwhelming. From the giants like Arch, Fedora, OpenSuse and Ubuntu, to the more niche derivatives that branch off these powerhouses, there’s a flavor for just about everyone. But what happens when you venture beyond a first-layer derivative to a derivative of a derivative? While it might seem harmless, this extra step away from the “source” can sometimes create unforeseen challenges that are worth considering before you commit.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Always Have a Sense of Your Own Ridiculousness</title>
-      <link>https://furycd001.github.io/posts/always-have-a-sense-of-your-own-ridiculousness/</link>
+      <link>http://localhost:1313/posts/always-have-a-sense-of-your-own-ridiculousness/</link>
       <pubDate>Mon, 25 Nov 2024 08:17:12 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/always-have-a-sense-of-your-own-ridiculousness/</guid>
+      <guid>http://localhost:1313/posts/always-have-a-sense-of-your-own-ridiculousness/</guid>
       <description>&lt;p&gt;There’s something magical about letting life surprise you with its absurdity. When we talk about having a sense of your own ridiculousness, it’s not about self-deprecation or undermining your worth. No, it’s about celebrating the quirks, the little missteps, and the delightful messiness that make you unapologetically you.&lt;/p&gt;&#xA;&lt;p&gt;Life is a canvas splattered with imperfections—smudges, unexpected colors, and strokes that went a little off course. Those &amp;ldquo;mistakes&amp;rdquo;? They’re what make the painting captivating. A sense of your own ridiculousness means learning to laugh at yourself, to find joy in the absurd moments, and to embrace the unique art you’re creating every day.&lt;/p&gt;</description>
     </item>
     <item>
       <title>White Space - The Sweet Art of Slowing Down</title>
-      <link>https://furycd001.github.io/posts/white-space/</link>
+      <link>http://localhost:1313/posts/white-space/</link>
       <pubDate>Sat, 16 Nov 2024 08:19:18 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/white-space/</guid>
+      <guid>http://localhost:1313/posts/white-space/</guid>
       <description>&lt;p&gt;The noise is getting noisier. The distractions? Louder than ever. These days, it feels like we&amp;rsquo;re all rushing to keep up—plugged in, switched on, and racing through life at full throttle. Diaries packed, to-do lists overflowing, and a constant stream of &amp;ldquo;urgent&amp;rdquo; demands knocking at our doors. It&amp;rsquo;s no wonder the world feels a bit overwhelming sometimes.&lt;/p&gt;&#xA;&lt;p&gt;But have you noticed something curious? When the rare moments of peace and quiet finally come, we often don’t know what to do with them. We&amp;rsquo;ve forgotten how to simply be. We’ve lost touch with the beautiful necessity of white space—the calm moments in life that allow us to breathe, reflect, and restore.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Brief History of Gleno Northern Ireland</title>
-      <link>https://furycd001.github.io/posts/a-brief-history-of-gleno-northern-ireland/</link>
+      <link>http://localhost:1313/posts/a-brief-history-of-gleno-northern-ireland/</link>
       <pubDate>Wed, 13 Nov 2024 07:29:26 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/a-brief-history-of-gleno-northern-ireland/</guid>
+      <guid>http://localhost:1313/posts/a-brief-history-of-gleno-northern-ireland/</guid>
       <description>&lt;p&gt;Nestled in the picturesque landscapes of County Antrim, Northern Ireland, the small village of Gleno is often overlooked by visitors, yet its charm and history make it a fascinating stop for those seeking to explore Northern Ireland&amp;rsquo;s rich heritage. Though small in size, Gleno is a village steeped in local lore, natural beauty, and historical significance.&lt;/p&gt;&#xA;&lt;h3 id=&#34;origins-and-name&#34;&gt;Origins and Name&lt;/h3&gt;&#xA;&lt;p&gt;The name &lt;em&gt;Gleno&lt;/em&gt;, or &lt;em&gt;Glenoe&lt;/em&gt;, is derived from the Irish &lt;em&gt;Gleann Ó&lt;/em&gt;, meaning &amp;ldquo;Glen of the mass or lump.&amp;rdquo; This name reflects the unique geological features of the area, including the prominent hills and rock formations that frame the village. Located in County Antrim, Gleno is located near a scenic waterfall that feeds into a meandering stream, a feature that has shaped much of its early history, and has attracted settlement for centuries due to its scenic beauty and the life-giving stream that flows through the valley. Gleno&amp;rsquo;s tranquil surroundings, characterized by rolling hills and lush greenery, have made it an attractive spot for human settlement for centuries, with roots stretching back to early farming communities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Discovering Elleni the Label</title>
-      <link>https://furycd001.github.io/posts/elleni-the-label/</link>
+      <link>http://localhost:1313/posts/elleni-the-label/</link>
       <pubDate>Mon, 28 Oct 2024 09:59:56 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/elleni-the-label/</guid>
+      <guid>http://localhost:1313/posts/elleni-the-label/</guid>
       <description>&lt;p&gt;There&amp;rsquo;s something undeniably special about finding a brand that feels like it was crafted in the clouds—a brand that brings joy with each click and sparkles with creativity, quality, and a unique sense of charm. That’s precisely the experience you get with &lt;strong&gt;&lt;a href=&#34;https://ellenithelabel.com&#34;&gt;Elleni the Label&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;When you step into the world of Elleni the Label, you’re not just browsing another clothing site. You’re entering a carefully curated collection of pieces that tell a story of elegance, kindness, fabulousness, and a playful spirit. Everything feels warm and inviting, like a cozy hug on a chilly day. It’s fashion that isn’t just about looking good; it’s about feeling wonderful, wrapped in joy, and staying true to the little spark that makes you, you.. It’s the perfect blend of simplicity, grace, and that little spark of delight that makes each piece feel extra special.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Basics of Creating an Interactive Bash Script</title>
-      <link>https://furycd001.github.io/posts/basics-of-creating-an-interactive-bash-script/</link>
+      <link>http://localhost:1313/posts/basics-of-creating-an-interactive-bash-script/</link>
       <pubDate>Fri, 06 Sep 2024 10:49:33 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/basics-of-creating-an-interactive-bash-script/</guid>
+      <guid>http://localhost:1313/posts/basics-of-creating-an-interactive-bash-script/</guid>
       <description>&lt;p&gt;Creating an interactive bash script is like adding a dash of magic to your terminal adventures!! It’s a fun and clever way to automate repetitive tasks and make your command-line experience smoother and more enjoyable. Here’s a little guide to sprinkle some scripting sparkle into your life:&lt;/p&gt;&#xA;&lt;h3 id=&#34;create-the-script-file&#34;&gt;Create the Script File:&lt;/h3&gt;&#xA;&lt;p&gt;Start by creating a new file for your script. Open your terminal and use a text editor to create a file, such as &lt;code&gt;vim script-whatever.sh&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Aeropress Ritual</title>
-      <link>https://furycd001.github.io/posts/the-aeropress-ritual/</link>
+      <link>http://localhost:1313/posts/the-aeropress-ritual/</link>
       <pubDate>Mon, 26 Aug 2024 10:02:42 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-aeropress-ritual/</guid>
+      <guid>http://localhost:1313/posts/the-aeropress-ritual/</guid>
       <description>&lt;p&gt;In the quiet stillness of the morning, before the world had fully woken, there was a moment &amp;ldquo;a ritual&amp;rdquo; that was all his own. This was his time. The sacred few minutes dedicated to crafting the perfect cup of coffee with his beloved Aeropress.&lt;/p&gt;&#xA;&lt;p&gt;The kitchen was a sanctuary at this hour, bathed in the gentle light of dawn. He moved with purpose, each step a part of a dance he knew by heart. First, he reached for the coffee tub—a sturdy, reliable container that kept the grounds fresh and fragrant. As he took off the lid, a deep, earthy aroma filled the air, wrapping around him like a familiar embrace. This was a scent that spoke of warmth and comfort, with the promise of clarity to come.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Falling Apart</title>
-      <link>https://furycd001.github.io/posts/falling-apart/</link>
+      <link>http://localhost:1313/posts/falling-apart/</link>
       <pubDate>Mon, 26 Aug 2024 09:58:50 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/falling-apart/</guid>
+      <guid>http://localhost:1313/posts/falling-apart/</guid>
       <description>&lt;p&gt;Sometimes, it feels like we&amp;rsquo;re falling apart, like no matter what we do, we&amp;rsquo;re always falling short, making mistakes, messing things up, or that something goes wrong. But here&amp;rsquo;s the thing: we&amp;rsquo;re not always any of those things. Life can simply be hard sometimes. It&amp;rsquo;s full of challenges, unexpected twists, and moments that can make us feel overwhelmed or that the weight of the world is too much to carry. There are days when it seems like giving up might be easier than pushing forward. Just sometimes, life is simply hard.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reimagining Terminal Software</title>
-      <link>https://furycd001.github.io/posts/reimagining-terminal-software/</link>
+      <link>http://localhost:1313/posts/reimagining-terminal-software/</link>
       <pubDate>Fri, 23 Aug 2024 06:54:17 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/reimagining-terminal-software/</guid>
+      <guid>http://localhost:1313/posts/reimagining-terminal-software/</guid>
       <description>&lt;p&gt;In the world of technology, there’s something quietly beautiful about the way people are revisiting and reimagining old terminal software. These programs, with their roots dating back to the early days of computing, have been the backbone of countless systems for decades. But as technology evolves, so do the ways we interact with it.&lt;/p&gt;&#xA;&lt;p&gt;Some modern developers are taking these time-tested tools and giving them a fresh coat of paint, not to erase the past but to enhance it. By rewriting and tweaking the old software, they aim to improve functionality, make interfaces more intuitive, or simply adapt the software to meet today’s needs. It’s a delicate balance—respecting the original while embracing the possibilities of the new.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Power of Asking Questions</title>
-      <link>https://furycd001.github.io/posts/the-power-of-asking-questions/</link>
+      <link>http://localhost:1313/posts/the-power-of-asking-questions/</link>
       <pubDate>Thu, 22 Aug 2024 07:37:40 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-power-of-asking-questions/</guid>
+      <guid>http://localhost:1313/posts/the-power-of-asking-questions/</guid>
       <description>&lt;p&gt;Asking questions is a fundamental part of learning and growth, yet many of us hesitate when it comes to seeking out the knowledge we need. Whether it&amp;rsquo;s due to a fear of judgment, a fear of appearing uninformed, or maybe simply not wanting to bother others, we often keep our questions to ourselves. But here&amp;rsquo;s the truth: there’s no shame in asking questions—only in missing out on the opportunity to learn. Asking questions is one of the most powerful tools we have for learning and growth. It’s not a sign of weakness; it’s a sign of curiosity, courage, and a genuine desire to understand the world around us.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Finding Joy in Linux: Why It’s My Happy Place</title>
-      <link>https://furycd001.github.io/posts/finding-joy-in-linux/</link>
+      <link>http://localhost:1313/posts/finding-joy-in-linux/</link>
       <pubDate>Wed, 14 Aug 2024 06:32:12 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/finding-joy-in-linux/</guid>
+      <guid>http://localhost:1313/posts/finding-joy-in-linux/</guid>
       <description>&lt;p&gt;There’s something truly special about finding something that not only fits your needs but also brings you joy. For me, that&amp;rsquo;s Linux. It’s more than just an operating system—it’s a source of happiness, freedom, and all things good.&lt;/p&gt;&#xA;&lt;p&gt;I’ve been using Linux since 2002, and I can honestly say I’ve never looked back. There’s a certain magic in its flexibility and the way it empowers you to customize everything just the way you like. Unlike Windows or macOS, Linux doesn’t box you in; instead, it opens up a world of possibilities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mindful Bookmarking</title>
-      <link>https://furycd001.github.io/posts/mindful-firefox-bookmarks/</link>
+      <link>http://localhost:1313/posts/mindful-firefox-bookmarks/</link>
       <pubDate>Sun, 11 Aug 2024 10:12:52 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/mindful-firefox-bookmarks/</guid>
+      <guid>http://localhost:1313/posts/mindful-firefox-bookmarks/</guid>
       <description>&lt;p&gt;In today&amp;rsquo;s digital age, it&amp;rsquo;s easy to accumulate a cluttered and overwhelming collection of bookmarks in your web browser. A disorganized bookmark list can make it difficult to find what you need and can contribute to digital overwhelm. By organizing your browsers bookmarks thoughtfully, you can create a more mindful and efficient browsing experience.  To achieve this, you can consider following a series of thoughtful and carefully planned steps..&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-audit-your-current-bookmarks&#34;&gt;1. Audit Your Current Bookmarks&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Review and Clean:&lt;/strong&gt; Start by reviewing all your existing bookmarks. Delete any that are outdated, irrelevant, or ones that may no longer serve a purpos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spreading Kindness Online: Creating a Ripple Effect</title>
-      <link>https://furycd001.github.io/posts/spreading-kindness-online/</link>
+      <link>http://localhost:1313/posts/spreading-kindness-online/</link>
       <pubDate>Sun, 28 Jul 2024 11:57:36 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/spreading-kindness-online/</guid>
+      <guid>http://localhost:1313/posts/spreading-kindness-online/</guid>
       <description>&lt;p&gt;In the digital age, the internet has become a central part of our daily lives. It&amp;rsquo;s a place where we connect with friends, share our thoughts, and discover new ideas. However, it&amp;rsquo;s also a space that can sometimes feel overwhelming and negative. Amidst the noise, a simple yet powerful truth remains: kindness online can have a ripple effect.&lt;/p&gt;&#xA;&lt;p&gt;Imagine this.. You receive a heartfelt comment on a post you shared, or someone sends you an encouraging message when you need it most. These small acts of kindness can brighten your day and change your outlook. The beauty of kindness is that it doesn&amp;rsquo;t stop with you. One small act of kindness can inspire others to follow suit, creating a wave of positivity that can spread far and wide.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Depression of the Internet: Pulling Us Away from Real Life</title>
-      <link>https://furycd001.github.io/posts/the-depression-of-the-internet/</link>
+      <link>http://localhost:1313/posts/the-depression-of-the-internet/</link>
       <pubDate>Sun, 28 Jul 2024 11:41:27 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-depression-of-the-internet/</guid>
+      <guid>http://localhost:1313/posts/the-depression-of-the-internet/</guid>
       <description>&lt;p&gt;In the digital age, the internet has become an integral part of our daily lives. It connects us to a world of information, entertainment, and social interaction. Yet, as we immerse ourselves in this vast virtual landscape, there is a growing concern about the impact it has on our mental health and our connection to real life.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-allure-of-the-digital-world&#34;&gt;The Allure of the Digital World&lt;/h2&gt;&#xA;&lt;p&gt;The internet offers endless possibilities. From social media platforms to streaming services, online shopping to gaming, it provides an escape from the mundane and a distraction from the stresses of everyday life. However, this constant accessibility and the allure of instant gratification can also lead to a dangerous cycle of overuse and dependency.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Embracing Minimalism on Modern Day Smartphones</title>
-      <link>https://furycd001.github.io/posts/embracing-minimalism-on-modern-day-smartphones/</link>
+      <link>http://localhost:1313/posts/embracing-minimalism-on-modern-day-smartphones/</link>
       <pubDate>Mon, 22 Jul 2024 07:44:41 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/embracing-minimalism-on-modern-day-smartphones/</guid>
+      <guid>http://localhost:1313/posts/embracing-minimalism-on-modern-day-smartphones/</guid>
       <description>&lt;p&gt;In our fast-paced digital age, smartphones have become indispensable companions, seamlessly integrating into our daily lives. However, as these devices grow more advanced, they often come laden with features and apps that can lead to a cluttered and overwhelming experience. For some it can also be an undesirable experience. Enter minimalism—a philosophy that, when applied to modern smartphones, can bring clarity and purpose back to our digital interactions.&lt;/p&gt;&#xA;&lt;p&gt;Minimalism on smartphones can take many forms, but for me, it&amp;rsquo;s all about decluttering and simplifying. It&amp;rsquo;s about curating an environment that encourages focus and productivity rather than distraction. I keep what matters within reach while removing the unwanted or unneeded. I start by evaluating the apps on my home screen: are they essential, a one-time use, or just there because I downloaded them and never removed them? Removing redundant or unused apps can immediately make your phone feel less chaotic. Additionally, consider the widgets that consume your home screen. Keep only those that provide valuable information, helping you stay organized without overwhelming your visual space.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Sip of Adventure (part.1)</title>
-      <link>https://furycd001.github.io/posts/a-sip-of-adventure-part-1/</link>
+      <link>http://localhost:1313/posts/a-sip-of-adventure-part-1/</link>
       <pubDate>Tue, 09 Jul 2024 16:03:41 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/a-sip-of-adventure-part-1/</guid>
+      <guid>http://localhost:1313/posts/a-sip-of-adventure-part-1/</guid>
       <description>&lt;p&gt;A young girl always dreamed of a life that was big and grand, full of adventures that would take her to the far corners of the world. She believed that happiness could sometimes be found in those big adventures.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Hell yeah!&amp;rdquo; she shouted one morning, pouring a delicious mug of steaming hot coffee. The rich aroma filled her small kitchen, and for a moment, the world seemed perfect.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Oh, hell yeah!&amp;rdquo; she exclaimed again, sitting down in her comfy chair by the window. Taking her first sip of the delicious brew, she felt a warmth spread through her, not just from the coffee, but from the excitement of possibility.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Writing in Sublime Text</title>
-      <link>https://furycd001.github.io/posts/writing-in-sublime-text/</link>
+      <link>http://localhost:1313/posts/writing-in-sublime-text/</link>
       <pubDate>Tue, 09 Jul 2024 07:03:09 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/writing-in-sublime-text/</guid>
+      <guid>http://localhost:1313/posts/writing-in-sublime-text/</guid>
       <description>&lt;p&gt;If, like me, you use &lt;strong&gt;&lt;a href=&#34;https://www.sublimetext.com/&#34;&gt;Sublime Text&lt;/a&gt;&lt;/strong&gt; to draft blog posts or simply to write, you might find yourself wishing for an easy way to switch between a larger font size for writing and a more normal size for coding and everything else. In this post, I will guide you through creating a custom keybinding in Sublime Text that will make toggling font sizes a breeze, ensuring your writing &amp;amp; coding adventures remain comfortable &amp;amp; productive.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Harmony of Minimalism</title>
-      <link>https://furycd001.github.io/posts/the-harmony-of-minimalism/</link>
+      <link>http://localhost:1313/posts/the-harmony-of-minimalism/</link>
       <pubDate>Wed, 03 Jul 2024 06:59:52 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-harmony-of-minimalism/</guid>
+      <guid>http://localhost:1313/posts/the-harmony-of-minimalism/</guid>
       <description>&lt;p&gt;Living with a minimalist mindset can be a serene and liberating experience. It’s about embracing simplicity and finding joy in the essentials, creating a sanctuary of calm in a world that often feels overwhelming. Yet, what happens when minimalism shares a space with a bit of delightful clutter?&lt;/p&gt;&#xA;&lt;p&gt;Imagine a home where clean, open spaces coexist with charming knick-knacks and treasured collections. Here, minimalism and a more eclectic approach dance together in a harmonious waltz, each step complementing the other. This unique blend creates a living environment that is both functional and full of personality.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Its Ok</title>
-      <link>https://furycd001.github.io/posts/its-ok/</link>
+      <link>http://localhost:1313/posts/its-ok/</link>
       <pubDate>Fri, 28 Jun 2024 09:25:33 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/its-ok/</guid>
+      <guid>http://localhost:1313/posts/its-ok/</guid>
       <description>&lt;p&gt;In a quiet town nestled between rolling hills and dense forests, there lived a girl named Lily. With her fiery spirit and searching eyes, she always felt a bit out of place. An enigma to those around her, Lily embraced her uniqueness with quiet strength.&lt;/p&gt;&#xA;&lt;p&gt;As she walked through the town square, she would often whisper to herself:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Take me or leave me; you don&amp;rsquo;t have to believe me.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Her thoughts swirled like autumn leaves around her. She had a deep reservoir of words and songs inside her, waiting to be shared.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Heliboard</title>
-      <link>https://furycd001.github.io/posts/heliboard/</link>
+      <link>http://localhost:1313/posts/heliboard/</link>
       <pubDate>Wed, 26 Jun 2024 10:38:29 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/heliboard/</guid>
+      <guid>http://localhost:1313/posts/heliboard/</guid>
       <description>&lt;p&gt;Jonny had always been curious about open-source technology, so when he heard about the open-source &lt;a href=&#34;https://github.com/Helium314/HeliBoard&#34;&gt;Heliboard&lt;/a&gt; keyboard for his phone, he decided to give it a try. The idea of using an open-source keyboard for enhanced privacy intrigued him, promising a level of data security that the default keyboard just couldn&amp;rsquo;t offer. He eagerly installed it, ready to protect his personal information.&lt;/p&gt;&#xA;&lt;p&gt;However, from the moment Jonny started using Heliboard, things didn&amp;rsquo;t go as smoothly as he had hoped. Instead of the seamless experience he anticipated, he found himself constantly mistyping words and pressing the wrong buttons. With every little thing Jonny typed, he slowly became a little frustrated. Typed text was littered with typos and autocorrect failures, and simple phrases turned into jumbled nonsense. His friends started making playful jabs at his new creative spelling.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Super Quick Introduction to the Fediverse and Mastodon</title>
-      <link>https://furycd001.github.io/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</link>
+      <link>http://localhost:1313/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</link>
       <pubDate>Wed, 26 Jun 2024 08:43:42 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</guid>
+      <guid>http://localhost:1313/posts/a-super-quick-introduction-to-the-fediverse-and-mastodon/</guid>
       <description>&lt;p&gt;There are lots of guides explaining Fediverse and Mastodon, but most of them go into way too much detail. With this post, I would like to try and cover all, or at least most, of the basics you&amp;rsquo;ll need to know to get started. You can then gradually learn the rest from elsewhere.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-fediverse-is-not-fking-twitter-&#34;&gt;The fediverse is NOT f**king twitter !!&lt;/h2&gt;&#xA;&lt;p&gt;The fediverse is very different from twitter, and that&amp;rsquo;s by design. It&amp;rsquo;s made for building communities and bringing people together, not dividing people or for boosting celebrities. Things will certainly work differently from what you&amp;rsquo;re probably used to. Just give it some time, and ask for help if you&amp;rsquo;re not sure why something works how it does! People on the fediverse are usually happy to explain, as long as it&amp;rsquo;s a genuine question. People on the fediverse expect you to talk to them like they&amp;rsquo;re real human beings, and in return they will do the same.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pc Perdicaments</title>
-      <link>https://furycd001.github.io/posts/pc-perdicaments/</link>
+      <link>http://localhost:1313/posts/pc-perdicaments/</link>
       <pubDate>Mon, 24 Jun 2024 09:55:54 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/pc-perdicaments/</guid>
+      <guid>http://localhost:1313/posts/pc-perdicaments/</guid>
       <description>&lt;p&gt;In a cosy kitchen, a computer sat quietly in the corner underneath a black wooden desk. A reliable companion in a world increasingly dominated by sleek, modern devices. It wasn&amp;rsquo;t old, but it wasn&amp;rsquo;t brand new either—a comfortable middle ground. Running Linux, it represented a blend of stability and versatility, though not without its quirks. Its owner didn’t ask for much—just for it to work as expected.&lt;/p&gt;&#xA;&lt;p&gt;Every morning, the computer was powered on with a sense of hope. The familiar hum of the fan and the soft glow of the screen brought a small but significant comfort. Its operating system, a sturdy version of Linux, booted up smoothly most days. However, there were times when unexpected glitches would appear—a program crashing here, a slow response there. These minor annoyances didn’t make the computer boring; they added a layer of challenge, a puzzle to solve.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Serenitys Canvas</title>
-      <link>https://furycd001.github.io/posts/serenitys-canvas/</link>
+      <link>http://localhost:1313/posts/serenitys-canvas/</link>
       <pubDate>Wed, 19 Jun 2024 13:58:34 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/serenitys-canvas/</guid>
+      <guid>http://localhost:1313/posts/serenitys-canvas/</guid>
       <description>&lt;p&gt;High atop a lonely, quiet mountain, the world seemed to pause, embracing the stillness that enveloped the peak. The air was crisp and clear, carrying the scent of pine and earth, a reminder of nature&amp;rsquo;s raw beauty. The rocks and trees stood as silent witnesses to the grandeur that unfolded every night.&lt;/p&gt;&#xA;&lt;p&gt;As dusk faded and night took over, the sky transformed into a vast canvas, adorned with countless stars. Each one glistened with its own unique brilliance, contributing to a celestial tapestry that was both humbling and awe-inspiring. The mountain peak, secluded and serene, offered the perfect vantage point for this nightly spectacle.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Morning Emma</title>
-      <link>https://furycd001.github.io/posts/morning-emma/</link>
+      <link>http://localhost:1313/posts/morning-emma/</link>
       <pubDate>Fri, 14 Jun 2024 10:54:02 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/morning-emma/</guid>
+      <guid>http://localhost:1313/posts/morning-emma/</guid>
       <description>&lt;p&gt;Every morning, Emma woke up with a smile, not because of the day&amp;rsquo;s prospects but because of the joy that awaited her in the kitchen. Her mornings began with a ritual she cherished above all else: making and enjoying her perfect cup of coffee.&lt;/p&gt;&#xA;&lt;p&gt;She would shuffle out of bed, her slippers softly padding across the floor, and head straight to the kitchen. The familiar sight of her beloved coffee maker greeted her like an old friend. Emma loved the routine of preparing her coffee. She took out the fresh beans she&amp;rsquo;d bought from a local roaster, their rich, earthy aroma already starting to awaken her senses.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Joys of Joe</title>
-      <link>https://furycd001.github.io/posts/the-joys-of-joe/</link>
+      <link>http://localhost:1313/posts/the-joys-of-joe/</link>
       <pubDate>Fri, 14 Jun 2024 10:40:59 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-joys-of-joe/</guid>
+      <guid>http://localhost:1313/posts/the-joys-of-joe/</guid>
       <description>&lt;p&gt;Every morning, the kitchen came to life with the anticipation of a special ritual: the making of a perfect cup of coffee. As dawn&amp;rsquo;s first light filtered through the window, the beans awaited their transformation from mere ingredients into a steamy cup of joe, brimming with joy, promise, and excitement.&lt;/p&gt;&#xA;&lt;p&gt;The journey began by selecting the beans, and carefully measuring them. Each bean holding the potential for greatness, ready to release its essence. The grinder whirred to life, breaking the beans into a fragrant pile of grounds, a prelude to the symphony of flavours about to unfold.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sometimes</title>
-      <link>https://furycd001.github.io/posts/sometimes/</link>
+      <link>http://localhost:1313/posts/sometimes/</link>
       <pubDate>Mon, 10 Jun 2024 13:22:42 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/sometimes/</guid>
+      <guid>http://localhost:1313/posts/sometimes/</guid>
       <description>&lt;p&gt;Sometimes, in the quiet of her room, A girl with long ginger hair, like a bloom, Felt the weight of the world, pressing down on her soul, Wondering if she’d ever find a way to be whole.&lt;/p&gt;&#xA;&lt;p&gt;Her extensions, a cascade of fire, so bright, Reflected her spirit, her inner fight. She’d look in the mirror, and sometimes she’d cry, Feeling like she’d never understand why.&lt;/p&gt;&#xA;&lt;p&gt;She set out on a journey, leaving her fears behind, With each step she took, she sought to find A purpose, a reason, a place to belong, Humming her favorite melody, a hopeful song.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Clumsy Footsteps to Stardom</title>
-      <link>https://furycd001.github.io/posts/clumsy-footsteps-to-stardom/</link>
+      <link>http://localhost:1313/posts/clumsy-footsteps-to-stardom/</link>
       <pubDate>Thu, 06 Jun 2024 07:34:58 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/clumsy-footsteps-to-stardom/</guid>
+      <guid>http://localhost:1313/posts/clumsy-footsteps-to-stardom/</guid>
       <description>&lt;p&gt;In a quaint little town, there lived a girl named Mia who had a dream. She wanted nothing more than to become a tap dancer, her feet creating rhythms that would captivate audiences. However, there was a small problem: Mia had no rhythm, was always out of balance, and was extremely clumsy. Despite her shortcomings, Mia&amp;rsquo;s heart was set on her dream, and she practiced tirelessly, day after day.&lt;/p&gt;&#xA;&lt;p&gt;No matter how hard she tried, Mia seemed to get nowhere. Her tap shoes tripped her up, and her feet seemed to have a mind of their own. Yet, she never gave up. Her determination caught the attention of a local theater director who was putting together a small-town comedy show. Seeing potential in her comedic clumsiness, he offered her a small role.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Unforgettable Picnic</title>
-      <link>https://furycd001.github.io/posts/the-unforgettable-picnic/</link>
+      <link>http://localhost:1313/posts/the-unforgettable-picnic/</link>
       <pubDate>Thu, 06 Jun 2024 07:17:32 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-unforgettable-picnic/</guid>
+      <guid>http://localhost:1313/posts/the-unforgettable-picnic/</guid>
       <description>&lt;p&gt;In a peaceful meadow nestled between rolling hills, a group of friendly animals decided to have a delightful picnic. The sun was shining, the birds were singing, and the scent of wildflowers filled the air. It was the perfect day for a gathering of friends. Among them were Benny the Bear, Lucy the Rabbit, Max the Squirrel, and Andy the Ant Eater.&lt;/p&gt;&#xA;&lt;p&gt;They arrived at their favorite spot under the big oak tree, setting down a colorful blanket and unpacking baskets full of delicious treats. There were sandwiches, fresh fruits, homemade pies, and bottles of lemonade. Excitement buzzed in the air as they prepared to enjoy their feast.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Obsession</title>
-      <link>https://furycd001.github.io/posts/obsession/</link>
+      <link>http://localhost:1313/posts/obsession/</link>
       <pubDate>Wed, 05 Jun 2024 15:11:12 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/obsession/</guid>
+      <guid>http://localhost:1313/posts/obsession/</guid>
       <description>&lt;p&gt;In the heart of a quaint little town, nestled among rolling hills and whispering trees, there lived a young woman named Lily. Lily was a dreamer, her mind often lost in the mysteries of the universe. She found solace in the unseen, the intangible, and the inexplicable.&lt;/p&gt;&#xA;&lt;p&gt;One crisp autumn evening, as the moon cast its gentle glow upon the world, Lily found herself lost in contemplation. What could she do with her obsession, she wondered, with the things she could not see? Was there madness in her being, or was it merely the wind that stirred the leaves?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cruz and the Mud Puddle</title>
-      <link>https://furycd001.github.io/posts/cruz-and-the-mud-puddle/</link>
+      <link>http://localhost:1313/posts/cruz-and-the-mud-puddle/</link>
       <pubDate>Wed, 05 Jun 2024 07:43:39 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/cruz-and-the-mud-puddle/</guid>
+      <guid>http://localhost:1313/posts/cruz-and-the-mud-puddle/</guid>
       <description>&lt;p&gt;In the heart of the sprawling wilderness, there lived a charming bulldog named Cruz. Cruz was no ordinary bulldog; he was an intrepid explorer with a heart full of adventure. He traveled the country in a cozy, colorful van with his owner, Chrome. Chrome was a free spirit with a love for the open road, and together, they explored every nook and cranny of the beautiful landscape.&lt;/p&gt;&#xA;&lt;p&gt;One crisp morning, Cruz and Chrome arrived at a picturesque campground nestled among towering pine trees and shimmering lakes. Eager to stretch his legs, Cruz carefully walked down the steps that Chrome had set out at the side of the van, his tail wagging furiously. Chrome smiled, watching his loyal companion sniff around with boundless curiosity.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chromes Fruity Fiasco</title>
-      <link>https://furycd001.github.io/posts/chromes-fruity-fiasco/</link>
+      <link>http://localhost:1313/posts/chromes-fruity-fiasco/</link>
       <pubDate>Tue, 04 Jun 2024 21:02:55 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/chromes-fruity-fiasco/</guid>
+      <guid>http://localhost:1313/posts/chromes-fruity-fiasco/</guid>
       <description>&lt;p&gt;Chrome wandered through the bustling market, eyeing the vibrant display of fruit. He picked up a ripe mango, its sweet aroma mingling with the scent of nearby oranges and strawberries. As he bit into the juicy flesh, Chrome couldn&amp;rsquo;t help but smile, savoring the burst of tropical flavor that transported him to a sunny paradise.&lt;/p&gt;&#xA;&lt;p&gt;Chrome tripped over a rogue pineapple and landed face-first in a pile of watermelons. &amp;ldquo;Well, at least I&amp;rsquo;m getting my daily fruit intake,&amp;rdquo; he muttered, spitting out seeds and trying to regain his dignity.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Early Days of Paid Wifi With Starbucks</title>
-      <link>https://furycd001.github.io/posts/the-early-days-of-paid-wifi-with-starbucks/</link>
+      <link>http://localhost:1313/posts/the-early-days-of-paid-wifi-with-starbucks/</link>
       <pubDate>Tue, 04 Jun 2024 14:18:58 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-early-days-of-paid-wifi-with-starbucks/</guid>
+      <guid>http://localhost:1313/posts/the-early-days-of-paid-wifi-with-starbucks/</guid>
       <description>&lt;p&gt;In the late 2000s, Starbucks emerged as more than just a coffee haven; it became a social hub, a place to connect with friends and colleagues. However, during this period, the concept of free WiFi was not as ubiquitous as it is today. Instead, Starbucks UK offered a WiFi experience that required payment for access.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-era-of-paid-wifi-at-starbucks-uk&#34;&gt;The Era of Paid WiFi at Starbucks UK..&lt;/h2&gt;&#xA;&lt;p&gt;Around 2006 and 2007, Starbucks introduced its WiFi service to stores across the UK &amp;amp; Ireland, offering customers the opportunity to access the internet while sipping their favorite beverages. However, unlike today’s widespread availability of free WiFi at various establishments, the service came with a nominal fee.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ideas, thoughts, &amp; ramblings.....</title>
-      <link>https://furycd001.github.io/posts/ideas-and-ramblings/</link>
+      <link>http://localhost:1313/posts/ideas-and-ramblings/</link>
       <pubDate>Tue, 04 Jun 2024 08:16:35 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/ideas-and-ramblings/</guid>
+      <guid>http://localhost:1313/posts/ideas-and-ramblings/</guid>
       <description>&lt;h3 id=&#34;ideas-thoughts--ramblings&#34;&gt;Ideas, thoughts &amp;amp; Ramblings&amp;hellip;&lt;/h3&gt;&#xA;&lt;p&gt;that&amp;rsquo;s what this blog is all about. After spending a few days playing around with Hugo offline, I&amp;rsquo;ve discovered that I actually quite like it. It&amp;rsquo;s like a refreshing change.&lt;/p&gt;&#xA;&lt;h3 id=&#34;a-fresh-start&#34;&gt;A Fresh Start..&lt;/h3&gt;&#xA;&lt;p&gt;Initially, my plan was to transfer all my old blog posts from Publii to this new blog. However, upon reflection, I decided against it. A few of those posts were of low quality, and frankly, I have no idea why I ever published them. This fresh start gives me the opportunity to be more selective and thoughtful about the content I share.&lt;/p&gt;</description>
     </item>
     <item>
       <title>New Blog</title>
-      <link>https://furycd001.github.io/posts/new-blog/</link>
+      <link>http://localhost:1313/posts/new-blog/</link>
       <pubDate>Fri, 31 May 2024 10:20:54 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/new-blog/</guid>
+      <guid>http://localhost:1313/posts/new-blog/</guid>
       <description>&lt;p&gt;After using &lt;a href=&#34;https://getpublii.com/&#34;&gt;publii&lt;/a&gt; for several years, I&amp;rsquo;ve finally decided to switch to Hugo. I made the switch because I wanted a more minimalistic, less clunky, and easier-to-maintain solution.&lt;/p&gt;&#xA;&lt;p&gt;At the moment, I&amp;rsquo;m just testing Hugo, and this post is primarily for experimental purposes. After re-uploading a few posts from my previous blog, I&amp;rsquo;ll look at my feelings towards Hugo based on my experience and the results. Depending on how I feel about it, I may or may not stick with Hugo. I&amp;rsquo;m also considering other options, such as &lt;a href=&#34;https://github.com/hmngwy/jenny&#34;&gt;Jenny&lt;/a&gt; and [Bashblog](&lt;a href=&#34;https://github.com/cfenollosa/bashblog&#34;&gt;https://github.com/cfenollosa/bashblog&lt;/a&gt; which are on my radar as potential alternatives to explore and try.&lt;/p&gt;</description>
     </item>
   </channel>

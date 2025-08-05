@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Foss on d:tour</title>
-    <link>https://furycd001.github.io/tags/foss/</link>
+    <link>http://localhost:1313/tags/foss/</link>
     <description>Recent content in Foss on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Jul 2025 07:35:45 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/foss/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Jul 2025 06:53:47 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/foss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Transition From X11 to wayland</title>
+      <link>http://localhost:1313/posts/the-transition-from-x11-to-wayland/</link>
+      <pubDate>Thu, 31 Jul 2025 06:53:47 +0100</pubDate>
+      <guid>http://localhost:1313/posts/the-transition-from-x11-to-wayland/</guid>
+      <description>&lt;p&gt;Traditionally, Linux desktops have used X11 (via X.Org Server) to render windows and manage input. wayland emerged as a modern, simpler, and more secure protocol, with compositors like GNOME’s Mutter, KDE’s KWin, Sway, Weston, and others implementing it.&lt;/p&gt;&#xA;&lt;p&gt;Yet most existing applications, and many workflows, rely on X11. That’s why Xwayland was created, to serve as a bridge that allows X11 applications to function within a wayland environment. It translates X protocol requests into wayland-compatible ones, allowing legacy applications to continue running, often with little to no disruption.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A Thoughtful Guide to X11 Desktop Environments</title>
-      <link>https://furycd001.github.io/posts/a-thoughtful-guide-to-x11/</link>
+      <link>http://localhost:1313/posts/a-thoughtful-guide-to-x11/</link>
       <pubDate>Thu, 03 Jul 2025 07:35:45 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/a-thoughtful-guide-to-x11/</guid>
+      <guid>http://localhost:1313/posts/a-thoughtful-guide-to-x11/</guid>
       <description>&lt;p&gt;In the ever-evolving world of Linux desktop environments, there&amp;rsquo;s been a clear trend: &lt;strong&gt;Wayland&lt;/strong&gt; is growing. It&amp;rsquo;s sleek, modern, and promises a more secure and efficient future. But for many of us, &lt;strong&gt;Xorg (X11)&lt;/strong&gt; still represents stability, flexibility, and control.&lt;/p&gt;&#xA;&lt;p&gt;Whether you&amp;rsquo;re on older hardware, running highly configurable window managers, or just appreciate the tried-and-true reliability of X11, this post is for you.&lt;/p&gt;&#xA;&lt;p&gt;Let’s explore the wide variety of &lt;strong&gt;Xorg-based desktop environments&lt;/strong&gt; that continue to thrive, not as resistance to change, but as a celebration of &lt;em&gt;freedom of choice&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

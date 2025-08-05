@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electron on d:tour</title>
+    <link>http://localhost:1313/tags/electron/</link>
+    <description>Recent content in Electron on d:tour</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Jul 2025 08:55:11 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/electron/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Refuse to Use Electron Apps</title>
+      <link>http://localhost:1313/posts/why-i-refuse-to-use-electron-apps/</link>
+      <pubDate>Sun, 27 Jul 2025 08:55:11 +0100</pubDate>
+      <guid>http://localhost:1313/posts/why-i-refuse-to-use-electron-apps/</guid>
+      <description>&lt;p&gt;I’ve made a conscious decision to avoid Electron-based applications like Discord and Spotify. This stems from the same philosophy that guides me away from many popular browsers: a preference for efficiency, simplicity, and respect for system resources.&lt;/p&gt;&#xA;&lt;p&gt;Electron apps bundle an entire instance of the Chromium web engine with every application. In effect, each one is running its own standalone browser, just to render what could otherwise be a lightweight interface. This design choice might be convenient for developers, but it comes at a significant cost to users: increased RAM and CPU usage, larger disk footprints, and slower performance, especially noticeable on older or less powerful machines. There&amp;rsquo;s also the added concern of security, since these apps often lag behind in updating the embedded Chromium engine.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

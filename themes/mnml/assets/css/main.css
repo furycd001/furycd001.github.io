@@ -217,3 +217,40 @@ pre code {
   padding: 0;
   border-radius: 0;
 }
+
+table {
+  width: auto;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+  font-size: 0.95rem;
+  background-color: #525466;
+  color: #f2f2f2;
+  border: 1px solid #272B35;
+  border-radius: 4px;
+}
+
+thead {
+  background-color: #3e4251;
+}
+
+thead th {
+  text-align: left;
+  padding: 0.75em 1em;
+  font-weight: 700;
+  border-bottom: 1px solid #272B35;
+  border-left: 1px solid #272B35;;
+}
+
+tbody tr {
+  border-top: 1px solid #525466;
+}
+
+
+
+table td,
+table th {
+  white-space: nowrap;
+  padding: 0.8em;
+  border: 1px solid #272B35;;
+}

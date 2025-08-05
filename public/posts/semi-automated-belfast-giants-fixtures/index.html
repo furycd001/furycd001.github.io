@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Semi Automated Belfast Giants Fixtures | d:tour</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <header>
+  <div class="header-content">
+    <h1><a href="http://localhost:1313/">d:tour</a></h1>
+    
+  </div>
+
+  <div class="header-actions">
+    <div class="tags">
+      
+        <a href="/tags"><img src="/hashtag.svg" alt="Tags" class="icon"></a>
+      
+    </div>
+
+    <div class="external-links">
+      
+        <a href="http://localhost:1313/index.xml"><img src="/rss.svg" alt="RSS" class="icon"></a>
+      
+      
+        <a href="https://github.com/furycd001"><img src="/github.svg" alt="GitHub" class="icon"></a>
+      
+      
+        <a href="https://github.com/furycd001/dots"><img src="/dotfiles.svg" alt="Dots" class="icon"></a>
+      
+      
+        <a href="https://fosstodon.org/@Furycd001"><img src="/mastodon.svg" alt="Mastodon" class="icon"></a>
+      
+      
+        <a href="mailto:jonnybowes2000@googlemail.com"><img src="/email.svg" alt="Email" class="icon"></a>
+      
+      
+        <a href="https://paypal.me/furycd001?country.x=GB&amp;locale.x=en_GB"><img src="/donate.svg" alt="Donate" class="icon"></a>
+      
+    </div>
+  </div>
+</header>
+  </header>
+  <main>
+    
+  <article>
+    <header class="post-header">
+      <h1 class="post-title">Semi Automated Belfast Giants Fixtures</h1>
+      <p class="post-date">July 11, 2025</p>
+    </header>
+    
+    <h1 id="semi-automated-workflow-to-add-belfast-giants-fixtures-to-google-calendar">Semi-Automated Workflow to Add Belfast Giants Fixtures to Google Calendar..</h1>
+<p>This guide walks you through extracting all upcoming fixtures from the <a href="https://www.belfastgiants.com/game-centre">Belfast Giants Game Centre</a>, saving them to a CSV file, and importing them into Google Calendar — <strong>no login, APIs, or scraping frameworks required!</strong></p>
+<hr>
+<h2 id="what-youll-need">What You’ll Need..</h2>
+<ul>
+<li>Firefox or Chrome</li>
+<li>Python 3 installed</li>
+<li>Basic terminal access (Linux/BSD, Haiku or macOS )</li>
+</ul>
+<hr>
+<h2 id="step-1-extract-fixtures-in-the-browser">Step 1: Extract Fixtures in the Browser..</h2>
+<ol>
+<li>Open the <a href="https://www.belfastgiants.com/game-centre">Belfast Giants Game Centre.</a></li>
+<li>Press <strong>F12</strong> to open <strong>DevTools</strong>, then go to the <strong>Console</strong> tab.</li>
+<li>Paste in the JavaScript below and press <strong>Enter</strong>.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>(() =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">fixtures</span> <span style="color:#f92672">=</span> [];
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">gameDetails</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">querySelectorAll</span>(<span style="color:#e6db74">&#39;.matchMonth__game--details&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">gameDetails</span>.<span style="color:#a6e22e">forEach</span>(<span style="color:#a6e22e">details</span> =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">homeAway</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">details</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;.homeAway&#39;</span>)<span style="color:#f92672">?</span>.<span style="color:#a6e22e">innerText</span>.<span style="color:#a6e22e">trim</span>() <span style="color:#f92672">||</span> <span style="color:#e6db74">&#39;UNKNOWN&#39;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">competition</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">details</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;.matchMonth__competition&#39;</span>)<span style="color:#f92672">?</span>.<span style="color:#a6e22e">innerText</span>.<span style="color:#a6e22e">trim</span>() <span style="color:#f92672">||</span> <span style="color:#e6db74">&#39;UNKNOWN&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">pTag</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">details</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;p&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">strong</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">pTag</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;strong&#39;</span>)<span style="color:#f92672">?</span>.<span style="color:#a6e22e">innerText</span>.<span style="color:#a6e22e">trim</span>() <span style="color:#f92672">||</span> <span style="color:#e6db74">&#39;NO DATE/TIME&#39;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">venue</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">pTag</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">pTag</span>.<span style="color:#a6e22e">innerText</span>.<span style="color:#a6e22e">replace</span>(<span style="color:#a6e22e">strong</span>, <span style="color:#e6db74">&#39;&#39;</span>).<span style="color:#a6e22e">trim</span>() <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;NO VENUE&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">teamsContainer</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">details</span>.<span style="color:#a6e22e">nextElementSibling</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#a6e22e">teamsContainer</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">classList</span>.<span style="color:#a6e22e">contains</span>(<span style="color:#e6db74">&#39;matchMonth__game--teams&#39;</span>)) <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">teamDivs</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">teamsContainer</span>.<span style="color:#a6e22e">querySelectorAll</span>(<span style="color:#e6db74">&#39;.nameLogo&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">team1</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">teamDivs</span>[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">?</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;h4&#39;</span>)<span style="color:#f92672">?</span>.<span style="color:#a6e22e">innerText</span>.<span style="color:#a6e22e">trim</span>() <span style="color:#f92672">||</span> <span style="color:#e6db74">&#39;Team 1 missing&#39;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">team2</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">teamDivs</span>[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">?</span>.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;h4&#39;</span>)<span style="color:#f92672">?</span>.<span style="color:#a6e22e">innerText</span>.<span style="color:#a6e22e">trim</span>() <span style="color:#f92672">||</span> <span style="color:#e6db74">&#39;Team 2 missing&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fixtures</span>.<span style="color:#a6e22e">push</span>(<span style="color:#e6db74">`</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">strong</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> — </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">competition</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> — </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">homeAway</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> — </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">team1</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> VS </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">team2</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> — Venue: </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">venue</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>);
+</span></span><span style="display:flex;"><span>  });
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">output</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">fixtures</span>.<span style="color:#a6e22e">join</span>(<span style="color:#e6db74">&#39;\n&#39;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">output</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Also download as a file
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">blob</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Blob</span>([<span style="color:#a6e22e">output</span>], { <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;text/plain&#34;</span> });
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#34;a&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">href</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">URL</span>.<span style="color:#a6e22e">createObjectURL</span>(<span style="color:#a6e22e">blob</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">download</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;giantsfixtures.txt&#34;</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">click</span>();
+</span></span><span style="display:flex;"><span>})();
+</span></span></code></pre></div><p>This downloads a file named <strong><code>giantsfixtures.txt</code></strong> with clean formatting for each fixture.</p>
+<hr>
+<h2 id="step-2-convert-fixtures-to-google-calendar-format">Step 2: Convert Fixtures to Google Calendar Format..</h2>
+<p>Save the script below as <code>fixtures.py</code>, make it executable with <code>chmod +x fixtures.py</code> &amp; finally fun it <code>python3 fixtures.py</code>. This creates a file called <code>giantsfixtures.csv</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env python3</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> csv
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> re
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> datetime <span style="color:#f92672">import</span> datetime, timedelta
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>input_file <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;/home/YOURNAME/giantsfixtures.txt&#34;</span>  <span style="color:#75715e"># adjust path as needed</span>
+</span></span><span style="display:flex;"><span>output_file <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;/home/YOURNAME/giantsfixtures.csv&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">parse_fixture_line</span>(line):
+</span></span><span style="display:flex;"><span>    parts <span style="color:#f92672">=</span> line<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#39;—&#39;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> len(parts) <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">5</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    date_time_str <span style="color:#f92672">=</span> parts[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>strip()
+</span></span><span style="display:flex;"><span>    competition <span style="color:#f92672">=</span> parts[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>strip()
+</span></span><span style="display:flex;"><span>    home_away <span style="color:#f92672">=</span> parts[<span style="color:#ae81ff">2</span>]<span style="color:#f92672">.</span>strip()
+</span></span><span style="display:flex;"><span>    teams <span style="color:#f92672">=</span> parts[<span style="color:#ae81ff">3</span>]<span style="color:#f92672">.</span>strip()
+</span></span><span style="display:flex;"><span>    venue <span style="color:#f92672">=</span> parts[<span style="color:#ae81ff">4</span>]<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#39;Venue:&#39;</span>, <span style="color:#e6db74">&#39;&#39;</span>)<span style="color:#f92672">.</span>strip()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Clean suffix from day (e.g., 7th → 7)</span>
+</span></span><span style="display:flex;"><span>    date_time_str <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>sub(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;(\d{1,2})(st|nd|rd|th)&#39;</span>, <span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;\1&#39;</span>, date_time_str)
+</span></span><span style="display:flex;"><span>    date_time_str <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>sub(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;^[A-Za-z]+\s+&#39;</span>, <span style="color:#e6db74">&#39;&#39;</span>, date_time_str)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    year <span style="color:#f92672">=</span> datetime<span style="color:#f92672">.</span>now()<span style="color:#f92672">.</span>year
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        dt <span style="color:#f92672">=</span> datetime<span style="color:#f92672">.</span>strptime(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>date_time_str<span style="color:#e6db74">}</span><span style="color:#e6db74"> </span><span style="color:#e6db74">{</span>year<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>, <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> %B, %I:%M%p %Y&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">ValueError</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>            dt <span style="color:#f92672">=</span> datetime<span style="color:#f92672">.</span>strptime(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>date_time_str<span style="color:#e6db74">}</span><span style="color:#e6db74"> </span><span style="color:#e6db74">{</span>year<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>, <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> %B %I:%M%p %Y&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">ValueError</span>:
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;⚠️ Could not parse date: </span><span style="color:#e6db74">{</span>date_time_str<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;Subject&#39;</span>: <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>teams<span style="color:#e6db74">}</span><span style="color:#e6db74"> (</span><span style="color:#e6db74">{</span>home_away<span style="color:#e6db74">}</span><span style="color:#e6db74">)&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;Start Date&#39;</span>: dt<span style="color:#f92672">.</span>strftime(<span style="color:#e6db74">&#34;%Y/%m/</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">&#34;</span>),
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;Start Time&#39;</span>: dt<span style="color:#f92672">.</span>strftime(<span style="color:#e6db74">&#34;%H:%M&#34;</span>),
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;End Date&#39;</span>: dt<span style="color:#f92672">.</span>strftime(<span style="color:#e6db74">&#34;%Y/%m/</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">&#34;</span>),
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;End Time&#39;</span>: (dt <span style="color:#f92672">+</span> timedelta(hours<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>))<span style="color:#f92672">.</span>strftime(<span style="color:#e6db74">&#34;%H:%M&#34;</span>),
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;All Day Event&#39;</span>: <span style="color:#e6db74">&#39;FALSE&#39;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;Description&#39;</span>: competition,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;Location&#39;</span>: venue
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">with</span> open(input_file, <span style="color:#e6db74">&#39;r&#39;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;utf-8&#39;</span>) <span style="color:#66d9ef">as</span> fin, open(output_file, <span style="color:#e6db74">&#39;w&#39;</span>, newline<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;utf-8&#39;</span>) <span style="color:#66d9ef">as</span> fout:
+</span></span><span style="display:flex;"><span>    writer <span style="color:#f92672">=</span> csv<span style="color:#f92672">.</span>DictWriter(fout, fieldnames<span style="color:#f92672">=</span>[
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;Subject&#39;</span>, <span style="color:#e6db74">&#39;Start Date&#39;</span>, <span style="color:#e6db74">&#39;Start Time&#39;</span>, <span style="color:#e6db74">&#39;End Date&#39;</span>, <span style="color:#e6db74">&#39;End Time&#39;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;All Day Event&#39;</span>, <span style="color:#e6db74">&#39;Description&#39;</span>, <span style="color:#e6db74">&#39;Location&#39;</span>
+</span></span><span style="display:flex;"><span>    ])
+</span></span><span style="display:flex;"><span>    writer<span style="color:#f92672">.</span>writeheader()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> line <span style="color:#f92672">in</span> fin:
+</span></span><span style="display:flex;"><span>        parsed <span style="color:#f92672">=</span> parse_fixture_line(line<span style="color:#f92672">.</span>strip())
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> parsed:
+</span></span><span style="display:flex;"><span>            writer<span style="color:#f92672">.</span>writerow(parsed)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;✅ Created: </span><span style="color:#e6db74">{</span>output_file<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><hr>
+<h2 id="step-3-import-to-google-calendar">Step 3: Import to Google Calendar..</h2>
+<ol>
+<li>Open <a href="https://calendar.google.com">Google Calendar</a></li>
+<li>Click ⚙️ → <strong>Settings</strong> → <strong>Import &amp; Export</strong></li>
+<li>Choose your <code>giantsfixtures.csv</code> file</li>
+<li>Select a calendar to import into (or create one named &ldquo;Belfast Giants&rdquo;)</li>
+<li>Click <strong>Import</strong></li>
+</ol>
+<p>Done !!  All fixtures will now appear in your calendar.</p>
+
+    
+    <div class="post-tags">
+      
+        <a href="/tags/belfast-giants"><span class="tag">belfast giants</span></a>
+      
+        <a href="/tags/hockey"><span class="tag">hockey</span></a>
+      
+        <a href="/tags/automation"><span class="tag">automation</span></a>
+      
+        <a href="/tags/google-calendar"><span class="tag">google calendar</span></a>
+      
+    </div>
+  </article>
+
+  </main>
+  <footer>
+    <p>Copyright 2025 - furycd001</p>
+
+  </footer>
+</body>
+</html>

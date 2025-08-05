@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Its Ok on d:tour</title>
-    <link>https://furycd001.github.io/tags/its-ok/</link>
+    <link>http://localhost:1313/tags/its-ok/</link>
     <description>Recent content in Its Ok on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Jun 2024 09:25:33 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/its-ok/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/its-ok/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Its Ok</title>
-      <link>https://furycd001.github.io/posts/its-ok/</link>
+      <link>http://localhost:1313/posts/its-ok/</link>
       <pubDate>Fri, 28 Jun 2024 09:25:33 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/its-ok/</guid>
+      <guid>http://localhost:1313/posts/its-ok/</guid>
       <description>&lt;p&gt;In a quiet town nestled between rolling hills and dense forests, there lived a girl named Lily. With her fiery spirit and searching eyes, she always felt a bit out of place. An enigma to those around her, Lily embraced her uniqueness with quiet strength.&lt;/p&gt;&#xA;&lt;p&gt;As she walked through the town square, she would often whisper to herself:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Take me or leave me; you don&amp;rsquo;t have to believe me.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Her thoughts swirled like autumn leaves around her. She had a deep reservoir of words and songs inside her, waiting to be shared.&lt;/p&gt;</description>
     </item>
   </channel>

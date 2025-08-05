@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vm on d:tour</title>
+    <link>http://localhost:1313/tags/vm/</link>
+    <description>Recent content in Vm on d:tour</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Jul 2025 07:46:58 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dive into DistroSea..</title>
+      <link>http://localhost:1313/posts/dive-into-distrosea/</link>
+      <pubDate>Tue, 15 Jul 2025 07:46:58 +0100</pubDate>
+      <guid>http://localhost:1313/posts/dive-into-distrosea/</guid>
+      <description>&lt;p&gt;If you’ve ever wanted to explore a Linux distribution without the fuss of downloading ISOs or setting up virtual machines, &lt;strong&gt;&lt;a href=&#34;https://distrosea.com&#34;&gt;DistroSea&lt;/a&gt;&lt;/strong&gt; lets you dive in instantly, right from your browser.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-what-is-distrosea&#34;&gt;1. What Is DistroSea?&lt;/h3&gt;&#xA;&lt;p&gt;DistroSea is a free web-based platform that lets you launch and interact with over 60 Linux and BSD distributions directly in your browser, no installation needed. From mainstream distros like Ubuntu, Fedora, and Debian to niche options like Void, DragonFlyBSD, and Haiku, there’s something for every user.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

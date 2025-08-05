@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>The Transition From X11 to wayland | d:tour</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <header>
+  <div class="header-content">
+    <h1><a href="http://localhost:1313/">d:tour</a></h1>
+    
+  </div>
+
+  <div class="header-actions">
+    <div class="tags">
+      
+        <a href="/tags"><img src="/hashtag.svg" alt="Tags" class="icon"></a>
+      
+    </div>
+
+    <div class="external-links">
+      
+        <a href="http://localhost:1313/index.xml"><img src="/rss.svg" alt="RSS" class="icon"></a>
+      
+      
+        <a href="https://github.com/furycd001"><img src="/github.svg" alt="GitHub" class="icon"></a>
+      
+      
+        <a href="https://github.com/furycd001/dots"><img src="/dotfiles.svg" alt="Dots" class="icon"></a>
+      
+      
+        <a href="https://fosstodon.org/@Furycd001"><img src="/mastodon.svg" alt="Mastodon" class="icon"></a>
+      
+      
+        <a href="mailto:jonnybowes2000@googlemail.com"><img src="/email.svg" alt="Email" class="icon"></a>
+      
+      
+        <a href="https://paypal.me/furycd001?country.x=GB&amp;locale.x=en_GB"><img src="/donate.svg" alt="Donate" class="icon"></a>
+      
+    </div>
+  </div>
+</header>
+  </header>
+  <main>
+    
+  <article>
+    <header class="post-header">
+      <h1 class="post-title">The Transition From X11 to wayland</h1>
+      <p class="post-date">July 31, 2025</p>
+    </header>
+    
+    <p>Traditionally, Linux desktops have used X11 (via X.Org Server) to render windows and manage input. wayland emerged as a modern, simpler, and more secure protocol, with compositors like GNOME’s Mutter, KDE’s KWin, Sway, Weston, and others implementing it.</p>
+<p>Yet most existing applications, and many workflows, rely on X11. That’s why Xwayland was created, to serve as a bridge that allows X11 applications to function within a wayland environment. It translates X protocol requests into wayland-compatible ones, allowing legacy applications to continue running, often with little to no disruption.</p>
+<h2 id="xwayland--the-well-established-bridge">Xwayland – the well-established bridge..</h2>
+<ul>
+<li>Rootless integration: Xwayland allows X11 windows to blend with wayland-native windows; the compositor manages their decoration and position.</li>
+<li>Widely supported and tested, part of X.Org since 1.16.</li>
+<li>Works across toolkits (GTK, Qt &amp; others) that support both display backends.</li>
+</ul>
+<p><strong>Limitations</strong>: while compatibility is solid, not all X11 features port cleanly; certain use‑cases, like screen recording, accessibility tools, or session restoration, sometimes work less smoothly under wayland, even with Xwayland involved.</p>
+<h2 id="wayback--running-full-x11-desktop-environments-atop-wayland">wayback – running full X11 desktop environments atop wayland..</h2>
+<p>wayback, introduced in July 2025, is an experimental compatibility layer that goes further: it hosts a rootful Xwayland server inside a stub wayland compositor, enabling entire X11 desktop environments (like Xfce or legacy GNOME) to run unchanged on wayland systems. It was developed by Alpine Linux’s Ariadne Conill, aiming to replace X.Org by reducing X11 maintenance burden. Alpine even hopes to make it default in future releases.</p>
+<h3 id="pros">Pros:</h3>
+<ul>
+<li>Full desktop support: legacy sessions work as they always did.</li>
+<li>Leverages wayland ecosystem components.</li>
+<li>Saves effort for distros maintaining X-only environments.</li>
+</ul>
+<h3 id="cons">Cons:</h3>
+<ul>
+<li>Highly experimental, buggy, breaking changes &amp; still in the early stage of development.</li>
+<li>May lag daily user expectations.</li>
+<li>Unclear ecosystem support beyond Alpine.</li>
+</ul>
+<h2 id="xlibre--modernizing-x11-from-within">Xlibre – modernizing X11 from within..</h2>
+<p>Xlibre isn’t a compatibility layer, it’s a direct fork of the X.Org Server, created with the goal of revitalizing X11 by improving performance and security while maintaining full legacy support. Led by long-time X.Org contributor Enrico Weigelt, the project has already released its first beta, titled <em>“Summer Solstice” (25.0.0.0)</em>, and reports thousands of commits since its inception.</p>
+<h3 id="pros-1">Pros:</h3>
+<ul>
+<li>Maintains full X11 feature-set: use cases like remote‑X, screen sharing, window tiling, hardware compatibility remain fully supported.</li>
+<li>Adheres to a meritocratic development philosophy focused on functionality first.</li>
+<li>Offers a potential full alternative to wayland when full parity with X is required.</li>
+</ul>
+<h3 id="cons-1">Cons:</h3>
+<ul>
+<li>Single-point development; long‑term adoption path uncertain.</li>
+<li>Not yet adopted by major distributions.</li>
+</ul>
+<h2 id="should-you-stick-with-x11-use-compatibility-layers-or-try-something-new-">Should you stick with X11, use compatibility layers, or try something new :?</h2>
+<h3 id="staying-on-x11-xorg-or-xlibre">Staying on X11 (X.Org or Xlibre)</h3>
+<p>Choose this if you rely on advanced remote desktop workflows (SSH/X forwarding, VNC), screen recording, legacy apps, or multi-output scaling behavior that wayland still struggles with.</p>
+<p>Xlibre may offer a future-maintained alternative, provided it gains stability and community acceptance.</p>
+<h3 id="using-wayland--xwayland">Using wayland + Xwayland</h3>
+<p>Perfect if your primary apps work fine natively on wayland, but you occasionally need X11 compatibility. You benefit from smoother compositing, better security isolation, and simpler architecture.</p>
+<p>But expect minor regressions with some legacy use cases.</p>
+<h3 id="try-wayback-experimental">Try wayback (experimental)</h3>
+<p>If you must run full X11 desktops unchanged while using a wayland-based system, wayback is intriguing. It might suit developers or distributions experimenting with legacy environments. But it&rsquo;s not ready for daily use yet.</p>
+<h2 id="final-thoughts">Final Thoughts..</h2>
+<ul>
+<li>Wayland + Xwayland offers the best balance today for most users. You gain wayland advantages while retaining legacy app access.</li>
+<li>If you prioritize long‑term X11 viability, Xlibre is an interesting path, but be aware of its still‑beta nature.</li>
+<li>For full legacy desktop compatibility under wayland, wayback is a clever idea still in infancy. Watch its development, but don’t rely on it for production workflows yet.</li>
+</ul>
+<p>Whichever path you take, the first step is understanding your own needs, whether it&rsquo;s legacy compatibility, performance, remote access, or control over development. In the end, multiple solutions will continue to coexist: traditional X11 on some systems, Wayland-based desktops using XWayland on others, and projects like Wayback or Xlibre supporting more niche or legacy-focused environments.</p>
+
+    
+    <div class="post-tags">
+      
+        <a href="/tags/linux"><span class="tag">Linux</span></a>
+      
+        <a href="/tags/operating-systems"><span class="tag">operating systems</span></a>
+      
+        <a href="/tags/desktop-environments"><span class="tag">desktop environments</span></a>
+      
+        <a href="/tags/x11"><span class="tag">x11</span></a>
+      
+        <a href="/tags/wayland"><span class="tag">wayland</span></a>
+      
+        <a href="/tags/foss"><span class="tag">foss</span></a>
+      
+        <a href="/tags/open-source"><span class="tag">open source</span></a>
+      
+    </div>
+  </article>
+
+  </main>
+  <footer>
+    <p>Copyright 2025 - furycd001</p>
+
+  </footer>
+</body>
+</html>

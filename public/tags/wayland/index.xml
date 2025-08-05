@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wayland on d:tour</title>
+    <link>http://localhost:1313/tags/wayland/</link>
+    <description>Recent content in Wayland on d:tour</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jul 2025 06:53:47 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/wayland/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Transition From X11 to wayland</title>
+      <link>http://localhost:1313/posts/the-transition-from-x11-to-wayland/</link>
+      <pubDate>Thu, 31 Jul 2025 06:53:47 +0100</pubDate>
+      <guid>http://localhost:1313/posts/the-transition-from-x11-to-wayland/</guid>
+      <description>&lt;p&gt;Traditionally, Linux desktops have used X11 (via X.Org Server) to render windows and manage input. wayland emerged as a modern, simpler, and more secure protocol, with compositors like GNOME’s Mutter, KDE’s KWin, Sway, Weston, and others implementing it.&lt;/p&gt;&#xA;&lt;p&gt;Yet most existing applications, and many workflows, rely on X11. That’s why Xwayland was created, to serve as a bridge that allows X11 applications to function within a wayland environment. It translates X protocol requests into wayland-compatible ones, allowing legacy applications to continue running, often with little to no disruption.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

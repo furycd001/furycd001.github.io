@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Why Im No Longer Sure About Ubuntu | d:tour</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <header>
+  <div class="header-content">
+    <h1><a href="http://localhost:1313/">d:tour</a></h1>
+    
+  </div>
+
+  <div class="header-actions">
+    <div class="tags">
+      
+        <a href="/tags"><img src="/hashtag.svg" alt="Tags" class="icon"></a>
+      
+    </div>
+
+    <div class="external-links">
+      
+        <a href="http://localhost:1313/index.xml"><img src="/rss.svg" alt="RSS" class="icon"></a>
+      
+      
+        <a href="https://github.com/furycd001"><img src="/github.svg" alt="GitHub" class="icon"></a>
+      
+      
+        <a href="https://github.com/furycd001/dots"><img src="/dotfiles.svg" alt="Dots" class="icon"></a>
+      
+      
+        <a href="https://fosstodon.org/@Furycd001"><img src="/mastodon.svg" alt="Mastodon" class="icon"></a>
+      
+      
+        <a href="mailto:jonnybowes2000@googlemail.com"><img src="/email.svg" alt="Email" class="icon"></a>
+      
+      
+        <a href="https://paypal.me/furycd001?country.x=GB&amp;locale.x=en_GB"><img src="/donate.svg" alt="Donate" class="icon"></a>
+      
+    </div>
+  </div>
+</header>
+  </header>
+  <main>
+    
+  <article>
+    <header class="post-header">
+      <h1 class="post-title">Why Im No Longer Sure About Ubuntu</h1>
+      <p class="post-date">August 5, 2025</p>
+    </header>
+    
+    <p>For as long as I’ve used Linux, Ubuntu has been a name I associated with approachability &amp; stability. It was often the distribution I recommended to new users, an accessible introduction to the wider Linux world that made things feel less intimidating. But lately, I’ve found myself pausing, and not just pausing, but reconsidering whether Ubuntu is still aligned with what I value in a Linux distribution.</p>
+<h3 id="a-new-direction">A New Direction</h3>
+<p>Over the past few cycles, Ubuntu has started replacing long-standing GNU tools like coreutils, curl, diff, findutils, HTTPie, sudo, and even wget with modern rewrites. Tools like uutils, sudo-rs and xh are being introduced as defaults in some images, replacing their tried-and-tested counterparts.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Original</th>
+          <th>Replaced With</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>coreutils</td>
+          <td>uutils</td>
+      </tr>
+      <tr>
+          <td>curl</td>
+          <td>xh</td>
+      </tr>
+      <tr>
+          <td>diff</td>
+          <td>diffutils <em>(part of uutils)</em></td>
+      </tr>
+      <tr>
+          <td>findutils</td>
+          <td>findutils <em>(part of uutils)</em></td>
+      </tr>
+      <tr>
+          <td>HTTPie</td>
+          <td>xh</td>
+      </tr>
+      <tr>
+          <td>sudo</td>
+          <td>sudo-rs</td>
+      </tr>
+      <tr>
+          <td>wget</td>
+          <td>wcurl</td>
+      </tr>
+  </tbody>
+</table>
+<p>Let me be clear: this isn’t inherently a bad thing. Innovation in open source is vital, and rewriting old tools in safer, more maintainable languages like Rust can bring genuine benefits: memory safety, clearer error messages, better performance in some cases. I understand and respect that. But by altering its core tooling, Ubuntu risks disrupting the reliability and predictability that have long defined its place in the Linux ecosystem.</p>
+<h3 id="familiarity-is-a-feature">Familiarity Is a Feature</h3>
+<p>For many of us who’ve spent years in the terminal, the Unix philosophy of building tools that do one thing well, interoperate cleanly, and behave consistently across systems is not just a technical ideal. It’s a deeply ingrained muscle memory.</p>
+<p>Replacing tools like ls, cp, grep, or wget with alternatives that may behave differently, interpret flags differently, or break scripts in subtle ways… this is not just modernization. It’s erosion of a shared foundation.</p>
+<p>And for newer users, it risks confusion. When tutorials written a year ago no longer work on your current Ubuntu install because grep or wget has slightly different behavior, who gets blamed? The tutorial writer? The user? Or the distro that swapped a decades-old tool for a newcomer with a similar name?</p>
+<h3 id="the-cost-of-divergence">The Cost of Divergence</h3>
+<p>Ubuntu has always walked a delicate line, between being a bold innovator (with things like Snap, Upstart, Unity, &amp; Mir etc.) and being a solid base that the Linux ecosystem can rely on. These changes risk tipping that balance too far toward the former.</p>
+<p>To be clear: there are legitimate motivations behind these changes. Security and maintainability matter, especially at scale. Rust, the language behind many of these rewrites, has a lot going for it. And it&rsquo;s fair to question whether some GNU tools, maintained by relatively small teams, can meet the evolving demands of today’s systems.</p>
+<p>But the broader question remains: should Ubuntu be the distribution that pushes these changes onto users by default?</p>
+<p>That’s where I personally start to lose confidence.</p>
+<h3 id="i-want-to-recommend-ubuntu-but">I Want to Recommend Ubuntu, But…</h3>
+<ul>
+<li>I want to be able to recommend Ubuntu to someone without mentally appending an asterisk.</li>
+<li>I want to know that when I SSH into an Ubuntu server, the tools I reach for will behave as expected.</li>
+<li>I want my scripts and habits, formed over the years, to remain portable, reliable, and trusted.</li>
+</ul>
+<p>But I’m finding that harder to do.</p>
+<p>Instead, I’ve started pointing new users toward distributions that are more conservative with core tooling: Arch, Debian, or openSUSE. Not because they’re perfect, but because they seem more committed to the principle of consistency over novelty, at least where it counts most.</p>
+<h3 id="leaving-room-for-change">Leaving Room for Change</h3>
+<p>This isn’t a call to reject all progress. I’m not <em>&ldquo;anti-Rust&rdquo;</em>, nor do I think coreutils are untouchable. If these newer tools can prove themselves in parallel, without breaking what already works, I’ll welcome them with open arms.</p>
+<p>Ubuntu has done a lot for Linux. It’s introduced countless people to the free software world. That’s a legacy worth preserving, and continuing, with care.</p>
+<p>I hope Ubuntu finds a way to champion modern tooling without alienating the people who’ve trusted and built on its foundation for years.</p>
+
+    
+    <div class="post-tags">
+      
+        <a href="/tags/linux"><span class="tag">Linux</span></a>
+      
+        <a href="/tags/ubuntu"><span class="tag">ubuntu</span></a>
+      
+        <a href="/tags/tech"><span class="tag">tech</span></a>
+      
+        <a href="/tags/ramblings"><span class="tag">ramblings</span></a>
+      
+    </div>
+  </article>
+
+  </main>
+  <footer>
+    <p>Copyright 2025 - furycd001</p>
+
+  </footer>
+</body>
+</html>

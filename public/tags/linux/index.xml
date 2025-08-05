@@ -2,52 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on d:tour</title>
-    <link>https://furycd001.github.io/tags/linux/</link>
+    <link>http://localhost:1313/tags/linux/</link>
     <description>Recent content in Linux on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Jul 2025 07:35:45 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Aug 2025 06:55:44 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Im No Longer Sure About Ubuntu</title>
+      <link>http://localhost:1313/posts/why-im-no-longer-sure-about-ubuntu/</link>
+      <pubDate>Tue, 05 Aug 2025 06:55:44 +0100</pubDate>
+      <guid>http://localhost:1313/posts/why-im-no-longer-sure-about-ubuntu/</guid>
+      <description>&lt;p&gt;For as long as I’ve used Linux, Ubuntu has been a name I associated with approachability &amp;amp; stability. It was often the distribution I recommended to new users, an accessible introduction to the wider Linux world that made things feel less intimidating. But lately, I’ve found myself pausing, and not just pausing, but reconsidering whether Ubuntu is still aligned with what I value in a Linux distribution.&lt;/p&gt;&#xA;&lt;h3 id=&#34;a-new-direction&#34;&gt;A New Direction&lt;/h3&gt;&#xA;&lt;p&gt;Over the past few cycles, Ubuntu has started replacing long-standing GNU tools like coreutils, curl, diff, findutils, HTTPie, sudo, and even wget with modern rewrites. Tools like uutils, sudo-rs and xh are being introduced as defaults in some images, replacing their tried-and-tested counterparts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Transition From X11 to wayland</title>
+      <link>http://localhost:1313/posts/the-transition-from-x11-to-wayland/</link>
+      <pubDate>Thu, 31 Jul 2025 06:53:47 +0100</pubDate>
+      <guid>http://localhost:1313/posts/the-transition-from-x11-to-wayland/</guid>
+      <description>&lt;p&gt;Traditionally, Linux desktops have used X11 (via X.Org Server) to render windows and manage input. wayland emerged as a modern, simpler, and more secure protocol, with compositors like GNOME’s Mutter, KDE’s KWin, Sway, Weston, and others implementing it.&lt;/p&gt;&#xA;&lt;p&gt;Yet most existing applications, and many workflows, rely on X11. That’s why Xwayland was created, to serve as a bridge that allows X11 applications to function within a wayland environment. It translates X protocol requests into wayland-compatible ones, allowing legacy applications to continue running, often with little to no disruption.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why I Refuse to Use Electron Apps</title>
+      <link>http://localhost:1313/posts/why-i-refuse-to-use-electron-apps/</link>
+      <pubDate>Sun, 27 Jul 2025 08:55:11 +0100</pubDate>
+      <guid>http://localhost:1313/posts/why-i-refuse-to-use-electron-apps/</guid>
+      <description>&lt;p&gt;I’ve made a conscious decision to avoid Electron-based applications like Discord and Spotify. This stems from the same philosophy that guides me away from many popular browsers: a preference for efficiency, simplicity, and respect for system resources.&lt;/p&gt;&#xA;&lt;p&gt;Electron apps bundle an entire instance of the Chromium web engine with every application. In effect, each one is running its own standalone browser, just to render what could otherwise be a lightweight interface. This design choice might be convenient for developers, but it comes at a significant cost to users: increased RAM and CPU usage, larger disk footprints, and slower performance, especially noticeable on older or less powerful machines. There&amp;rsquo;s also the added concern of security, since these apps often lag behind in updating the embedded Chromium engine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dive into DistroSea..</title>
+      <link>http://localhost:1313/posts/dive-into-distrosea/</link>
+      <pubDate>Tue, 15 Jul 2025 07:46:58 +0100</pubDate>
+      <guid>http://localhost:1313/posts/dive-into-distrosea/</guid>
+      <description>&lt;p&gt;If you’ve ever wanted to explore a Linux distribution without the fuss of downloading ISOs or setting up virtual machines, &lt;strong&gt;&lt;a href=&#34;https://distrosea.com&#34;&gt;DistroSea&lt;/a&gt;&lt;/strong&gt; lets you dive in instantly, right from your browser.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-what-is-distrosea&#34;&gt;1. What Is DistroSea?&lt;/h3&gt;&#xA;&lt;p&gt;DistroSea is a free web-based platform that lets you launch and interact with over 60 Linux and BSD distributions directly in your browser, no installation needed. From mainstream distros like Ubuntu, Fedora, and Debian to niche options like Void, DragonFlyBSD, and Haiku, there’s something for every user.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A Thoughtful Guide to X11 Desktop Environments</title>
-      <link>https://furycd001.github.io/posts/a-thoughtful-guide-to-x11/</link>
+      <link>http://localhost:1313/posts/a-thoughtful-guide-to-x11/</link>
       <pubDate>Thu, 03 Jul 2025 07:35:45 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/a-thoughtful-guide-to-x11/</guid>
+      <guid>http://localhost:1313/posts/a-thoughtful-guide-to-x11/</guid>
       <description>&lt;p&gt;In the ever-evolving world of Linux desktop environments, there&amp;rsquo;s been a clear trend: &lt;strong&gt;Wayland&lt;/strong&gt; is growing. It&amp;rsquo;s sleek, modern, and promises a more secure and efficient future. But for many of us, &lt;strong&gt;Xorg (X11)&lt;/strong&gt; still represents stability, flexibility, and control.&lt;/p&gt;&#xA;&lt;p&gt;Whether you&amp;rsquo;re on older hardware, running highly configurable window managers, or just appreciate the tried-and-true reliability of X11, this post is for you.&lt;/p&gt;&#xA;&lt;p&gt;Let’s explore the wide variety of &lt;strong&gt;Xorg-based desktop environments&lt;/strong&gt; that continue to thrive, not as resistance to change, but as a celebration of &lt;em&gt;freedom of choice&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Choosing a System Service Manager: A Personal Perspective</title>
-      <link>https://furycd001.github.io/posts/system-service-managers/</link>
+      <link>http://localhost:1313/posts/system-service-managers/</link>
       <pubDate>Tue, 17 Jun 2025 21:25:13 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/system-service-managers/</guid>
+      <guid>http://localhost:1313/posts/system-service-managers/</guid>
       <description>&lt;p&gt;When it comes to system service managers on Linux, such as systemd, OpenRC, runit, SysVinit, and others, the conversation can quickly turn into a debate. Each has its merits, its history, and its dedicated user base. But for most people using Linux on a desktop or laptop, the differences between them often fade quietly into the background.&lt;/p&gt;&#xA;&lt;p&gt;At their core, service managers are responsible for initializing the system, managing background services (daemons), handling dependencies, logging, and shutting down gracefully. On servers, where stability, fine-grained control, and predictability are essential, choosing the right init system can be a high-stakes decision. Administrators often require transparency, auditability, and exact behavior, especially in high-availability or containerized environments.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why a Derivative of a Derivative Might Not Be the Best Choice</title>
-      <link>https://furycd001.github.io/posts/derivative-of-a-derivative/</link>
+      <link>http://localhost:1313/posts/derivative-of-a-derivative/</link>
       <pubDate>Thu, 05 Dec 2024 07:32:12 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/derivative-of-a-derivative/</guid>
+      <guid>http://localhost:1313/posts/derivative-of-a-derivative/</guid>
       <description>&lt;p&gt;When it comes to choosing a Linux distribution, the options can feel overwhelming. From the giants like Arch, Fedora, OpenSuse and Ubuntu, to the more niche derivatives that branch off these powerhouses, there’s a flavor for just about everyone. But what happens when you venture beyond a first-layer derivative to a derivative of a derivative? While it might seem harmless, this extra step away from the “source” can sometimes create unforeseen challenges that are worth considering before you commit.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Basics of Creating an Interactive Bash Script</title>
-      <link>https://furycd001.github.io/posts/basics-of-creating-an-interactive-bash-script/</link>
+      <link>http://localhost:1313/posts/basics-of-creating-an-interactive-bash-script/</link>
       <pubDate>Fri, 06 Sep 2024 10:49:33 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/basics-of-creating-an-interactive-bash-script/</guid>
+      <guid>http://localhost:1313/posts/basics-of-creating-an-interactive-bash-script/</guid>
       <description>&lt;p&gt;Creating an interactive bash script is like adding a dash of magic to your terminal adventures!! It’s a fun and clever way to automate repetitive tasks and make your command-line experience smoother and more enjoyable. Here’s a little guide to sprinkle some scripting sparkle into your life:&lt;/p&gt;&#xA;&lt;h3 id=&#34;create-the-script-file&#34;&gt;Create the Script File:&lt;/h3&gt;&#xA;&lt;p&gt;Start by creating a new file for your script. Open your terminal and use a text editor to create a file, such as &lt;code&gt;vim script-whatever.sh&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reimagining Terminal Software</title>
-      <link>https://furycd001.github.io/posts/reimagining-terminal-software/</link>
+      <link>http://localhost:1313/posts/reimagining-terminal-software/</link>
       <pubDate>Fri, 23 Aug 2024 06:54:17 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/reimagining-terminal-software/</guid>
+      <guid>http://localhost:1313/posts/reimagining-terminal-software/</guid>
       <description>&lt;p&gt;In the world of technology, there’s something quietly beautiful about the way people are revisiting and reimagining old terminal software. These programs, with their roots dating back to the early days of computing, have been the backbone of countless systems for decades. But as technology evolves, so do the ways we interact with it.&lt;/p&gt;&#xA;&lt;p&gt;Some modern developers are taking these time-tested tools and giving them a fresh coat of paint, not to erase the past but to enhance it. By rewriting and tweaking the old software, they aim to improve functionality, make interfaces more intuitive, or simply adapt the software to meet today’s needs. It’s a delicate balance—respecting the original while embracing the possibilities of the new.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Finding Joy in Linux: Why It’s My Happy Place</title>
-      <link>https://furycd001.github.io/posts/finding-joy-in-linux/</link>
+      <link>http://localhost:1313/posts/finding-joy-in-linux/</link>
       <pubDate>Wed, 14 Aug 2024 06:32:12 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/finding-joy-in-linux/</guid>
+      <guid>http://localhost:1313/posts/finding-joy-in-linux/</guid>
       <description>&lt;p&gt;There’s something truly special about finding something that not only fits your needs but also brings you joy. For me, that&amp;rsquo;s Linux. It’s more than just an operating system—it’s a source of happiness, freedom, and all things good.&lt;/p&gt;&#xA;&lt;p&gt;I’ve been using Linux since 2002, and I can honestly say I’ve never looked back. There’s a certain magic in its flexibility and the way it empowers you to customize everything just the way you like. Unlike Windows or macOS, Linux doesn’t box you in; instead, it opens up a world of possibilities.&lt;/p&gt;</description>
     </item>
   </channel>

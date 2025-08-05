@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computers on d:tour</title>
-    <link>https://furycd001.github.io/tags/computers/</link>
+    <link>http://localhost:1313/tags/computers/</link>
     <description>Recent content in Computers on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Aug 2024 06:54:17 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/computers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/computers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reimagining Terminal Software</title>
-      <link>https://furycd001.github.io/posts/reimagining-terminal-software/</link>
+      <link>http://localhost:1313/posts/reimagining-terminal-software/</link>
       <pubDate>Fri, 23 Aug 2024 06:54:17 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/reimagining-terminal-software/</guid>
+      <guid>http://localhost:1313/posts/reimagining-terminal-software/</guid>
       <description>&lt;p&gt;In the world of technology, there’s something quietly beautiful about the way people are revisiting and reimagining old terminal software. These programs, with their roots dating back to the early days of computing, have been the backbone of countless systems for decades. But as technology evolves, so do the ways we interact with it.&lt;/p&gt;&#xA;&lt;p&gt;Some modern developers are taking these time-tested tools and giving them a fresh coat of paint, not to erase the past but to enhance it. By rewriting and tweaking the old software, they aim to improve functionality, make interfaces more intuitive, or simply adapt the software to meet today’s needs. It’s a delicate balance—respecting the original while embracing the possibilities of the new.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Finding Joy in Linux: Why It’s My Happy Place</title>
-      <link>https://furycd001.github.io/posts/finding-joy-in-linux/</link>
+      <link>http://localhost:1313/posts/finding-joy-in-linux/</link>
       <pubDate>Wed, 14 Aug 2024 06:32:12 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/finding-joy-in-linux/</guid>
+      <guid>http://localhost:1313/posts/finding-joy-in-linux/</guid>
       <description>&lt;p&gt;There’s something truly special about finding something that not only fits your needs but also brings you joy. For me, that&amp;rsquo;s Linux. It’s more than just an operating system—it’s a source of happiness, freedom, and all things good.&lt;/p&gt;&#xA;&lt;p&gt;I’ve been using Linux since 2002, and I can honestly say I’ve never looked back. There’s a certain magic in its flexibility and the way it empowers you to customize everything just the way you like. Unlike Windows or macOS, Linux doesn’t box you in; instead, it opens up a world of possibilities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pc Perdicaments</title>
-      <link>https://furycd001.github.io/posts/pc-perdicaments/</link>
+      <link>http://localhost:1313/posts/pc-perdicaments/</link>
       <pubDate>Mon, 24 Jun 2024 09:55:54 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/pc-perdicaments/</guid>
+      <guid>http://localhost:1313/posts/pc-perdicaments/</guid>
       <description>&lt;p&gt;In a cosy kitchen, a computer sat quietly in the corner underneath a black wooden desk. A reliable companion in a world increasingly dominated by sleek, modern devices. It wasn&amp;rsquo;t old, but it wasn&amp;rsquo;t brand new either—a comfortable middle ground. Running Linux, it represented a blend of stability and versatility, though not without its quirks. Its owner didn’t ask for much—just for it to work as expected.&lt;/p&gt;&#xA;&lt;p&gt;Every morning, the computer was powered on with a sense of hope. The familiar hum of the fan and the soft glow of the screen brought a small but significant comfort. Its operating system, a sturdy version of Linux, booted up smoothly most days. However, there were times when unexpected glitches would appear—a program crashing here, a slow response there. These minor annoyances didn’t make the computer boring; they added a layer of challenge, a puzzle to solve.&lt;/p&gt;</description>
     </item>
   </channel>

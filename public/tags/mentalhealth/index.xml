@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mentalhealth on d:tour</title>
-    <link>https://furycd001.github.io/tags/mentalhealth/</link>
+    <link>http://localhost:1313/tags/mentalhealth/</link>
     <description>Recent content in Mentalhealth on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Mar 2025 20:56:31 +0000</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/mentalhealth/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/mentalhealth/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Embracing the power of silence: A somewhat guide to mindful living</title>
-      <link>https://furycd001.github.io/posts/embracing-the-power-of-silence/</link>
+      <link>http://localhost:1313/posts/embracing-the-power-of-silence/</link>
       <pubDate>Fri, 07 Mar 2025 20:56:31 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/embracing-the-power-of-silence/</guid>
+      <guid>http://localhost:1313/posts/embracing-the-power-of-silence/</guid>
       <description>&lt;p&gt;In a world that often feels overwhelmingly noisy, taking time to be still and speak less can have a profound impact on our wellbeing. Mindfulness isn&amp;rsquo;t just about meditation or quiet reflection—it&amp;rsquo;s about cultivating a lifestyle that values listening over constant chatter, intentionality over impulsiveness, and inner calm over external chaos. In this post, I want to try and explore the benefits of embracing silence and offer some practical tips for integrating more mindful moments into your daily.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Falling Apart</title>
-      <link>https://furycd001.github.io/posts/falling-apart/</link>
+      <link>http://localhost:1313/posts/falling-apart/</link>
       <pubDate>Mon, 26 Aug 2024 09:58:50 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/falling-apart/</guid>
+      <guid>http://localhost:1313/posts/falling-apart/</guid>
       <description>&lt;p&gt;Sometimes, it feels like we&amp;rsquo;re falling apart, like no matter what we do, we&amp;rsquo;re always falling short, making mistakes, messing things up, or that something goes wrong. But here&amp;rsquo;s the thing: we&amp;rsquo;re not always any of those things. Life can simply be hard sometimes. It&amp;rsquo;s full of challenges, unexpected twists, and moments that can make us feel overwhelmed or that the weight of the world is too much to carry. There are days when it seems like giving up might be easier than pushing forward. Just sometimes, life is simply hard.&lt;/p&gt;</description>
     </item>
   </channel>

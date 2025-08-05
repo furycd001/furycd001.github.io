@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technology on d:tour</title>
-    <link>https://furycd001.github.io/tags/technology/</link>
+    <link>http://localhost:1313/tags/technology/</link>
     <description>Recent content in Technology on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Jun 2024 10:38:29 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Heliboard</title>
-      <link>https://furycd001.github.io/posts/heliboard/</link>
+      <link>http://localhost:1313/posts/heliboard/</link>
       <pubDate>Wed, 26 Jun 2024 10:38:29 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/heliboard/</guid>
+      <guid>http://localhost:1313/posts/heliboard/</guid>
       <description>&lt;p&gt;Jonny had always been curious about open-source technology, so when he heard about the open-source &lt;a href=&#34;https://github.com/Helium314/HeliBoard&#34;&gt;Heliboard&lt;/a&gt; keyboard for his phone, he decided to give it a try. The idea of using an open-source keyboard for enhanced privacy intrigued him, promising a level of data security that the default keyboard just couldn&amp;rsquo;t offer. He eagerly installed it, ready to protect his personal information.&lt;/p&gt;&#xA;&lt;p&gt;However, from the moment Jonny started using Heliboard, things didn&amp;rsquo;t go as smoothly as he had hoped. Instead of the seamless experience he anticipated, he found himself constantly mistyping words and pressing the wrong buttons. With every little thing Jonny typed, he slowly became a little frustrated. Typed text was littered with typos and autocorrect failures, and simple phrases turned into jumbled nonsense. His friends started making playful jabs at his new creative spelling.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Early Days of Paid Wifi With Starbucks</title>
-      <link>https://furycd001.github.io/posts/the-early-days-of-paid-wifi-with-starbucks/</link>
+      <link>http://localhost:1313/posts/the-early-days-of-paid-wifi-with-starbucks/</link>
       <pubDate>Tue, 04 Jun 2024 14:18:58 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-early-days-of-paid-wifi-with-starbucks/</guid>
+      <guid>http://localhost:1313/posts/the-early-days-of-paid-wifi-with-starbucks/</guid>
       <description>&lt;p&gt;In the late 2000s, Starbucks emerged as more than just a coffee haven; it became a social hub, a place to connect with friends and colleagues. However, during this period, the concept of free WiFi was not as ubiquitous as it is today. Instead, Starbucks UK offered a WiFi experience that required payment for access.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-era-of-paid-wifi-at-starbucks-uk&#34;&gt;The Era of Paid WiFi at Starbucks UK..&lt;/h2&gt;&#xA;&lt;p&gt;Around 2006 and 2007, Starbucks introduced its WiFi service to stores across the UK &amp;amp; Ireland, offering customers the opportunity to access the internet while sipping their favorite beverages. However, unlike today’s widespread availability of free WiFi at various establishments, the service came with a nominal fee.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mozilla on d:tour</title>
-    <link>https://furycd001.github.io/tags/mozilla/</link>
+    <link>http://localhost:1313/tags/mozilla/</link>
     <description>Recent content in Mozilla on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Mar 2025 09:40:29 +0000</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/mozilla/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/mozilla/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Take on Mozilla’s New Firefox Terms of Use</title>
-      <link>https://furycd001.github.io/posts/my-take-on-mozilla-s-new-firefox-terms-of-use/</link>
+      <link>http://localhost:1313/posts/my-take-on-mozilla-s-new-firefox-terms-of-use/</link>
       <pubDate>Tue, 04 Mar 2025 09:40:29 +0000</pubDate>
-      <guid>https://furycd001.github.io/posts/my-take-on-mozilla-s-new-firefox-terms-of-use/</guid>
+      <guid>http://localhost:1313/posts/my-take-on-mozilla-s-new-firefox-terms-of-use/</guid>
       <description>&lt;p&gt;This is my take on &lt;strong&gt;&lt;a href=&#34;https://www.mozilla.org/en-US/&#34;&gt;Mozilla’s&lt;/a&gt;&lt;/strong&gt; New Firefox &lt;strong&gt;&lt;a href=&#34;https://www.mozilla.org/en-US/about/legal/terms/firefox/&#34;&gt;Terms of Use&lt;/a&gt;&lt;/strong&gt; effective as of &lt;em&gt;February 25, 2025&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Whenever Mozilla’s updated the Firefox Terms of Use, I had a read, and honestly, it left me a bit frustrated. I’m not here for any of the extra data sharing or corporate maneuvering.. I just want a straightforward, no-frills web browser.&lt;/p&gt;&#xA;&lt;h2 id=&#34;i-just-want-a-browser-not-a-data-processor&#34;&gt;I Just Want a Browser, Not a Data Processor..&lt;/h2&gt;&#xA;&lt;p&gt;What really gets me is the part about Mozilla using my data to “help me navigate” the web. I’m all for a smooth browsing experience, but I’m not a fan of any extra sharing or selling of my data. I just want Firefox to work as a web browser without turning into a data mine.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Depression on d:tour</title>
-    <link>https://furycd001.github.io/tags/depression/</link>
+    <link>http://localhost:1313/tags/depression/</link>
     <description>Recent content in Depression on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Jul 2024 11:41:27 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/depression/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/depression/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Depression of the Internet: Pulling Us Away from Real Life</title>
-      <link>https://furycd001.github.io/posts/the-depression-of-the-internet/</link>
+      <link>http://localhost:1313/posts/the-depression-of-the-internet/</link>
       <pubDate>Sun, 28 Jul 2024 11:41:27 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/the-depression-of-the-internet/</guid>
+      <guid>http://localhost:1313/posts/the-depression-of-the-internet/</guid>
       <description>&lt;p&gt;In the digital age, the internet has become an integral part of our daily lives. It connects us to a world of information, entertainment, and social interaction. Yet, as we immerse ourselves in this vast virtual landscape, there is a growing concern about the impact it has on our mental health and our connection to real life.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-allure-of-the-digital-world&#34;&gt;The Allure of the Digital World&lt;/h2&gt;&#xA;&lt;p&gt;The internet offers endless possibilities. From social media platforms to streaming services, online shopping to gaming, it provides an escape from the mundane and a distraction from the stresses of everyday life. However, this constant accessibility and the allure of instant gratification can also lead to a dangerous cycle of overuse and dependency.&lt;/p&gt;</description>
     </item>
   </channel>

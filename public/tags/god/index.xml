@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>God on d:tour</title>
-    <link>https://furycd001.github.io/tags/god/</link>
+    <link>http://localhost:1313/tags/god/</link>
     <description>Recent content in God on d:tour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Jun 2024 13:22:42 +0100</lastBuildDate>
-    <atom:link href="https://furycd001.github.io/tags/god/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/god/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sometimes</title>
-      <link>https://furycd001.github.io/posts/sometimes/</link>
+      <link>http://localhost:1313/posts/sometimes/</link>
       <pubDate>Mon, 10 Jun 2024 13:22:42 +0100</pubDate>
-      <guid>https://furycd001.github.io/posts/sometimes/</guid>
+      <guid>http://localhost:1313/posts/sometimes/</guid>
       <description>&lt;p&gt;Sometimes, in the quiet of her room, A girl with long ginger hair, like a bloom, Felt the weight of the world, pressing down on her soul, Wondering if she’d ever find a way to be whole.&lt;/p&gt;&#xA;&lt;p&gt;Her extensions, a cascade of fire, so bright, Reflected her spirit, her inner fight. She’d look in the mirror, and sometimes she’d cry, Feeling like she’d never understand why.&lt;/p&gt;&#xA;&lt;p&gt;She set out on a journey, leaving her fears behind, With each step she took, she sought to find A purpose, a reason, a place to belong, Humming her favorite melody, a hopeful song.&lt;/p&gt;</description>
     </item>
   </channel>
