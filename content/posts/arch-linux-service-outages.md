@@ -13,7 +13,6 @@ On August 21, 2025, the Arch Linux team shared an important update regarding the
 
 For a distribution so deeply tied to community-driven support, documentation, and user-maintained software packages, these outages have naturally caused frustration. However, the Arch team has been transparent about the challenges they’re facing, and they’ve provided clear workarounds for users who need access during the downtime.
 
----
 
 ## The Nature of the Outage
 
@@ -26,7 +25,6 @@ The DevOps team is:
 
 While technical details remain confidential until the attack subsides, the project has assured users that updates will be posted on their [service status page](https://status.archlinux.org/) going forward.
 
----
 
 ## Workarounds for Users
 
@@ -54,7 +52,6 @@ Even during outages, there are reliable alternatives to access critical resource
 
 These provide up-to-date snapshots of wiki articles, ensuring you can still reference essential guides even if the live wiki is unavailable.
 
----
 
 ## Community, Resilience, and Patience
 
@@ -64,7 +61,6 @@ This attack underscores the vulnerability of open-source projects to large-scale
 
 The Arch team expressed gratitude for the community’s patience and ongoing support, emphasizing that they are doing everything possible to restore stability.
 
----
 
 ## Looking Ahead
 
