@@ -1,7 +1,8 @@
 +++
 title = 'Arch Linux Service Outages'
 date = 2025-08-25T10:09:10+01:00
-draft = true
+draft = false
+tags = ["Arch", "Linux", "operating systems", "thoughts", "outages"]
 +++
 
 On August 21, 2025, the Arch Linux team shared an important update regarding the recent disruptions many users have noticed when trying to access core parts of the Arch ecosystem. The project has been dealing with an ongoing denial of service (DoS) attack, which has primarily affected:
