@@ -2,7 +2,7 @@
 title = 'Slowness'
 date = 2025-09-03T08:40:17+01:00
 draft = false
-tags = ["life", thoughts", "ramblings"]
+tags = ["life", "thoughts", "ramblings"]
 +++
 
 Slowness. It’s almost a lost art these days.
