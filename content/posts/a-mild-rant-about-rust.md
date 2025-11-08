@@ -21,7 +21,7 @@ Beneath all this lies a deeper problem: the Rust compiler itself. Unlike older, 
 
 If your system’s core utilities depend on a language whose compiler changes rapidly, and sometimes breaks compatibility, then the foundation of your OS becomes tied to the churn of upstream language development. That’s a recipe for instability and long-term maintenance pain.
 
-Even worse, a compiler is the ultimate trusted tool. If it’s ever compromised, even subtly, malicious code could be hidden deep within every binary it produces, and you’d never know. The compiler is, after all, the gatekeeper of trust. A backdoored `rustc` wouldn’t need to touch your source code; it could invisibly insert payloads at compile time, exactly like Ken Thompson warned about in his famous essay **“Reflections on Trusting Trust.”**
+Even worse, a compiler is the ultimate trusted tool. If it’s ever compromised, even subtly, malicious code could be hidden deep within every binary it produces, and you’d never know. The compiler is, after all, the gatekeeper of trust. A backdoored rustc wouldn’t need to touch your source code; it could invisibly insert payloads at compile time, exactly like Ken Thompson warned about in his famous essay **“Reflections on Trusting Trust.”**
 
 Rust’s rapid pace of change and the complexity of its toolchain make such attacks harder to detect and easier to hide. When you’re building mission-critical system tools, you need frozen, reproducible, auditable builds, not a moving target tied to the whims of nightly releases or the security posture of a single upstream project.
 
