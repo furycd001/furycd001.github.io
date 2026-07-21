@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Arch on d:tour</title>
+		<link>http://localhost:1313/tags/arch/</link>
+		<description>Recent content in Arch on d:tour</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 25 Aug 2025 10:09:10 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Arch Linux Service Outages</title>
+				<link>http://localhost:1313/posts/arch-linux-service-outages/</link>
+				<pubDate>Mon, 25 Aug 2025 10:09:10 +0100</pubDate>
+				<guid>http://localhost:1313/posts/arch-linux-service-outages/</guid>
+				<description>&lt;p&gt;On August 21, 2025, the Arch Linux team shared an important update regarding the recent disruptions many users have noticed when trying to access core parts of the Arch ecosystem. The project has been dealing with an ongoing denial of service (DoS) attack, which has primarily affected:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The main Arch Linux website (archlinux.org)&lt;/li&gt;&#xA;&lt;li&gt;The Arch User Repository (AUR)&lt;/li&gt;&#xA;&lt;li&gt;The Arch Forums&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For a distribution so deeply tied to community-driven support, documentation, and user-maintained software packages, these outages have naturally caused frustration. However, the Arch team has been transparent about the challenges they’re facing, and they’ve provided clear workarounds for users who need access during the downtime.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

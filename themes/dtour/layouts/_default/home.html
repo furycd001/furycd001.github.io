@@ -1,0 +1,29 @@
+{{ define "main" }}
+  {{- $latestCount  := site.Params.latestCount  | default 5 -}}
+  {{- $previewCount := site.Params.previewCount | default 3 -}}
+
+  {{/* ── Latest: most recent posts across every section ── */}}
+  <section class="home-section">
+    <h2 class="home-section__heading">Latest</h2>
+    <div class="card-list">
+      {{- range first $latestCount site.RegularPages.ByDate.Reverse }}
+        {{- partial "card.html" . }}
+      {{- end }}
+    </div>
+  </section>
+
+  {{/* ── Browse: one block per section, empty sections hidden ── */}}
+  {{- $sections := where site.Sections "Params.hidden" "ne" true -}}
+  {{- if $sections }}
+  <section class="home-section">
+    <h2 class="home-section__heading">Browse</h2>
+    <div class="section-grid">
+      {{- range $sections }}
+        {{- if gt (len .RegularPages) 0 }}
+          {{- partial "section-block.html" (dict "section" . "count" $previewCount) }}
+        {{- end }}
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+{{ end }}

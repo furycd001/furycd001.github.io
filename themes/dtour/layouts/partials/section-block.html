@@ -1,0 +1,18 @@
+{{- $section := .section -}}
+{{- $count   := .count   -}}
+{{- $pages   := first $count $section.RegularPages.ByDate.Reverse -}}
+
+<div class="section-block">
+  <div class="section-block__heading">
+    <h3>{{ $section.Title }}</h3>
+    <a href="{{ $section.Permalink }}">all →</a>
+  </div>
+  {{- with $section.Description }}
+    <p class="section-block__desc">{{ . }}</p>
+  {{- end }}
+  <div class="section-block__items">
+    {{- range $pages }}
+      {{- partial "card.html" . }}
+    {{- end }}
+  </div>
+</div>

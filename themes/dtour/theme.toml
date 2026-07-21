@@ -1,0 +1,17 @@
+name        = 'dtour'
+license     = 'MIT'
+licenselink = 'https://github.com/furycd001/dtour/LICENSE'
+description = 'A structured, section-driven Hugo theme for d:tour. True homepage, dynamic nav, card-based previews. No JS dependency required.'
+homepage    = 'https://furycd001.github.io/'
+demosite    = 'https://furycd001.github.io/'
+tags        = ['minimal', 'lightweight', 'dark', 'sections', 'hugo']
+features    = ['minimal', 'lightweight', 'dark', 'no-js', 'static']
+
+[author]
+  name     = 'Jonny Sherwood-Bowes'
+  homepage = 'https://furycd001.github.io/'
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min      = '0.128.0'

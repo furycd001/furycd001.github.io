@@ -1,0 +1,32 @@
+<header>
+  <div class="header-content">
+    <h1 class="site-title"><a href="{{ .Site.BaseURL }}">{{ site.Title }}</a></h1>
+
+    {{- $sections := site.Sections }}
+    {{- if $sections }}
+    <nav class="nav-sections">
+      {{- range $sections }}
+        {{- $label  := .Title | lower }}
+        {{- $active := or (.IsAncestor $.Page) (eq $.Page .Page) }}
+        <a href="{{ .Permalink }}"{{ if $active }} class="active"{{ end }}>{{ $label }}</a>
+      {{- end }}
+    </nav>
+    {{- end }}
+  </div>
+
+  <div class="header-actions">
+    <div class="external-links">
+      {{- if .Site.Params.rss }}
+        <a href="{{ "/index.xml" | absURL }}">
+          <img src="{{ "rss.svg" | relURL }}" alt="RSS" class="icon">
+        </a>
+      {{- end }}
+      {{- range .Site.Params.social }}
+        {{- $img := printf "%s.svg" .name }}
+        <a href="{{ .url }}"{{ if not (hasPrefix .url "mailto:") }} target="_blank" rel="noopener noreferrer"{{ end }}>
+          <img src="{{ $img | relURL }}" alt="{{ .name }}" class="icon">
+        </a>
+      {{- end }}
+    </div>
+  </div>
+</header>

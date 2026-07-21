@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Arch Linux Service Outages | d:tour</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <header>
+  <div class="header-content">
+    <h1><a href="http://localhost:1313/">d:tour</a></h1>
+    
+  </div>
+
+  <div class="header-actions">
+    <div class="tags">
+      
+        <a href="/tags"><img src="/hashtag.svg" alt="Tags" class="icon"></a>
+      
+    </div>
+
+    <div class="external-links">
+      
+        <a href="http://localhost:1313/index.xml"><img src="/rss.svg" alt="RSS" class="icon"></a>
+      
+      
+        <a href="https://github.com/furycd001"><img src="/github.svg" alt="GitHub" class="icon"></a>
+      
+      
+        <a href="https://github.com/furycd001/dots"><img src="/dotfiles.svg" alt="Dots" class="icon"></a>
+      
+      
+        <a href="https://fosstodon.org/@Furycd001"><img src="/mastodon.svg" alt="Mastodon" class="icon"></a>
+      
+      
+        <a href="mailto:jonnybowes2000@googlemail.com"><img src="/email.svg" alt="Email" class="icon"></a>
+      
+      
+        <a href="https://paypal.me/furycd001?country.x=GB&amp;locale.x=en_GB"><img src="/donate.svg" alt="Donate" class="icon"></a>
+      
+    </div>
+  </div>
+</header>
+  </header>
+  <main>
+    
+  <article>
+    <header class="post-header">
+      <h1 class="post-title">Arch Linux Service Outages</h1>
+      <p class="post-date">August 25, 2025</p>
+    </header>
+    
+    <p>On August 21, 2025, the Arch Linux team shared an important update regarding the recent disruptions many users have noticed when trying to access core parts of the Arch ecosystem. The project has been dealing with an ongoing denial of service (DoS) attack, which has primarily affected:</p>
+<ul>
+<li>The main Arch Linux website (archlinux.org)</li>
+<li>The Arch User Repository (AUR)</li>
+<li>The Arch Forums</li>
+</ul>
+<p>For a distribution so deeply tied to community-driven support, documentation, and user-maintained software packages, these outages have naturally caused frustration. However, the Arch team has been transparent about the challenges they’re facing, and they’ve provided clear workarounds for users who need access during the downtime.</p>
+<h1 id="the-nature-of-the-outage">The Nature of the Outage</h1>
+<p>The attack has led to inconsistent access to services, with some users experiencing connection resets or failed requests. While these issues can look like network instability, the root cause lies in the sustained effort to overwhelm Arch’s infrastructure.</p>
+<p>The DevOps team is:</p>
+<ul>
+<li>Working with their hosting provider to mitigate ongoing disruption.</li>
+<li>Actively evaluating DDoS protection services while weighing factors such as cost, security, and ethical standards (an especially important consideration for a volunteer-driven, community-focused project like Arch).</li>
+</ul>
+<p>While technical details remain confidential until the attack subsides, the project has assured users that updates will be posted on their <a href="https://status.archlinux.org/">service status page</a> going forward.</p>
+<h1 id="workarounds-for-users">Workarounds for Users</h1>
+<p>Even during outages, there are reliable alternatives to access critical resources. Here’s what the Arch team recommends:</p>
+<h3 id="1-if-archlinuxorg-is-down">1. If archlinux.org is down:</h3>
+<ul>
+<li>Mirror list: Use the <code>pacman-mirrorlist</code> package, which contains a working list of mirrors, instead of relying on the online endpoint (commonly accessed through tools like <code>reflector</code>).</li>
+<li>ISO downloads: Installation images are hosted on many mirrors, including DevOps-administered geomirrors. As always, verify the ISO’s integrity against the official signatures (signed by key 0x54449A5C, or trusted successors).</li>
+</ul>
+<h3 id="2-if-aurarchlinuxorg-is-down">2. If aur.archlinux.org is down:</h3>
+<ul>
+<li>
+<p>AUR packages: A full mirror of AUR packages exists on GitHub. You can clone any package with:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone --branch &lt;package_name&gt; --single-branch https://github.com/archlinux/aur.git &lt;package_name&gt;
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="3-if-wikiarchlinuxorg-is-down">3. If wiki.archlinux.org is down:</h3>
+<ul>
+<li>
+<p>Offline documentation: Two excellent options are available:</p>
+<ul>
+<li><code>arch-wiki-docs</code> (full snapshots)</li>
+<li><code>arch-wiki-lite</code> (compressed, fast-loading version)</li>
+</ul>
+</li>
+</ul>
+<p>These provide up-to-date snapshots of wiki articles, ensuring you can still reference essential guides even if the live wiki is unavailable.</p>
+<h1 id="community-resilience-and-patience">Community, Resilience, and Patience</h1>
+<p>One of the most striking aspects of the Arch Linux announcement is its reminder of how volunteer-driven the project is. The Arch infrastructure, like the distribution itself, is maintained by people who dedicate their time and skills to keeping it alive.</p>
+<p>This attack underscores the vulnerability of open-source projects to large-scale disruption, but it also highlights the resilience of the community. Through mirrors, snapshots, and backups, Arch ensures that critical resources remain available even when primary services falter.</p>
+<p>The Arch team expressed gratitude for the community’s patience and ongoing support, emphasizing that they are doing everything possible to restore stability.</p>
+<h1 id="looking-ahead">Looking Ahead</h1>
+<p>While the exact motives and origins of the attack remain undisclosed, the Arch team is taking a measured, long-term approach to mitigation. This includes not just restoring uptime but making informed decisions about infrastructure protection that align with the project’s principles.</p>
+<p>For users, the key takeaway is:</p>
+<ul>
+<li>Expect occasional disruptions until the attack subsides.</li>
+<li>Use the workarounds above to stay productive.</li>
+<li>Keep an eye on the Arch service status page for live updates.</li>
+</ul>
+<p>In true Arch fashion, the project is meeting these challenges head-on, not only working to restore stability but also reaffirming its commitment to transparency, resilience, and community empowerment, ensuring that even in the face of disruption, users remain equipped with the tools, knowledge, and support they need to keep their systems running smoothly and reliably.</p>
+
+    
+    <div class="post-tags">
+      
+        <a href="/tags/arch"><span class="tag">Arch</span></a>
+      
+        <a href="/tags/linux"><span class="tag">Linux</span></a>
+      
+        <a href="/tags/operating-systems"><span class="tag">operating systems</span></a>
+      
+        <a href="/tags/thoughts"><span class="tag">thoughts</span></a>
+      
+        <a href="/tags/outages"><span class="tag">outages</span></a>
+      
+    </div>
+  </article>
+
+  </main>
+  <footer>
+    <p>Copyright 2026 - furycd001</p>
+
+  </footer>
+</body>
+</html>

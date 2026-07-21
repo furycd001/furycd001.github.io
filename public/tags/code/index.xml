@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Code on d:tour</title>
-    <link>http://localhost:1313/tags/code/</link>
-    <description>Recent content in Code on d:tour</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jul 2024 07:03:09 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/code/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Writing in Sublime Text</title>
-      <link>http://localhost:1313/posts/writing-in-sublime-text/</link>
-      <pubDate>Tue, 09 Jul 2024 07:03:09 +0100</pubDate>
-      <guid>http://localhost:1313/posts/writing-in-sublime-text/</guid>
-      <description>&lt;p&gt;If, like me, you use &lt;strong&gt;&lt;a href=&#34;https://www.sublimetext.com/&#34;&gt;Sublime Text&lt;/a&gt;&lt;/strong&gt; to draft blog posts or simply to write, you might find yourself wishing for an easy way to switch between a larger font size for writing and a more normal size for coding and everything else. In this post, I will guide you through creating a custom keybinding in Sublime Text that will make toggling font sizes a breeze, ensuring your writing &amp;amp; coding adventures remain comfortable &amp;amp; productive.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Code on d:tour</title>
+		<link>http://localhost:1313/tags/code/</link>
+		<description>Recent content in Code on d:tour</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 08 Nov 2025 10:29:55 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/code/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>A Mild Rant About Rust</title>
+				<link>http://localhost:1313/posts/a-mild-rant-about-rust/</link>
+				<pubDate>Sat, 08 Nov 2025 10:29:55 +0000</pubDate>
+				<guid>http://localhost:1313/posts/a-mild-rant-about-rust/</guid>
+				<description>&lt;p&gt;Rust is often treated like the saviour of modern programming, a language that promises safety, performance, and purity all in one shiny package. In reality, it’s an overhyped experiment that’s being force-fed into every corner of the software world, regardless of whether it actually fits. The obsession with rewriting decades of stable, battle-tested C code in Rust isn’t progress, it’s hubris disguised as innovation.&lt;/p&gt;&#xA;&lt;p&gt;The recent push to replace GNU Coreutils with the Rust-based uutils project is a prime example of enthusiasm overtaking practicality.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Writing in Sublime Text</title>
+				<link>http://localhost:1313/posts/writing-in-sublime-text/</link>
+				<pubDate>Tue, 09 Jul 2024 07:03:09 +0100</pubDate>
+				<guid>http://localhost:1313/posts/writing-in-sublime-text/</guid>
+				<description>&lt;p&gt;If, like me, you use &lt;strong&gt;&lt;a href=&#34;https://www.sublimetext.com/&#34;&gt;Sublime Text&lt;/a&gt;&lt;/strong&gt; to draft blog posts or simply to write, you might find yourself wishing for an easy way to switch between a larger font size for writing and a more normal size for coding and everything else. In this post, I will guide you through creating a custom keybinding in Sublime Text that will make toggling font sizes a breeze, ensuring your writing &amp;amp; coding adventures remain comfortable &amp;amp; productive.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

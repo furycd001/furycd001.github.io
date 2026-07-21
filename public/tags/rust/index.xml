@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Rust on d:tour</title>
+		<link>http://localhost:1313/tags/rust/</link>
+		<description>Recent content in Rust on d:tour</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 08 Nov 2025 10:29:55 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>A Mild Rant About Rust</title>
+				<link>http://localhost:1313/posts/a-mild-rant-about-rust/</link>
+				<pubDate>Sat, 08 Nov 2025 10:29:55 +0000</pubDate>
+				<guid>http://localhost:1313/posts/a-mild-rant-about-rust/</guid>
+				<description>&lt;p&gt;Rust is often treated like the saviour of modern programming, a language that promises safety, performance, and purity all in one shiny package. In reality, it’s an overhyped experiment that’s being force-fed into every corner of the software world, regardless of whether it actually fits. The obsession with rewriting decades of stable, battle-tested C code in Rust isn’t progress, it’s hubris disguised as innovation.&lt;/p&gt;&#xA;&lt;p&gt;The recent push to replace GNU Coreutils with the Rust-based uutils project is a prime example of enthusiasm overtaking practicality.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

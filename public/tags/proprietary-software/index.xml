@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Proprietary Software on d:tour</title>
+		<link>http://localhost:1313/tags/proprietary-software/</link>
+		<description>Recent content in Proprietary Software on d:tour</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 16 Aug 2025 10:01:50 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/proprietary-software/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Why It’s Time to Dump microsoft office and Embrace LibreOffice</title>
+				<link>http://localhost:1313/posts/dump-ms-office/</link>
+				<pubDate>Sat, 16 Aug 2025 10:01:50 +0100</pubDate>
+				<guid>http://localhost:1313/posts/dump-ms-office/</guid>
+				<description>&lt;h2 id=&#34;stop-paying-for-your-own-digital-handcuffs&#34;&gt;Stop paying for your own digital handcuffs..&lt;/h2&gt;&#xA;&lt;p&gt;For years, microsoft has built its empire on a simple strategy: lock people in, make switching for them painful, and then slowly turn up the heat. LibreOffice recently called them out for their “artificially complex” office XML format, a deliberate choice designed to make interoperability a nightmare for anyone outside microsoft’s walled garden.&lt;/p&gt;&#xA;&lt;p&gt;Think of it like a railway system that’s supposedly open to all, but the control systems are so needlessly complicated that only one company can realistically run trains on it. Passengers don’t realize they’re trapped until ticket prices soar or service gets cut, and by then, the only choice is to pay more or accept worse service.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

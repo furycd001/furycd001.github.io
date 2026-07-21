@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Calm on d:tour</title>
+		<link>http://localhost:1313/tags/calm/</link>
+		<description>Recent content in Calm on d:tour</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 11 Oct 2025 10:33:50 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/calm/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>A Calmer Internet Take Two</title>
+				<link>http://localhost:1313/posts/a-calmer-internet-take-two/</link>
+				<pubDate>Sat, 11 Oct 2025 10:33:50 +0100</pubDate>
+				<guid>http://localhost:1313/posts/a-calmer-internet-take-two/</guid>
+				<description>&lt;p&gt;There’s a quiet corner of the internet waiting for you. It’s not on any particular website, and it doesn’t depend on algorithms or ad-blockers. It lies in the space between intention and attention, the place you choose how to meet the infinite noise.&lt;/p&gt;&#xA;&lt;p&gt;The internet can feel like a thousand people talking at once, each one louder than the last. It’s easy to fall into the rhythm of urgency, refresh, react, repeat. But what if we approached it differently? What if we logged on with calmness in mind, like stepping into a library instead of a marketplace?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A Calmer Internet</title>
+				<link>http://localhost:1313/posts/a-calmer-internet/</link>
+				<pubDate>Sat, 11 Oct 2025 10:28:40 +0100</pubDate>
+				<guid>http://localhost:1313/posts/a-calmer-internet/</guid>
+				<description>&lt;p&gt;The internet moves fast.&#xA;Faster than thought, faster than feeling.&lt;/p&gt;&#xA;&lt;p&gt;But it doesn’t have to.&lt;/p&gt;&#xA;&lt;p&gt;A calmer internet begins in the small moments. Before opening a tab, pause. Notice the impulse. Is it curiosity, or restlessness? Calmness starts with awareness.&lt;/p&gt;&#xA;&lt;p&gt;When you read, read slowly. When you scroll, scroll less. Let the noise pass by.&lt;/p&gt;&#xA;&lt;p&gt;Calmness online is not silence. It’s gentleness.&#xA;It’s choosing patience before reaction.&#xA;It’s writing as if someone kind is reading.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

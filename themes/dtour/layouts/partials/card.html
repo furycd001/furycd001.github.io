@@ -1,0 +1,16 @@
+{{- $p := . -}}
+<div class="card">
+  <div class="card__meta">
+    <time datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date.Format "2 Jan 2006" }}</time>
+    {{- with $p.Params.language }}
+      <span class="badge badge--lang">{{ . }}</span>
+    {{- end }}
+  </div>
+  <a class="card__title" href="{{ $p.Permalink }}">{{ $p.Title }}</a>
+  {{- with $p.Summary }}
+    <p class="card__summary">{{ . }}</p>
+  {{- end }}
+  {{- with $p.Params.repo }}
+    <a class="card__repo" href="{{ . }}" target="_blank" rel="noopener noreferrer">repo ↗</a>
+  {{- end }}
+</div>

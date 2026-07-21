@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Operatingsystems on d:tour</title>
+		<link>http://localhost:1313/tags/operatingsystems/</link>
+		<description>Recent content in Operatingsystems on d:tour</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 11 Aug 2025 08:08:41 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/operatingsystems/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>I Just Want My Dang Computer to Work</title>
+				<link>http://localhost:1313/posts/i-just-want-my-dang-computer-to-work/</link>
+				<pubDate>Mon, 11 Aug 2025 08:08:41 +0100</pubDate>
+				<guid>http://localhost:1313/posts/i-just-want-my-dang-computer-to-work/</guid>
+				<description>&lt;p&gt;When it comes to my computer, I tend to keep things simple these days. I don’t want to put up a fight or constantly have to fix what isn’t broken. I’m not looking for endless tweaks, flashy extras, or software “experiments” that end up breaking something down the line. I simply want my system to start up, run smoothly, and get out of the way so I can actually use it.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

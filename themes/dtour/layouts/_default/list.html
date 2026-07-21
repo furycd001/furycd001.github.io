@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <div class="list-header">
+    <h1>{{ .Title }}</h1>
+    {{- with .Description }}
+      <p class="list-description">{{ . }}</p>
+    {{- end }}
+  </div>
+
+  <div class="card-list">
+    {{- range .Paginator.Pages }}
+      {{- partial "card.html" . }}
+    {{- end }}
+  </div>
+
+  {{- with .Paginator }}
+    {{- if gt .TotalPages 1 }}
+    <nav class="pagination">
+      {{- if .HasPrev }}
+        <a href="{{ .Prev.URL }}">← newer</a>
+      {{- end }}
+      {{- if .HasNext }}
+        <a href="{{ .Next.URL }}">older →</a>
+      {{- end }}
+    </nav>
+    {{- end }}
+  {{- end }}
+{{ end }}

@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <article>
+    <header class="post-header">
+      <h1 class="post-title">{{ .Title }}</h1>
+      <p class="post-date">{{ .Date.Format "January 2, 2006" }}</p>
+
+      {{- if or .Params.language .Params.repo }}
+      <div class="single__badges">
+        {{- with .Params.language }}
+          <span class="badge badge--lang">{{ . }}</span>
+        {{- end }}
+        {{- with .Params.repo }}
+          <a class="badge badge--repo" href="{{ . }}" target="_blank" rel="noopener noreferrer">source repo ↗</a>
+        {{- end }}
+      </div>
+      {{- end }}
+    </header>
+
+    {{ .Content }}
+
+    <div class="post-tags">
+      {{ range .Params.tags }}
+        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><span class="tag">{{ . }}</span></a>
+      {{ end }}
+    </div>
+  </article>
+{{ end }}
