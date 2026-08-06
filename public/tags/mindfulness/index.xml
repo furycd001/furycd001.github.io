@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Wed, 28 May 2025 14:37:32 +0100</lastBuildDate>
+			<lastBuildDate>Tue, 21 Jul 2026 07:29:54 +0100</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/tags/mindfulness/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Art of Waiting</title>
+				<link>http://localhost:1313/posts/the-art-of-waiting/</link>
+				<pubDate>Tue, 21 Jul 2026 07:29:54 +0100</pubDate>
+				<guid>http://localhost:1313/posts/the-art-of-waiting/</guid>
+				<description>&lt;p&gt;We live in a world that seems increasingly obsessed with speed.&lt;/p&gt;&#xA;&lt;p&gt;We expect our computers to start instantly, our applications to open immediately, and every action we take to produce an almost instantaneous response. When something takes a few seconds longer than we expect, we often describe it as &lt;em&gt;&amp;ldquo;slow&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;But I sometimes wonder if we&amp;rsquo;ve simply become too impatient.&lt;/p&gt;&#xA;&lt;p&gt;I am not against fast software. Of course I enjoy it when something happens immediately, and there is something wonderfully satisfying about using software that feels responsive and effortless. But I don&amp;rsquo;t believe that speed is the only measure of good software, nor do I believe that every moment spent waiting is necessarily a wasted moment.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Life as a Dream: The Imagination of Ourselves</title>
 				<link>http://localhost:1313/posts/life-as-a-dream/</link>

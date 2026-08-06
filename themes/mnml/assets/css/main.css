@@ -1,18 +1,25 @@
 /* main.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Pixelify+Sans:wght@400..700&display=swap');
 
 body {
   background-color: #272B35;
   color: #f2f2f2;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   line-height: normal;
   margin: 1rem;
   max-width: 768px;
   margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6,
+.site-title,
+.post-list-title,
+.tag {
+  font-family: 'Pixelify Sans', sans-serif;
 }
 
 header {
@@ -115,19 +122,56 @@ h2 {
 
 .post-header {
   display: block;
+  margin-bottom: 2rem;
 }
 
-p.post-date {
+.post-header p.post-date {
   display: block;
-  margin-top: 1rem; 
+  margin-top: 0.4rem;
   margin-bottom: 2rem;
-  font-size: 1em;
-  color: #f2f2f2;
+  font-size: 0.9em;
+  color: #9a9eb0;
 }
 
 .post-title {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #f2f2f2;
+}
+
+/* Compact post list, dineshpandiyan.com-style */
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0 2rem;
+}
+
+.post-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.post-list-title {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #f2f2f2;
+  text-decoration: none;
+  line-height: 1.35;
+}
+
+.post-list-title:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.post-item p.post-date {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #9a9eb0;
+  letter-spacing: 0.01em;
 }
 
 .post-tags {

@@ -10,21 +10,84 @@
 		
 		
 		
-			<lastBuildDate>Sat, 08 Nov 2025 10:29:55 +0000</lastBuildDate>
+			<lastBuildDate>Tue, 21 Jul 2026 07:55:26 +0100</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Code</title>
-				<link>http://localhost:1313/tags/code/</link>
-				<pubDate>Sat, 08 Nov 2025 10:29:55 +0000</pubDate>
-				<guid>http://localhost:1313/tags/code/</guid>
+				<title>DigitalFreedom</title>
+				<link>http://localhost:1313/tags/digitalfreedom/</link>
+				<pubDate>Tue, 21 Jul 2026 07:55:26 +0100</pubDate>
+				<guid>http://localhost:1313/tags/digitalfreedom/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Foss</title>
+				<link>http://localhost:1313/tags/foss/</link>
+				<pubDate>Tue, 21 Jul 2026 07:55:26 +0100</pubDate>
+				<guid>http://localhost:1313/tags/foss/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Linux</title>
 				<link>http://localhost:1313/tags/linux/</link>
-				<pubDate>Sat, 08 Nov 2025 10:29:55 +0000</pubDate>
+				<pubDate>Tue, 21 Jul 2026 07:55:26 +0100</pubDate>
 				<guid>http://localhost:1313/tags/linux/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>OpenFormats</title>
+				<link>http://localhost:1313/tags/openformats/</link>
+				<pubDate>Tue, 21 Jul 2026 07:55:26 +0100</pubDate>
+				<guid>http://localhost:1313/tags/openformats/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>OpenSource</title>
+				<link>http://localhost:1313/tags/opensource/</link>
+				<pubDate>Tue, 21 Jul 2026 07:55:26 +0100</pubDate>
+				<guid>http://localhost:1313/tags/opensource/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Privacy</title>
+				<link>http://localhost:1313/tags/privacy/</link>
+				<pubDate>Tue, 21 Jul 2026 07:55:26 +0100</pubDate>
+				<guid>http://localhost:1313/tags/privacy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Mindfulness</title>
+				<link>http://localhost:1313/tags/mindfulness/</link>
+				<pubDate>Tue, 21 Jul 2026 07:29:54 +0100</pubDate>
+				<guid>http://localhost:1313/tags/mindfulness/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Patience</title>
+				<link>http://localhost:1313/tags/patience/</link>
+				<pubDate>Tue, 21 Jul 2026 07:29:54 +0100</pubDate>
+				<guid>http://localhost:1313/tags/patience/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Software</title>
+				<link>http://localhost:1313/tags/software/</link>
+				<pubDate>Tue, 21 Jul 2026 07:29:54 +0100</pubDate>
+				<guid>http://localhost:1313/tags/software/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Thoughts</title>
+				<link>http://localhost:1313/tags/thoughts/</link>
+				<pubDate>Tue, 21 Jul 2026 07:29:54 +0100</pubDate>
+				<guid>http://localhost:1313/tags/thoughts/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Code</title>
+				<link>http://localhost:1313/tags/code/</link>
+				<pubDate>Sat, 08 Nov 2025 10:29:55 +0000</pubDate>
+				<guid>http://localhost:1313/tags/code/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -77,13 +140,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Thoughts</title>
-				<link>http://localhost:1313/tags/thoughts/</link>
-				<pubDate>Sat, 11 Oct 2025 10:33:50 +0100</pubDate>
-				<guid>http://localhost:1313/tags/thoughts/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Arch</title>
 				<link>http://localhost:1313/tags/arch/</link>
 				<pubDate>Mon, 25 Aug 2025 10:09:10 +0100</pubDate>
@@ -112,24 +168,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Opensource</title>
-				<link>http://localhost:1313/tags/opensource/</link>
-				<pubDate>Sat, 16 Aug 2025 10:01:50 +0100</pubDate>
-				<guid>http://localhost:1313/tags/opensource/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Proprietary Software</title>
 				<link>http://localhost:1313/tags/proprietary-software/</link>
 				<pubDate>Sat, 16 Aug 2025 10:01:50 +0100</pubDate>
 				<guid>http://localhost:1313/tags/proprietary-software/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Software</title>
-				<link>http://localhost:1313/tags/software/</link>
-				<pubDate>Sat, 16 Aug 2025 10:01:50 +0100</pubDate>
-				<guid>http://localhost:1313/tags/software/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -165,13 +207,6 @@
 				<link>http://localhost:1313/tags/desktop-environments/</link>
 				<pubDate>Thu, 31 Jul 2025 06:53:47 +0100</pubDate>
 				<guid>http://localhost:1313/tags/desktop-environments/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Foss</title>
-				<link>http://localhost:1313/tags/foss/</link>
-				<pubDate>Thu, 31 Jul 2025 06:53:47 +0100</pubDate>
-				<guid>http://localhost:1313/tags/foss/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -291,13 +326,6 @@
 				<link>http://localhost:1313/tags/dream/</link>
 				<pubDate>Wed, 28 May 2025 14:37:32 +0100</pubDate>
 				<guid>http://localhost:1313/tags/dream/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Mindfulness</title>
-				<link>http://localhost:1313/tags/mindfulness/</link>
-				<pubDate>Wed, 28 May 2025 14:37:32 +0100</pubDate>
-				<guid>http://localhost:1313/tags/mindfulness/</guid>
 				<description></description>
 			</item>
 			<item>

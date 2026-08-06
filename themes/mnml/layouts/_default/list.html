@@ -1,9 +1,13 @@
 {{ define "main" }}
   <div>
-    {{ range .Paginator.Pages }}
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      <p class="post-date">{{ .Page.Date.Format "January 2, 2006" }}</p>
-    {{ end }}
+    <div class="post-list">
+      {{ range .Paginator.Pages }}
+        <div class="post-item">
+          <a href="{{ .Permalink }}" class="post-list-title">{{ .Title }}</a>
+          <p class="post-date">{{ .Page.Date.Format "Jan 2, 2006" }}</p>
+        </div>
+      {{ end }}
+    </div>
 
     <div class="pagination">
       {{ if .Paginator.HasPrev }}

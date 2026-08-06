@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>DigitalFreedom on d:tour</title>
+		<link>http://localhost:1313/tags/digitalfreedom/</link>
+		<description>Recent content in DigitalFreedom on d:tour</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 21 Jul 2026 07:55:26 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/digitalfreedom/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>A Small Attempt at Digital Freedom</title>
+				<link>http://localhost:1313/posts/digital-freedom/</link>
+				<pubDate>Tue, 21 Jul 2026 07:55:26 +0100</pubDate>
+				<guid>http://localhost:1313/posts/digital-freedom/</guid>
+				<description>&lt;p&gt;I&amp;rsquo;ve been thinking lately about the files I create and the formats I use to store them.&lt;/p&gt;&#xA;&lt;p&gt;On Linux, I&amp;rsquo;ve always appreciated the feeling of freedom that comes with being able to choose my own path. I can install what I want, configure things the way I like, and use programs that don&amp;rsquo;t necessarily belong to one particular company or ecosystem.&lt;/p&gt;&#xA;&lt;p&gt;But I&amp;rsquo;ve started wondering about something else.&lt;/p&gt;&#xA;&lt;p&gt;What happens to the files I create?&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

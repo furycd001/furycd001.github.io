@@ -10,9 +10,23 @@
 		
 		
 		
-			<lastBuildDate>Sat, 08 Nov 2025 10:29:55 +0000</lastBuildDate>
+			<lastBuildDate>Tue, 21 Jul 2026 07:55:26 +0100</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>A Small Attempt at Digital Freedom</title>
+				<link>http://localhost:1313/posts/digital-freedom/</link>
+				<pubDate>Tue, 21 Jul 2026 07:55:26 +0100</pubDate>
+				<guid>http://localhost:1313/posts/digital-freedom/</guid>
+				<description>&lt;p&gt;I&amp;rsquo;ve been thinking lately about the files I create and the formats I use to store them.&lt;/p&gt;&#xA;&lt;p&gt;On Linux, I&amp;rsquo;ve always appreciated the feeling of freedom that comes with being able to choose my own path. I can install what I want, configure things the way I like, and use programs that don&amp;rsquo;t necessarily belong to one particular company or ecosystem.&lt;/p&gt;&#xA;&lt;p&gt;But I&amp;rsquo;ve started wondering about something else.&lt;/p&gt;&#xA;&lt;p&gt;What happens to the files I create?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Art of Waiting</title>
+				<link>http://localhost:1313/posts/the-art-of-waiting/</link>
+				<pubDate>Tue, 21 Jul 2026 07:29:54 +0100</pubDate>
+				<guid>http://localhost:1313/posts/the-art-of-waiting/</guid>
+				<description>&lt;p&gt;We live in a world that seems increasingly obsessed with speed.&lt;/p&gt;&#xA;&lt;p&gt;We expect our computers to start instantly, our applications to open immediately, and every action we take to produce an almost instantaneous response. When something takes a few seconds longer than we expect, we often describe it as &lt;em&gt;&amp;ldquo;slow&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;But I sometimes wonder if we&amp;rsquo;ve simply become too impatient.&lt;/p&gt;&#xA;&lt;p&gt;I am not against fast software. Of course I enjoy it when something happens immediately, and there is something wonderfully satisfying about using software that feels responsive and effortless. But I don&amp;rsquo;t believe that speed is the only measure of good software, nor do I believe that every moment spent waiting is necessarily a wasted moment.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>A Mild Rant About Rust</title>
 				<link>http://localhost:1313/posts/a-mild-rant-about-rust/</link>
@@ -411,6 +425,13 @@
 				<pubDate>Wed, 05 Jun 2024 07:43:39 +0100</pubDate>
 				<guid>http://localhost:1313/posts/cruz-and-the-mud-puddle/</guid>
 				<description>&lt;p&gt;In the heart of the sprawling wilderness, there lived a charming bulldog named Cruz. Cruz was no ordinary bulldog; he was an intrepid explorer with a heart full of adventure. He traveled the country in a cozy, colorful van with his owner, Chrome. Chrome was a free spirit with a love for the open road, and together, they explored every nook and cranny of the beautiful landscape.&lt;/p&gt;&#xA;&lt;p&gt;One crisp morning, Cruz and Chrome arrived at a picturesque campground nestled among towering pine trees and shimmering lakes. Eager to stretch his legs, Cruz carefully walked down the steps that Chrome had set out at the side of the van, his tail wagging furiously. Chrome smiled, watching his loyal companion sniff around with boundless curiosity.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Edge of the Universe</title>
+				<link>http://localhost:1313/posts/the-edge-of-the-universe/</link>
+				<pubDate>Tue, 04 Jun 2024 21:48:13 +0100</pubDate>
+				<guid>http://localhost:1313/posts/the-edge-of-the-universe/</guid>
+				<description></description>
 			</item>
 			<item>
 				<title>Chromes Fruity Fiasco</title>
