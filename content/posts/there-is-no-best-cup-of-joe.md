@@ -5,8 +5,10 @@ draft = false
 tags = ["coffee", "thoughts"]
 +++
 
-There is no single "best" cup of joe. There is only the best joe in a particular moment.
+Maybe there is no single "best" cup of joe. Only the best joe in a particular moment.
 
-A coffee can taste better depending on where we are, who we're with, the time of day, or simply the mood we're in. The cup that feels like perfection today might be completely ordinary tomorrow.
+Coffee can taste better depending on where we are, who we're with, the time of day, or simply the mood we're in. The cup that feels like perfection today might be completely ordinary tomorrow.
 
 We might call a particular coffee "perfection" or "the best". But not a single soul on this earth will have ever tasted every cup of joe the world has to offer. So perhaps what we call "the best" is really just "the best we've tried so far".
+
+So perhaps the question isn't "What is the best cup of joe?" but "What is the best cup of joe I've had so far?"
