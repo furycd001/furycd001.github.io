@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>OpenSource on d:tour</title>
+		<title>Opensource on d:tour</title>
 		<link>http://localhost:1313/tags/opensource/</link>
-		<description>Recent content in OpenSource on d:tour</description>
+		<description>Recent content in Opensource on d:tour</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		

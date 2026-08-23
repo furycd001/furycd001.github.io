@@ -1,0 +1,342 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+BLOG_DIR="/home/furycd001/d:tour"
+THEME_DIR="$BLOG_DIR/themes/mnml"
+
+if [ ! -d "$THEME_DIR" ]; then
+  echo "Could not find $THEME_DIR -- edit BLOG_DIR at the top of this script if your path differs." >&2
+  exit 1
+fi
+
+TS=$(date +%Y%m%d-%H%M%S)
+BACKUP_DIR="$BLOG_DIR/.theme-backup-$TS"
+mkdir -p "$BACKUP_DIR"
+
+for f in assets/css/main.css static/fonts/SmileDarling-Regular.ttf; do
+  if [ -f "$THEME_DIR/$f" ]; then
+    mkdir -p "$BACKUP_DIR/$(dirname "$f")"
+    cp "$THEME_DIR/$f" "$BACKUP_DIR/$f"
+  fi
+done
+echo "Backed up originals to $BACKUP_DIR"
+
+cat > "$THEME_DIR/assets/css/main.css" << 'CSSEOF'
+/* main.css */
+
+@font-face {
+  font-family: 'PxPlus IBM VGA8';
+  src: url('/fonts/PxPlus-IBM-VGA8.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #272B35;
+  color: #f2f2f2;
+  font-family: 'PxPlus IBM VGA8', monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  margin: 1rem;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6,
+.site-title,
+.post-list-title,
+.post-title,
+.tag {
+  font-family: 'PxPlus IBM VGA8', monospace;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0rem;
+  margin-bottom: 20px;
+  flex: auto;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0 2rem; 
+  }
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.site-title {
+  margin: 0;
+}
+
+.header-actions img.icon {
+  vertical-align: middle;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.tags {
+  margin-right: 1rem;
+}
+
+.external-links {
+  display: flex;
+  align-items: center;
+}
+
+.external-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.external-links a:first-child {
+  margin-left: 0;
+}
+
+a {
+  color: #f2f2f2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p a {
+  color: #f2f2f2;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+li {
+  list-style-type: "+ ";
+}
+
+ul li::marker {
+    font-weight: bold;
+}
+
+.styled {
+  font-size: 8rem;
+  display: block;
+  text-align: center; 
+  margin: auto;
+}
+
+.styled1 {
+  font-size: 2rem;
+  display: block;
+  text-align: center; 
+  margin: auto;
+  padding-bottom: 2em;
+}
+
+h2 {
+  margin-bottom: 0rem;
+}
+
+.post-header {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.post-header p.post-date {
+  display: block;
+  margin-top: 0.4rem;
+  margin-bottom: 2rem;
+  font-size: 0.9em;
+  color: #9a9eb0;
+}
+
+.post-title {
+  font-size: 1.6rem;
+  color: #f2f2f2;
+}
+
+/* Compact post list, dineshpandiyan.com-style */
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0 2rem;
+}
+
+.post-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.post-list-title {
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: #f2f2f2;
+  text-decoration: none;
+  line-height: 1.35;
+}
+
+.post-list-title:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.post-item p.post-date {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #9a9eb0;
+  letter-spacing: 0.01em;
+}
+
+.post-tags {
+  margin-top: 1em;
+}
+
+.post-tags {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #f2f2f2;
+  color: #272B35;
+  padding: 0.2em 0.8em;
+  margin-right: 0.4em;
+  margin-bottom: 0.4em;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.tag:hover {
+  background-color: #525466;
+  color: #f2f2f2;
+}
+
+.tag a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+  padding-bottom: 1.1rem;
+}
+
+blockquote {
+  font-weight: bold;
+  font-style: italic;
+  margin: 1.4em 8px;
+  padding: 0.4em 8px;
+  color: #f2f2f2;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination a {
+  margin: 0 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  color: #272B35;
+  border-radius: 4px;
+}
+
+.pagination a:hover {
+  background-color: #272B35;
+  color: #f2f2f2;
+}
+
+code {
+  background-color: #525466;
+  color: #f2f2f2;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+pre {
+  background-color: #525466 !important;
+  color: #f2f2f2;
+  padding: 1em;
+  border-radius: 4px;
+  overflow: auto;
+  font-family: monospace;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+table {
+  width: auto;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+  font-size: 0.95rem;
+  background-color: #525466;
+  color: #f2f2f2;
+  border: 1px solid #272B35;
+  border-radius: 4px;
+}
+
+thead {
+  background-color: #3e4251;
+}
+
+thead th {
+  text-align: left;
+  padding: 0.75em 1em;
+  font-weight: 700;
+  border-bottom: 1px solid #272B35;
+  border-left: 1px solid #272B35;;
+}
+
+tbody tr {
+  border-top: 1px solid #525466;
+}
+
+
+
+table td,
+table th {
+  white-space: nowrap;
+  padding: 0.8em;
+  border: 1px solid #272B35;;
+}
+CSSEOF
+
+if [ -f "$THEME_DIR/static/fonts/SmileDarling-Regular.ttf" ]; then
+  rm "$THEME_DIR/static/fonts/SmileDarling-Regular.ttf"
+  echo "Removed $THEME_DIR/static/fonts/SmileDarling-Regular.ttf"
+fi
+
+echo "Done. Updated:"
+echo "  $THEME_DIR/assets/css/main.css"
+echo
+echo "Everything now uses PxPlus IBM VGA8 -- logo, headings, post titles, body, dates, and pagination."
+echo "Run 'hugo server -D' from $BLOG_DIR to preview, then commit and push (remember to 'git rm' the deleted font)."

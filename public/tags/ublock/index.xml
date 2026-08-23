@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Ublock on d:tour</title>
+		<link>http://localhost:1313/tags/ublock/</link>
+		<description>Recent content in Ublock on d:tour</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 18 Aug 2026 07:09:57 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/ublock/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Web I Actually Want</title>
+				<link>http://localhost:1313/posts/the-web-i-actually-want/</link>
+				<pubDate>Tue, 18 Aug 2026 07:09:57 +0100</pubDate>
+				<guid>http://localhost:1313/posts/the-web-i-actually-want/</guid>
+				<description>&lt;p&gt;There are very few pieces of software that I would consider essential, but uBlock is definitely one of them. I&amp;rsquo;ve been using it for years, and I genuinely love it. For me, browsing the modern web without uBlock feels almost unbearable. Advertisements, trackers, pop-ups, autoplaying videos and countless third-party scripts have become such a normal part of the internet that it&amp;rsquo;s really easy to forget just how much unnecessary stuff many websites are throwing our way.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

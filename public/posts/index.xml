@@ -10,9 +10,23 @@
 		
 		
 		
-			<lastBuildDate>Tue, 21 Jul 2026 07:55:26 +0100</lastBuildDate>
+			<lastBuildDate>Tue, 18 Aug 2026 07:09:57 +0100</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Web I Actually Want</title>
+				<link>http://localhost:1313/posts/the-web-i-actually-want/</link>
+				<pubDate>Tue, 18 Aug 2026 07:09:57 +0100</pubDate>
+				<guid>http://localhost:1313/posts/the-web-i-actually-want/</guid>
+				<description>&lt;p&gt;There are very few pieces of software that I would consider essential, but uBlock is definitely one of them. I&amp;rsquo;ve been using it for years, and I genuinely love it. For me, browsing the modern web without uBlock feels almost unbearable. Advertisements, trackers, pop-ups, autoplaying videos and countless third-party scripts have become such a normal part of the internet that it&amp;rsquo;s really easy to forget just how much unnecessary stuff many websites are throwing our way.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>There Is No Best Cup of Joe</title>
+				<link>http://localhost:1313/posts/there-is-no-best-cup-of-joe/</link>
+				<pubDate>Tue, 18 Aug 2026 06:45:25 +0100</pubDate>
+				<guid>http://localhost:1313/posts/there-is-no-best-cup-of-joe/</guid>
+				<description>&lt;p&gt;Maybe there is no single &amp;ldquo;best&amp;rdquo; cup of joe. Only the best joe in a particular moment.&lt;/p&gt;&#xA;&lt;p&gt;Coffee can taste better depending on where we are, who we&amp;rsquo;re with, the time of day, or simply the mood we&amp;rsquo;re in. The cup that feels like perfection today might be completely ordinary tomorrow.&lt;/p&gt;&#xA;&lt;p&gt;We might call a particular coffee &amp;ldquo;perfection&amp;rdquo; or &amp;ldquo;the best&amp;rdquo;. But not a single soul on this earth will have ever tasted every cup of joe the world has to offer. So perhaps what we call &amp;ldquo;the best&amp;rdquo; is really just &amp;ldquo;the best we&amp;rsquo;ve tried so far&amp;rdquo;.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>A Small Attempt at Digital Freedom</title>
 				<link>http://localhost:1313/posts/digital-freedom/</link>

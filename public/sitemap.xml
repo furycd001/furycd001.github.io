@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/firefox/</loc>
+    <lastmod>2026-08-18T07:09:57+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-08-18T07:09:57+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/privacy/</loc>
+    <lastmod>2026-08-18T07:09:57+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ramblings/</loc>
+    <lastmod>2026-08-18T07:09:57+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-08-18T07:09:57+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/the-web-i-actually-want/</loc>
+    <lastmod>2026-08-18T07:09:57+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ublock/</loc>
+    <lastmod>2026-08-18T07:09:57+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/coffee/</loc>
+    <lastmod>2026-08-18T06:45:25+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/there-is-no-best-cup-of-joe/</loc>
+    <lastmod>2026-08-18T06:45:25+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/thoughts/</loc>
+    <lastmod>2026-08-18T06:45:25+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/digital-freedom/</loc>
     <lastmod>2026-07-21T07:55:26+01:00</lastmod>
   </url><url>
@@ -20,15 +50,6 @@
     <loc>http://localhost:1313/tags/opensource/</loc>
     <lastmod>2026-07-21T07:55:26+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-07-21T07:55:26+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/privacy/</loc>
-    <lastmod>2026-07-21T07:55:26+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-07-21T07:55:26+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/mindfulness/</loc>
     <lastmod>2026-07-21T07:29:54+01:00</lastmod>
   </url><url>
@@ -39,9 +60,6 @@
     <lastmod>2026-07-21T07:29:54+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/the-art-of-waiting/</loc>
-    <lastmod>2026-07-21T07:29:54+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/thoughts/</loc>
     <lastmod>2026-07-21T07:29:54+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/a-mild-rant-about-rust/</loc>
@@ -69,9 +87,6 @@
     <lastmod>2025-10-11T10:33:50+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/life/</loc>
-    <lastmod>2025-10-11T10:33:50+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ramblings/</loc>
     <lastmod>2025-10-11T10:33:50+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/a-calmer-internet/</loc>
@@ -206,9 +221,6 @@
     <loc>http://localhost:1313/posts/life-as-a-dream/</loc>
     <lastmod>2025-05-28T14:37:32+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/coffee/</loc>
-    <lastmod>2025-05-16T07:40:40+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/cuppa/</loc>
     <lastmod>2025-05-16T07:40:40+01:00</lastmod>
   </url><url>
@@ -256,9 +268,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/quiet/</loc>
     <lastmod>2025-03-07T20:56:31+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/firefox/</loc>
-    <lastmod>2025-03-04T09:40:29+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/mozilla/</loc>
     <lastmod>2025-03-04T09:40:29+00:00</lastmod>
