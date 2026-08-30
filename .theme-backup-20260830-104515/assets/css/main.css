@@ -1,27 +1,3 @@
-#!/usr/bin/env bash
-set -euo pipefail
-
-BLOG_DIR="/home/furycd001/d:tour"
-THEME_DIR="$BLOG_DIR/themes/mnml"
-
-if [ ! -d "$THEME_DIR" ]; then
-  echo "Could not find $THEME_DIR -- edit BLOG_DIR at the top of this script if your path differs." >&2
-  exit 1
-fi
-
-TS=$(date +%Y%m%d-%H%M%S)
-BACKUP_DIR="$BLOG_DIR/.theme-backup-$TS"
-mkdir -p "$BACKUP_DIR"
-
-for f in assets/css/main.css static/fonts/SmileDarling-Regular.ttf; do
-  if [ -f "$THEME_DIR/$f" ]; then
-    mkdir -p "$BACKUP_DIR/$(dirname "$f")"
-    cp "$THEME_DIR/$f" "$BACKUP_DIR/$f"
-  fi
-done
-echo "Backed up originals to $BACKUP_DIR"
-
-cat > "$THEME_DIR/assets/css/main.css" << 'CSSEOF'
 /* main.css */
 
 @font-face {
@@ -328,15 +304,3 @@ table th {
   padding: 0.8em;
   border: 1px solid #272B35;;
 }
-CSSEOF
-
-if [ -f "$THEME_DIR/static/fonts/SmileDarling-Regular.ttf" ]; then
-  rm "$THEME_DIR/static/fonts/SmileDarling-Regular.ttf"
-  echo "Removed $THEME_DIR/static/fonts/SmileDarling-Regular.ttf"
-fi
-
-echo "Done. Updated:"
-echo "  $THEME_DIR/assets/css/main.css"
-echo
-echo "Everything now uses PxPlus IBM VGA8 -- logo, headings, post titles, body, dates, and pagination."
-echo "Run 'hugo server -D' from $BLOG_DIR to preview, then commit and push (remember to 'git rm' the deleted font)."
