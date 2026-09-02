@@ -11,14 +11,14 @@ A lot of us probably won't share most of what we've downloaded with anyone, and 
 
 Every day, we're presented with an almost endless stream of things to look at. Photographs, videos, articles, music, wallpapers, recipes, memes, tutorials, books, collections, archives, recommendations and countless other little pieces of information constantly pass in front of us. Most of it is completely meaningless, and yet somehow we can still find ourselves wanting to save some of it.
 
-We may come across an image and think, *I really like that*, or find a video and think, *I should download that before it disappears.* We may even discover a collection of photographs and immediately start thinking about how nice it would be to have the whole thing sitting safely on a local drive. So we download it, put it into a folder and carry on with our lives, perhaps never looking at it again.
+We may come across an image and think, I really like that, or find a video and think, I should download that before it disappears. We may even discover a collection of photographs and immediately start thinking about how nice it would be to have the whole thing sitting safely on a local drive. So we download it, put it into a folder and carry on with our lives, perhaps never looking at it again.
 
 
 ## The strange desire to possess the internet
 
 I think part of the problem is that the internet has made collecting almost effortless. There was a time when keeping something meant making an active decision. You bought a book because you wanted to read it. You bought a CD because you wanted to listen to it. You bought a game because you wanted to play it. You took a photograph because you wanted to remember something.
 
-Now, saving something can take less than a second. Usually, it's just a case of right-clicking, choosing *Save image* and being done with it. Because it costs almost nothing to do, we rarely stop to ask ourselves whether we actually want the thing. We simply don't want to lose it, or perhaps we just think, *Hey, I want that.*
+Now, saving something can take less than a second. Usually, it's just a case of right-clicking, choosing Save image and being done with it. Because it costs almost nothing to do, we rarely stop to ask ourselves whether we actually want the thing. We simply don't want to lose it, or perhaps we just think, Hey, I want that.
 
 
 That distinction is quite important.
@@ -55,7 +55,7 @@ Except, of course, that we don't actually do anything with it. The archive becom
 
 ## We are surrounded by disposable meaning
 
-The internet has also become exceptionally good at producing things that feel meaningful for approximately thirty seconds. A beautiful photograph, a clever observation, a funny video, a fascinating fact or a perfectly edited montage can make us stop scrolling for just long enough to think, *Oh, that's nice.*
+The internet has also become exceptionally good at producing things that feel meaningful for approximately thirty seconds. A beautiful photograph, a clever observation, a funny video, a fascinating fact or a perfectly edited montage can make us stop scrolling for just long enough to think, Oh, that's nice.
 
 Then we move on.
 
