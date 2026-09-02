@@ -1,5 +1,5 @@
 +++
-title = 'The Things We Save but Never Really Keep
+title = 'The Things We Save but Never Really Keep'
 date = 2026-09-02T14:25:08+01:00
 draft = false
 tags = ["thoughts", "ramblings", "DigitalFreedom", "mindfulness"]
