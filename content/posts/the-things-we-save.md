@@ -93,4 +93,4 @@ Maybe every now and then, though, it is worth asking ourselves a very simple que
 
 **Do I actually want this, or do I just not want to lose it?**
 
-Because sometimes, the best thing we can do with something meaningless is simply enjoy it for what it is — and then let it disappear.
+Because sometimes, the best thing we can do with something meaningless is simply enjoy it for what it is, and then let it disappear.
