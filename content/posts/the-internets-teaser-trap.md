@@ -1,5 +1,5 @@
 +++
-title = 'The Internet's Teaser Trap'
+title = 'The Internets Teaser Trap'
 date = 2026-09-10T08:16:39+01:00
 draft = false
 tags = ["internet", "thoughts", "ramblings"]
