@@ -1,9 +1,6 @@
 <header>
   <div class="header-content">
-    <div>
-      <h1><a href="{{ .Site.BaseURL }}">{{ site.Title }}</a></h1>
-      {{ with .Site.Params.tagline }}<p class="tagline">{{ . }}</p>{{ end }}
-    </div>
+    <h1><a href="{{ .Site.BaseURL }}">{{ site.Title }}</a></h1>
     {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
   </div>
 
