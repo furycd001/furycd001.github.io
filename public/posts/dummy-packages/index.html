@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Dummy Packages on Linux | Grey Matter</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <header>
+  <div class="header-content">
+    <h1><a href="http://localhost:1313/">Grey Matter</a></h1>
+    
+  </div>
+
+  <div class="header-actions">
+    <div class="tags">
+      
+        <a href="/tags"><img src="/hashtag.svg" alt="Tags" class="icon"></a>
+      
+    </div>
+
+    <div class="external-links">
+      
+        <a href="http://localhost:1313/index.xml"><img src="/rss.svg" alt="RSS" class="icon"></a>
+      
+      
+        <a href="https://github.com/furycd001"><img src="/github.svg" alt="GitHub" class="icon"></a>
+      
+      
+        <a href="https://github.com/furycd001/dots"><img src="/dotfiles.svg" alt="Dots" class="icon"></a>
+      
+      
+        <a href="https://fosstodon.org/@Furycd001"><img src="/mastodon.svg" alt="Mastodon" class="icon"></a>
+      
+      
+        <a href="mailto:jonnybowes2000@googlemail.com"><img src="/email.svg" alt="Email" class="icon"></a>
+      
+      
+        <a href="https://paypal.me/furycd001?country.x=GB&amp;locale.x=en_GB"><img src="/donate.svg" alt="Donate" class="icon"></a>
+      
+    </div>
+  </div>
+</header>
+
+  </header>
+  <main>
+    
+  <article>
+    <header class="post-header">
+      <h1 class="post-title">Dummy Packages on Linux</h1>
+      <p class="post-date">September 22, 2026</p>
+    </header>
+    
+    <p>If you&rsquo;ve spent any time managing software on Linux, you may eventually come across something called a dummy package. The name can make it sound a little pointless, but dummy packages actually serve a useful purpose.</p>
+<h2 id="what-is-a-dummy-package">What is a dummy package?</h2>
+<p>A dummy package is essentially a package that contains little or no actual software. Instead, its purpose is to stand in for another package or satisfy a dependency that a piece of software expects to find.</p>
+<p>Think of it kind of like a placeholder if you will.</p>
+<p>Linux software is often built with dependencies, other packages that it needs in order to install or function correctly. Package managers such as <code>apt</code>, <code>dnf</code> &amp; <code>pacman</code>, keep track of these relationships.</p>
+<p>Sometimes, however, a package manager needs to be told that something providing a particular function or dependency is already present. A dummy package can be used to provide that information.</p>
+<h2 id="why-would-you-need-one">Why would you need one?</h2>
+<p>There are several reasons dummy packages exist.</p>
+<h3 id="replacing-an-old-package">Replacing an old package</h3>
+<p>A project may have changed its name or been replaced by another project. A dummy package can allow the old package name to continue existing while pointing users towards its replacement. This is particularly useful when other software still lists the old package as a dependency.</p>
+<h3 id="satisfying-dependencies">Satisfying dependencies</h3>
+<p>Sometimes you already have the functionality that a program needs, but your package manager doesn&rsquo;t recognise it as satisfying a particular dependency.</p>
+<p>A dummy package can effectively say:</p>
+<blockquote>
+<p>&ldquo;Don&rsquo;t worry, this dependency is already taken care of.&rdquo;</p>
+</blockquote>
+<p>The dummy package itself doesn&rsquo;t necessarily provide the functionality. It simply tells the package manager that the required dependency has been satisfied.</p>
+<h3 id="transitioning-between-packages">Transitioning between packages</h3>
+<p>Linux distributions occasionally reorganise their software packages. A large package might be split into several smaller packages, or several packages might be merged together.</p>
+<p>Dummy and transitional packages make these changes much less painful for users.</p>
+<p>Instead of suddenly breaking existing installations, the old package can remain available as a small transitional package while the real software moves elsewhere.</p>
+<h2 id="are-dummy-packages-safe">Are dummy packages safe?</h2>
+<p>Generally, yes. A dummy package isn&rsquo;t inherently suspicious or broken. In many cases, it is deliberately created by a distribution or software maintainer to make package management easier.</p>
+<p>The important thing is to understand why the dummy package exists before removing it.</p>
+<p>If you encounter one while installing or removing software, check its description and dependencies first. Removing what appears to be an &ldquo;empty&rdquo; package could sometimes cause other packages that depend on it to be removed as well.</p>
+<h2 id="the-simplest-way-to-think-about-them">The simplest way to think about them</h2>
+<p>A dummy package is a bit like a signpost.</p>
+<p>It might not contain the software you&rsquo;re looking for, but it tells the package manager where things stand, whether an old package has been replaced, whether a dependency is already satisfied, or whether a package transition has taken place. So while a dummy package may appear to do very little, that is often precisely the point. On Linux, sometimes a package doesn&rsquo;t need to contain software to be useful, it just needs to tell the package manager something important.</p>
+
+    
+    <div class="post-tags">
+      
+        <a href="/tags/linux"><span class="tag">Linux</span></a>
+      
+        <a href="/tags/software"><span class="tag">software</span></a>
+      
+        <a href="/tags/packages"><span class="tag">packages</span></a>
+      
+        <a href="/tags/apt"><span class="tag">apt</span></a>
+      
+        <a href="/tags/dnf"><span class="tag">dnf</span></a>
+      
+        <a href="/tags/pacman"><span class="tag">pacman</span></a>
+      
+    </div>
+  </article>
+
+  </main>
+  <footer>
+    <p>Copyright 2026 - furycd001</p>
+
+  </footer>
+</body>
+</html>

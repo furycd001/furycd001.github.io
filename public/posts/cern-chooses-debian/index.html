@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>CERN Chooses Debian Rather Than Throwing Away Working Hardware | Grey Matter</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <header>
+  <div class="header-content">
+    <h1><a href="http://localhost:1313/">Grey Matter</a></h1>
+    
+  </div>
+
+  <div class="header-actions">
+    <div class="tags">
+      
+        <a href="/tags"><img src="/hashtag.svg" alt="Tags" class="icon"></a>
+      
+    </div>
+
+    <div class="external-links">
+      
+        <a href="http://localhost:1313/index.xml"><img src="/rss.svg" alt="RSS" class="icon"></a>
+      
+      
+        <a href="https://github.com/furycd001"><img src="/github.svg" alt="GitHub" class="icon"></a>
+      
+      
+        <a href="https://github.com/furycd001/dots"><img src="/dotfiles.svg" alt="Dots" class="icon"></a>
+      
+      
+        <a href="https://fosstodon.org/@Furycd001"><img src="/mastodon.svg" alt="Mastodon" class="icon"></a>
+      
+      
+        <a href="mailto:jonnybowes2000@googlemail.com"><img src="/email.svg" alt="Email" class="icon"></a>
+      
+      
+        <a href="https://paypal.me/furycd001?country.x=GB&amp;locale.x=en_GB"><img src="/donate.svg" alt="Donate" class="icon"></a>
+      
+    </div>
+  </div>
+</header>
+
+  </header>
+  <main>
+    
+  <article>
+    <header class="post-header">
+      <h1 class="post-title">CERN Chooses Debian Rather Than Throwing Away Working Hardware</h1>
+      <p class="post-date">September 14, 2026</p>
+    </header>
+    
+    <p>CERN, the organisation behind the Large Hadron Collider, is making an interesting change to part of its Linux infrastructure: more than roughly 2,200 specialised computers used to control the accelerator complex are being moved from the Red Hat family of Linux distributions over to Debian 13.</p>
+<p>The reason is a surprisingly good example of how software decisions can have very real hardware consequences.</p>
+<p>RHEL 9 raised the minimum supported x86-64 CPU baseline to x86-64-v2. For CERN&rsquo;s accelerator-control computers, that would have made approximately 47% of the existing machines unsuitable. RHEL 10 raises the baseline again to x86-64-v3, potentially affecting another 17% of the remaining systems.</p>
+<p>The problem is that these aren&rsquo;t ordinary office PCs that can simply be replaced when a new operating system comes along. CERN&rsquo;s control systems include specialised industrial computers, custom hardware, PCI cards and other equipment designed to operate for many years. Some are connected to infrastructure buried deep beneath the CERN site.</p>
+<p>Replacing the affected hardware was estimated at around 5.4 million CHF, while also requiring redesigned custom boards, additional engineering staff and extensive installation work. CERN&rsquo;s engineers reportedly considered the chances of successfully completing such a replacement programme to be rather low.</p>
+<p>So instead of replacing perfectly functional computers to satisfy a newer operating system requirement, CERN is changing the operating system.</p>
+<p>Debian&rsquo;s amd64 distribution continues to support the older x86-64 baseline, allowing much of CERN&rsquo;s existing hardware to remain useful. That doesn&rsquo;t make the migration easy, however. CERN&rsquo;s custom kernel drivers, bootloaders, network-booted systems and its own package and image-building infrastructure will all need to be adapted to work with Debian 13.</p>
+<p>And this isn&rsquo;t CERN abandoning the Red Hat family of distributions altogether. They remain part of CERN&rsquo;s wider computing environment. This particular migration is focused on the specialised accelerator-control systems, where long hardware lifecycles make CPU compatibility especially important.</p>
+<p>What makes this story particularly interesting is that the hardware itself hasn&rsquo;t suddenly become incapable of doing its job. The computers are still perfectly functional; it is the changing software requirements that have created the problem.</p>
+<p>For CERN, replacing thousands of working machines simply to meet a newer CPU requirement makes little practical or financial sense. Moving to an operating system that can continue to support the existing hardware is a far more sensible solution.</p>
+<p>It is a useful reminder that hardware longevity isn&rsquo;t determined by hardware alone. The software running on it, and the decisions made by the companies and communities maintaining that software, can have just as much influence on how long a computer remains useful.</p>
+
+    
+    <div class="post-tags">
+      
+        <a href="/tags/hardware"><span class="tag">hardware</span></a>
+      
+        <a href="/tags/software"><span class="tag">software</span></a>
+      
+        <a href="/tags/science"><span class="tag">science</span></a>
+      
+        <a href="/tags/linux"><span class="tag">Linux</span></a>
+      
+        <a href="/tags/debian"><span class="tag">Debian</span></a>
+      
+        <a href="/tags/redhat"><span class="tag">Redhat</span></a>
+      
+        <a href="/tags/centos"><span class="tag">Centos</span></a>
+      
+    </div>
+  </article>
+
+  </main>
+  <footer>
+    <p>Copyright 2026 - furycd001</p>
+
+  </footer>
+</body>
+</html>

@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>DigitalFreedom on d:tour</title>
+		<title>DigitalFreedom on Grey Matter</title>
 		<link>http://localhost:1313/tags/digitalfreedom/</link>
-		<description>Recent content in DigitalFreedom on d:tour</description>
+		<description>Recent content in DigitalFreedom on Grey Matter</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
 		
-			<lastBuildDate>Tue, 21 Jul 2026 07:55:26 +0100</lastBuildDate>
+			<lastBuildDate>Wed, 02 Sep 2026 14:25:08 +0100</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/tags/digitalfreedom/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Things We Save but Never Really Keep</title>
+				<link>http://localhost:1313/posts/the-things-we-save/</link>
+				<pubDate>Wed, 02 Sep 2026 14:25:08 +0100</pubDate>
+				<guid>http://localhost:1313/posts/the-things-we-save/</guid>
+				<description>&lt;p&gt;I think we&amp;rsquo;ve become rather good at collecting things that we&amp;rsquo;ll probably leave sitting on a drive, only to ever look at them a handful of times. Do you ever wonder why we download these things in the first place? Are we afraid of losing them? Do they actually mean anything to us in any meaningful way?&lt;/p&gt;&#xA;&lt;p&gt;A lot of us probably won&amp;rsquo;t share most of what we&amp;rsquo;ve downloaded with anyone, and there&amp;rsquo;s a good chance we won&amp;rsquo;t ever look at much of it again. When the drive it&amp;rsquo;s sitting on eventually starts to run low on space, it may even become a contender for deletion.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>A Small Attempt at Digital Freedom</title>
 				<link>http://localhost:1313/posts/digital-freedom/</link>

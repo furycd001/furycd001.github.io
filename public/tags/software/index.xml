@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Software on d:tour</title>
+		<title>Software on Grey Matter</title>
 		<link>http://localhost:1313/tags/software/</link>
-		<description>Recent content in Software on d:tour</description>
+		<description>Recent content in Software on Grey Matter</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
 		
-			<lastBuildDate>Tue, 21 Jul 2026 07:29:54 +0100</lastBuildDate>
+			<lastBuildDate>Tue, 22 Sep 2026 11:17:54 +0100</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/tags/software/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Dummy Packages on Linux</title>
+				<link>http://localhost:1313/posts/dummy-packages/</link>
+				<pubDate>Tue, 22 Sep 2026 11:17:54 +0100</pubDate>
+				<guid>http://localhost:1313/posts/dummy-packages/</guid>
+				<description>&lt;p&gt;If you&amp;rsquo;ve spent any time managing software on Linux, you may eventually come across something called a dummy package. The name can make it sound a little pointless, but dummy packages actually serve a useful purpose.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-dummy-package&#34;&gt;What is a dummy package?&lt;/h2&gt;&#xA;&lt;p&gt;A dummy package is essentially a package that contains little or no actual software. Instead, its purpose is to stand in for another package or satisfy a dependency that a piece of software expects to find.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>CERN Chooses Debian Rather Than Throwing Away Working Hardware</title>
+				<link>http://localhost:1313/posts/cern-chooses-debian/</link>
+				<pubDate>Mon, 14 Sep 2026 12:37:42 +0100</pubDate>
+				<guid>http://localhost:1313/posts/cern-chooses-debian/</guid>
+				<description>&lt;p&gt;CERN, the organisation behind the Large Hadron Collider, is making an interesting change to part of its Linux infrastructure: more than roughly 2,200 specialised computers used to control the accelerator complex are being moved from the Red Hat family of Linux distributions over to Debian 13.&lt;/p&gt;&#xA;&lt;p&gt;The reason is a surprisingly good example of how software decisions can have very real hardware consequences.&lt;/p&gt;&#xA;&lt;p&gt;RHEL 9 raised the minimum supported x86-64 CPU baseline to x86-64-v2. For CERN&amp;rsquo;s accelerator-control computers, that would have made approximately 47% of the existing machines unsuitable. RHEL 10 raises the baseline again to x86-64-v3, potentially affecting another 17% of the remaining systems.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>The Art of Waiting</title>
 				<link>http://localhost:1313/posts/the-art-of-waiting/</link>

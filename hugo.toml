@@ -5,7 +5,6 @@ theme = 'mnml'
 pagerSize = 8
 
 [params]
-tagline = "We are not the same, you don't speak for me"
 social = [
   { name = "github", url = "https://github.com/furycd001" },
   { name = "dotfiles", url = "https://github.com/furycd001/dots" },

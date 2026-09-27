@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Thoughts on d:tour</title>
+		<title>Thoughts on Grey Matter</title>
 		<link>http://localhost:1313/tags/thoughts/</link>
-		<description>Recent content in Thoughts on d:tour</description>
+		<description>Recent content in Thoughts on Grey Matter</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
 		
-			<lastBuildDate>Tue, 18 Aug 2026 06:45:25 +0100</lastBuildDate>
+			<lastBuildDate>Thu, 10 Sep 2026 08:16:39 +0100</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Internets Teaser Trap</title>
+				<link>http://localhost:1313/posts/the-internets-teaser-trap/</link>
+				<pubDate>Thu, 10 Sep 2026 08:16:39 +0100</pubDate>
+				<guid>http://localhost:1313/posts/the-internets-teaser-trap/</guid>
+				<description>&lt;p&gt;There is a particular kind of online content that seems to be everywhere these days: a few carefully selected pictures or short clips that can sometimes make something look far better, more interesting and more worthwhile than the content eventually turns out to be.&lt;/p&gt;&#xA;&lt;p&gt;You see a photo or a short video clip that immediately catches your attention and seems to suggest that there is something genuinely good behind it. The free preview looks polished, appealing and carefully chosen, showing just enough to leave you thinking, “If this is only the preview, the full content must be really good.”&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Things We Save but Never Really Keep</title>
+				<link>http://localhost:1313/posts/the-things-we-save/</link>
+				<pubDate>Wed, 02 Sep 2026 14:25:08 +0100</pubDate>
+				<guid>http://localhost:1313/posts/the-things-we-save/</guid>
+				<description>&lt;p&gt;I think we&amp;rsquo;ve become rather good at collecting things that we&amp;rsquo;ll probably leave sitting on a drive, only to ever look at them a handful of times. Do you ever wonder why we download these things in the first place? Are we afraid of losing them? Do they actually mean anything to us in any meaningful way?&lt;/p&gt;&#xA;&lt;p&gt;A lot of us probably won&amp;rsquo;t share most of what we&amp;rsquo;ve downloaded with anyone, and there&amp;rsquo;s a good chance we won&amp;rsquo;t ever look at much of it again. When the drive it&amp;rsquo;s sitting on eventually starts to run low on space, it may even become a contender for deletion.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>There Is No Best Cup of Joe</title>
 				<link>http://localhost:1313/posts/there-is-no-best-cup-of-joe/</link>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Dnf on Grey Matter</title>
+		<link>http://localhost:1313/tags/dnf/</link>
+		<description>Recent content in Dnf on Grey Matter</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 22 Sep 2026 11:17:54 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/dnf/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Dummy Packages on Linux</title>
+				<link>http://localhost:1313/posts/dummy-packages/</link>
+				<pubDate>Tue, 22 Sep 2026 11:17:54 +0100</pubDate>
+				<guid>http://localhost:1313/posts/dummy-packages/</guid>
+				<description>&lt;p&gt;If you&amp;rsquo;ve spent any time managing software on Linux, you may eventually come across something called a dummy package. The name can make it sound a little pointless, but dummy packages actually serve a useful purpose.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-dummy-package&#34;&gt;What is a dummy package?&lt;/h2&gt;&#xA;&lt;p&gt;A dummy package is essentially a package that contains little or no actual software. Instead, its purpose is to stand in for another package or satisfy a dependency that a piece of software expects to find.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

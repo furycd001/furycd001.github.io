@@ -2,19 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/apt/</loc>
+    <lastmod>2026-09-22T11:17:54+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/dnf/</loc>
+    <lastmod>2026-09-22T11:17:54+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/dummy-packages/</loc>
+    <lastmod>2026-09-22T11:17:54+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+    <lastmod>2026-09-22T11:17:54+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/packages/</loc>
+    <lastmod>2026-09-22T11:17:54+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pacman/</loc>
+    <lastmod>2026-09-22T11:17:54+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-09-22T11:17:54+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/software/</loc>
+    <lastmod>2026-09-22T11:17:54+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-09-22T11:17:54+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/centos/</loc>
+    <lastmod>2026-09-14T12:37:42+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/cern-chooses-debian/</loc>
+    <lastmod>2026-09-14T12:37:42+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/debian/</loc>
+    <lastmod>2026-09-14T12:37:42+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hardware/</loc>
+    <lastmod>2026-09-14T12:37:42+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/redhat/</loc>
+    <lastmod>2026-09-14T12:37:42+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/science/</loc>
+    <lastmod>2026-09-14T12:37:42+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/internet/</loc>
+    <lastmod>2026-09-10T08:16:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ramblings/</loc>
+    <lastmod>2026-09-10T08:16:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/the-internets-teaser-trap/</loc>
+    <lastmod>2026-09-10T08:16:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/thoughts/</loc>
+    <lastmod>2026-09-10T08:16:39+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/digitalfreedom/</loc>
+    <lastmod>2026-09-02T14:25:08+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mindfulness/</loc>
+    <lastmod>2026-09-02T14:25:08+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/the-things-we-save/</loc>
+    <lastmod>2026-09-02T14:25:08+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/firefox/</loc>
     <lastmod>2026-08-18T07:09:57+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-08-18T07:09:57+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/privacy/</loc>
-    <lastmod>2026-08-18T07:09:57+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ramblings/</loc>
-    <lastmod>2026-08-18T07:09:57+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-08-18T07:09:57+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/the-web-i-actually-want/</loc>
@@ -29,19 +86,10 @@
     <loc>http://localhost:1313/posts/there-is-no-best-cup-of-joe/</loc>
     <lastmod>2026-08-18T06:45:25+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/thoughts/</loc>
-    <lastmod>2026-08-18T06:45:25+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/digital-freedom/</loc>
     <lastmod>2026-07-21T07:55:26+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/digitalfreedom/</loc>
-    <lastmod>2026-07-21T07:55:26+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/foss/</loc>
-    <lastmod>2026-07-21T07:55:26+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2026-07-21T07:55:26+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/openformats/</loc>
@@ -50,13 +98,7 @@
     <loc>http://localhost:1313/tags/opensource/</loc>
     <lastmod>2026-07-21T07:55:26+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mindfulness/</loc>
-    <lastmod>2026-07-21T07:29:54+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/patience/</loc>
-    <lastmod>2026-07-21T07:29:54+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/software/</loc>
     <lastmod>2026-07-21T07:29:54+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/the-art-of-waiting/</loc>
@@ -81,9 +123,6 @@
     <lastmod>2025-10-11T10:33:50+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/calm/</loc>
-    <lastmod>2025-10-11T10:33:50+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/internet/</loc>
     <lastmod>2025-10-11T10:33:50+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/life/</loc>
