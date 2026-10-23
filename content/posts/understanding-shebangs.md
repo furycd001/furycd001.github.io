@@ -2,7 +2,7 @@
 title = 'Understanding Shebangs'
 date = 2026-10-23T12:16:48+01:00
 draft = false
-tags = ["linux", "scripts", "bash", , "foss", "open source", "programming"]
+tags = ["linux", "scripts", "bash", "foss", "open source", "programming"]
 +++
 
 At the very top of a shell script, there is often a seemingly insignificant line that determines how the entire script is executed: the shebang. It begins with `#!`, but the words and paths that follow can make a meaningful difference to portability, compatibility and reliability.
